@@ -143,14 +143,39 @@ function renderCalls(calls) {
       : "—";
     const age = fmtTimeAgo(c.called_at);
 
+    // Expiration countdown — shows "7d left" / "expires 3h" so the public
+    // sees exactly when an un-confirmed call will auto-close.
+    let exp = null;
+    if (c.expires_at) {
+      const left = c.expires_at - Date.now() / 1000;
+      if (left > 0) {
+        exp =
+          left > 86400
+            ? Math.floor(left / 86400) + "d left"
+            : Math.floor(left / 3600) + "h left";
+      } else {
+        exp = "expired";
+      }
+    }
+
     const symEl = el("div", { class: "sym", text: sym });
+    const detailParts = [entryStr + " · " + nowStr + " · " + age];
+    if (exp) detailParts.push(" · " + exp);
+    detailParts.push(" · ");
     const detail = el("div", { class: "detail" }, [
-      entryStr + " · " + nowStr + " · " + age + " · ",
+      detailParts.join(""),
       el("a", {
         href: DEXSCREENER + "/" + c.mint,
         target: "_blank",
         rel: "noopener",
         text: "chart",
+      }),
+      " ",
+      el("a", {
+        href: "data/whales/" + c.mint + ".json",
+        target: "_blank",
+        rel: "noopener",
+        text: "whales",
       }),
     ]);
     const numEl = el("div", {
