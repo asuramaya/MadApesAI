@@ -100,8 +100,12 @@ function renderHealth(h) {
   const addr = document.getElementById("wallet-addr");
   addr.textContent = shortAddr(h.wallet || "");
   addr.setAttribute("title", h.wallet || "");
-  document.getElementById("sol-bal").textContent =
-    h.sol_balance != null ? h.sol_balance.toFixed(3) + " SOL" : "—";
+  const solText =
+    h.sol_balance != null
+      ? h.sol_balance.toFixed(3) + " SOL" +
+        (h.sol_price_usd ? " @ $" + h.sol_price_usd.toFixed(0) : "")
+      : "—";
+  document.getElementById("sol-bal").textContent = solText;
   document.getElementById("last-update").textContent =
     h.last_update ? "updated " + fmtTimeAgo(h.last_update) : "—";
 }
@@ -119,10 +123,10 @@ function renderPnl(pnl) {
   unrealizedEl.textContent = fmtUsd(pnl.unrealized_pnl_usd);
   unrealizedEl.className = "big " + pnlClass(pnl.unrealized_pnl_usd || 0);
 
-  renderChart(pnl.series || []);
+  renderChart(pnl.series || [], pnl.trades || []);
 }
 
-function renderChart(series) {
+function renderChart(series, trades) {
   const container = document.getElementById("pnl-chart");
   clear(container);
   if (typeof uPlot === "undefined" || !series.length) {
@@ -134,13 +138,54 @@ function renderChart(series) {
   }
   const xs = series.map((p) => p.ts);
   const ys = series.map((p) => p.value_usd);
+
+  // Build aligned y-arrays for trade markers: one column per "side".
+  // Values = portfolio value at the closest series timestamp, or null where
+  // no trade matches that x-coordinate.
+  const buyYs = new Array(xs.length).fill(null);
+  const sellYs = new Array(xs.length).fill(null);
+  if (trades && trades.length) {
+    for (const t of trades) {
+      // Nearest series index by timestamp — markers snap to a real
+      // portfolio-value datapoint so the chart geometry stays honest.
+      let nearest = 0;
+      let bestDiff = Infinity;
+      for (let i = 0; i < xs.length; i++) {
+        const d = Math.abs(xs[i] - t.ts);
+        if (d < bestDiff) {
+          bestDiff = d;
+          nearest = i;
+        }
+      }
+      if (t.side === "buy") buyYs[nearest] = ys[nearest];
+      else sellYs[nearest] = ys[nearest];
+    }
+  }
+
   const opts = {
     width: container.clientWidth,
     height: 220,
-    padding: [12, 12, 0, 0],
+    padding: [16, 12, 0, 0],
     series: [
       {},
-      { stroke: "#ff7a1a", width: 1.5, fill: "rgba(255,122,26,0.07)" },
+      {
+        label: "total value",
+        stroke: "#ff7a1a",
+        width: 1.5,
+        fill: "rgba(255,122,26,0.07)",
+      },
+      {
+        label: "buys",
+        stroke: "#5fd47c",
+        width: 0,
+        points: { show: true, size: 8, stroke: "#5fd47c", fill: "#5fd47c" },
+      },
+      {
+        label: "sells",
+        stroke: "#ef5454",
+        width: 0,
+        points: { show: true, size: 8, stroke: "#ef5454", fill: "#ef5454" },
+      },
     ],
     axes: [
       {
@@ -156,8 +201,9 @@ function renderChart(series) {
       },
     ],
     cursor: { drag: { x: true, y: false } },
+    legend: { show: false },
   };
-  new uPlot(opts, [xs, ys], container);
+  new uPlot(opts, [xs, ys, buyYs, sellYs], container);
 }
 
 // --- render: positions ---
