@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "53Wi1m9WjMk1NjfaRUo2HmYrzvNoVWD6j4w66DMgkiBJ",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "8BbZu1vPCh2iPpXynKKHzx1gFzyuAWGGXoqtUJ9Tpump",
-  "snapshot_ts": 1776883979,
+  "snapshot_ts": 1776884624,
   "symbol": "Michael",
   "whales": [
     {
       "action": "distributing",
-      "balance_ui": 169212116.051763,
-      "net_change_24h_ui": -1177170.6854059994,
-      "net_change_7d_ui": -1177170.6854059994,
+      "balance_ui": 161377413.228756,
+      "net_change_24h_ui": -1488757.6411109865,
+      "net_change_7d_ui": -1488757.6411109865,
       "owner": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
-      "pct_of_supply": 16.924049199050625,
+      "pct_of_supply": 16.140447533104023,
       "token_account": "Cr6TxpfzSxMAZhtEPVjZPKLvEV8r7f9iJw2eBic44XJ6",
-      "tx_count_24h": 13,
-      "tx_count_7d": 13
+      "tx_count_24h": 15,
+      "tx_count_7d": 15
     },
     {
       "action": "accumulating",
