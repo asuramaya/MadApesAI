@@ -101,6 +101,20 @@ h1 .dot { color: var(--accent); }
   letter-spacing: 0.02em;
 }
 
+.socials {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--fg-dim);
+  letter-spacing: 0.02em;
+}
+.socials a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.socials a:hover { text-decoration: underline; }
+.socials .dim { color: var(--fg-faint); margin: 0 6px; }
+
 .meta {
   margin-top: 18px;
   font-family: var(--mono);
@@ -807,7 +821,9 @@ footer {
   text-align: center;
 }
 footer a { color: var(--accent); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
 footer .dim { color: var(--fg-faint); margin: 0 6px; }
+footer br { line-height: 2.2; }
 
 /* --- responsive --- */
 @media (max-width: 640px) {
