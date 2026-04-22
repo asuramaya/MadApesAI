@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "53Wi1m9WjMk1NjfaRUo2HmYrzvNoVWD6j4w66DMgkiBJ",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "8BbZu1vPCh2iPpXynKKHzx1gFzyuAWGGXoqtUJ9Tpump",
-  "snapshot_ts": 1776880215,
+  "snapshot_ts": 1776880847,
   "symbol": "Michael",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 174940285.676518,
-      "net_change_24h_ui": 1104444.9707639813,
-      "net_change_7d_ui": 1104444.9707639813,
+      "balance_ui": 167302394.118354,
+      "net_change_24h_ui": 685629.4907220006,
+      "net_change_7d_ui": 685629.4907220006,
       "owner": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
-      "pct_of_supply": 17.49696065815782,
+      "pct_of_supply": 16.73304348729196,
       "token_account": "Cr6TxpfzSxMAZhtEPVjZPKLvEV8r7f9iJw2eBic44XJ6",
-      "tx_count_24h": 8,
-      "tx_count_7d": 8
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
     },
     {
       "action": "accumulating",
@@ -48,6 +48,17 @@
     },
     {
       "action": "accumulating",
+      "balance_ui": 19488757.305227,
+      "net_change_24h_ui": 6192229.693081,
+      "net_change_7d_ui": 6192229.693081,
+      "owner": "4yJvmz8DRQLzGZVhMwpPkB963sae73mfn9RwTapJwLLy",
+      "pct_of_supply": 1.9492023722681835,
+      "token_account": "8cKkZ1zXrQXCrHzXa1ASBfKKWvMM5qb4kagV1sQihSoz",
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
+    },
+    {
+      "action": "accumulating",
       "balance_ui": 18512675.048444,
       "net_change_24h_ui": 18512675.048443995,
       "net_change_7d_ui": 18512675.048443995,
@@ -56,17 +67,6 @@
       "token_account": "C4NdxXDusgRzMyLKt8K2hfyF9VZvkGV36Ssi854Gqqgc",
       "tx_count_24h": 13,
       "tx_count_7d": 13
-    },
-    {
-      "action": "accumulating",
-      "balance_ui": 17556998.432416,
-      "net_change_24h_ui": 4260470.820269999,
-      "net_change_7d_ui": 4260470.820269999,
-      "owner": "4yJvmz8DRQLzGZVhMwpPkB963sae73mfn9RwTapJwLLy",
-      "pct_of_supply": 1.7559941077000054,
-      "token_account": "8cKkZ1zXrQXCrHzXa1ASBfKKWvMM5qb4kagV1sQihSoz",
-      "tx_count_24h": 5,
-      "tx_count_7d": 5
     },
     {
       "action": "accumulating",
