@@ -1,39 +1,39 @@
 {
   "lp": {
-    "detail": "fetch pair account failed: No RPC endpoints available",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — raydium uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "GQnhFdR7AU1aF8RQnfvozv6o1ZcXxfaut6QfgcR4MQix",
     "lp_supply_ui": 0.0,
     "pair_address": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
     "pair_dex": "raydium",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
-  "snapshot_ts": 1777068449,
+  "snapshot_ts": 1777068758,
   "symbol": "Rudi",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 47134565.430927,
-      "net_change_24h_ui": 2533824.2616890073,
-      "net_change_7d_ui": 2533824.2616890073,
+      "action": "distributing",
+      "balance_ui": 46434571.04556,
+      "net_change_24h_ui": -699994.3853669986,
+      "net_change_7d_ui": -699994.3853669986,
       "owner": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
-      "pct_of_supply": 4.7134565430927,
+      "pct_of_supply": 4.643457104556,
       "token_account": "HfqpwxfkahiwqDvaiuZErc8rM5Fzr5BvqKbKJkUugwZB",
       "tx_count_24h": 50,
       "tx_count_7d": 50
     },
     {
-      "action": "idle",
+      "action": "distributing",
       "balance_ui": 27870783.361938,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": -829160.4193690009,
+      "net_change_7d_ui": -829160.4193690009,
       "owner": "3kpW6ZnTMCs5rUNh3oU1mBLLmutVPDysd6iw4BkNXgTj",
       "pct_of_supply": 2.7870783361938,
       "token_account": "DHeJUHPRKbScUj184GMTViTnXQcRDv9pcC6rp2ZvgBqr",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
     },
     {
       "action": "distributing",
@@ -71,13 +71,13 @@
     {
       "action": "distributing",
       "balance_ui": 27296399.092074,
-      "net_change_24h_ui": -677589.5424990021,
-      "net_change_7d_ui": -677589.5424990021,
+      "net_change_24h_ui": -541335.7064410001,
+      "net_change_7d_ui": -541335.7064410001,
       "owner": "61NnFF75QzMqKYKhznAFJkbZort9rjbkjY1jxj12CpH1",
       "pct_of_supply": 2.7296399092074,
       "token_account": "AyWn8HFupiSMzwYPuRLKiJeSFMUgf4SA19y7HiY14dsB",
-      "tx_count_24h": 8,
-      "tx_count_7d": 8
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
     },
     {
       "action": "distributing",
@@ -113,15 +113,15 @@
       "tx_count_7d": 5
     },
     {
-      "action": "idle",
+      "action": "distributing",
       "balance_ui": 25867722.665434,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": -867596.584520001,
+      "net_change_7d_ui": -867596.584520001,
       "owner": "EJo6y9DRoSDyMY1aCUnaxb1E2FMXYXeYKwRbCEeQFnin",
       "pct_of_supply": 2.5867722665434,
       "token_account": "6NXPYBi6LQ7uUN9jwaXPktHz5MnFmp2q1yiCccinMeMY",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 8,
+      "tx_count_7d": 8
     }
   ]
 }
