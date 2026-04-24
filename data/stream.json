@@ -1,11 +1,43 @@
 {
   "events": [
     {
+      "ts": 1777062000,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING HG5Y…1wwV · deployer down 16.9% (89076257 → 73983268)",
+      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
+      "signature": null
+    },
+    {
+      "ts": 1777061916,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING HG5Y…1wwV · deployer down 16.9% (89076257 → 73983268)",
+      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
+      "signature": null
+    },
+    {
+      "ts": 1777061915,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8opv…bonk · DEVELOPING→STAIRCASE · top +1.69%",
+      "mint": "8opvqaWysX1oYbXuTL8PHaoaTiXD69VFYAX4smPebonk",
+      "signature": null
+    },
+    {
       "ts": 1777061777,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING HG5Y…1wwV · deployer down 16.9% (89076257 → 73983268)",
       "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
+      "signature": null
+    },
+    {
+      "ts": 1777061757,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 2Q7a…XsS9 · deployer down 14.7% (53756203 → 45838529)",
+      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
       "signature": null
     },
     {
@@ -21,6 +53,14 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · DEVELOPING→STAIRCASE · top -0.09%",
+      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
+      "signature": null
+    },
+    {
+      "ts": 1777061685,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 2Q7a…XsS9 · deployer down 15.3% (53756203 → 45516009)",
       "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
       "signature": null
     },
@@ -134,6 +174,14 @@
       "tag": "DEVELOPING",
       "summary": "DEVELOPING HKJH…LDTd · mom 66 · top 9.17% · 20 holders",
       "mint": "HKJHsYJHMVK5VRyHHk5GhvzY9tBAAtPvDkZfDH6RLDTd",
+      "signature": null
+    },
+    {
+      "ts": 1777061009,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 8opv…bonk · mom 73 · dist 55 · top 29.98%",
+      "mint": "8opvqaWysX1oYbXuTL8PHaoaTiXD69VFYAX4smPebonk",
       "signature": null
     },
     {
@@ -270,54 +318,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 4UeL…BAGS · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS",
-      "signature": null
-    },
-    {
-      "ts": 1777060251,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4UeL…BAGS · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS",
-      "signature": null
-    },
-    {
-      "ts": 1777060158,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HG5Y…1wwV · STAIRCASE→DEVELOPING · top -0.01%",
-      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
-      "signature": null
-    },
-    {
-      "ts": 1777060149,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2Q7a…XsS9 · STAIRCASE→DEVELOPING · top -0.04%",
-      "mint": "2Q7aCiSruNcM35MXP79xVSAsmfLxZqeD7jnpwtMGXsS9",
-      "signature": null
-    },
-    {
-      "ts": 1777060080,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HG5Y…1wwV · DEVELOPING→STAIRCASE · top -0.01%",
-      "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
-      "signature": null
-    },
-    {
-      "ts": 1777060068,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5YNn…XuMu · DEVELOPING→STAIRCASE · top +0.02%",
-      "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
-      "signature": null
-    },
-    {
-      "ts": 1777060047,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 94qu…4KXc · STAIRCASE→DEVELOPING · top -0.05%",
-      "mint": "94quoY9i45X2nkjzkPHpfxmMGRAbqYtwRgBFnWut4KXc",
       "signature": null
     },
     {
