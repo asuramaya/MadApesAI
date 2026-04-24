@@ -1,19 +1,35 @@
 {
   "events": [
     {
+      "ts": 1776989603,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 84RT…pump · top 28.30%→30.39% (+2.08%) · DEVELOPING",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776989578,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 84RT…pump · STAIRCASE→DEVELOPING · top -0.52%",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
+      "ts": 1776989561,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE 84RT…pump · mom 73 · dist 52 · top 28.82%",
+      "mint": "84RTbLKaJ2GREmjL4wxehm35JkWbT9C6ekWjrQhxpump",
+      "signature": null
+    },
+    {
       "ts": 1776988501,
       "kind": "alert",
       "tag": "DEVELOPING",
       "summary": "DEVELOPING 9KdL…pump · mom 65 · top 32.27% · 116 holders",
       "mint": "9KdLZpdHdom5yJvj9g74NkNbnF59GJoD9Sramb7Fpump",
-      "signature": null
-    },
-    {
-      "ts": 1776987603,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING CV45…pump · mom 83 · top 44.70% · 10 holders",
-      "mint": "CV45BR2fHXdKcoQZkfY5HvhPEc4tVhsVEQNCsunDpump",
       "signature": null
     },
     {
