@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "fetch pair account failed: No RPC endpoints available",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — raydium uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "GQnhFdR7AU1aF8RQnfvozv6o1ZcXxfaut6QfgcR4MQix",
     "lp_supply_ui": 0.0,
     "pair_address": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
     "pair_dex": "raydium",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "5YNnwMzbFtL75ocUxFYhwFDU5vywMHArET8ed3tGXuMu",
-  "snapshot_ts": 1777069950,
+  "snapshot_ts": 1777070250,
   "symbol": "Rudi",
   "whales": [
     {
       "action": "distributing",
-      "balance_ui": 206835143.428394,
-      "net_change_24h_ui": -1320634.1423920095,
-      "net_change_7d_ui": -1320634.1423920095,
+      "balance_ui": 130484543.458624,
+      "net_change_24h_ui": -76744011.97616899,
+      "net_change_7d_ui": -76744011.97616899,
       "owner": "2Js3bvhy8aYppGPGJYKP1SutE4MnX28CjmYN7ywVBM6S",
-      "pct_of_supply": 20.6835143428394,
+      "pct_of_supply": 13.048454345862401,
       "token_account": "HfqpwxfkahiwqDvaiuZErc8rM5Fzr5BvqKbKJkUugwZB",
       "tx_count_24h": 50,
       "tx_count_7d": 50
@@ -102,26 +102,26 @@
       "tx_count_7d": 9
     },
     {
-      "action": "idle",
-      "balance_ui": 23236202.087784,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "action": "distributing",
+      "balance_ui": 23168841.077427,
+      "net_change_24h_ui": -1321025.094822999,
+      "net_change_7d_ui": -1321025.094822999,
       "owner": "FruMdgc3Q1wxz73tMUDN1k7mBksdqLMB8MprShjJMtpB",
-      "pct_of_supply": 2.3236202087784,
+      "pct_of_supply": 2.3168841077427,
       "token_account": "21Pas1bhW9jcXCZ6J4AaBfpfPmfFobd2WNmoV4b3AUMK",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 8,
+      "tx_count_7d": 8
     },
     {
-      "action": "owner_unresolved",
+      "action": "distributing",
       "balance_ui": 23124773.368944,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
+      "net_change_24h_ui": -1539096.4433359988,
+      "net_change_7d_ui": -1539096.4433359988,
+      "owner": "DVbb4xCijEg7822vyYY31ZYYM8Bo5JQhqJURZSfQMZnb",
       "pct_of_supply": 2.3124773368944003,
       "token_account": "A8QSFYDo4YTHtUZJi5SBDQyEJoYUei7Rea8mmkCyU7Rh",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
     }
   ]
 }
