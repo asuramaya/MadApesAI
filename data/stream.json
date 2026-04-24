@@ -1,10 +1,26 @@
 {
   "events": [
     {
-      "ts": 1777065426,
+      "ts": 1777065687,
       "kind": "alert",
-      "tag": "GRINDER",
-      "summary": "GRINDER EW7c…pump · top 18.20% · dist 53 · tpm 600.0",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8opv…bonk · DEVELOPING→STAIRCASE · top -0.15%",
+      "mint": "8opvqaWysX1oYbXuTL8PHaoaTiXD69VFYAX4smPebonk",
+      "signature": null
+    },
+    {
+      "ts": 1777065640,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING orai…Vo5h · mom 68 · top 41.98% · 20 holders",
+      "mint": "oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h",
+      "signature": null
+    },
+    {
+      "ts": 1777065516,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EW7c…pump · GRINDER→STAIRCASE · top +0.00%",
       "mint": "EW7cWbNmTgL7PLQNiJ6tBVC62SJzJXa2pFYJjDPPpump",
       "signature": null
     },
@@ -302,22 +318,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING HG5Y…1wwV · deployer down 17.0% (89076257 → 73975464)",
       "mint": "HG5YrGopnaqdasfn6D5SUSa39AngWddPkk7AfxAY1wwV",
-      "signature": null
-    },
-    {
-      "ts": 1777063865,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING 9DfM…bj9C · mom 64 · top 24.96% · 2455 holders",
-      "mint": "9DfMithemD15Zcjg6ci9kpRzJ9TLmsEdAV6uCpyybj9C",
-      "signature": null
-    },
-    {
-      "ts": 1777063833,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8opv…bonk · DEVELOPING→STAIRCASE · top -0.05%",
-      "mint": "8opvqaWysX1oYbXuTL8PHaoaTiXD69VFYAX4smPebonk",
       "signature": null
     },
     {
