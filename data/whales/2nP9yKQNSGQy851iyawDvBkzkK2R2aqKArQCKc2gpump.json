@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "BVYRvWrxn6Xf1G8SUvgZcMevU53SV5DMQ4nMhxAK5Bco",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-  "snapshot_ts": 1777047154,
+  "snapshot_ts": 1777047455,
   "symbol": "PsyopAnime",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 56128211.163987,
-      "net_change_24h_ui": 547279.8979260027,
-      "net_change_7d_ui": 547279.8979260027,
+      "balance_ui": 56179793.632563,
+      "net_change_24h_ui": 701922.6117240041,
+      "net_change_7d_ui": 701922.6117240041,
       "owner": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
-      "pct_of_supply": 5.6130450285196964,
+      "pct_of_supply": 5.618203481155099,
       "token_account": "8efs78VAXpuvvASfVdaj2zmboGBB4yxAdf88AMxY8zrp",
-      "tx_count_24h": 46,
-      "tx_count_7d": 46
+      "tx_count_24h": 49,
+      "tx_count_7d": 49
     },
     {
       "action": "accumulating",
