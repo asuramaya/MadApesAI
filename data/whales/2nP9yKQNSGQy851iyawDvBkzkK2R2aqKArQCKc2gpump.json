@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "BVYRvWrxn6Xf1G8SUvgZcMevU53SV5DMQ4nMhxAK5Bco",
+    "detail": "fetch pair account failed: No RPC endpoints available",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-  "snapshot_ts": 1777055431,
+  "snapshot_ts": 1777055531,
   "symbol": "PsyopAnime",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 57226332.869864,
-      "net_change_24h_ui": 726423.4081690013,
-      "net_change_7d_ui": 726423.4081690013,
+      "balance_ui": 57226222.979048,
+      "net_change_24h_ui": 663390.9127940014,
+      "net_change_7d_ui": 663390.9127940014,
       "owner": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
-      "pct_of_supply": 5.722861579841348,
+      "pct_of_supply": 5.722850590321361,
       "token_account": "8efs78VAXpuvvASfVdaj2zmboGBB4yxAdf88AMxY8zrp",
-      "tx_count_24h": 45,
-      "tx_count_7d": 45
+      "tx_count_24h": 44,
+      "tx_count_7d": 44
     },
     {
       "action": "accumulating",
@@ -102,22 +102,22 @@
       "tx_count_7d": 0
     },
     {
-      "action": "idle",
+      "action": "owner_unresolved",
       "balance_ui": 16122127.40545,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
-      "owner": "3ejbo5hi6U9DKrSFUYM6Vt2oYnhBU72rbR7WAJXPvyXg",
+      "owner": "",
       "pct_of_supply": 1.612277056504256,
       "token_account": "6Nqd7kFY6vYaoLAxeukcvk7hpjhRfw1gf1xvarQ6Q6Wc",
       "tx_count_24h": 0,
       "tx_count_7d": 0
     },
     {
-      "action": "idle",
+      "action": "owner_unresolved",
       "balance_ui": 16017904.203803,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
-      "owner": "DukdfczBdcpTdT1KXE7DjV5bQq7MMD4g2kKpirSe2UTY",
+      "owner": "",
       "pct_of_supply": 1.6018543205622195,
       "token_account": "AFQPpg25EERZp1LSCKAsrdUpHDjTuV54k1CHCpwB7YdR",
       "tx_count_24h": 0,
