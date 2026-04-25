@@ -9,6 +9,9 @@
 
 const SOLSCAN = "https://solscan.io";
 const DEXSCREENER = "https://dexscreener.com/solana";
+const CHART_WINDOWS = ["1h", "6h", "24h", "all"];
+const CHART_WINDOW_STORAGE_KEY = "madapes.chartWindow";
+const MAX_SEEN_STREAM = 500;
 
 function fmtUsd(n) {
   if (n === null || n === undefined || isNaN(n)) return "—";
@@ -25,7 +28,9 @@ function fmtPct(n) {
 
 function fmtTimeAgo(ts) {
   if (!ts) return "—";
-  const diff = Date.now() / 1000 - ts;
+  const numericTs = Number(ts);
+  if (!Number.isFinite(numericTs)) return "—";
+  const diff = Math.max(0, Date.now() / 1000 - numericTs);
   if (diff < 60) return Math.floor(diff) + "s ago";
   if (diff < 3600) return Math.floor(diff / 60) + "m ago";
   if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
@@ -41,6 +46,36 @@ function pnlClass(n) {
   if (n > 0) return "pos";
   if (n < 0) return "neg";
   return "";
+}
+
+function readStoredChartWindow() {
+  try {
+    const saved = window.localStorage.getItem(CHART_WINDOW_STORAGE_KEY);
+    return CHART_WINDOWS.includes(saved) ? saved : "1h";
+  } catch (_) {
+    return "1h";
+  }
+}
+
+function persistChartWindow(nextWindow) {
+  try {
+    window.localStorage.setItem(CHART_WINDOW_STORAGE_KEY, nextWindow);
+  } catch (_) {
+    // Ignore storage failures; chart still works for this page view.
+  }
+}
+
+function callPctValue(call) {
+  if (!call || call.entry_price_usd <= 0) return null;
+  const pct = Number(call.pct_from_call);
+  return Number.isFinite(pct) ? pct : null;
+}
+
+function thoughtsSignature(index) {
+  if (!Array.isArray(index) || !index.length) return "";
+  return index
+    .map((item) => [item.date || "", item.file || "", item.title || ""].join("|"))
+    .join("||");
 }
 
 // --- DOM builders ---
@@ -160,7 +195,8 @@ function renderCalls(calls) {
     const sym = c.symbol
       ? "$" + c.symbol
       : shortAddr(c.mint || "");
-    const pctCls = pnlClass(c.pct_from_call || 0);
+    const pctValue = callPctValue(c);
+    const pctCls = pctValue === null ? "" : pnlClass(pctValue);
     const entryStr = c.entry_mcap_usd
       ? "entry $" + formatMcap(c.entry_mcap_usd)
       : "—";
@@ -196,7 +232,14 @@ function renderCalls(calls) {
         rel: "noopener",
         text: "chart",
       }),
-      " ",
+      " · ",
+      el("a", {
+        href: "data/scouts/" + c.mint + ".json",
+        target: "_blank",
+        rel: "noopener",
+        text: "scout",
+      }),
+      " · ",
       el("a", {
         href: "data/whales/" + c.mint + ".json",
         target: "_blank",
@@ -206,7 +249,7 @@ function renderCalls(calls) {
     ]);
     const numEl = el("div", {
       class: "num " + pctCls,
-      text: fmtPct(c.pct_from_call),
+      text: fmtPct(pctValue),
     });
     container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
   }
@@ -219,10 +262,10 @@ function formatMcap(n) {
 }
 
 // --- render: ticker strip (arena-inspired) ---
-function renderTicker(health, pnl, calls) {
-  const el = document.getElementById("ticker");
-  if (!el) return;
-  clear(el);
+function renderTicker(health, pnl, calls, positions) {
+  const ticker = document.getElementById("ticker");
+  if (!ticker) return;
+  clear(ticker);
   const items = [];
   if (health && health.sol_price_usd) {
     items.push({
@@ -232,12 +275,14 @@ function renderTicker(health, pnl, calls) {
     });
   }
   if (pnl && pnl.total_value_usd != null) {
+    const hasOpenPositions = Array.isArray(positions) && positions.length > 0;
+    const bagPct = hasOpenPositions && pnl.unrealized_pnl_usd != null
+      ? fmtPct((pnl.unrealized_pnl_usd / (pnl.total_value_usd || 1)) * 100)
+      : "—";
     items.push({
       sym: "BAG",
       val: fmtUsd(pnl.total_value_usd),
-      pct: pnl.unrealized_pnl_usd
-        ? fmtPct((pnl.unrealized_pnl_usd / (pnl.total_value_usd || 1)) * 100)
-        : null,
+      pct: bagPct,
     });
   }
   if (calls && calls.length) {
@@ -248,26 +293,26 @@ function renderTicker(health, pnl, calls) {
       items.push({
         sym: symText,
         val: c.current_mcap_usd ? "$" + formatMcap(c.current_mcap_usd) : "—",
-        pct: fmtPct(c.pct_from_call),
+        pct: fmtPct(callPctValue(c)),
       });
     }
   }
   if (!items.length) {
-    el.appendChild(el_("div", { class: "ticker-empty", text: "no live values yet" }));
+    ticker.appendChild(el_("div", { class: "ticker-empty", text: "no live values yet" }));
     return;
   }
   for (const item of items) {
     const node = el_("div", { class: "ticker-item" }, [
       el_("span", { class: "ticker-sym", text: item.sym }),
       el_("span", { class: "ticker-val", text: item.val }),
-      item.pct
+      item.pct !== null && item.pct !== undefined
         ? el_("span", {
             class: "ticker-pct " + pnlClass(parseFloat(item.pct)),
             text: item.pct,
           })
         : null,
     ]);
-    el.appendChild(node);
+    ticker.appendChild(node);
   }
 }
 
@@ -281,6 +326,16 @@ function el_(tag, attrs, children) {
 // briefly on arrival — makes the feed feel alive between refresh ticks.
 const SEEN_STREAM = new Set();
 let STREAM_FIRST_RENDER = true;
+
+function rememberStreamSignature(sig) {
+  if (SEEN_STREAM.has(sig)) return;
+  SEEN_STREAM.add(sig);
+  while (SEEN_STREAM.size > MAX_SEEN_STREAM) {
+    const oldest = SEEN_STREAM.values().next().value;
+    if (oldest === undefined) break;
+    SEEN_STREAM.delete(oldest);
+  }
+}
 
 // Split a summary string and turn any `$SYMBOL` run into a link to the
 // mint's DexScreener chart when we know the mint. Keeps everything else
@@ -334,7 +389,7 @@ function renderStream(stream) {
     if (!STREAM_FIRST_RENDER && !SEEN_STREAM.has(sig)) {
       newSignatures.add(sig);
     }
-    SEEN_STREAM.add(sig);
+    rememberStreamSignature(sig);
   }
 
   clear(body);
@@ -395,7 +450,7 @@ function renderStream(stream) {
 
 // --- render: pnl ---
 let PNL_DATA = null;
-let CHART_WINDOW = "1h";
+let CHART_WINDOW = readStoredChartWindow();
 
 function renderPnl(pnl) {
   if (!pnl) return;
@@ -437,12 +492,21 @@ function redrawChart() {
 
 function wireChartTabs() {
   const tabs = document.querySelectorAll(".chart-tab");
+  syncChartTabs();
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       CHART_WINDOW = tab.dataset.window;
-      tabs.forEach((t) => t.classList.toggle("active", t === tab));
+      persistChartWindow(CHART_WINDOW);
+      syncChartTabs();
       redrawChart();
     });
+  });
+}
+
+function syncChartTabs() {
+  const tabs = document.querySelectorAll(".chart-tab");
+  tabs.forEach((tab) => {
+    tab.classList.toggle("active", tab.dataset.window === CHART_WINDOW);
   });
 }
 
@@ -454,6 +518,18 @@ function renderChart(series, trades) {
       "ape is still sniffing — no banana count yet",
     ]);
     container.appendChild(hint);
+    return;
+  }
+  if (series.length === 1) {
+    const only = series[0];
+    container.appendChild(
+      el("div", { class: "chart-hint" }, [
+        "1 point so far · ",
+        fmtUsd(only.value_usd),
+        " · ",
+        fmtTimeAgo(only.ts),
+      ])
+    );
     return;
   }
   const xs = series.map((p) => p.ts);
@@ -493,6 +569,9 @@ function renderChart(series, trades) {
         stroke: "#ff7a1a",
         width: 1.5,
         fill: "rgba(255,122,26,0.07)",
+        points: series.length <= 2
+          ? { show: true, size: 6, stroke: "#ff7a1a", fill: "#ff7a1a" }
+          : { show: false },
       },
       {
         label: "buys",
@@ -530,11 +609,14 @@ function renderChart(series, trades) {
 function renderPositions(positions) {
   const container = document.getElementById("positions-list");
   clear(container);
-  if (!positions || !positions.length) {
+  // Filter out zero-value holds — tokens where price lookup failed or the
+  // position was sold but balance dust remains on-chain.
+  const active = (positions || []).filter((p) => (p.position_usd || 0) > 0);
+  if (!active.length) {
     container.appendChild(el("div", { class: "empty", text: "bag is empty" }));
     return;
   }
-  for (const p of positions) {
+  for (const p of active) {
     const sym = el("div", { class: "sym", text: "$" + (p.symbol || shortAddr(p.mint)) });
     const detail = el("div", { class: "detail" }, [
       "pos " + fmtUsd(p.position_usd) + " · entry " + fmtUsd(p.avg_entry_usd) + " · ",
@@ -554,14 +636,20 @@ function renderPositions(positions) {
 }
 
 // --- render: activity ---
-function renderActivity(acts) {
+function renderActivity(acts, positions) {
   const container = document.getElementById("activity-list");
   clear(container);
-  if (!acts || !acts.length) {
+  // Suppress activity for mints whose position is now zero — these are stale
+  // holds where the token died and the buy record is a false positive.
+  const deadMints = new Set(
+    (positions || []).filter((p) => (p.position_usd || 0) <= 0).map((p) => p.mint)
+  );
+  const filtered = (acts || []).filter((a) => !a.mint || !deadMints.has(a.mint));
+  if (!filtered.length) {
     container.appendChild(el("div", { class: "empty", text: "quiet in the jungle" }));
     return;
   }
-  for (const a of acts) {
+  for (const a of filtered) {
     const time = el("time", {
       datetime: new Date((a.ts || 0) * 1000).toISOString(),
       text: fmtTimeAgo(a.ts),
@@ -603,31 +691,11 @@ function renderActivity(acts) {
 
 let BOOK_PAGES = [];
 let BOOK_CURRENT = 0;
+let BOOK_WIRED = false;
+let BOOK_SIGNATURE = "";
 
-async function renderThoughts(index) {
-  const body = document.getElementById("page-body");
-  clear(body);
-  if (!index || !index.length) {
-    body.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
-    updateBookCounters();
-    return;
-  }
-  const assets = (await loadJson("thoughts/assets.json")) || {};
-  const sorted = [...index].sort((a, b) => {
-    const d = (b.date || "").localeCompare(a.date || "");
-    if (d !== 0) return d;
-    return (b.file || "").localeCompare(a.file || "");
-  });
-  const mds = await Promise.all(
-    sorted.map((t) => loadText("thoughts/" + t.file))
-  );
-  BOOK_PAGES = sorted.map((t, i) => ({
-    ...t,
-    md: mds[i] || "",
-    assets: assets[t.file] || [],
-  }));
-  BOOK_CURRENT = readBookHashIndex();
-
+function wireThoughtControls() {
+  if (BOOK_WIRED) return;
   for (const id of ["nav-prev", "nav-prev-2"]) {
     document.getElementById(id).addEventListener("click", bookPrev);
   }
@@ -643,24 +711,87 @@ async function renderThoughts(index) {
     const idx = readBookHashIndex();
     if (idx !== BOOK_CURRENT) {
       BOOK_CURRENT = idx;
-      renderBookPage();
+      renderBookPage(false);
     }
   });
-  renderBookPage();
+  BOOK_WIRED = true;
 }
 
-function renderBookPage() {
+async function renderThoughts(index) {
+  const body = document.getElementById("page-body");
+  const normalized = Array.isArray(index) ? index : [];
+  const nextSignature = thoughtsSignature(normalized);
+  const currentFile = BOOK_PAGES[BOOK_CURRENT] ? BOOK_PAGES[BOOK_CURRENT].file : null;
+
+  wireThoughtControls();
+
+  if (!normalized.length) {
+    BOOK_SIGNATURE = nextSignature;
+    BOOK_PAGES = [];
+    BOOK_CURRENT = 0;
+    clear(body);
+    body.removeAttribute("data-file");
+    body.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    updateBookCounters();
+    return;
+  }
+  if (nextSignature === BOOK_SIGNATURE && BOOK_PAGES.length) {
+    return;
+  }
+
+  const assets = (await loadJson("thoughts/assets.json")) || {};
+  const sorted = [...normalized].sort((a, b) => {
+    const d = (b.date || "").localeCompare(a.date || "");
+    if (d !== 0) return d;
+    return (b.file || "").localeCompare(a.file || "");
+  });
+  const mds = await Promise.all(
+    sorted.map((t) => loadText("thoughts/" + t.file))
+  );
+  BOOK_PAGES = sorted.map((t, i) => ({
+    ...t,
+    md: mds[i] || "",
+    assets: assets[t.file] || [],
+  }));
+  BOOK_SIGNATURE = nextSignature;
+
+  if (location.hash.includes("#note=")) {
+    BOOK_CURRENT = readBookHashIndex();
+  } else if (currentFile) {
+    const preserved = BOOK_PAGES.findIndex((page) => page.file === currentFile);
+    BOOK_CURRENT = preserved >= 0 ? preserved : 0;
+  } else {
+    BOOK_CURRENT = 0;
+  }
+
+  const nextPage = BOOK_PAGES[BOOK_CURRENT];
+  if (!nextPage) {
+    clear(body);
+    body.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
+    updateBookCounters();
+    return;
+  }
+
+  if (body.getAttribute("data-file") !== nextPage.file) {
+    renderBookPage(false);
+  } else {
+    updateBookCounters();
+  }
+}
+
+function renderBookPage(animate = true) {
   const container = document.getElementById("page-body");
   if (!BOOK_PAGES.length) {
     clear(container);
+    container.removeAttribute("data-file");
     container.appendChild(el("div", { class: "empty", text: "ape hasn't scribbled yet" }));
     return;
   }
   BOOK_CURRENT = Math.max(0, Math.min(BOOK_CURRENT, BOOK_PAGES.length - 1));
   const page = BOOK_PAGES[BOOK_CURRENT];
-  container.classList.add("page-turning");
-  setTimeout(() => {
+  const paint = () => {
     clear(container);
+    container.setAttribute("data-file", page.file || "");
     const article = el("article", { class: "book-page" });
     article.appendChild(el("div", { class: "page-date", text: page.date || "" }));
     article.appendChild(
@@ -675,7 +806,15 @@ function renderBookPage() {
     container.classList.remove("page-turning");
     updateBookCounters();
     updateBookHash(page);
-  }, 140);
+  };
+
+  if (!animate) {
+    paint();
+    return;
+  }
+
+  container.classList.add("page-turning");
+  setTimeout(paint, 140);
 }
 
 function updateBookCounters() {
@@ -770,28 +909,29 @@ let BOOTSTRAPPED = false;
 // ticks. Called on initial load AND every 30s so the page feels live.
 // Thoughts + chart-tabs wiring only happen once at bootstrap.
 async function refreshLiveData() {
-  const [health, pnl, positions, activity, calls, stream] = await Promise.all([
+  const [health, pnl, positions, activity, calls, stream, thoughtsIndex] = await Promise.all([
     loadJson("data/health.json"),
     loadJson("data/pnl.json"),
     loadJson("data/positions.json"),
     loadJson("data/activity.json"),
     loadJson("data/calls.json"),
     loadJson("data/stream.json"),
+    loadJson("thoughts/index.json"),
   ]);
+  const posArr = (positions && positions.positions) || [];
   renderHealth(health);
-  renderTicker(health, pnl, calls && calls.active);
+  renderTicker(health, pnl, calls && calls.active, posArr);
   renderPnl(pnl);
-  renderPositions(positions && positions.positions);
+  renderPositions(posArr);
   renderCalls(calls && calls.active);
-  renderActivity(activity && activity.activity);
+  renderActivity(activity && activity.activity, posArr);
   renderStream(stream);
+  await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
 }
 
 async function main() {
-  await refreshLiveData();
   wireChartTabs();
-  const thoughtsIndex = await loadJson("thoughts/index.json");
-  await renderThoughts(thoughtsIndex && thoughtsIndex.thoughts);
+  await refreshLiveData();
 
   // Poll every 30s for fresh JSONs. The publisher ticks every 5 min, so
   // most polls are no-ops — but when a new pulse lands, the ticker,
