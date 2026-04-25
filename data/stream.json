@@ -1,6 +1,62 @@
 {
   "events": [
     {
+      "ts": 1777080436,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 222c…pump · GRINDER→STAIRCASE · top +0.02%",
+      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
+      "signature": null
+    },
+    {
+      "ts": 1777080310,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3F33…brrr · deployer down 12.6% (164314561 → 143657551)",
+      "mint": "3F332uktpkxFjQBSRakNpV8fuw37FEK3dJNjGhSDbrrr",
+      "signature": null
+    },
+    {
+      "ts": 1777080287,
+      "kind": "alert",
+      "tag": "DEVELOPING",
+      "summary": "DEVELOPING 6d5z…pump · mom 66 · top 24.41% · 25260 holders",
+      "mint": "6d5zHW5B8RkGKd51Lpb9RqFQSqDudr9GJgZ1SgQZpump",
+      "signature": null
+    },
+    {
+      "ts": 1777080241,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 222c…pump · STAIRCASE→GRINDER · top -0.65%",
+      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
+      "signature": null
+    },
+    {
+      "ts": 1777080198,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 222c…pump · GRINDER→STAIRCASE · top -0.87%",
+      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
+      "signature": null
+    },
+    {
+      "ts": 1777080195,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE hy1o…7kPT · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "hy1oXYgrBW6PVcJ4s6s2FKavRdwgWTXdfE69AxT7kPT",
+      "signature": null
+    },
+    {
+      "ts": 1777080192,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE XGbM…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "XGbMLzy8r7iJN96huatiyv3VtJ3o1VYjpVzSz7Zpump",
+      "signature": null
+    },
+    {
       "ts": 1777080143,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -54,14 +110,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 222c…pump · GRINDER→STAIRCASE · top -0.01%",
       "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
-      "signature": null
-    },
-    {
-      "ts": 1777079898,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2BTw…pump · STAIRCASE→DEVELOPING · top +0.27%",
-      "mint": "2BTwRYdR6BfrGhwx5gwrVnzyUCgxiXxEtBGtwdKzpump",
       "signature": null
     },
     {
@@ -269,54 +317,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 222c…pump · DEVELOPING→GRINDER · top +0.03%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
-      "signature": null
-    },
-    {
-      "ts": 1777078591,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE y8f9…pump · DEVELOPING→GRINDER · top +1.76%",
-      "mint": "y8f9WhcWuaYoXfNGkaRCp3DunfygQoWGHjRooVGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777078581,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · GRINDER→DEVELOPING · top -0.01%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
-      "signature": null
-    },
-    {
-      "ts": 1777078532,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · DEVELOPING→GRINDER · top -0.03%",
-      "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
-      "signature": null
-    },
-    {
-      "ts": 1777078513,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING y8f9…pump · deployer down 16.6% (82457711 → 68802330)",
-      "mint": "y8f9WhcWuaYoXfNGkaRCp3DunfygQoWGHjRooVGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777078433,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING y8f9…pump · deployer down 20.4% (82457711 → 65631462)",
-      "mint": "y8f9WhcWuaYoXfNGkaRCp3DunfygQoWGHjRooVGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777078423,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 222c…pump · STAIRCASE→DEVELOPING · top -0.02%",
       "mint": "222ctdtoVgjWfLFMZLVXkj1pWFDBhYFPzzewFqLypump",
       "signature": null
     },
