@@ -1,0 +1,214 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "2FR2d5VXSQF7BHYPVgvjgwv9AiGyCX9sEmk1vG2tXG3S",
+      "initial_balance_ui": 206534916.10167,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 2,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 32126.62,
+    "mcap_usd": 142543.0,
+    "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+    "name": "Rudolph the Deer",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/i/communities/2039251632999760198"
+      ]
+    ],
+    "symbol": "Rudy",
+    "website": {
+      "status": 403,
+      "text": "nj.com Please enable JS and disable any ad blocker",
+      "truncated": false,
+      "url": "https://www.nj.com/mercer/2026/04/the-saga-of-rudy-a-rescued-deer-nj-is-trying-to-take-away-from-the-only-life-hes-ever-known.html"
+    }
+  },
+  "call": {
+    "called_at": 1777160525,
+    "classification": "STAIRCASE",
+    "confidence": 75,
+    "entry_liquidity_usd": 38306.23,
+    "entry_mcap_usd": 204639.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0002046,
+    "entry_top_holder_pct": 9.47267576058295,
+    "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "Rudy"
+  },
+  "call_id": 4,
+  "captured_at": 1777160841,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 32048.98,
+      "current_mcap_usd": 141731.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777157818,
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "symbol": "Rudy"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777160821,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "CdJuB4Y2hNoM9kwbBpdmQ9LPtVxmGBkQiqbbeZU9r4Uj",
+    "lp_supply_ui": 0.0,
+    "pair_address": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 32126.62,
+    "mcap_usd": 142543.0,
+    "name": "Rudolph the Deer",
+    "pair_address": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
+    "pair_dex": "pumpswap",
+    "symbol": "Rudy"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+    "note": "",
+    "retention_pct": 5.0,
+    "sniper_count": 20,
+    "still_in_top_100": 1
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 118930396.878749,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
+      "pct_of_supply": 11.893055321946932,
+      "token_account": "2FR2d5VXSQF7BHYPVgvjgwv9AiGyCX9sEmk1vG2tXG3S",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 26305279.821663,
+      "net_change_24h_ui": 26305279.821663003,
+      "net_change_7d_ui": 26305279.821663003,
+      "owner": "CS8wTpBmLpH95VnPCMP2JbeV31voYYGSQkWyXa99et1U",
+      "pct_of_supply": 2.630531440143826,
+      "token_account": "9bJCKQgyUxYnnttx5n6Fs1No9ucdzeq49JfAixcmkn4Y",
+      "tx_count_24h": 28,
+      "tx_count_7d": 28
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17198667.956505,
+      "net_change_24h_ui": 17198667.956505,
+      "net_change_7d_ui": 17198667.956505,
+      "owner": "GijFWw4oNyh9ko3FaZforNsi3jk6wDovARpkKahPD4o5",
+      "pct_of_supply": 1.7198690565124894,
+      "token_account": "D4nAKtMjpGN9AKzfgLr2gN1MKcL9ujjYHyV58zahVHcG",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 16079789.745154,
+      "net_change_24h_ui": 16079789.745154,
+      "net_change_7d_ui": 16079789.745154,
+      "owner": "BAr5csYtpWoNpwhUjixX7ZPHXkUciFZzjBp9uNxZXJPh",
+      "pct_of_supply": 1.6079810882945325,
+      "token_account": "AdhUQ5JgxNM5NcJba2ETHqwK2ATBtS1LPekt9ZA2ef9B",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 15431764.715653,
+      "net_change_24h_ui": 15431764.715653,
+      "net_change_7d_ui": 15431764.715653,
+      "owner": "EFnrEBJWPv5U7Haz1hjDvhhRokeFCJHwMLzHtHhL3keF",
+      "pct_of_supply": 1.5431785001578844,
+      "token_account": "Etizizam1yJxMFeD51B8WQsJsBo515YwAh6ovAGfxbMt",
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 14999074.866623,
+      "net_change_24h_ui": 14999074.866623001,
+      "net_change_7d_ui": 14999074.866623001,
+      "owner": "2xrKTEtSZwYYAPddpQASwEAuogeCkK62WBCVYbds3SwM",
+      "pct_of_supply": 1.499909458375361,
+      "token_account": "24E6pigNTTAzTxU7E1STfc5A6URaRiaSsDeWpqA1LDJc",
+      "tx_count_24h": 11,
+      "tx_count_7d": 11
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 12190651.089832,
+      "net_change_24h_ui": 12190651.089832,
+      "net_change_7d_ui": 12190651.089832,
+      "owner": "8CKtmt28Em7FZ44Ymhv5uiMB6NKXQeScfxZWn6Ah5P4d",
+      "pct_of_supply": 1.219066711513102,
+      "token_account": "SDCBs71Uz9fE4jXyQFBc3oPom69NC5naC5GhRnUMcJX",
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 11740803.729266,
+      "net_change_24h_ui": 11740803.729266,
+      "net_change_7d_ui": 11740803.729266,
+      "owner": "2f3hCSoHsDnvNggDSYwJFNZteXt5yNsWQ6pyRyRxLZ4s",
+      "pct_of_supply": 1.174081916321527,
+      "token_account": "gn3SJFTRN4CWrG5fpMeKh5cE1MPGVbL6X4JoH8hgCJJ",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 11468644.419861,
+      "net_change_24h_ui": 11468644.419861,
+      "net_change_7d_ui": 11468644.419861,
+      "owner": "355L1qYydbYfbxMy1ft89kHxeVh6vbAUkLiCmZN1hnLC",
+      "pct_of_supply": 1.1468659496041496,
+      "token_account": "8BwjjNHqTdtiiQiV8eSZsxBEgHCYXdErqkPUXUNvD22N",
+      "tx_count_24h": 5,
+      "tx_count_7d": 5
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 11248819.58982,
+      "net_change_24h_ui": 11248819.58982,
+      "net_change_7d_ui": 11248819.58982,
+      "owner": "BUCsxrYcQmtC2Lx3YKsQSK8A2Nu4W3NmERb5XMLpH3xX",
+      "pct_of_supply": 1.1248834377028347,
+      "token_account": "DyAxP1M9x4LQGyFqaK5B9R8ts5uqaj5SXQTdAcKB8jho",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    }
+  ]
+}
