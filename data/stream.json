@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "ts": 1777185469,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.04%",
+      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185423,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185374,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.01%",
+      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185373,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4df1…pump · GRINDER→DEVELOPING · top -0.02%",
+      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
+      "signature": null
+    },
+    {
+      "ts": 1777185350,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4df1…pump · STAIRCASE→GRINDER · top +0.21%",
+      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
+      "signature": null
+    },
+    {
+      "ts": 1777185309,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$BELKA at $752k mcap — entry frozen",
+      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
+      "signature": null
+    },
+    {
       "ts": 1777185263,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -257,14 +305,6 @@
       "signature": null
     },
     {
-      "ts": 1777184770,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4fSW…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "4fSWEw2wbYEUCcMtitzmeGUfqinoafXxkhqZrA9Gpump",
-      "signature": null
-    },
-    {
       "ts": 1777184748,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -285,22 +325,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184730,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING y8f9…pump · deployer down 18.4% (82457711 → 67278887)",
-      "mint": "y8f9WhcWuaYoXfNGkaRCp3DunfygQoWGHjRooVGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184705,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
       "signature": null
     },
@@ -326,22 +350,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE CGED…pump · STAIRCASE→GRINDER · top +0.00%",
       "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
-      "ts": 1777184655,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · GRINDER→DEVELOPING · top -0.05%",
-      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184655,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CJUr…pump · GRINDER→DEVELOPING · top +0.07%",
-      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
       "signature": null
     },
     {
@@ -391,14 +399,6 @@
       "summary": "bought 99.7k tokens of CHXt…pump for 0.012 SOL",
       "mint": "CHXtJUnraVDwyT4pao6KNDRAXLBfe15w2y5MjuTnpump",
       "signature": "4Qpms6uLaBrskLCiG7quHgUCcBCyWJt7QhSiosCu69WYnW37DEUdT2PBVZPwYchePGYsUXrykBCht6zUrSub89VU"
-    },
-    {
-      "ts": 1774937027,
-      "kind": "trade",
-      "tag": "BUY",
-      "summary": "bought 482.3k tokens of 98D2…pump for 0.091 SOL",
-      "mint": "98D2wXPrXf2prRcHnggQ4WSisScBRqhzXYcfPgg3pump",
-      "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ]
 }
