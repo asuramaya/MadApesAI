@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "pair account not found",
+    "detail": "lp-mint offset not known for dex `meteora`",
     "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
     "pair_dex": "meteora",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "unknown_layout"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777245694,
+  "snapshot_ts": 1777245971,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "idle",
-      "balance_ui": 24827877.16742116,
+      "balance_ui": 24800465.37604604,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "pct_of_supply": 2.539936680728415,
+      "pct_of_supply": 2.5371324049569246,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -91,15 +91,15 @@
       "tx_count_7d": 11
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 9100000.0,
-      "net_change_24h_ui": -280000.0,
-      "net_change_7d_ui": 9100000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "AdS5dPnyBK9e2cD6eZNDQvbhZQmGib3duqjc91ze2oe2",
       "pct_of_supply": 0.9309464372958045,
       "token_account": "BousnzK1Xo6sbDDJCKitCR57HvE9UGAU4GDQSZ4seyvb",
-      "tx_count_24h": 3,
-      "tx_count_7d": 6
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -113,15 +113,15 @@
       "tx_count_7d": 2
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 7376817.728,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_7d_ui": 7376817.728,
       "owner": "A3AWJhiKEtH4nuRAFGs4yneTmkF93N17kWyABR57ywgZ",
       "pct_of_supply": 0.7546617782925419,
       "token_account": "F3FusanJkMoZXm757AYqtqSUyy4RzNBaHhRumFyQ9RDo",
       "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_7d": 1
     }
   ]
 }
