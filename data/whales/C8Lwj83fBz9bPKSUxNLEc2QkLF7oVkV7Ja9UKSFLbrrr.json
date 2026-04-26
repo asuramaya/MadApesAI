@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "pair account not found",
+    "detail": "lp-mint offset not known for dex `meteora`",
     "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
     "pair_dex": "meteora",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "unknown_layout"
   },
   "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-  "snapshot_ts": 1777229208,
+  "snapshot_ts": 1777229505,
   "symbol": "ROTUS",
   "whales": [
     {
       "action": "idle",
-      "balance_ui": 24315214.47011292,
+      "balance_ui": 24293561.1374292,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "pct_of_supply": 2.487490334884678,
+      "pct_of_supply": 2.4852751598618545,
       "token_account": "fxtTm7WKbqH6YZ6K7mM3t2sYvAXs3pjz4WpyaKDyDXk",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -113,15 +113,15 @@
       "tx_count_7d": 2
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 7376817.728,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_7d_ui": 7376817.728,
       "owner": "A3AWJhiKEtH4nuRAFGs4yneTmkF93N17kWyABR57ywgZ",
       "pct_of_supply": 0.7546617704384466,
       "token_account": "F3FusanJkMoZXm757AYqtqSUyy4RzNBaHhRumFyQ9RDo",
       "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_7d": 1
     }
   ]
 }
