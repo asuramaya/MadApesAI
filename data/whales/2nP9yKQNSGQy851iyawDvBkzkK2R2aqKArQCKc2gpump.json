@@ -1,39 +1,39 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "BVYRvWrxn6Xf1G8SUvgZcMevU53SV5DMQ4nMhxAK5Bco",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-  "snapshot_ts": 1777246411,
+  "snapshot_ts": 1777246687,
   "symbol": "PsyopAnime",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 44907202.12501,
-      "net_change_24h_ui": 59271.97865699977,
-      "net_change_7d_ui": 59271.97865699977,
+      "action": "idle",
+      "balance_ui": 44875097.034439,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
-      "pct_of_supply": 4.490911085016584,
+      "pct_of_supply": 4.487700439500761,
       "token_account": "8efs78VAXpuvvASfVdaj2zmboGBB4yxAdf88AMxY8zrp",
-      "tx_count_24h": 7,
-      "tx_count_7d": 7
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
-      "action": "distributing",
+      "action": "idle",
       "balance_ui": 37685992.965716,
-      "net_change_24h_ui": -10000000.0,
-      "net_change_7d_ui": -10000000.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "692PxWKEpjE4HA5hpDoGUuM5bkBSGWL8SsJy2y79xTFj",
       "pct_of_supply": 3.7687594762296337,
       "token_account": "5D96BHpm2CjAohFneK7z1RTUnKXu9WHuQnS9sDCVyAZj",
-      "tx_count_24h": 5,
-      "tx_count_7d": 5
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "idle",
@@ -91,15 +91,15 @@
       "tx_count_7d": 0
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 16417434.725197,
-      "net_change_24h_ui": 128703.65694500133,
-      "net_change_7d_ui": 128703.65694500133,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "7eNRALuXYUJkUWTvRj5tcB7tcT43kmT5SNdkfy9fKTto",
       "pct_of_supply": 1.641813252798077,
       "token_account": "72uy2ZjS8XqjEojPs9cZvmxib5PdTGz9YoU4wmcruCJM",
-      "tx_count_24h": 2,
-      "tx_count_7d": 2
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "idle",
