@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "3AsEqowzfvdxiUVWQVk6KAToSZ6DkzuHrf4RrbSRpKah",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "Fi53jWrDo5uFf9CciJBw2CPdj6mbvP8oyi7PBMC7pump",
-  "snapshot_ts": 1777216390,
+  "snapshot_ts": 1777216733,
   "symbol": "buttplug",
   "whales": [
     {
-      "action": "distributing",
-      "balance_ui": 156928881.701787,
-      "net_change_24h_ui": -652785.3650549948,
-      "net_change_7d_ui": -652785.3650549948,
+      "action": "accumulating",
+      "balance_ui": 158198946.965533,
+      "net_change_24h_ui": 1188122.3493689895,
+      "net_change_7d_ui": 1188122.3493689895,
       "owner": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
-      "pct_of_supply": 15.694372612211872,
+      "pct_of_supply": 15.821391152552556,
       "token_account": "9WEvCHrBCvE9Mjaa6YfHGyap8xqbyStve2FBStHFRKq8",
-      "tx_count_24h": 19,
-      "tx_count_7d": 19
+      "tx_count_24h": 26,
+      "tx_count_7d": 26
     },
     {
       "action": "accumulating",
@@ -69,15 +69,15 @@
       "tx_count_7d": 1
     },
     {
-      "action": "distributing",
+      "action": "idle",
       "balance_ui": 14579108.124194,
-      "net_change_24h_ui": -359654.7139289994,
-      "net_change_7d_ui": -359654.7139289994,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "DR5jdp4XZMBdBWfsoXtzfJNUTSuqh9TeWxmqBuZhxJGc",
       "pct_of_supply": 1.4580487210100368,
       "token_account": "GHAYpmy9nrcqxik9nd7zt3ZCQrU22cQrKFtTxcki2SLh",
-      "tx_count_24h": 1,
-      "tx_count_7d": 1
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -113,15 +113,15 @@
       "tx_count_7d": 10
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 13470594.885177,
-      "net_change_24h_ui": 3375176.891177999,
-      "net_change_7d_ui": 13070594.885177,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "7kj7d4aHxb9daiz5gW9226f2yaaA6LhNYgTtkyRxZYfb",
       "pct_of_supply": 1.3471869113161201,
       "token_account": "9FhxgSzWVFXUGdHcFM7AngLNbZikL2LHc3Tw1C9EdCcX",
-      "tx_count_24h": 1,
-      "tx_count_7d": 11
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     }
   ]
 }
