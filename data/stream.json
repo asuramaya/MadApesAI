@@ -1,6 +1,126 @@
 {
   "events": [
     {
+      "ts": 1777186157,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5gTP…coin · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "5gTPspC2ricuGWiYQ4Ghausg8fsq7uCrGgSVACatcoin",
+      "signature": null
+    },
+    {
+      "ts": 1777186155,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186151,
+      "kind": "alert",
+      "tag": "GRADUATION SCOUT",
+      "summary": "GRADUATION_SCOUT CJUr…pump · deployer sold 100.0% · 7d tx 100 · last 0m · socials: 1",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186150,
+      "kind": "alert",
+      "tag": "GRADUATION",
+      "summary": "GRADUATION CJUr…pump · pumpswap → meteora · mcap $991k · liq $88k",
+      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
+      "signature": null
+    },
+    {
+      "ts": 1777186122,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BnXW…pump · GRINDER→STAIRCASE · top -0.00%",
+      "mint": "BnXWvsVZYgBxTUDyDqHZjvFbQGvEZeipY4ZdmqCbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186105,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING BnXW…pump · deployer down 75.3% (258783130 → 64048367)",
+      "mint": "BnXWvsVZYgBxTUDyDqHZjvFbQGvEZeipY4ZdmqCbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186098,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EqWj…pump · DEVELOPING→STAIRCASE · top -0.06%",
+      "mint": "EqWjXdYdFic8D7VX85fTw2Lru2bFUib1bBxnXEQzpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186055,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$Kiss at $90k mcap — entry frozen",
+      "mint": "7KunmzqV5sbK8awVSjNjC3TGS9QPwbgCyrPynZBYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186029,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · DEVELOPING→STAIRCASE · top -0.02%",
+      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777186029,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$SAM at $1068k mcap — entry frozen",
+      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185948,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · DEVELOPING→STAIRCASE · top -0.00%",
+      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185947,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE ELGb…pump · GRINDER→STAIRCASE · top +0.10%",
+      "mint": "ELGbY45XwYAvFK8qpY8ArFFKcLfX2QNNXbnCVB1Fpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185819,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top +0.07%",
+      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185813,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
+      "signature": null
+    },
+    {
+      "ts": 1777185791,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4df1…pump · DEVELOPING→STAIRCASE · top -0.04%",
+      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
+      "signature": null
+    },
+    {
       "ts": 1777185764,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -30,14 +150,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 5ohB…pump · deployer down 39.5% (91980062 → 55652508)",
       "mint": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
-      "signature": null
-    },
-    {
-      "ts": 1777185648,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.01%",
-      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
       "signature": null
     },
     {
@@ -81,14 +193,6 @@
       "signature": null
     },
     {
-      "ts": 1777185493,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BFiG…pump · GRINDER→DEVELOPING · top -0.00%",
-      "mint": "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump",
-      "signature": null
-    },
-    {
       "ts": 1777185469,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -125,14 +229,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3VHg…pump · GRINDER→STAIRCASE · top +0.02%",
-      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
-      "signature": null
-    },
-    {
-      "ts": 1777185239,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3VHg…pump · STAIRCASE→GRINDER · top -0.36%",
       "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
       "signature": null
     },
@@ -177,27 +273,11 @@
       "signature": null
     },
     {
-      "ts": 1777185076,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE C8Lw…brrr · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-      "signature": null
-    },
-    {
       "ts": 1777185056,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 3VHg…pump · DEVELOPING→STAIRCASE · top -0.07%",
       "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
-      "signature": null
-    },
-    {
-      "ts": 1777185053,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 32Cd…pump · STAIRCASE→GRINDER · top -0.03%",
-      "mint": "32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump",
       "signature": null
     },
     {
@@ -222,14 +302,6 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING C8Lw…brrr · deployer down 100.0% (486000000 → 0)",
       "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-      "signature": null
-    },
-    {
-      "ts": 1777184971,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Hon2…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
       "signature": null
     },
     {
@@ -281,14 +353,6 @@
       "signature": null
     },
     {
-      "ts": 1777184833,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
-      "signature": null
-    },
-    {
       "ts": 1777184802,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -313,14 +377,6 @@
       "signature": null
     },
     {
-      "ts": 1777184770,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CGED…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
       "ts": 1777184748,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -337,67 +393,11 @@
       "signature": null
     },
     {
-      "ts": 1777184732,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ACh…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184677,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7WRX…pump · DEVELOPING→STAIRCASE · top +0.01%",
-      "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
-      "signature": null
-    },
-    {
-      "ts": 1777184675,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CGED…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
-      "ts": 1777184654,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CGED…pump · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-      "signature": null
-    },
-    {
-      "ts": 1777184608,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EkDG…x4SX · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "EkDGB5fbPXiRmDDjxKcC7dFjzvFZj2KT9t7oeyyPx4SX",
-      "signature": null
-    },
-    {
       "ts": 1777184539,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE EkDG…x4SX · GRINDER→STAIRCASE · top +0.00%",
       "mint": "EkDGB5fbPXiRmDDjxKcC7dFjzvFZj2KT9t7oeyyPx4SX",
-      "signature": null
-    },
-    {
-      "ts": 1777175888,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$Shooter at $256k mcap — entry frozen",
-      "mint": "Uzb8hB1YWAUzpd6w5aASEfBgS6yEq7Kyaam7VJgpump",
-      "signature": null
-    },
-    {
-      "ts": 1776891329,
-      "kind": "call",
-      "tag": "CALL CLOSED",
-      "summary": "$Michael — retracted — notifier promoted a raw signal before the deep wallet/holder/market audit thesis existed",
-      "mint": "8BbZu1vPCh2iPpXynKKHzx1gFzyuAWGGXoqtUJ9Tpump",
       "signature": null
     }
   ]
