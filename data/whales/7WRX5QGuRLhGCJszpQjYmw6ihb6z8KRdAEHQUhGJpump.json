@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "8xUwVqdJc92dycqnQCnxfvfYpGZSGmP5gZFAHK23Fr4s",
     "lp_supply_ui": 0.0,
     "pair_address": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump",
-  "snapshot_ts": 1777186903,
+  "snapshot_ts": 1777187204,
   "symbol": "SAM",
   "whales": [
     {
       "action": "owner_unresolved",
-      "balance_ui": 51680203.132213,
+      "balance_ui": 50969101.095324,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
-      "pct_of_supply": 5.168291279904841,
+      "pct_of_supply": 5.097177347806436,
       "token_account": "7EcVSbSJxuLRoZ5WkNh8GJKviT2cHa3UmmZaVBtaE8n9",
       "tx_count_24h": 0,
       "tx_count_7d": 0
@@ -81,23 +81,23 @@
     },
     {
       "action": "owner_unresolved",
-      "balance_ui": 14369730.836062,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
-      "owner": "",
-      "pct_of_supply": 1.437048426156578,
-      "token_account": "8eDoRrKuGcJ5fyLKKR6yqLj9Cr5TT3BWs3tr55P3Xqt8",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
-    },
-    {
-      "action": "owner_unresolved",
       "balance_ui": 13088240.186057,
       "net_change_24h_ui": 0.0,
       "net_change_7d_ui": 0.0,
       "owner": "",
       "pct_of_supply": 1.3088926421176381,
       "token_account": "5c5Y3r8KDdvhuH3zs5yAnY44S84X7HEv5Xthd8vSNUpP",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "owner_unresolved",
+      "balance_ui": 12986095.621338,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "",
+      "pct_of_supply": 1.298677650087202,
+      "token_account": "8eDoRrKuGcJ5fyLKKR6yqLj9Cr5TT3BWs3tr55P3Xqt8",
       "tx_count_24h": 0,
       "tx_count_7d": 0
     },
