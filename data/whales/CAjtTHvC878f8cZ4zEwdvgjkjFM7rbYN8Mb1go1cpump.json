@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
-    "lp_mint": "CMWp5qRWydQwU6MdhS7G8ky8emF7RbntQ5HNpjCtLGFc",
+    "detail": "pair account not found",
+    "lp_mint": "",
     "lp_supply_ui": 0.0,
     "pair_address": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "pool_program_native"
+    "verdict": "error"
   },
   "mint": "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump",
-  "snapshot_ts": 1777238742,
+  "snapshot_ts": 1777238983,
   "symbol": "DUMBMONEY",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 79141917.530036,
-      "net_change_24h_ui": 479622.86817000806,
-      "net_change_7d_ui": 479622.86817000806,
+      "action": "idle",
+      "balance_ui": 77673786.46709,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
-      "pct_of_supply": 7.971624905380409,
+      "pct_of_supply": 7.823746378918103,
       "token_account": "GzjPrLUxrLzbP8rqnhh3QZ4jLNFf2g4HsVryR1DGVgVo",
-      "tx_count_24h": 8,
-      "tx_count_7d": 8
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "idle",
@@ -113,15 +113,15 @@
       "tx_count_7d": 4
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 10234818.675017,
       "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 10234818.675017,
+      "net_change_7d_ui": 0.0,
       "owner": "CwVBoAmT98Efp4fRMaUUZqTWatYaCwdYGpXrEsghy9VG",
       "pct_of_supply": 1.0309092576744003,
       "token_account": "569d1b4Rdsjwpq4W8waZNtJq13q6omQFrrRiuPymXzD4",
       "tx_count_24h": 0,
-      "tx_count_7d": 14
+      "tx_count_7d": 0
     }
   ]
 }
