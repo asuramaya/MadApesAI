@@ -1,25 +1,25 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "3xpggrR1MxntHkS582bv5R1FgEZAqfVdqfZn4X4JQxSC",
     "lp_supply_ui": 0.0,
     "pair_address": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
-  "snapshot_ts": 1777240229,
+  "snapshot_ts": 1777240573,
   "symbol": "TIME MACHINE",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 93146504.567646,
-      "net_change_24h_ui": 3155.5627979934216,
-      "net_change_7d_ui": 3155.5627979934216,
+      "action": "distributing",
+      "balance_ui": 99059429.622874,
+      "net_change_24h_ui": -128613.71278400719,
+      "net_change_7d_ui": -128613.71278400719,
       "owner": "6narHtNunazqZaEwBgDpbrzCE6MY3jTBTWDnfhiTk48T",
-      "pct_of_supply": 9.316068672722864,
+      "pct_of_supply": 9.907451206365478,
       "token_account": "5bAwCY9rXj9a7CB8cCzdpNdLmopVKzhxgSJziPGszP3x",
       "tx_count_24h": 2,
       "tx_count_7d": 2
@@ -47,15 +47,15 @@
       "tx_count_7d": 6
     },
     {
-      "action": "accumulating",
+      "action": "idle",
       "balance_ui": 18442538.243157,
-      "net_change_24h_ui": 9604479.490751,
-      "net_change_7d_ui": 9604479.490751,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
       "owner": "CeHS3qdj5LayycEFJSx7dfpqVKocSSZfrFDuzF6BC9Ph",
       "pct_of_supply": 1.8445346239245393,
       "token_account": "3jvn77Xk8BYQKJfYyuG2rMAw7X9Jsh1MbrLrWaGHV9E4",
-      "tx_count_24h": 19,
-      "tx_count_7d": 19
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
     },
     {
       "action": "accumulating",
@@ -80,48 +80,48 @@
       "tx_count_7d": 2
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 12009103.530462,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 12009103.530462,
+      "net_change_7d_ui": 12009103.530462,
       "owner": "FzwKJTKjAeDqP9NdcMMftKFPTm3aJpKZEZuhjtb7QyGV",
       "pct_of_supply": 1.2010931994380256,
       "token_account": "9LUmxxKWfNV21SQmgKzo1FkHcABnZbqf1P9bVGxZNS3b",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 12000000.0,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 11999999.999999998,
+      "net_change_7d_ui": 11999999.999999998,
       "owner": "GA6kA7MuTTD5X3khwtPrfS5tLeunqs2nK5NivbEamPEi",
       "pct_of_supply": 1.2001827077846685,
       "token_account": "9uUK617Y9D6c8jS7roWQR7mYapjw5qS1j1pr1wmgVfSi",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 26,
+      "tx_count_7d": 26
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 11671753.936654,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 11671753.936654001,
+      "net_change_7d_ui": 11671753.936654001,
       "owner": "2FLV8eK4MG4SHd9ZHnNvR7RDHXYfiA3ty9s6q4Usvu5h",
       "pct_of_supply": 1.1673531036908136,
       "token_account": "4U9U8iQ66g7Z9fPuSkzn25REi26y4C4xmphW5aFW5juz",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 18,
+      "tx_count_7d": 18
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 11636893.316509,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 6370300.419004001,
+      "net_change_7d_ui": 6370300.419004001,
       "owner": "GpcgiummmpoEybwDDqREfztd2bZyZt61hBeT4K3hToFM",
       "pct_of_supply": 1.1638665109007569,
       "token_account": "9yjhjWJXYMJ5Lk3eDACwbY1wSqvzmJznQB1ZE1bd93hg",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 10,
+      "tx_count_7d": 10
     }
   ]
 }
