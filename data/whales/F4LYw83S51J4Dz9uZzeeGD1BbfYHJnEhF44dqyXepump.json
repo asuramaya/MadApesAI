@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "EKSxtwGVcfUcXsXoiwRsFcyWws1dwPcGyvtwKMX6LmSa",
     "lp_supply_ui": 0.0,
     "pair_address": "3m794zCca4iEgaNgY7biTGwiYvpTYAHiMaBrNccqC3aS",
     "pair_dex": "pumpswap",
     "top_lp_holder": "",
     "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "verdict": "pool_program_native"
   },
   "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
-  "snapshot_ts": 1777195427,
+  "snapshot_ts": 1777195986,
   "symbol": "BLIMP",
   "whales": [
     {
-      "action": "accumulating",
-      "balance_ui": 115452959.945522,
-      "net_change_24h_ui": 994554.8955979943,
-      "net_change_7d_ui": 994554.8955979943,
+      "action": "distributing",
+      "balance_ui": 112625495.317462,
+      "net_change_24h_ui": -3801680.657027006,
+      "net_change_7d_ui": -3801680.657027006,
       "owner": "3m794zCca4iEgaNgY7biTGwiYvpTYAHiMaBrNccqC3aS",
-      "pct_of_supply": 11.54530020506966,
+      "pct_of_supply": 11.2625536391473,
       "token_account": "A6ySNK2KmiURUEGxSx2M28avdpZvLz3a8nbphVpeisJr",
-      "tx_count_24h": 50,
-      "tx_count_7d": 50
+      "tx_count_24h": 48,
+      "tx_count_7d": 48
     },
     {
       "action": "accumulating",
@@ -47,37 +47,37 @@
       "tx_count_7d": 1
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 20526554.552241,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 20526554.552241,
+      "net_change_7d_ui": 20526554.552241,
       "owner": "3Ea941K6AzrJztpCvizD5WLLAPwGgpDgMu6rRwrXAft4",
       "pct_of_supply": 2.0526562038183016,
       "token_account": "2fgXnYAtpLpnb7qBXgoZJhoLrLbytogHiZec691uPuJj",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 19404723.958209,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 19404723.958209,
+      "net_change_7d_ui": 19404723.958209,
       "owner": "HrX6KBVt92Mvubf7qaE4SMAviHPvoeMYFzhg6NW48gwT",
       "pct_of_supply": 1.940473103502445,
       "token_account": "5TiUEamBoNUf8uaGcFuTSL1jfZD4aaKcAPy2id6v2Q6z",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 4,
+      "tx_count_7d": 4
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 19207081.309999,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 19207081.309999,
+      "net_change_7d_ui": 19207081.309999,
       "owner": "9CHRebExNdBP2KSLxDhhYZWaE6GhGJh2vjFfgexPoQKd",
       "pct_of_supply": 1.9207088314735066,
       "token_account": "6iVK7svY9jUDq1LhBXY9TikqgrWYxmpaDZQtWK5X6rre",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
     },
     {
       "action": "idle",
@@ -91,37 +91,37 @@
       "tx_count_7d": 0
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 16880052.756283,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 16880052.756283,
+      "net_change_7d_ui": 16880052.756283,
       "owner": "GX4jH4QQLKzabiapKzquSm6QRJMwBgcGRPFkmBrkLGsq",
       "pct_of_supply": 1.688005891236223,
       "token_account": "HGpAUPEQTqNMntVw16sQMt9LDH1KdbbvtpYYqv6Euw61",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 16637382.038367,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 16637382.038367001,
+      "net_change_7d_ui": 16637382.038367001,
       "owner": "3nAk7jpVvzaG3aGf4W4JmTNk1Ab96GJVkwBkSP1g8d6Y",
       "pct_of_supply": 1.663738810594531,
       "token_account": "2JGTQTzxRiDHzZVPyVP5jy29vs4ojWTLD7B2vu6vnFrv",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 16559924.90599,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 16559924.90599,
+      "net_change_7d_ui": 16559924.90599,
       "owner": "4KGNBVuP6xhatMCPHdzVqVzKzHZ11L29yJDCXsfhA57v",
       "pct_of_supply": 1.6559930945320045,
       "token_account": "AJLYur7nJtMKrGeEfNaijhMoFzRjX3EuPo47513CSHVT",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
     }
   ]
 }

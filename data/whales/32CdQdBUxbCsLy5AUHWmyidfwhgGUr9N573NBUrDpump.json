@@ -1,28 +1,28 @@
 {
   "lp": {
-    "detail": "pair account not found",
-    "lp_mint": "",
-    "lp_supply_ui": 0.0,
+    "detail": "top LP holder (98.7%) owned by wallet 3LWWcUwbSjvaE11J4h9v29r8KEbpdWGQJiNMgXfD9t7L",
+    "lp_mint": "3Gzdg5X5FANTnvb2N57ju7TuPjGiyAr9kBwS9vE2wxAU",
+    "lp_supply_ui": 0.037515808,
     "pair_address": "DMnTidVC8dMxRxUzFyZ4StQkbS4R8ACwxhNsEyi6u3Lx",
     "pair_dex": "pumpswap",
-    "top_lp_holder": "",
-    "top_lp_holder_pct": 0.0,
-    "verdict": "error"
+    "top_lp_holder": "XUccv68nTtCdWf2F2b72BDS8PEJchS6C9NAg7A8QK43",
+    "top_lp_holder_pct": 98.7273231593466,
+    "verdict": "held_by_wallet"
   },
   "mint": "32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump",
-  "snapshot_ts": 1777195910,
+  "snapshot_ts": 1777196476,
   "symbol": "maxxing",
   "whales": [
     {
       "action": "accumulating",
-      "balance_ui": 37895240.859688,
-      "net_change_24h_ui": 111351.68678800017,
-      "net_change_7d_ui": 111351.68678800017,
+      "balance_ui": 37853770.051789,
+      "net_change_24h_ui": 128352.79760800302,
+      "net_change_7d_ui": 128352.79760800302,
       "owner": "DMnTidVC8dMxRxUzFyZ4StQkbS4R8ACwxhNsEyi6u3Lx",
-      "pct_of_supply": 3.7909696897927905,
+      "pct_of_supply": 3.7868210270005838,
       "token_account": "CNXaojdhwVgJGiQ1vVzSm5HR7YquZgurhRRNxW3h2Sar",
-      "tx_count_24h": 37,
-      "tx_count_7d": 37
+      "tx_count_24h": 50,
+      "tx_count_7d": 50
     },
     {
       "action": "accumulating",
@@ -113,15 +113,15 @@
       "tx_count_7d": 0
     },
     {
-      "action": "idle",
+      "action": "accumulating",
       "balance_ui": 12959624.993287,
-      "net_change_24h_ui": 0.0,
-      "net_change_7d_ui": 0.0,
+      "net_change_24h_ui": 1251770.3205470014,
+      "net_change_7d_ui": 1251770.3205470014,
       "owner": "9XVWfqzavraezfvS38v8xcZepHYxcNKtnNMEKpPXEwTN",
       "pct_of_supply": 1.296456874955369,
       "token_account": "4vZbYyNL3e551s6HeprkuKWbzY877zkRV7wqdEKAuAeM",
-      "tx_count_24h": 0,
-      "tx_count_7d": 0
+      "tx_count_24h": 3,
+      "tx_count_7d": 3
     }
   ]
 }
