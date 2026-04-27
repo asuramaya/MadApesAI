@@ -646,6 +646,180 @@ h2 {
 .act a { color: var(--fg-dim); font-family: var(--mono); font-size: 11px; text-decoration: none; border-bottom: 1px dotted var(--fg-faint); }
 .act a:hover { color: var(--fg); border-bottom-color: var(--fg); }
 
+/* --- per-call detail page --- */
+/* Hash-routed drill-in. Symbol cells in CALLS + HISTORY link to
+   #call=<mint> which renders this section and hides everything else.
+   Same dark, info-dense aesthetic — facts in a grid, classification
+   timeline below, links at the bottom. */
+.call-detail { margin-top: 36px; }
+.call-detail-head {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.call-detail-back {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--fg-dim);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+.call-detail-back:hover {
+  background: var(--bg-elev);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+#call-detail-title {
+  font-family: var(--mono);
+  font-size: 22px;
+  letter-spacing: 0.02em;
+}
+.detail-banner {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 14px 16px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+.detail-banner-icon { font-size: 18px; }
+.detail-banner-sym {
+  font-family: var(--mono);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--fg);
+}
+.detail-banner-term {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--fg-dim);
+}
+.detail-banner-pct {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 600;
+}
+.detail-banner-pct.pos { color: var(--green); }
+.detail-banner-pct.neg { color: var(--red); }
+
+.detail-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.detail-stat {
+  padding: 10px 12px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+.detail-stat-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin-bottom: 4px;
+}
+.detail-stat-value {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--fg);
+  letter-spacing: 0.02em;
+}
+
+.detail-verdict {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--fg-dim);
+  font-style: italic;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+  border-left: 2px solid var(--accent);
+  background: rgba(255, 122, 26, 0.04);
+}
+
+.detail-section-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.detail-timeline {
+  margin-bottom: 18px;
+}
+.detail-timeline-row {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 6px 0;
+  font-family: var(--mono);
+  font-size: 11px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.05);
+}
+.detail-timeline-row:last-child { border-bottom: none; }
+.detail-timeline-ts {
+  color: var(--fg-faint);
+  min-width: 80px;
+  font-size: 10px;
+}
+.detail-timeline-class {
+  color: var(--fg);
+  min-width: 110px;
+  letter-spacing: 0.04em;
+}
+.detail-timeline-conf, .detail-timeline-top {
+  font-size: 10px;
+}
+
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.detail-links a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 122, 26, 0.4);
+}
+.detail-links a:hover { border-bottom-style: solid; }
+
+/* Sym links in CALLS + HISTORY rows — drill into the detail page. */
+.sym-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.15);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.sym-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 /* --- history --- */
 /* Closed-call archive. Stats banner up top, filter pills, paginated rows.
    Each row reads: outcome icon · symbol · horizon · final pct (right-aligned),

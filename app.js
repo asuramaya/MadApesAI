@@ -237,15 +237,25 @@ function renderCalls(calls /*, history (intentionally unused) */) {
       exp,
     ].filter(Boolean).join(" · ");
 
-    const symEl = el("div", { class: "sym", text: sym });
-    const detail = el("div", { class: "detail" }, [
+    // Symbol links to per-call detail (#call=<mint>). Routing handles
+    // both navigation directions; the link itself is just a hash.
+    const symEl = el("div", { class: "sym" }, [
+      el("a", { href: "#call=" + c.mint, class: "sym-link", text: sym }),
+    ]);
+    // Build links inline so the optional thesis 📖 only renders when set.
+    const detailChildren = [
       metaParts + " · ",
       el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
       " · ",
       el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }),
       " · ",
       el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }),
-    ]);
+    ];
+    if (c.thesis_url) {
+      detailChildren.push(" · ");
+      detailChildren.push(el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" }));
+    }
+    const detail = el("div", { class: "detail" }, detailChildren);
     const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
     container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
   }
@@ -367,13 +377,21 @@ function renderHistoryRow(c) {
   metaParts.push(fmtTimeAgo(c.closed_at || c.called_at));
   const metaStr = metaParts.join(" · ");
 
-  const symEl = el("div", { class: "sym " + outcomeCls }, [icon + " " + sym]);
-  const detail = el("div", { class: "detail dim" }, [
+  const symEl = el("div", { class: "sym " + outcomeCls }, [
+    icon + " ",
+    el("a", { href: "#call=" + c.mint, class: "sym-link", text: sym }),
+  ]);
+  const detailChildren = [
     metaStr + " · ",
     el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
     " · ",
     el("a", { href: SOLSCAN + "/token/" + c.mint, target: "_blank", rel: "noopener", text: "solscan" }),
-  ]);
+  ];
+  if (c.thesis_url) {
+    detailChildren.push(" · ");
+    detailChildren.push(el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" }));
+  }
+  const detail = el("div", { class: "detail dim" }, detailChildren);
   const numEl = el("div", { class: "num " + pctCls, text: pct == null ? "—" : fmtPct(pct) });
   return el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]);
 }
@@ -392,6 +410,166 @@ function renderHistory() {
   const visible = filtered.slice(0, HISTORY_STATE.page * HISTORY_PAGE_SIZE);
   for (const c of visible) list.appendChild(renderHistoryRow(c));
   if (more) more.hidden = visible.length >= filtered.length;
+}
+
+// --- render: per-call detail page ---
+// Drives the `#call=<mint>` hash route. Hides the rest of the page when
+// active, fetches `data/calls/<mint>.json`, renders facts + classification
+// timeline + links. Cohabits with the existing #note= notes route — when
+// the hash leaves #call= space we show the main view again.
+
+const CALL_DETAIL_FETCH_CACHE = new Map(); // mint → last detail JSON
+let CALL_DETAIL_CURRENT = null;
+
+function detailParseHash() {
+  const m = location.hash.match(/#call=([A-Za-z0-9]+)/);
+  return m ? m[1] : null;
+}
+
+function setCallDetailVisible(visible) {
+  const panel = document.getElementById("call-detail");
+  if (panel) panel.hidden = !visible;
+  // Hide/show the everything-else sections so the detail page reads as
+  // a focused view, not a popover. Iterate by classlist so adding new
+  // sections later doesn't need touching this.
+  document
+    .querySelectorAll(".positions, .calls, .history, .activity, .thoughts")
+    .forEach((s) => {
+      s.style.display = visible ? "none" : "";
+    });
+}
+
+async function renderCallDetail(mint) {
+  const panel = document.getElementById("call-detail");
+  const title = document.getElementById("call-detail-title");
+  const body = document.getElementById("call-detail-body");
+  if (!panel || !body) return;
+  CALL_DETAIL_CURRENT = mint;
+  setCallDetailVisible(true);
+  body.textContent = "loading…";
+
+  // Cache so flipping in/out doesn't re-fetch each time.
+  let detail = CALL_DETAIL_FETCH_CACHE.get(mint);
+  if (!detail) {
+    detail = await loadJson("data/calls/" + mint + ".json");
+    if (detail) CALL_DETAIL_FETCH_CACHE.set(mint, detail);
+  }
+  if (!detail || !detail.call) {
+    title.textContent = "call not found";
+    clear(body);
+    body.appendChild(
+      el("div", {
+        class: "empty",
+        text: "no detail for " + shortAddr(mint) + " — may not be in the public ledger",
+      })
+    );
+    return;
+  }
+  const c = detail.call;
+  const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint);
+  title.textContent = sym;
+
+  clear(body);
+  // Header strip: outcome + horizon + final pct
+  const icon = c.outcome_type === "withdrew" ? "🟢"
+             : c.outcome_type === "failed" ? "🔴"
+             : c.outcome_type === "expired" ? "⏰"
+             : c.outcome_type === "active" ? "📣"
+             : "·";
+  const term = callTerm(c);
+  const pct = callPctValue(c);
+  const pctCls = pct == null ? "" : pnlClass(pct);
+  body.appendChild(
+    el("div", { class: "detail-banner" }, [
+      el("span", { class: "detail-banner-icon", text: icon }),
+      el("span", { class: "detail-banner-sym", text: sym }),
+      term ? el("span", { class: "detail-banner-term", text: term.toUpperCase() }) : null,
+      el("span", { class: "detail-banner-pct " + pctCls, text: pct == null ? "—" : fmtPct(pct) }),
+    ])
+  );
+
+  // Stats grid: entry / current-or-exit / peak / trough / journey
+  const statsGrid = el("div", { class: "detail-stats" });
+  const stat = (label, value) =>
+    el("div", { class: "detail-stat" }, [
+      el("div", { class: "detail-stat-label", text: label }),
+      el("div", { class: "detail-stat-value", text: value }),
+    ]);
+  if (c.entry_mcap_usd) statsGrid.appendChild(stat("entry mcap", "$" + formatMcap(c.entry_mcap_usd)));
+  if (c.outcome_type === "active" && c.current_mcap_usd) {
+    statsGrid.appendChild(stat("now mcap", "$" + formatMcap(c.current_mcap_usd)));
+  }
+  if (c.entry_price_usd) statsGrid.appendChild(stat("entry price", "$" + Number(c.entry_price_usd).toPrecision(4)));
+  if (c.exit_price_usd) statsGrid.appendChild(stat("exit price", "$" + Number(c.exit_price_usd).toPrecision(4)));
+  if (c.peak_pct != null) statsGrid.appendChild(stat("peak", fmtPct(c.peak_pct)));
+  if (c.trough_pct != null) statsGrid.appendChild(stat("trough", fmtPct(c.trough_pct)));
+  if (c.entry_top_holder_pct != null) statsGrid.appendChild(stat("entry top", c.entry_top_holder_pct.toFixed(2) + "%"));
+  if (c.entry_liquidity_usd) statsGrid.appendChild(stat("entry liq", "$" + formatMcap(c.entry_liquidity_usd)));
+  if (c.called_at) statsGrid.appendChild(stat("called", fmtTimeAgo(c.called_at)));
+  if (c.closed_at) statsGrid.appendChild(stat("closed", fmtTimeAgo(c.closed_at)));
+  body.appendChild(statsGrid);
+
+  // Verdict line for closed calls
+  if (c.exit_note && c.outcome_type !== "active") {
+    body.appendChild(el("div", { class: "detail-verdict", text: c.exit_note }));
+  }
+
+  // Classification timeline — compact list of class flips from snapshots
+  const snaps = Array.isArray(detail.snapshots) ? detail.snapshots : [];
+  if (snaps.length > 1) {
+    const timelineWrap = el("div", { class: "detail-timeline" });
+    timelineWrap.appendChild(el("div", { class: "detail-section-title", text: "classification timeline" }));
+    let prevClass = null;
+    let renderedRows = 0;
+    for (const s of snaps) {
+      if (s.classification === prevClass) continue;
+      prevClass = s.classification;
+      const row = el("div", { class: "detail-timeline-row" }, [
+        el("span", { class: "detail-timeline-ts", text: fmtTimeAgo(s.timestamp) }),
+        el("span", { class: "detail-timeline-class", text: s.classification }),
+        el("span", { class: "detail-timeline-conf dim", text: "conf " + s.confidence }),
+        el("span", { class: "detail-timeline-top dim", text: "top " + s.top_holder_pct.toFixed(1) + "%" }),
+      ]);
+      timelineWrap.appendChild(row);
+      renderedRows += 1;
+      if (renderedRows >= 30) break;
+    }
+    if (renderedRows > 0) body.appendChild(timelineWrap);
+  }
+
+  // Links row
+  const links = el("div", { class: "detail-links" });
+  links.appendChild(el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "📊 chart" }));
+  links.appendChild(el("a", { href: SOLSCAN + "/token/" + c.mint, target: "_blank", rel: "noopener", text: "🔍 solscan" }));
+  links.appendChild(el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }));
+  links.appendChild(el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }));
+  if (c.thesis_url) {
+    const thesisFile = c.thesis_url.replace(/^thoughts\//, "");
+    links.appendChild(el("a", { href: "#note=" + encodeURIComponent(thesisFile), text: "📖 thesis" }));
+  }
+  body.appendChild(links);
+}
+
+function routeCallHash() {
+  const mint = detailParseHash();
+  if (mint) {
+    renderCallDetail(mint);
+  } else if (CALL_DETAIL_CURRENT) {
+    CALL_DETAIL_CURRENT = null;
+    setCallDetailVisible(false);
+  }
+}
+
+function bindCallDetailRouting() {
+  window.addEventListener("hashchange", routeCallHash);
+  const back = document.getElementById("call-detail-back");
+  if (back) {
+    back.addEventListener("click", () => {
+      // Clear hash and let routeCallHash handle the unmount.
+      history.pushState("", document.title, location.pathname + location.search);
+      routeCallHash();
+    });
+  }
 }
 
 function bindHistoryControls() {
@@ -1207,7 +1385,11 @@ async function refreshLiveData() {
 async function main() {
   wireChartTabs();
   bindHistoryControls();
+  bindCallDetailRouting();
   await refreshLiveData();
+  // Honor `#call=<mint>` on initial load (deep links from TG cards,
+  // bookmarks, shared URLs).
+  routeCallHash();
 
   // Poll every 30s for fresh JSONs. The publisher ticks every 5 min, so
   // most polls are no-ops — but when a new pulse lands, the ticker,
