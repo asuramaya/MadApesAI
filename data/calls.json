@@ -1,31 +1,6 @@
 {
   "active": [
     {
-      "id": 32,
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "symbol": "FRENS",
-      "classification": "STAIRCASE",
-      "confidence": 77,
-      "called_at": 1777252006,
-      "expires_at": 1778461606,
-      "note": "horizon=SHORT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 99876.0,
-      "entry_price_usd": 0.00009987,
-      "entry_liquidity_usd": 25970.53,
-      "entry_top_holder_pct": 12.848483412554412,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 110116.0,
-      "current_price_usd": 0.0001101,
-      "current_liquidity_usd": 27478.42,
-      "pct_from_call": 10.243316311204564
-    },
-    {
       "id": 28,
       "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
       "symbol": "ROTUS",
@@ -45,10 +20,10 @@
       "entry_liquidity_usd": 114945.47,
       "entry_top_holder_pct": 2.6189076120211303,
       "entry_pair_dex": "meteora",
-      "current_mcap_usd": 3266676.0,
-      "current_price_usd": 0.003341,
-      "current_liquidity_usd": 126907.44,
-      "pct_from_call": 24.943904263275975
+      "current_mcap_usd": 3306902.0,
+      "current_price_usd": 0.003383,
+      "current_liquidity_usd": 127577.0,
+      "pct_from_call": 26.514584891548232
     },
     {
       "id": 1,
@@ -70,13 +45,38 @@
       "entry_liquidity_usd": 248918.42,
       "entry_top_holder_pct": 5.476964713464018,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 3732197.0,
-      "current_price_usd": 0.003732,
-      "current_liquidity_usd": 324587.28,
-      "pct_from_call": 64.1160949868074
+      "current_mcap_usd": 3705356.0,
+      "current_price_usd": 0.003705,
+      "current_liquidity_usd": 323143.23,
+      "pct_from_call": 62.9287598944591
     }
   ],
   "history": [
+    {
+      "id": 32,
+      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
+      "symbol": "FRENS",
+      "classification": "STAIRCASE",
+      "confidence": 77,
+      "called_at": 1777252006,
+      "expires_at": 1778461606,
+      "note": "horizon=SHORT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777253609,
+      "exit_price_usd": 2.287e-6,
+      "exit_note": "-97.7% · thesis broke",
+      "entry_mcap_usd": 99876.0,
+      "entry_price_usd": 0.00009987,
+      "entry_liquidity_usd": 25970.53,
+      "entry_top_holder_pct": 12.848483412554412,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 2.287e-6,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -97.71002302993892
+    },
     {
       "id": 31,
       "mint": "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump",
