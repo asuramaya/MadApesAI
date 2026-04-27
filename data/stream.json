@@ -113,62 +113,6 @@
       "signature": null
     },
     {
-      "ts": 1777269910,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BANK…meta · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta",
-      "signature": null
-    },
-    {
-      "ts": 1777269907,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 8ipc…pump · vel 3.00x→0.33x · tpm 90.9",
-      "mint": "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump",
-      "signature": null
-    },
-    {
-      "ts": 1777269907,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8ipc…pump · STAIRCASE→DEVELOPING · top +0.23%",
-      "mint": "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump",
-      "signature": null
-    },
-    {
-      "ts": 1777269886,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BANK…meta · DEVELOPING→STAIRCASE · top -0.01%",
-      "mint": "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta",
-      "signature": null
-    },
-    {
-      "ts": 1777269856,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CJTm…pump · STAIRCASE→ACTIVE_TRAP · top -0.01%",
-      "mint": "CJTmgXkRTAa7EipB1YS6rjKjwpq5KkpmzggfQ4P5pump",
-      "signature": null
-    },
-    {
-      "ts": 1777269824,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CJTm…pump · GRINDER→STAIRCASE · top -0.02%",
-      "mint": "CJTmgXkRTAa7EipB1YS6rjKjwpq5KkpmzggfQ4P5pump",
-      "signature": null
-    },
-    {
-      "ts": 1777269823,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE C8Lw…brrr · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
-      "signature": null
-    },
-    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -202,86 +146,77 @@
     }
   ],
   "tokens": {
-    "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump": {
-      "symbol": "Jewcoin",
-      "name": "Jewcoin 2014",
-      "mcap_usd": 60903.0,
-      "price_usd": 0.0000609,
-      "price_change_1h": 44.77,
+    "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump": {
+      "symbol": "SPIKE",
+      "name": "SPIKE ",
+      "mcap_usd": 15816936.0,
+      "price_usd": 0.01581,
+      "price_change_1h": 0.3,
       "price_change_24h": null,
-      "liquidity_usd": 19671.32
+      "liquidity_usd": 454947.64
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 509067.0,
+      "price_usd": 0.0005127,
+      "price_change_1h": -0.71,
+      "price_change_24h": null,
+      "liquidity_usd": 85471.49
+    },
+    "95DnouGjuhPrQGGogC6AeE6Hv2pQ23aG9thY6zbPpump": {
+      "symbol": "GENBANEKO",
+      "name": "GENBANEKO",
+      "mcap_usd": 6261.0,
+      "price_usd": 6.26e-6,
+      "price_change_1h": -94.72,
+      "price_change_24h": null,
+      "liquidity_usd": 6547.22
+    },
+    "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr": {
+      "symbol": "ROTUS",
+      "name": "Retard Of The United States",
+      "mcap_usd": 3349397.0,
+      "price_usd": 0.003426,
+      "price_change_1h": -0.79,
+      "price_change_24h": null,
+      "liquidity_usd": 125653.92
+    },
+    "HxFSWTJE3SeUCgsKJUcuGQYAiH4S4BFEnSoktfKLpump": {
+      "symbol": "ODAI",
+      "name": "OPENDOJO",
+      "mcap_usd": 105922.0,
+      "price_usd": 0.0001059,
+      "price_change_1h": 200.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25757.9
     },
     "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta": {
       "symbol": "AVICI",
       "name": "Avici",
       "mcap_usd": 7117116.0,
       "price_usd": 0.5517,
-      "price_change_1h": 0.14,
+      "price_change_1h": 0.15,
       "price_change_24h": null,
       "liquidity_usd": 476521.24
     },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 503759.0,
-      "price_usd": 0.0005074,
-      "price_change_1h": -2.0,
+    "8ipcTXumvYaZBdmbJ2DpKB7RhPeqb7GJ8qGKMcPzpump": {
+      "symbol": "Jewcoin",
+      "name": "Jewcoin 2014",
+      "mcap_usd": 53874.0,
+      "price_usd": 0.00005387,
+      "price_change_1h": -11.77,
       "price_change_24h": null,
-      "liquidity_usd": 85025.19
+      "liquidity_usd": 18486.42
     },
     "2uaoVwaQVSgqTKio5ExeXeD9oofdnYbhcFv5MChopump": {
       "symbol": "STFU",
       "name": "Super Testicle Farting Unicorn",
-      "mcap_usd": 173184.0,
-      "price_usd": 0.0001731,
-      "price_change_1h": 30.94,
+      "mcap_usd": 128149.0,
+      "price_usd": 0.0001281,
+      "price_change_1h": -29.83,
       "price_change_24h": null,
-      "liquidity_usd": 33791.04
-    },
-    "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump": {
-      "symbol": "SPIKE",
-      "name": "SPIKE ",
-      "mcap_usd": 15937862.0,
-      "price_usd": 0.01593,
-      "price_change_1h": -0.28,
-      "price_change_24h": null,
-      "liquidity_usd": 456682.18
-    },
-    "CJTmgXkRTAa7EipB1YS6rjKjwpq5KkpmzggfQ4P5pump": {
-      "symbol": "NiggaCoin",
-      "name": "NiggaCoin",
-      "mcap_usd": 502276.0,
-      "price_usd": 0.0005023,
-      "price_change_1h": -29.43,
-      "price_change_24h": null,
-      "liquidity_usd": 60797.08
-    },
-    "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr": {
-      "symbol": "ROTUS",
-      "name": "Retard Of The United States",
-      "mcap_usd": 3441731.0,
-      "price_usd": 0.00352,
-      "price_change_1h": 1.95,
-      "price_change_24h": null,
-      "liquidity_usd": 160435.43
-    },
-    "HxFSWTJE3SeUCgsKJUcuGQYAiH4S4BFEnSoktfKLpump": {
-      "symbol": "ODAI",
-      "name": "OPENDOJO",
-      "mcap_usd": 86427.0,
-      "price_usd": 0.00008642,
-      "price_change_1h": 145.0,
-      "price_change_24h": null,
-      "liquidity_usd": 23306.01
-    },
-    "95DnouGjuhPrQGGogC6AeE6Hv2pQ23aG9thY6zbPpump": {
-      "symbol": "GENBANEKO",
-      "name": "GENBANEKO",
-      "mcap_usd": 6666.0,
-      "price_usd": 6.666e-6,
-      "price_change_1h": -93.21,
-      "price_change_24h": null,
-      "liquidity_usd": 6771.07
+      "liquidity_usd": 29027.95
     }
   }
 }
