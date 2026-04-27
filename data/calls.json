@@ -1,31 +1,6 @@
 {
   "active": [
     {
-      "id": 31,
-      "mint": "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump",
-      "symbol": "DUMBMONEY",
-      "classification": "STAIRCASE",
-      "confidence": 75,
-      "called_at": 1777230274,
-      "expires_at": 1778439874,
-      "note": "horizon=SHORT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 545319.0,
-      "entry_price_usd": 0.0005492,
-      "entry_liquidity_usd": 88727.54,
-      "entry_top_holder_pct": 8.1056033633332,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 595186.0,
-      "current_price_usd": 0.0005995,
-      "current_liquidity_usd": 92899.61,
-      "pct_from_call": 9.158776402039326
-    },
-    {
       "id": 28,
       "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
       "symbol": "ROTUS",
@@ -45,10 +20,10 @@
       "entry_liquidity_usd": 114945.47,
       "entry_top_holder_pct": 2.6189076120211303,
       "entry_pair_dex": "meteora",
-      "current_mcap_usd": 3323792.0,
-      "current_price_usd": 0.0034,
-      "current_liquidity_usd": 127668.02,
-      "pct_from_call": 27.15033657442032
+      "current_mcap_usd": 3346691.0,
+      "current_price_usd": 0.003423,
+      "current_liquidity_usd": 128224.68,
+      "pct_from_call": 28.01047120418847
     },
     {
       "id": 1,
@@ -70,13 +45,38 @@
       "entry_liquidity_usd": 248918.42,
       "entry_top_holder_pct": 5.476964713464018,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 4046570.0,
-      "current_price_usd": 0.004046,
-      "current_liquidity_usd": 337019.35,
-      "pct_from_call": 77.92436235708004
+      "current_mcap_usd": 4139039.0,
+      "current_price_usd": 0.004139,
+      "current_liquidity_usd": 341321.22,
+      "pct_from_call": 82.01407211961302
     }
   ],
   "history": [
+    {
+      "id": 31,
+      "mint": "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump",
+      "symbol": "DUMBMONEY",
+      "classification": "STAIRCASE",
+      "confidence": 75,
+      "called_at": 1777230274,
+      "expires_at": 1778439874,
+      "note": "horizon=SHORT",
+      "source": "notifier",
+      "status": "expired",
+      "outcome_type": "expired",
+      "closed_at": 1777251893,
+      "exit_price_usd": 0.0006087,
+      "exit_note": "+10.8% · no follow-through",
+      "entry_mcap_usd": 545319.0,
+      "entry_price_usd": 0.0005492,
+      "entry_liquidity_usd": 88727.54,
+      "entry_top_holder_pct": 8.1056033633332,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.0006087,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": 10.833940276766207
+    },
     {
       "id": 30,
       "mint": "4dcuxLTfwTAdvxrZyDSczGgvkcR12BKRFYvbBoeVpump",
