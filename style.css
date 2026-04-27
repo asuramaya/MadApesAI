@@ -709,56 +709,12 @@ h2 {
   border-color: var(--accent);
 }
 
-.history-row {
-  padding: 10px 0;
-  border-bottom: 1px solid var(--border);
-}
-.history-row:last-child { border-bottom: none; }
-.history-head {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  margin-bottom: 3px;
-}
-.history-icon { font-size: 13px; }
-.history-sym {
-  font-family: var(--mono);
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--fg);
-  flex-shrink: 0;
-}
-.history-term {
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.1em;
-  padding: 1px 5px;
-  border-radius: 2px;
-  background: var(--bg-elev);
-  color: var(--fg-dim);
-}
-.history-term-short { color: #ff8c4a; background: rgba(255, 140, 74, 0.08); }
-.history-term-long  { color: #6ad0ff; background: rgba(106, 208, 255, 0.08); }
-.history-pct {
-  margin-left: auto;
-  font-family: var(--mono);
-  font-size: 13px;
-  font-weight: 600;
-}
-.history-pct.pos { color: var(--green); }
-.history-pct.neg { color: var(--red); }
-.history-detail {
-  font-family: var(--mono);
-  font-size: 11px;
-  color: var(--fg-dim);
-  letter-spacing: 0.01em;
-}
-.history-detail a {
-  color: var(--fg-dim);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--fg-faint);
-}
-.history-detail a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+/* Outcome accents on the symbol cell — mirrors TG card colour language.
+   The .row skeleton is shared with active calls, so closed rows blend
+   visually but signal their state via icon + colour shift. */
+.sym.history-outcome-withdrew { color: var(--green); }
+.sym.history-outcome-failed   { color: var(--red); }
+.sym.history-outcome-expired  { color: var(--fg-dim); }
 
 .history-pager { margin-top: 10px; }
 .history-more {

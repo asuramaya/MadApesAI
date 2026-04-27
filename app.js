@@ -196,13 +196,15 @@ function fmtDate(ts) {
   });
 }
 
-function renderCalls(calls, history) {
+// CALLS section — active calls only. Closed calls live in HISTORY (they
+// were shown here in a "recent" subsection but that duplicated work and
+// gave each closed call two visual identities. Single home now.)
+function renderCalls(calls /*, history (intentionally unused) */) {
   const container = document.getElementById("calls-list");
   clear(container);
   const active = calls || [];
-  const hist = (history || []).slice(0, 5);
 
-  if (!active.length && !hist.length) {
+  if (!active.length) {
     container.appendChild(el("div", { class: "empty", text: "no active calls" }));
     return;
   }
@@ -246,37 +248,6 @@ function renderCalls(calls, history) {
     ]);
     const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
     container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
-  }
-
-  if (hist.length) {
-    container.appendChild(el("div", { class: "label dim", style: "margin-top:0.75rem", text: "recent" }));
-    for (const c of hist) {
-      const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
-      const pctValue = callPctValue(c);
-      const pctCls = pctValue === null ? "" : pnlClass(pctValue);
-      const term = callTerm(c);
-      const outcome = c.outcome_type || c.status || "closed";
-      const openDate = fmtDate(c.called_at);
-      const closeDate = fmtDate(c.closed_at);
-      const entryPx = c.entry_price_usd ? "$" + c.entry_price_usd.toPrecision(4) : null;
-      const exitPx = c.exit_price_usd ? "$" + c.exit_price_usd.toPrecision(4) : null;
-
-      const metaParts = [
-        term ? term.toUpperCase() : null,
-        openDate ? "in " + openDate : null,
-        closeDate ? "out " + closeDate : null,
-        entryPx && exitPx ? entryPx + " → " + exitPx : entryPx,
-        outcome,
-      ].filter(Boolean).join(" · ");
-
-      const symEl = el("div", { class: "sym dim", text: sym });
-      const detail = el("div", { class: "detail dim" }, [
-        metaParts + " · ",
-        el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
-      ]);
-      const numEl = el("div", { class: "num " + pctCls, text: fmtPct(pctValue) });
-      container.appendChild(el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]));
-    }
   }
 }
 
@@ -355,51 +326,47 @@ function filterHistory(rows, filter) {
   });
 }
 
+// Single-line HISTORY row matching the CALLS row layout: symbol left,
+// meta middle, pct right. Cohesion with the active-calls section
+// (same `.row` skeleton, just adds outcome icon + horizon-tinted symbol).
 function renderHistoryRow(c) {
   const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
   const term = callTerm(c);
   const pct = callPctValue(c);
   const pctCls = pct == null ? "" : pnlClass(pct);
 
-  // Outcome verdict (already in exit_note from the settling phase:
-  // "+52% · took the win" / "-64% · thesis broke" etc.)
-  const verdict = c.exit_note || c.outcome_type || "—";
-
-  // Header: outcome icon + symbol + horizon badge + final pct.
+  // Outcome icon prepended to the symbol — mirrors the TG card emoji
+  // language (🟢 BANKED / 🔴 FAILED / ⏰ EXPIRED).
+  const outcomeCls = "history-outcome-" + (c.outcome_type || "closed");
   const icon = c.outcome_type === "withdrew" ? "🟢"
              : c.outcome_type === "failed" ? "🔴"
              : c.outcome_type === "expired" ? "⏰"
              : "·";
-  const head = el("div", { class: "history-head" }, [
-    el("span", { class: "history-icon", text: icon }),
-    el("span", { class: "history-sym", text: sym }),
-    term ? el("span", { class: "history-term history-term-" + term, text: term.toUpperCase() }) : null,
-    el("span", { class: "history-pct " + pctCls, text: pct == null ? "—" : fmtPct(pct) }),
+
+  // Verdict line from the settling phase ("+52% · took the win",
+  // "-64% · thesis broke") — strips the percent prefix since it's
+  // already shown right-aligned, leaving just the human reason.
+  const verdictRaw = c.exit_note || "";
+  const verdict = verdictRaw.replace(/^[+-]?\d+(?:\.\d+)?% · /, "").trim();
+
+  const metaParts = [];
+  if (term) metaParts.push(term.toUpperCase());
+  if (verdict) metaParts.push(verdict);
+  if (c.peak_pct != null && c.peak_pct > 0.5) metaParts.push("peak " + fmtPct(c.peak_pct));
+  if (c.trough_pct != null && c.trough_pct < -0.5) metaParts.push("trough " + fmtPct(c.trough_pct));
+  if (c.entry_mcap_usd) metaParts.push("entry $" + formatMcap(c.entry_mcap_usd));
+  metaParts.push(fmtTimeAgo(c.closed_at || c.called_at));
+  const metaStr = metaParts.join(" · ");
+
+  const symEl = el("div", { class: "sym " + outcomeCls }, [icon + " " + sym]);
+  const detail = el("div", { class: "detail dim" }, [
+    metaStr + " · ",
+    el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart" }),
+    " · ",
+    el("a", { href: SOLSCAN + "/token/" + c.mint, target: "_blank", rel: "noopener", text: "solscan" }),
   ]);
-
-  // Detail line: verdict + when + journey (peak/trough).
-  const meta = [];
-  if (verdict) meta.push(verdict);
-  if (c.peak_pct != null && c.peak_pct > 0.5) {
-    meta.push("peak " + fmtPct(c.peak_pct));
-  }
-  if (c.trough_pct != null && c.trough_pct < -0.5) {
-    meta.push("trough " + fmtPct(c.trough_pct));
-  }
-  if (c.entry_mcap_usd) meta.push("entry $" + formatMcap(c.entry_mcap_usd));
-  meta.push(fmtTimeAgo(c.closed_at || c.called_at));
-
-  const detail = el("div", { class: "history-detail" });
-  detail.appendChild(document.createTextNode(meta.join(" · ") + " · "));
-  detail.appendChild(el("a", {
-    href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "chart",
-  }));
-  detail.appendChild(document.createTextNode(" · "));
-  detail.appendChild(el("a", {
-    href: SOLSCAN + "/token/" + c.mint, target: "_blank", rel: "noopener", text: "solscan",
-  }));
-
-  return el("div", { class: "history-row", title: c.mint }, [head, detail]);
+  const numEl = el("div", { class: "num " + pctCls, text: pct == null ? "—" : fmtPct(pct) });
+  return el("div", { class: "row", title: c.mint }, [symEl, detail, numEl]);
 }
 
 function renderHistory() {
