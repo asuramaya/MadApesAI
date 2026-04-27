@@ -257,19 +257,10 @@ h1 .dot { color: var(--accent); }
   padding: 10px 0;
 }
 
-.stream-event {
-  padding: 10px 0;
-  border-bottom: 1px solid var(--border);
-}
-.stream-event:last-child { border-bottom: none; }
+/* ---------- live-feed groups ---------- */
+/* Groups roll up all events for one mint into a single foldable card.
+   Header always visible (symbol · mc · 1h%); body expands on click. */
 
-.stream-event-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 6px;
-  gap: 10px;
-}
 .stream-kind {
   font-family: var(--mono);
   font-size: 10px;
@@ -293,44 +284,140 @@ h1 .dot { color: var(--accent); }
   letter-spacing: 0.04em;
 }
 
-.stream-event-summary {
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--fg);
-  line-height: 1.45;
-  word-break: break-word;
+.stream-group {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s ease;
 }
-.stream-event-links {
-  margin-top: 5px;
+.stream-group:last-child { border-bottom: none; }
+.stream-group:hover { background: rgba(255, 122, 26, 0.025); }
+.stream-group.is-open { background: rgba(255, 122, 26, 0.04); }
+
+.stream-group-head {
+  padding: 9px 8px 8px;
+  user-select: none;
+}
+.stream-group-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.stream-group-caret {
+  color: var(--fg-faint);
+  font-size: 10px;
+  width: 10px;
+  flex-shrink: 0;
+  transition: color 0.15s ease;
+}
+.stream-group:hover .stream-group-caret { color: var(--accent); }
+.stream-group-sym {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--fg);
+  letter-spacing: 0.02em;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stream-group.is-open .stream-group-sym { color: var(--accent); }
+
+.stream-group-meta {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+  margin-left: 18px;
   font-family: var(--mono);
   font-size: 10px;
+  color: var(--fg-faint);
+  letter-spacing: 0.03em;
 }
-.stream-event-links a {
-  color: var(--fg-dim);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--fg-faint);
+.stream-meta-mcap { color: var(--fg-dim); }
+.stream-meta-pct.pos { color: var(--green); }
+.stream-meta-pct.neg { color: var(--red); }
+.stream-meta-count {
+  color: var(--accent);
+  background: rgba(255, 122, 26, 0.08);
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 9px;
 }
-.stream-event-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
-/* Inline $SYMBOL links in stream summaries. Subtle accent underline. */
-.stream-event-summary a.inline-sym {
+.stream-group-body {
+  padding: 4px 8px 10px 26px;
+  background: rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+.stream-group-links {
+  font-family: var(--mono);
+  font-size: 10px;
+  padding: 6px 0 8px;
+  letter-spacing: 0.03em;
+}
+.stream-group-links a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 122, 26, 0.4);
+  margin-right: 2px;
+}
+.stream-group-links a:hover { border-bottom-style: solid; }
+
+.stream-evt {
+  padding: 6px 0;
+  border-top: 1px dashed rgba(255, 255, 255, 0.05);
+}
+.stream-evt:first-of-type { border-top: none; }
+.stream-evt-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+.stream-evt-ts {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--fg-faint);
+  letter-spacing: 0.04em;
+  min-width: 60px;
+}
+.stream-evt-summary {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg-dim);
+  line-height: 1.4;
+  word-break: break-word;
+  margin-left: 4px;
+}
+.stream-evt-links {
+  margin-top: 3px;
+  margin-left: 4px;
+  font-family: var(--mono);
+  font-size: 9px;
+}
+.stream-evt-links a {
+  color: var(--fg-faint);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.15);
+}
+.stream-evt-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Inline $SYMBOL links in event summaries. */
+.stream-evt-summary a.inline-sym {
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px dotted rgba(255, 122, 26, 0.35);
 }
-.stream-event-summary a.inline-sym:hover { border-bottom-color: var(--accent); }
+.stream-evt-summary a.inline-sym:hover { border-bottom-color: var(--accent); }
 
-/* New event flash — a brief warm border glow on just-arrived items so
-   the feed reads as live. The key-frame fades the accent out rather
-   than in, so by the time the next 30-sec poll fires, the row is
-   visually settled. */
-.stream-event-new {
+/* Newly-arrived group flash — left-rail accent fades out. */
+.stream-group-new {
   animation: stream-flash 3.2s ease-out;
   position: relative;
 }
 @keyframes stream-flash {
-  0%   { background: rgba(255, 122, 26, 0.14); box-shadow: inset 2px 0 0 var(--accent); }
-  70%  { background: rgba(255, 122, 26, 0.04); box-shadow: inset 2px 0 0 rgba(255, 122, 26, 0.2); }
+  0%   { background: rgba(255, 122, 26, 0.16); box-shadow: inset 2px 0 0 var(--accent); }
+  70%  { background: rgba(255, 122, 26, 0.05); box-shadow: inset 2px 0 0 rgba(255, 122, 26, 0.2); }
   100% { background: transparent; box-shadow: none; }
 }
 

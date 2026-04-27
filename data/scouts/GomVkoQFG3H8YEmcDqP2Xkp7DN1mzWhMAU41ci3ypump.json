@@ -1,0 +1,200 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": true,
+      "current_balance_ui": 0.0,
+      "deployer_address": "DZQ6q5bqigDxRmMRENhagmmNAMXCrfV7vReijBtyqKcy",
+      "initial_balance_ui": 45957574.931864,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": 2,
+      "tx_count_24h": 100,
+      "tx_count_7d": 100
+    },
+    "liquidity_usd": 84838.75,
+    "mcap_usd": 926274.0,
+    "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+    "name": "Make Penguin Great Again",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "telegram",
+        "https://t.me/MPGAspl"
+      ]
+    ],
+    "symbol": "MPGA",
+    "website": null
+  },
+  "call": {
+    "called_at": 1776867100,
+    "classification": "STAIRCASE",
+    "confidence": 76,
+    "entry_liquidity_usd": 87441.6,
+    "entry_mcap_usd": 987837.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0009878,
+    "entry_top_holder_pct": 4.427740644429141,
+    "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+    "note": "",
+    "source": "notifier",
+    "symbol": "MPGA"
+  },
+  "call_id": 3,
+  "captured_at": 1776867615,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 87558.55,
+      "current_mcap_usd": 980285.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1776866959,
+      "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+      "symbol": "MPGA"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1776867553,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": null,
+  "market": {
+    "liquidity_usd": 0.0,
+    "mcap_usd": 0.0,
+    "name": "",
+    "pair_address": "",
+    "pair_dex": "pumpswap",
+    "symbol": ""
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "GomVkoQFG3H8YEmcDqP2Xkp7DN1mzWhMAU41ci3ypump",
+    "note": "",
+    "retention_pct": 95.0,
+    "sniper_count": 20,
+    "still_in_top_100": 19
+  },
+  "whales": [
+    {
+      "action": "distributing",
+      "balance_ui": 45986060.403195,
+      "net_change_24h_ui": -581100.5237220004,
+      "net_change_7d_ui": -581100.5237220004,
+      "owner": "7jxP8JhXcmDVz4rdCMw6g23S5aU18V4zfnVTatrurbj2",
+      "pct_of_supply": 4.5987891050314715,
+      "token_account": "DZQ6q5bqigDxRmMRENhagmmNAMXCrfV7vReijBtyqKcy",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 19307007.117324,
+      "net_change_24h_ui": 18057007.117324,
+      "net_change_7d_ui": 18057007.117324,
+      "owner": "5DTV3QpMoeUkM3PQoVeuxWnvP3imDHKNp3BRErTT1dQL",
+      "pct_of_supply": 1.930777570494946,
+      "token_account": "Em8PfN6mvW6gmAr1GLUQKdQF8WVweAzGGbBrE3ijDA1N",
+      "tx_count_24h": 14,
+      "tx_count_7d": 14
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 18041763.088326,
+      "net_change_24h_ui": 18041763.088326,
+      "net_change_7d_ui": 18041763.088326,
+      "owner": "4eR7iu3w8CcvQDaDtkoe9FktZs1Zsi3uxyt9ARV3MJDD",
+      "pct_of_supply": 1.8042481308180944,
+      "token_account": "4U98WARWqFJWgABLZB5AfqZKrNDs6sKUFLiWZBoPbEp8",
+      "tx_count_24h": 14,
+      "tx_count_7d": 14
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 16707801.291881,
+      "net_change_24h_ui": 16707801.291880999,
+      "net_change_7d_ui": 16707801.291880999,
+      "owner": "Bz8tMAAqPiZPt5WwFsePKewhyBqbB76GcaEAic8sRWn",
+      "pct_of_supply": 1.6708466408397693,
+      "token_account": "4J7WzsEhrpJ4p7q6xNYG5GTdLVPgBj3AYNP86tauuRcX",
+      "tx_count_24h": 30,
+      "tx_count_7d": 30
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 16110896.715686,
+      "net_change_24h_ui": 16110896.715685997,
+      "net_change_7d_ui": 16110896.715685997,
+      "owner": "21XHunzAczaQSV8hkFZf5nHcnzoFkBCjimVeZrz2vQDF",
+      "pct_of_supply": 1.6111538070183644,
+      "token_account": "4MMAa1BRFsDSdAE71wMHREJZuGrSkiqCPm1rRLERaXZp",
+      "tx_count_24h": 24,
+      "tx_count_7d": 24
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 14974520.210886,
+      "net_change_24h_ui": 14974520.210886002,
+      "net_change_7d_ui": 14974520.210886002,
+      "owner": "3cvhmqQw3gtvc1XtWTQfddki2XKpqu6XacjTwgCvWrvF",
+      "pct_of_supply": 1.4975116327666884,
+      "token_account": "3iyJHsUDpRRbgYMrbzRCwnt76aKYDzkbQz2g6MFjeJEv",
+      "tx_count_24h": 10,
+      "tx_count_7d": 10
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 14064564.773342,
+      "net_change_24h_ui": 14064564.773342,
+      "net_change_7d_ui": 14064564.773342,
+      "owner": "5RyGgBmB2wu7Covy1AU8bw6WMzyEGy9KzD8U3hDJxLRF",
+      "pct_of_supply": 1.4065124665943511,
+      "token_account": "6Z8UHFSqR3dG4CG8amCTTKNzseuBen5Co4didZeeLJ6s",
+      "tx_count_24h": 21,
+      "tx_count_7d": 21
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 13201911.57014,
+      "net_change_24h_ui": 13201911.57014,
+      "net_change_7d_ui": 13201911.57014,
+      "owner": "4ARMfAemt3qEfRnDuS9AypTjGR3wpHmu6nd4UxxAnz8Z",
+      "pct_of_supply": 1.320243712160448,
+      "token_account": "3W8D4ZnN5hLRZmfvkj1ge1qqdchZHHfGi764vhpjCwrD",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 12687750.211856,
+      "net_change_24h_ui": 12687750.211856,
+      "net_change_7d_ui": 12687750.211856,
+      "owner": "BgenDG8jrF916sZju4pTE1KoaoQ5o553AuEvMPUm9E2t",
+      "pct_of_supply": 1.268825529520468,
+      "token_account": "CeSXpuNXgY7hfuLx2xk9dAue21ECmqK9KuvV6jnp37qr",
+      "tx_count_24h": 7,
+      "tx_count_7d": 7
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 11127220.985957,
+      "net_change_24h_ui": 11127220.985957,
+      "net_change_7d_ui": 11127220.985957,
+      "owner": "AXWaLEYx1s5echgtDtHPAGxyuSriMFwopwczLC9qEHzj",
+      "pct_of_supply": 1.1127663946603548,
+      "token_account": "HGhJR5V3H25UGzmUSbvQRx1xbyfdLJJWEUcEUXSygEez",
+      "tx_count_24h": 6,
+      "tx_count_7d": 6
+    }
+  ]
+}

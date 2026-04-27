@@ -402,12 +402,134 @@ function timeOfDay() {
   );
 }
 
+// Persisted across renders: which token-group cards the user has expanded.
+// Otherwise every publisher tick collapses everything they were reading.
+const STREAM_EXPANDED = new Set();
+const STREAM_NO_MINT_KEY = "__no_mint__"; // single bucket for events without a mint
+
+function fmtCompactUsd(n) {
+  if (n == null || isNaN(n)) return "—";
+  const abs = Math.abs(n);
+  if (abs >= 1e9) return "$" + (n / 1e9).toFixed(1) + "B";
+  if (abs >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
+  if (abs >= 1e3) return "$" + (n / 1e3).toFixed(0) + "k";
+  return "$" + Math.round(n);
+}
+
+// Group events by mint. Order preserved as newest-first (events are already
+// sorted by ts desc). Events without a mint go into a shared bucket that
+// renders as a flat strip at the bottom.
+function groupEventsByMint(events) {
+  const groups = new Map();
+  for (const ev of events) {
+    const key = ev.mint || STREAM_NO_MINT_KEY;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(ev);
+  }
+  // Sort groups: latest event first (we want the freshest token at top).
+  return [...groups.entries()].sort(
+    (a, b) => (b[1][0]?.ts || 0) - (a[1][0]?.ts || 0)
+  );
+}
+
+// Render the token-card header — the always-visible row that summarizes the
+// group. Click to fold/unfold the events list.
+function renderTokenHeader(mint, info, events, isExpanded) {
+  const sym = info?.symbol ? "$" + info.symbol : shortAddr(mint);
+  const nameEl = el("span", { class: "stream-group-sym", text: sym });
+
+  // Right side: count + most recent event time. The kind badge of the
+  // freshest event signals what's happening (alert/call/trade).
+  const latest = events[0];
+  const latestKind = latest?.kind || "alert";
+  const latestTag = latest?.tag || latestKind.toUpperCase();
+
+  // Numeric meta — mcap, 1h change, count. Each cell has its own colour
+  // so a glance tells you the token state without reading.
+  const meta = el("div", { class: "stream-group-meta" });
+  if (info?.mcap_usd) {
+    meta.appendChild(el("span", { class: "stream-meta-mcap", text: "mc " + fmtCompactUsd(info.mcap_usd) }));
+  }
+  if (info?.price_change_1h != null) {
+    const pc = info.price_change_1h;
+    const cls = pc > 0 ? "pos" : pc < 0 ? "neg" : "";
+    meta.appendChild(el("span", { class: "stream-meta-pct " + cls, text: "1h " + fmtPct(pc) }));
+  }
+  if (events.length > 1) {
+    meta.appendChild(el("span", { class: "stream-meta-count", text: "×" + events.length }));
+  }
+
+  // Caret indicator that flips on expand. The whole header is the click
+  // target so trying to tap "the row" works without aiming.
+  const caret = el("span", {
+    class: "stream-group-caret",
+    text: isExpanded ? "▾" : "▸",
+  });
+  const tag = el("span", {
+    class: "stream-kind stream-kind-" + latestKind,
+    text: latestTag,
+  });
+  const ts = el("span", {
+    class: "stream-ts",
+    text: fmtTimeAgo(latest?.ts),
+    "data-ts": latest?.ts,
+  });
+
+  // Two-row layout: top row is symbol + tag + caret + time; bottom row
+  // is the meta strip (mc / 1h / count).
+  const topRow = el("div", { class: "stream-group-row" }, [caret, nameEl, tag, ts]);
+  const header = el("div", { class: "stream-group-head" }, [topRow]);
+  if (meta.children.length) header.appendChild(meta);
+  return header;
+}
+
+// Render a single event line inside an expanded token group. Compact:
+// time-ago + tag + summary + per-event links (chart/solscan/tx).
+function renderEventLine(ev) {
+  const time = el("span", { class: "stream-evt-ts", text: fmtTimeAgo(ev.ts), "data-ts": ev.ts });
+  const tag = el("span", {
+    class: "stream-kind stream-kind-" + ev.kind,
+    text: ev.tag || ev.kind,
+  });
+  const summaryEl = el("div", { class: "stream-evt-summary" });
+  linkifySummary(summaryEl, ev.summary || "", ev.mint);
+
+  const links = el("div", { class: "stream-evt-links" });
+  if (ev.mint) {
+    links.appendChild(el("a", { href: DEXSCREENER + "/" + ev.mint, target: "_blank", rel: "noopener", text: "chart" }));
+    links.appendChild(document.createTextNode(" · "));
+    links.appendChild(el("a", { href: SOLSCAN + "/token/" + ev.mint, target: "_blank", rel: "noopener", text: "solscan" }));
+  }
+  if (ev.signature) {
+    if (ev.mint) links.appendChild(document.createTextNode(" · "));
+    links.appendChild(el("a", { href: SOLSCAN + "/tx/" + ev.signature, target: "_blank", rel: "noopener", text: "tx" }));
+  }
+  const head = el("div", { class: "stream-evt-head" }, [time, tag]);
+  const evEl = el("div", { class: "stream-evt" }, [head, summaryEl]);
+  if (links.children.length) evEl.appendChild(links);
+  return evEl;
+}
+
+// Token-card top-level links row — chart/solscan once, not per-event.
+// Sits at the top of the expanded body so the most common action (open
+// chart) is one tap, not buried inside an event row.
+function renderTokenLinks(mint) {
+  if (!mint || mint === STREAM_NO_MINT_KEY) return null;
+  const row = el("div", { class: "stream-group-links" });
+  row.appendChild(el("a", { href: DEXSCREENER + "/" + mint, target: "_blank", rel: "noopener", text: "📊 chart" }));
+  row.appendChild(document.createTextNode(" · "));
+  row.appendChild(el("a", { href: SOLSCAN + "/token/" + mint, target: "_blank", rel: "noopener", text: "🔍 solscan" }));
+  return row;
+}
+
 function renderStream(stream) {
   const body = document.getElementById("stream-body");
   const status = document.getElementById("stream-status");
   if (!body) return;
   const events = (stream && stream.events) || [];
+  const tokens = (stream && stream.tokens) || {};
 
+  // Track signatures so newly-arrived events can flash on next render.
   const newSignatures = new Set();
   for (const ev of events) {
     const sig = ev.ts + "|" + (ev.summary || "");
@@ -424,51 +546,44 @@ function renderStream(stream) {
     STREAM_FIRST_RENDER = false;
     return;
   }
-  if (status) status.textContent = events.length + " events · " + timeOfDay();
 
-  for (const ev of events) {
-    const head = el("div", { class: "stream-event-head" }, [
-      el("span", { class: "stream-kind stream-kind-" + ev.kind, text: ev.tag || ev.kind }),
-      el("span", { class: "stream-ts", text: fmtTimeAgo(ev.ts), "data-ts": ev.ts }),
-    ]);
-    const summaryEl = el("div", { class: "stream-event-summary" });
-    linkifySummary(summaryEl, ev.summary || "", ev.mint);
-    const links = el("div", { class: "stream-event-links" });
-    if (ev.mint) {
-      links.appendChild(
-        el("a", {
-          href: DEXSCREENER + "/" + ev.mint,
-          target: "_blank",
-          rel: "noopener",
-          text: "chart",
-        })
-      );
-      links.appendChild(document.createTextNode(" · "));
-      links.appendChild(
-        el("a", {
-          href: SOLSCAN + "/token/" + ev.mint,
-          target: "_blank",
-          rel: "noopener",
-          text: "solscan",
-        })
-      );
+  const groups = groupEventsByMint(events);
+  if (status) {
+    status.textContent =
+      groups.length + " tokens · " + events.length + " events · " + timeOfDay();
+  }
+
+  for (const [mint, evList] of groups) {
+    const info = mint === STREAM_NO_MINT_KEY ? null : tokens[mint];
+    const isExpanded = STREAM_EXPANDED.has(mint);
+    const hasNew = evList.some(
+      (ev) => newSignatures.has(ev.ts + "|" + (ev.summary || ""))
+    );
+    const card = el("div", {
+      class: "stream-group" + (hasNew ? " stream-group-new" : "") + (isExpanded ? " is-open" : ""),
+    });
+
+    // Header (always visible, click to toggle).
+    const header = renderTokenHeader(mint, info, evList, isExpanded);
+    header.style.cursor = "pointer";
+    header.addEventListener("click", (e) => {
+      // Don't toggle when the click landed on a link — let it through.
+      if (e.target.closest("a")) return;
+      if (STREAM_EXPANDED.has(mint)) STREAM_EXPANDED.delete(mint);
+      else STREAM_EXPANDED.add(mint);
+      renderStream(stream);
+    });
+    card.appendChild(header);
+
+    // Body (only rendered when expanded — keeps DOM light when 50 groups exist).
+    if (isExpanded) {
+      const body2 = el("div", { class: "stream-group-body" });
+      const linksRow = renderTokenLinks(mint);
+      if (linksRow) body2.appendChild(linksRow);
+      for (const ev of evList) body2.appendChild(renderEventLine(ev));
+      card.appendChild(body2);
     }
-    if (ev.signature) {
-      if (ev.mint) links.appendChild(document.createTextNode(" · "));
-      links.appendChild(
-        el("a", {
-          href: SOLSCAN + "/tx/" + ev.signature,
-          target: "_blank",
-          rel: "noopener",
-          text: "tx",
-        })
-      );
-    }
-    const evSig = ev.ts + "|" + (ev.summary || "");
-    const cls = "stream-event" + (newSignatures.has(evSig) ? " stream-event-new" : "");
-    const evEl = el("div", { class: cls }, [head, summaryEl]);
-    if (links.children.length) evEl.appendChild(links);
-    body.appendChild(evEl);
+    body.appendChild(card);
   }
   STREAM_FIRST_RENDER = false;
 }
