@@ -1,11 +1,43 @@
 {
   "events": [
     {
+      "ts": 1777254854,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Bs5T…1UB6 · GRINDER→STAIRCASE · top +0.04%",
+      "mint": "Bs5TdhBh8sb7cfGCUm374CP2ZgeAT3L484a149JG1UB6",
+      "signature": null
+    },
+    {
+      "ts": 1777254722,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE F1pp…bCP2 · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "F1ppSHedBsGGwEKH78JVgoqr4xkQHswtsGGLpgM7bCP2",
+      "signature": null
+    },
+    {
+      "ts": 1777254701,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING Bs5T…1UB6 · deployer down 32.9% (161456418 → 108337104)",
+      "mint": "Bs5TdhBh8sb7cfGCUm374CP2ZgeAT3L484a149JG1UB6",
+      "signature": null
+    },
+    {
       "ts": 1777254585,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE FFvp…pump · DEVELOPING→STAIRCASE · top -0.00%",
       "mint": "FFvp48WygUSxCCNP3n9Zu5G7F2yatwXQHbpD2Mkkpump",
+      "signature": null
+    },
+    {
+      "ts": 1777254555,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE F1pp…bCP2 · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "F1ppSHedBsGGwEKH78JVgoqr4xkQHswtsGGLpgM7bCP2",
       "signature": null
     },
     {
@@ -22,6 +54,38 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING AtJ9…pump · deployer down 100.0% (247770998 → 0)",
       "mint": "AtJ9eMZbN7eyQi9MxfJbnYY3rKQFXXSLSC8xrcugpump",
+      "signature": null
+    },
+    {
+      "ts": 1777254422,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EC1T…pump · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "EC1TMMg4shn1XrYNy5Y5a98LT6kjNcFtgnav11jSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777254364,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5ohB…pump · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
+      "signature": null
+    },
+    {
+      "ts": 1777254297,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Hon2…pump · STAIRCASE→GRINDER · top +0.00%",
+      "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+      "signature": null
+    },
+    {
+      "ts": 1777254201,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5ohB…pump · GRINDER→STAIRCASE · top +0.01%",
+      "mint": "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump",
       "signature": null
     },
     {
@@ -54,6 +118,22 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE Cm6f…pump · DEVELOPING→STAIRCASE · top +0.00%",
       "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777253930,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Cm6f…pump · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777253689,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE F1pp…bCP2 · DEVELOPING→STAIRCASE · top -0.05%",
+      "mint": "F1ppSHedBsGGwEKH78JVgoqr4xkQHswtsGGLpgM7bCP2",
       "signature": null
     },
     {
@@ -153,11 +233,27 @@
       "signature": null
     },
     {
+      "ts": 1777253364,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Hon2…pump · GRINDER→DEVELOPING · top +0.00%",
+      "mint": "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump",
+      "signature": null
+    },
+    {
       "ts": 1777253362,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING Hkip…pump · deployer down 41.6% (206137001 → 120477408)",
       "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
+      "signature": null
+    },
+    {
+      "ts": 1777253346,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 2Fpr…rdbq · deployer down 24.5% (718 → 542)",
+      "mint": "2FprjEk4MTSY9CxpKuENbGDdy69R15GHhtHpG5Durdbq",
       "signature": null
     },
     {
@@ -221,102 +317,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE Hkip…pump · GRINDER→STAIRCASE · top -0.06%",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777253115,
-      "kind": "alert",
-      "tag": "GRADUATION SCOUT",
-      "summary": "GRADUATION_SCOUT CJUr…pump · deployer sold 100.0% · 7d tx 100 · last 0m · site https://x.com/i/communities/2037244316238647365 · \"JavaScript is not available.  Weâve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center.  Hel…\"",
-      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
-      "signature": null
-    },
-    {
-      "ts": 1777253112,
-      "kind": "alert",
-      "tag": "GRADUATION",
-      "summary": "GRADUATION CJUr…pump · pumpswap → meteora · mcap $3339k · liq $196k",
-      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
-      "signature": null
-    },
-    {
-      "ts": 1777253108,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.7% (206137001 → 124259651)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777253056,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.0% (206137001 → 125768538)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777253017,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.1% (206137001 → 125463787)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777252988,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.6% (206137001 → 124558908)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777252951,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.3% (206137001 → 125078809)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777252925,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 38.0% (206137001 → 127704941)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777252907,
-      "kind": "alert",
-      "tag": "GRADUATION",
-      "summary": "GRADUATION CJUr…pump · pumpswap → meteora · mcap $3257k · liq $189k",
-      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
-      "signature": null
-    },
-    {
-      "ts": 1777252907,
-      "kind": "alert",
-      "tag": "GRADUATION SCOUT",
-      "summary": "GRADUATION_SCOUT CJUr…pump · site https://x.com/i/communities/2037244316238647365 · \"JavaScript is not available.  Weâve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center.  Hel…\"",
-      "mint": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
-      "signature": null
-    },
-    {
-      "ts": 1777252897,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 38.9% (206137001 → 126019116)",
-      "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
-      "signature": null
-    },
-    {
-      "ts": 1777252872,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hkip…pump · deployer down 39.2% (206137001 → 125352088)",
       "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
       "signature": null
     },
