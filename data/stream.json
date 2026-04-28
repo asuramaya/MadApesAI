@@ -1,50 +1,26 @@
 {
   "events": [
     {
-      "ts": 1777378341,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HYjN…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
-      "signature": null
-    },
-    {
-      "ts": 1777378341,
+      "ts": 1777378641,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HYjN…pump · deployer down 34.7% (195061147 → 127338995)",
+      "summary": "DEV_SELLING HYjN…pump · deployer down 36.4% (195061147 → 124111508)",
       "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
       "signature": null
     },
     {
-      "ts": 1777378325,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HYjN…pump · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
-      "signature": null
-    },
-    {
-      "ts": 1777378325,
+      "ts": 1777378625,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HYjN…pump · deployer down 34.7% (195061147 → 127338995)",
+      "summary": "DEV_SELLING HYjN…pump · deployer down 36.4% (195061147 → 124111508)",
       "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
       "signature": null
     },
     {
-      "ts": 1777378308,
+      "ts": 1777378607,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING HYjN…pump · deployer down 34.7% (195061147 → 127338995)",
-      "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
-      "signature": null
-    },
-    {
-      "ts": 1777378274,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HYjN…pump · GRINDER→STAIRCASE · top +0.00%",
+      "summary": "DEV_SELLING HYjN…pump · deployer down 36.6% (195061147 → 123656691)",
       "mint": "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump",
       "signature": null
     },
@@ -74,23 +50,23 @@
     }
   ],
   "tokens": {
-    "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump": {
-      "symbol": "uncscam",
-      "name": "unc scam",
-      "mcap_usd": 91715.0,
-      "price_usd": 0.00009171,
-      "price_change_1h": 162.0,
-      "price_change_24h": null,
-      "liquidity_usd": 23787.41
-    },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 287256.0,
-      "price_usd": 0.0002893,
-      "price_change_1h": 5.02,
+      "mcap_usd": 253316.0,
+      "price_usd": 0.0002551,
+      "price_change_1h": -7.22,
       "price_change_24h": null,
-      "liquidity_usd": 63869.8
+      "liquidity_usd": 59971.85
+    },
+    "HYjNV846yU9rpG2ffMG8TaHJdBUWm1tPuttj2Dmkpump": {
+      "symbol": "uncscam",
+      "name": "unc scam",
+      "mcap_usd": 102516.0,
+      "price_usd": 0.0001025,
+      "price_change_1h": 193.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25308.01
     }
   }
 }
