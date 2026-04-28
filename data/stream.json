@@ -1,50 +1,58 @@
 {
   "events": [
     {
-      "ts": 1777372659,
+      "ts": 1777372903,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 23.1% (242508015 → 186402740)",
-      "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
-      "signature": null
-    },
-    {
-      "ts": 1777372650,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 94Kk…pump · deployer down 28.4% (162576572 → 116347947)",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 94Kk…pump · DEVELOPING→STAIRCASE · top -0.04%",
       "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
       "signature": null
     },
     {
-      "ts": 1777372582,
+      "ts": 1777372903,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 33.0% (242508015 → 162449454)",
+      "summary": "DEV_SELLING 3c87…4YwT · deployer down 24.9% (242508015 → 182095647)",
       "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
       "signature": null
     },
     {
-      "ts": 1777372581,
+      "ts": 1777372903,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 94Kk…pump · deployer down 27.0% (162576572 → 118638185)",
+      "summary": "DEV_SELLING 94Kk…pump · deployer down 28.2% (162576572 → 116715864)",
       "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
       "signature": null
     },
     {
-      "ts": 1777372564,
+      "ts": 1777372883,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3c87…4YwT · deployer down 33.0% (242508015 → 162449454)",
+      "summary": "DEV_SELLING 3c87…4YwT · deployer down 25.5% (242508015 → 180714537)",
       "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
       "signature": null
     },
     {
-      "ts": 1777372562,
+      "ts": 1777372882,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 94Kk…pump · deployer down 20.9% (162576572 → 128523687)",
+      "summary": "DEV_SELLING 94Kk…pump · deployer down 28.0% (162576572 → 117072602)",
+      "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
+      "signature": null
+    },
+    {
+      "ts": 1777372863,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3c87…4YwT · deployer down 26.5% (242508015 → 178298037)",
+      "mint": "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT",
+      "signature": null
+    },
+    {
+      "ts": 1777372858,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 94Kk…pump · deployer down 28.2% (162576572 → 116715864)",
       "mint": "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump",
       "signature": null
     },
@@ -81,30 +89,6 @@
       "signature": null
     },
     {
-      "ts": 1777371230,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4df1…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
-      "signature": null
-    },
-    {
-      "ts": 1777371212,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4df1…pump · GRINDER→STAIRCASE · top +0.07%",
-      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
-      "signature": null
-    },
-    {
-      "ts": 1777371104,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4df1…pump · GRINDER→STAIRCASE · top +0.00%",
-      "mint": "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump",
-      "signature": null
-    },
-    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -130,50 +114,41 @@
     }
   ],
   "tokens": {
-    "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump": {
-      "symbol": "MSGA",
-      "name": "Make Scammers Great Again",
-      "mcap_usd": 117524.0,
-      "price_usd": 0.0001175,
-      "price_change_1h": 234.0,
-      "price_change_24h": null,
-      "liquidity_usd": 26874.54
-    },
-    "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump": {
-      "symbol": "BELKA",
-      "name": "The Dancing Squirrel",
-      "mcap_usd": 2016335.0,
-      "price_usd": 0.002016,
-      "price_change_1h": 14.55,
-      "price_change_24h": null,
-      "liquidity_usd": 132171.39
-    },
     "3c87KPhHUKcHaQjeZwd7ceJ2JNuMLL44wgAtxddj4YwT": {
       "symbol": "Rudy",
       "name": "Rudy",
-      "mcap_usd": 44145.0,
-      "price_usd": 0.00004414,
-      "price_change_1h": 26.43,
+      "mcap_usd": 44162.0,
+      "price_usd": 0.00004416,
+      "price_change_1h": 26.48,
       "price_change_24h": null,
-      "liquidity_usd": 16170.28
+      "liquidity_usd": 16182.94
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 292976.0,
+      "price_usd": 0.0002951,
+      "price_change_1h": 0.01,
+      "price_change_24h": null,
+      "liquidity_usd": 64608.85
+    },
+    "94Kkk71oVhtK3mSEkRrUJPHXGrVdEVxeggMjYzAxpump": {
+      "symbol": "MSGA",
+      "name": "Make Scammers Great Again",
+      "mcap_usd": 119125.0,
+      "price_usd": 0.0001191,
+      "price_change_1h": 238.0,
+      "price_change_24h": null,
+      "liquidity_usd": 27242.03
     },
     "Gp6QXgxQ4NKufKYDHPasNLdYe6fJh1moHach45EVpump": {
       "symbol": "SCAMB",
       "name": "Scam Buterin",
       "mcap_usd": 1608.0,
-      "price_usd": 1.608e-6,
+      "price_usd": 1.607e-6,
       "price_change_1h": -95.43,
       "price_change_24h": null,
-      "liquidity_usd": 3136.28
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 294427.0,
-      "price_usd": 0.0002965,
-      "price_change_1h": -1.01,
-      "price_change_24h": null,
-      "liquidity_usd": 64748.2
+      "liquidity_usd": 3136.84
     }
   }
 }
