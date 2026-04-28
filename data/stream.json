@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777334404,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 5Jr9…pump · deployer down 46.4% (45364018 → 24332164)",
+      "mint": "5Jr9hGmJgxBRjjF8XGcGgQzXUdsbpZNNMpigEv8Wpump",
+      "signature": null
+    },
+    {
+      "ts": 1777334404,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5Jr9…pump · GRINDER→CRASHING · top -12.36%",
+      "mint": "5Jr9hGmJgxBRjjF8XGcGgQzXUdsbpZNNMpigEv8Wpump",
+      "signature": null
+    },
+    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -26,12 +42,21 @@
     }
   ],
   "tokens": {
+    "5Jr9hGmJgxBRjjF8XGcGgQzXUdsbpZNNMpigEv8Wpump": {
+      "symbol": "MUSHU",
+      "name": "Mushu",
+      "mcap_usd": 3803987.0,
+      "price_usd": 0.004518,
+      "price_change_1h": -5.49,
+      "price_change_24h": null,
+      "liquidity_usd": 220235.43
+    },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
       "mcap_usd": 264051.0,
       "price_usd": 0.0002659,
-      "price_change_1h": -6.4,
+      "price_change_1h": -6.22,
       "price_change_24h": null,
       "liquidity_usd": 61490.26
     }
