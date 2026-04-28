@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777390955,
+      "ts": 1777391246,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
@@ -9,7 +9,7 @@
       "signature": null
     },
     {
-      "ts": 1777390885,
+      "ts": 1777391176,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
@@ -17,7 +17,15 @@
       "signature": null
     },
     {
-      "ts": 1777390859,
+      "ts": 1777391176,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING Bg4A…pump · deployer down 45.3% (206994499 → 113135095)",
+      "mint": "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump",
+      "signature": null
+    },
+    {
+      "ts": 1777391158,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING GYFA…pump · deployer down 100.0% (170108028 → 0)",
@@ -50,23 +58,32 @@
     }
   ],
   "tokens": {
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 306289.0,
-      "price_usd": 0.0003085,
-      "price_change_1h": 3.8,
-      "price_change_24h": null,
-      "liquidity_usd": 65942.54
-    },
     "GYFAeRZQKUMxAQucC5dEJ1T2W2r1zXNNxQxez9jWpump": {
       "symbol": "SCAMNALD",
       "name": "SCAMNALD TRUMP",
-      "mcap_usd": 165907.0,
-      "price_usd": 0.0001659,
-      "price_change_1h": 301.0,
+      "mcap_usd": 127784.0,
+      "price_usd": 0.0001277,
+      "price_change_1h": 209.0,
       "price_change_24h": null,
-      "liquidity_usd": 32403.09
+      "liquidity_usd": 28551.81
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 295249.0,
+      "price_usd": 0.0002973,
+      "price_change_1h": 1.49,
+      "price_change_24h": null,
+      "liquidity_usd": 64783.65
+    },
+    "Bg4ApPaiPkRqLNNcN1yahpYPMDhiSCCFqtRhdVyRpump": {
+      "symbol": "USA",
+      "name": "Uncle Scam Altman",
+      "mcap_usd": 109954.0,
+      "price_usd": 0.0001099,
+      "price_change_1h": 214.0,
+      "price_change_24h": null,
+      "liquidity_usd": 26059.89
     }
   }
 }
