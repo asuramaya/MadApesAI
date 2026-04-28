@@ -1,36 +1,5 @@
 {
-  "active": [
-    {
-      "id": 1,
-      "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-      "symbol": "PsyopAnime",
-      "classification": "MANUAL",
-      "confidence": 0,
-      "called_at": 1776820045,
-      "expires_at": 1779412045,
-      "note": "PsyopAnime $PSYOPANIME — first call. Thesis: one real trader (692PxWKE…) accumulated ~4.77% of supply, +1.19M/24h and +9.09M/7d, absorbing a sell-heavy tape (h24 873b/998s). Bear case survives: 447-account insider network = 30.96% supply. Trigger to monitor publicly: 692PxWKE flow + RugCheck insider network dilution. Exit ladder: 25% at +40%, 25% at +80%, 25% at +150%, 25% runner with 14-day hard close. horizon=LONG thesis=2026-04-22_first-call-psyopanime-one-trader-vs-a-network.md",
-      "source": "mcp",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 2274601.0,
-      "entry_price_usd": 0.002274,
-      "entry_liquidity_usd": 248918.42,
-      "entry_top_holder_pct": 5.476964713464018,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 3153035.0,
-      "current_price_usd": 0.003153,
-      "current_liquidity_usd": 292797.05,
-      "pct_from_call": 38.654353562005284,
-      "peak_pct": 68.86543535620054,
-      "peak_at": 1777228465,
-      "trough_pct": 24.18645558487247,
-      "trough_at": 1777207178,
-      "thesis_url": "thoughts/2026-04-22_first-call-psyopanime-one-trader-vs-a-network.md"
-    }
-  ],
+  "active": [],
   "history": [
     {
       "id": 31,
@@ -91,6 +60,36 @@
       "trough_pct": -24.542124542124544,
       "trough_at": 1777212839,
       "thesis_url": null
+    },
+    {
+      "id": 1,
+      "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
+      "symbol": "PsyopAnime",
+      "classification": "MANUAL",
+      "confidence": 0,
+      "called_at": 1776820045,
+      "expires_at": 1779412045,
+      "note": "PsyopAnime $PSYOPANIME — first call. Thesis: one real trader (692PxWKE…) accumulated ~4.77% of supply, +1.19M/24h and +9.09M/7d, absorbing a sell-heavy tape (h24 873b/998s). Bear case survives: 447-account insider network = 30.96% supply. Trigger to monitor publicly: 692PxWKE flow + RugCheck insider network dilution. Exit ladder: 25% at +40%, 25% at +80%, 25% at +150%, 25% runner with 14-day hard close. horizon=LONG thesis=2026-04-22_first-call-psyopanime-one-trader-vs-a-network.md",
+      "source": "mcp",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777400125,
+      "exit_price_usd": 0.001818,
+      "exit_note": "-20.1% · structure broke",
+      "entry_mcap_usd": 2274601.0,
+      "entry_price_usd": 0.002274,
+      "entry_liquidity_usd": 248918.42,
+      "entry_top_holder_pct": 5.476964713464018,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.001818,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -20.052770448548817,
+      "peak_pct": 68.86543535620054,
+      "peak_at": 1777228465,
+      "trough_pct": 24.18645558487247,
+      "trough_at": 1777207178,
+      "thesis_url": "thoughts/2026-04-22_first-call-psyopanime-one-trader-vs-a-network.md"
     }
   ],
   "stats": {
@@ -106,28 +105,39 @@
       "worst_pct": 10.833940276766207
     },
     "long": {
-      "count": 0,
+      "count": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "expired": 0,
       "win_rate": 0.0,
       "avg_winner_pct": 0.0,
-      "avg_loser_pct": 0.0,
-      "best_pct": 0.0,
-      "worst_pct": 0.0
+      "avg_loser_pct": -20.052770448548817,
+      "best_pct": -20.052770448548817,
+      "worst_pct": -20.052770448548817
     },
     "overall": {
-      "count": 2,
+      "count": 3,
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "expired": 1,
-      "win_rate": 100.0,
+      "win_rate": 50.0,
       "avg_winner_pct": 64.26050755334907,
-      "avg_loser_pct": 0.0,
+      "avg_loser_pct": -20.052770448548817,
       "best_pct": 117.68707482993194,
-      "worst_pct": 10.833940276766207
+      "worst_pct": -20.052770448548817
     },
     "by_source": {
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
+      },
       "notifier": {
         "count": 2,
         "wins": 1,
