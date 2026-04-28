@@ -75,16 +75,16 @@
     {
       "ts": 1777337866,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE USoR…spWR · GRINDER→CRASHING · top +0.00%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH USoR…spWR · vel 4.35x→0.32x · tpm 5.2",
       "mint": "USoRyaQjch6E18nCdDvWoRgTo6osQs9MUd8JXEsspWR",
       "signature": null
     },
     {
       "ts": 1777337866,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH USoR…spWR · vel 4.35x→0.32x · tpm 5.2",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE USoR…spWR · GRINDER→CRASHING · top +0.00%",
       "mint": "USoRyaQjch6E18nCdDvWoRgTo6osQs9MUd8JXEsspWR",
       "signature": null
     },
@@ -226,77 +226,32 @@
     }
   ],
   "tokens": {
-    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
-      "symbol": "MAGA",
-      "name": "Make Aliens Great Again ",
-      "mcap_usd": 12846968.0,
-      "price_usd": 0.01313,
-      "price_change_1h": 9.58,
+    "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump": {
+      "symbol": "SPIKE",
+      "name": "SPIKE ",
+      "mcap_usd": 14606072.0,
+      "price_usd": 0.0146,
+      "price_change_1h": 4.61,
       "price_change_24h": null,
-      "liquidity_usd": 378764.21
-    },
-    "VNo7EjR3XVzvbjUgQrFAXNwSms34fHwHBt1Xoaopump": {
-      "symbol": "chudhouse",
-      "name": "chudhouse",
-      "mcap_usd": 674507.0,
-      "price_usd": 0.0006767,
-      "price_change_1h": 3.02,
-      "price_change_24h": null,
-      "liquidity_usd": 75070.74
-    },
-    "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump": {
-      "symbol": "OpenLie",
-      "name": "OpenLie",
-      "mcap_usd": 66465.0,
-      "price_usd": 0.00006646,
-      "price_change_1h": 88.56,
-      "price_change_24h": null,
-      "liquidity_usd": 20045.56
-    },
-    "USoRyaQjch6E18nCdDvWoRgTo6osQs9MUd8JXEsspWR": {
-      "symbol": "USOR",
-      "name": "U.S Oil",
-      "mcap_usd": 1951945.0,
-      "price_usd": 0.001952,
-      "price_change_1h": 11.68,
-      "price_change_24h": null,
-      "liquidity_usd": 130211.27
-    },
-    "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump": {
-      "symbol": "BELKA",
-      "name": "The Dancing Squirrel",
-      "mcap_usd": 2209966.0,
-      "price_usd": 0.002209,
-      "price_change_1h": 1.71,
-      "price_change_24h": null,
-      "liquidity_usd": 137953.29
-    },
-    "57dYAUq7Y4hiCSdAB7iBDg4gcYFq7HeUaEs3XnNkbrrr": {
-      "symbol": "发财",
-      "name": "fat choi",
-      "mcap_usd": 1598581.0,
-      "price_usd": 0.001671,
-      "price_change_1h": -17.94,
-      "price_change_24h": null,
-      "liquidity_usd": 126280.17
+      "liquidity_usd": 437824.81
     },
     "7WRX5QGuRLhGCJszpQjYmw6ihb6z8KRdAEHQUhGJpump": {
       "symbol": "SAM",
       "name": "Self-Aware Meme",
-      "mcap_usd": 314290.0,
-      "price_usd": 0.0003144,
-      "price_change_1h": -6.61,
+      "mcap_usd": 320410.0,
+      "price_usd": 0.0003205,
+      "price_change_1h": -4.79,
       "price_change_24h": null,
-      "liquidity_usd": 63557.0
+      "liquidity_usd": 64175.73
     },
-    "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump": {
-      "symbol": "SPIKE",
-      "name": "SPIKE ",
-      "mcap_usd": 14613159.0,
-      "price_usd": 0.01461,
-      "price_change_1h": 4.66,
+    "VNo7EjR3XVzvbjUgQrFAXNwSms34fHwHBt1Xoaopump": {
+      "symbol": "chudhouse",
+      "name": "chudhouse",
+      "mcap_usd": 674378.0,
+      "price_usd": 0.0006766,
+      "price_change_1h": 3.0,
       "price_change_24h": null,
-      "liquidity_usd": 437956.77
+      "liquidity_usd": 75063.56
     },
     "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
       "symbol": "BURNIE",
@@ -310,29 +265,74 @@
     "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump": {
       "symbol": "HENRY",
       "name": "The Man from the Future",
-      "mcap_usd": 406036.0,
-      "price_usd": 0.000406,
-      "price_change_1h": -22.3,
+      "mcap_usd": 413074.0,
+      "price_usd": 0.000413,
+      "price_change_1h": -20.95,
       "price_change_24h": null,
-      "liquidity_usd": 70748.66
+      "liquidity_usd": 71354.73
     },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 292137.0,
-      "price_usd": 0.0002942,
-      "price_change_1h": 10.43,
+    "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump": {
+      "symbol": "OpenLie",
+      "name": "OpenLie",
+      "mcap_usd": 68393.0,
+      "price_usd": 0.00006839,
+      "price_change_1h": 94.03,
       "price_change_24h": null,
-      "liquidity_usd": 64731.97
+      "liquidity_usd": 20350.01
+    },
+    "57dYAUq7Y4hiCSdAB7iBDg4gcYFq7HeUaEs3XnNkbrrr": {
+      "symbol": "发财",
+      "name": "fat choi",
+      "mcap_usd": 1575453.0,
+      "price_usd": 0.001647,
+      "price_change_1h": -19.13,
+      "price_change_24h": null,
+      "liquidity_usd": 125363.27
+    },
+    "USoRyaQjch6E18nCdDvWoRgTo6osQs9MUd8JXEsspWR": {
+      "symbol": "USOR",
+      "name": "U.S Oil",
+      "mcap_usd": 1951945.0,
+      "price_usd": 0.001952,
+      "price_change_1h": 11.68,
+      "price_change_24h": null,
+      "liquidity_usd": 130211.27
+    },
+    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
+      "symbol": "MAGA",
+      "name": "Make Aliens Great Again ",
+      "mcap_usd": 12846968.0,
+      "price_usd": 0.01313,
+      "price_change_1h": 9.58,
+      "price_change_24h": null,
+      "liquidity_usd": 378764.21
+    },
+    "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump": {
+      "symbol": "BELKA",
+      "name": "The Dancing Squirrel",
+      "mcap_usd": 2189492.0,
+      "price_usd": 0.002189,
+      "price_change_1h": 0.77,
+      "price_change_24h": null,
+      "liquidity_usd": 137313.6
     },
     "4TyZGqRLG3VcHTGMcLBoPUmqYitMVojXinAmkL8xpump": {
       "symbol": "testicle",
       "name": "testicle",
-      "mcap_usd": 6567059.0,
-      "price_usd": 0.006567,
-      "price_change_1h": 15.05,
+      "mcap_usd": 6519121.0,
+      "price_usd": 0.006519,
+      "price_change_1h": 14.21,
       "price_change_24h": null,
-      "liquidity_usd": 532552.29
+      "liquidity_usd": 530606.49
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 295716.0,
+      "price_usd": 0.0002978,
+      "price_change_1h": 11.78,
+      "price_change_24h": null,
+      "liquidity_usd": 65122.61
     }
   }
 }
