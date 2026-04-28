@@ -1,36 +1,6 @@
 {
   "active": [
     {
-      "id": 33,
-      "mint": "FhgEyv31KrB3TsgjqXv8uVgCdS4urTLNMCCSoccxpump",
-      "symbol": "",
-      "classification": "CURVE",
-      "confidence": 85,
-      "called_at": 1777336090,
-      "expires_at": 1777357690,
-      "note": "horizon=SHORT source=curve fill=5.2% velocity=3.25sol/min alpha=85",
-      "source": "curve",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 176874.62906625433,
-      "entry_price_usd": 0.00017687462906625434,
-      "entry_liquidity_usd": 3769.33002435,
-      "entry_top_holder_pct": 0.0,
-      "entry_pair_dex": "curve",
-      "current_mcap_usd": 4640.71,
-      "current_price_usd": 4.64e-6,
-      "current_liquidity_usd": 0.0,
-      "pct_from_call": -97.37667294371431,
-      "peak_pct": null,
-      "peak_at": null,
-      "trough_pct": null,
-      "trough_at": null,
-      "thesis_url": null
-    },
-    {
       "id": 1,
       "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
       "symbol": "PsyopAnime",
@@ -50,10 +20,10 @@
       "entry_liquidity_usd": 248918.42,
       "entry_top_holder_pct": 5.476964713464018,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 3010466.0,
-      "current_price_usd": 0.00301,
-      "current_liquidity_usd": 287277.71,
-      "pct_from_call": 32.36587510993844,
+      "current_mcap_usd": 3016011.0,
+      "current_price_usd": 0.003016,
+      "current_liquidity_usd": 287848.88,
+      "pct_from_call": 32.6297273526825,
       "peak_pct": 68.86543535620054,
       "peak_at": 1777228465,
       "trough_pct": 24.18645558487247,
@@ -62,6 +32,36 @@
     }
   ],
   "history": [
+    {
+      "id": 33,
+      "mint": "FhgEyv31KrB3TsgjqXv8uVgCdS4urTLNMCCSoccxpump",
+      "symbol": "",
+      "classification": "CURVE",
+      "confidence": 85,
+      "called_at": 1777336090,
+      "expires_at": 1777357690,
+      "note": "horizon=SHORT source=curve fill=5.2% velocity=3.25sol/min alpha=85",
+      "source": "curve",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777336266,
+      "exit_price_usd": 1.774e-6,
+      "exit_note": "-99.0% · early collapse",
+      "entry_mcap_usd": 176874.62906625433,
+      "entry_price_usd": 0.00017687462906625434,
+      "entry_liquidity_usd": 3769.33002435,
+      "entry_top_holder_pct": 0.0,
+      "entry_pair_dex": "curve",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 1.774e-6,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -98.99702969873904,
+      "peak_pct": null,
+      "peak_at": null,
+      "trough_pct": null,
+      "trough_at": null,
+      "thesis_url": null
+    },
     {
       "id": 32,
       "mint": "HkipgHjpDJNyiaPnrUNVbLfY3oDJcrpcinX3kiHnpump",
@@ -245,15 +245,15 @@
   ],
   "stats": {
     "short": {
-      "count": 5,
+      "count": 6,
       "wins": 1,
-      "losses": 3,
+      "losses": 4,
       "expired": 1,
-      "win_rate": 25.0,
+      "win_rate": 20.0,
       "avg_winner_pct": 64.26050755334907,
-      "avg_loser_pct": -86.70552689872063,
+      "avg_loser_pct": -89.77840259872525,
       "best_pct": 117.68707482993194,
-      "worst_pct": -98.43656343656345
+      "worst_pct": -98.99702969873904
     },
     "long": {
       "count": 1,
@@ -267,17 +267,28 @@
       "worst_pct": -97.32610321615557
     },
     "overall": {
-      "count": 6,
+      "count": 7,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "expired": 1,
-      "win_rate": 20.0,
+      "win_rate": 16.666666666666664,
       "avg_winner_pct": 64.26050755334907,
-      "avg_loser_pct": -89.36067097807937,
+      "avg_loser_pct": -91.28794272221131,
       "best_pct": 117.68707482993194,
-      "worst_pct": -98.43656343656345
+      "worst_pct": -98.99702969873904
     },
     "by_source": {
+      "curve": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -98.99702969873904,
+        "best_pct": -98.99702969873904,
+        "worst_pct": -98.99702969873904
+      },
       "notifier": {
         "count": 6,
         "wins": 1,

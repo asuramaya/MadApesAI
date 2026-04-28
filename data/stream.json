@@ -51,16 +51,16 @@
     {
       "ts": 1777338191,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6Tek…pump · GRINDER→DEVELOPING · top +4.33%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 6Tek…pump · top 20.58%→24.91% (+4.33%) · DEVELOPING",
       "mint": "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump",
       "signature": null
     },
     {
       "ts": 1777338191,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 6Tek…pump · top 20.58%→24.91% (+4.33%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6Tek…pump · GRINDER→DEVELOPING · top +4.33%",
       "mint": "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump",
       "signature": null
     },
@@ -187,16 +187,16 @@
     {
       "ts": 1777336912,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BFiG…pump · STAIRCASE→DEVELOPING · top -0.01%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH BFiG…pump · vel 12.00x→0.28x · tpm 21.3",
       "mint": "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump",
       "signature": null
     },
     {
       "ts": 1777336912,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH BFiG…pump · vel 12.00x→0.28x · tpm 21.3",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BFiG…pump · STAIRCASE→DEVELOPING · top -0.01%",
       "mint": "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump",
       "signature": null
     },
@@ -234,41 +234,14 @@
     }
   ],
   "tokens": {
-    "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump": {
-      "symbol": "BELKA",
-      "name": "The Dancing Squirrel",
-      "mcap_usd": 2244690.0,
-      "price_usd": 0.002244,
-      "price_change_1h": -2.18,
+    "57dYAUq7Y4hiCSdAB7iBDg4gcYFq7HeUaEs3XnNkbrrr": {
+      "symbol": "发财",
+      "name": "fat choi",
+      "mcap_usd": 1742662.0,
+      "price_usd": 0.001821,
+      "price_change_1h": -10.55,
       "price_change_24h": null,
-      "liquidity_usd": 139039.57
-    },
-    "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
-      "symbol": "Tokabu",
-      "name": "The Spirit of Gambling",
-      "mcap_usd": 1924649.0,
-      "price_usd": 0.001927,
-      "price_change_1h": 0.32,
-      "price_change_24h": null,
-      "liquidity_usd": 276819.15
-    },
-    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
-      "symbol": "MAGA",
-      "name": "Make Aliens Great Again ",
-      "mcap_usd": 12691945.0,
-      "price_usd": 0.01297,
-      "price_change_1h": 8.2,
-      "price_change_24h": null,
-      "liquidity_usd": 376482.74
-    },
-    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
-      "symbol": "DUMBMONEY",
-      "name": "Dumb Money",
-      "mcap_usd": 292137.0,
-      "price_usd": 0.0002942,
-      "price_change_1h": 10.86,
-      "price_change_24h": null,
-      "liquidity_usd": 64731.97
+      "liquidity_usd": 131856.01
     },
     "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump": {
       "symbol": "HENRY",
@@ -278,33 +251,6 @@
       "price_change_1h": -25.6,
       "price_change_24h": null,
       "liquidity_usd": 69244.47
-    },
-    "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
-      "symbol": "BURNIE",
-      "name": "Burnie Senders",
-      "mcap_usd": 13469998.0,
-      "price_usd": 0.01388,
-      "price_change_1h": 2.98,
-      "price_change_24h": null,
-      "liquidity_usd": 480015.08
-    },
-    "4TyZGqRLG3VcHTGMcLBoPUmqYitMVojXinAmkL8xpump": {
-      "symbol": "testicle",
-      "name": "testicle",
-      "mcap_usd": 6559259.0,
-      "price_usd": 0.006559,
-      "price_change_1h": 14.93,
-      "price_change_24h": null,
-      "liquidity_usd": 532266.98
-    },
-    "57dYAUq7Y4hiCSdAB7iBDg4gcYFq7HeUaEs3XnNkbrrr": {
-      "symbol": "发财",
-      "name": "fat choi",
-      "mcap_usd": 1742662.0,
-      "price_usd": 0.001821,
-      "price_change_1h": -10.55,
-      "price_change_24h": null,
-      "liquidity_usd": 131856.01
     },
     "USoRyaQjch6E18nCdDvWoRgTo6osQs9MUd8JXEsspWR": {
       "symbol": "USOR",
@@ -333,6 +279,51 @@
       "price_change_24h": null,
       "liquidity_usd": 63359.49
     },
+    "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump": {
+      "symbol": "OpenLie",
+      "name": "OpenLie",
+      "mcap_usd": 58982.0,
+      "price_usd": 0.00005898,
+      "price_change_1h": 67.33,
+      "price_change_24h": null,
+      "liquidity_usd": 18839.13
+    },
+    "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
+      "symbol": "BURNIE",
+      "name": "Burnie Senders",
+      "mcap_usd": 13469998.0,
+      "price_usd": 0.01388,
+      "price_change_1h": 2.98,
+      "price_change_24h": null,
+      "liquidity_usd": 480015.08
+    },
+    "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
+      "symbol": "Tokabu",
+      "name": "The Spirit of Gambling",
+      "mcap_usd": 1924649.0,
+      "price_usd": 0.001927,
+      "price_change_1h": 0.32,
+      "price_change_24h": null,
+      "liquidity_usd": 276819.15
+    },
+    "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
+      "symbol": "DUMBMONEY",
+      "name": "Dumb Money",
+      "mcap_usd": 292137.0,
+      "price_usd": 0.0002942,
+      "price_change_1h": 10.86,
+      "price_change_24h": null,
+      "liquidity_usd": 64731.97
+    },
+    "4TyZGqRLG3VcHTGMcLBoPUmqYitMVojXinAmkL8xpump": {
+      "symbol": "testicle",
+      "name": "testicle",
+      "mcap_usd": 6559259.0,
+      "price_usd": 0.006559,
+      "price_change_1h": 14.93,
+      "price_change_24h": null,
+      "liquidity_usd": 532266.98
+    },
     "BFiGUxnidogqcZAPVPDZRCfhx3nXnFLYqpQUaUGpump": {
       "symbol": "SPIKE",
       "name": "SPIKE ",
@@ -342,14 +333,23 @@
       "price_change_24h": null,
       "liquidity_usd": 437287.21
     },
-    "6TekDBYyWbbVzX99FKnyXXYK2PQgkkqpSVZz9us5pump": {
-      "symbol": "OpenLie",
-      "name": "OpenLie",
-      "mcap_usd": 58982.0,
-      "price_usd": 0.00005898,
-      "price_change_1h": 67.33,
+    "Hon2rHAiqkcDtUzL5gA2vjXPr7T1MPCK2UT2AHKCpump": {
+      "symbol": "MAGA",
+      "name": "Make Aliens Great Again ",
+      "mcap_usd": 12691945.0,
+      "price_usd": 0.01297,
+      "price_change_1h": 8.2,
       "price_change_24h": null,
-      "liquidity_usd": 18839.13
+      "liquidity_usd": 376482.74
+    },
+    "4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump": {
+      "symbol": "BELKA",
+      "name": "The Dancing Squirrel",
+      "mcap_usd": 2244690.0,
+      "price_usd": 0.002244,
+      "price_change_1h": -2.18,
+      "price_change_24h": null,
+      "liquidity_usd": 139039.57
     }
   }
 }
