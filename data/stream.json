@@ -1,67 +1,123 @@
 {
   "events": [
     {
-      "ts": 1777398738,
+      "ts": 1777399041,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE ApMS…pump · GRINDER→DEVELOPING · top +0.37%",
-      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 2agX…DckV · top 18.76%→29.33% (+10.57%) · GRINDER",
+      "mint": "2agXhep8J9sa5kQNNQzzE9JYDVNQgV3DUiWRazAQDckV",
       "signature": null
     },
     {
-      "ts": 1777398738,
+      "ts": 1777399041,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING GeHV…pump · deployer down 39.8% (212364187 → 127864403)",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE GeHV…pump · GRINDER→DEVELOPING · top +1.13%",
       "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
       "signature": null
     },
     {
-      "ts": 1777398722,
+      "ts": 1777398974,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING ApMS…pump · deployer down 14.6% (206903230 → 176707251)",
+      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398974,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE ApMS…pump · DEVELOPING→GRINDER · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE ApMS…pump · DEVELOPING→STAIRCASE · top +0.05%",
       "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
       "signature": null
     },
     {
-      "ts": 1777398722,
+      "ts": 1777398973,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING ApMS…pump · deployer down 10.1% (206903230 → 185913103)",
-      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777398722,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING GeHV…pump · deployer down 39.8% (212364187 → 127864403)",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING GeHV…pump · top 15.36%→20.37% (+5.01%) · GRINDER",
       "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
       "signature": null
     },
     {
-      "ts": 1777398690,
+      "ts": 1777398973,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GeHV…pump · STAIRCASE→GRINDER · top +0.00%",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 2agX…DckV · deployer down 16.5% (224617841 → 187632319)",
+      "mint": "2agXhep8J9sa5kQNNQzzE9JYDVNQgV3DUiWRazAQDckV",
+      "signature": null
+    },
+    {
+      "ts": 1777398956,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING ApMS…pump · deployer down 14.8% (206903230 → 176214529)",
+      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398955,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING GeHV…pump · deployer down 27.7% (212364187 → 153626644)",
       "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
       "signature": null
     },
     {
-      "ts": 1777398690,
+      "ts": 1777398939,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING ApMS…pump · deployer down 10.1% (206903230 → 185913103)",
+      "summary": "DEV_SELLING ApMS…pump · deployer down 14.8% (206903230 → 176218007)",
       "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
       "signature": null
     },
     {
-      "ts": 1777398673,
+      "ts": 1777398923,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING ApMS…pump · deployer down 10.1% (206903230 → 185913103)",
+      "summary": "DEV_SELLING GeHV…pump · deployer down 21.7% (212364187 → 166226212)",
+      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398923,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING GeHV…pump · top 14.54%→16.62% (+2.09%) · GRINDER",
+      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398906,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE ApMS…pump · DEVELOPING→STAIRCASE · top -1.79%",
       "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398905,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING GeHV…pump · deployer down 31.6% (212364187 → 145359301)",
+      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398800,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE ApMS…pump · STAIRCASE→DEVELOPING · top -0.23%",
+      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
+      "signature": null
+    },
+    {
+      "ts": 1777398783,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING GeHV…pump · top 12.79%→14.91% (+2.12%) · GRINDER",
+      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
       "signature": null
     },
     {
@@ -73,163 +129,11 @@
       "signature": null
     },
     {
-      "ts": 1777398640,
+      "ts": 1777398607,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE ApMS…pump · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777398624,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GeHV…pump · DEVELOPING→GRINDER · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE GeHV…pump · GRINDER→DEVELOPING · top +0.00%",
       "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
-      "signature": null
-    },
-    {
-      "ts": 1777398574,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING GeHV…pump · deployer down 11.6% (212364187 → 187679555)",
-      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
-      "signature": null
-    },
-    {
-      "ts": 1777398526,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING GeHV…pump · top 16.72%→18.77% (+2.04%) · GRINDER",
-      "mint": "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397298,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 23jt…pump · top 20.54%→34.33% (+13.79%) · DEVELOPING",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397298,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 23jt…pump · GRINDER→DEVELOPING · top +13.79%",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397231,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 23jt…pump · top 17.35%→20.54% (+3.19%) · GRINDER",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397231,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 23jt…pump · STAIRCASE→GRINDER · top +3.19%",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397213,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 23jt…pump · deployer down 19.8% (216378472 → 173459921)",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397213,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 23jt…pump · DEVELOPING→STAIRCASE · top -3.62%",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397196,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 7rnG…fCzE · top 17.63%→27.06% (+9.43%) · GRINDER",
-      "mint": "7rnGEc36dQAwEBbxcWzxTeA5TdSnrcBAwd8Wu88cfCzE",
-      "signature": null
-    },
-    {
-      "ts": 1777397180,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 23jt…pump · deployer down 11.0% (216378472 → 192645390)",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397179,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 7rnG…fCzE · deployer down 19.4% (218821466 → 176296050)",
-      "mint": "7rnGEc36dQAwEBbxcWzxTeA5TdSnrcBAwd8Wu88cfCzE",
-      "signature": null
-    },
-    {
-      "ts": 1777397145,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 23jt…pump · deployer down 10.2% (216378472 → 194352060)",
-      "mint": "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump",
-      "signature": null
-    },
-    {
-      "ts": 1777397058,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING Hzh1…bonk · top 19.93%→23.06% (+3.13%) · DEVELOPING",
-      "mint": "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777397040,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING Hzh1…bonk · deployer down 13.2% (229476241 → 199263869)",
-      "mint": "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777397022,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Hzh1…bonk · STAIRCASE→DEVELOPING · top -1.08%",
-      "mint": "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777397005,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING Hzh1…bonk · top 16.38%→22.76% (+6.38%) · STAIRCASE",
-      "mint": "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777397005,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Hzh1…bonk · DEVELOPING→STAIRCASE · top +6.38%",
-      "mint": "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk",
-      "signature": null
-    },
-    {
-      "ts": 1777396993,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING HLhB…pump · top 28.56%→32.57% (+4.01%) · DEVELOPING",
-      "mint": "HLhBUiPPkkNu1mcHGdEnmsgCd4Ce8BiMB9nqzJJLpump",
       "signature": null
     },
     {
@@ -258,68 +162,41 @@
     }
   ],
   "tokens": {
-    "7rnGEc36dQAwEBbxcWzxTeA5TdSnrcBAwd8Wu88cfCzE": {
-      "symbol": "YVGONNE",
-      "name": "Yvgonne Gonzulez Rogwers",
-      "mcap_usd": 5171.0,
-      "price_usd": 5.17e-6,
-      "price_change_1h": -84.69,
+    "2agXhep8J9sa5kQNNQzzE9JYDVNQgV3DUiWRazAQDckV": {
+      "symbol": "agunt",
+      "name": "Cumerce agunt",
+      "mcap_usd": 19121.0,
+      "price_usd": 0.00001912,
+      "price_change_1h": -43.65,
       "price_change_24h": null,
-      "liquidity_usd": 5556.37
-    },
-    "Hzh12mVDdtTJT9nbiPyowLK638sEYQ3VA5aUWBbTbonk": {
-      "symbol": "BeeCoin",
-      "name": "Trump Bee Coin",
-      "mcap_usd": 8811.0,
-      "price_usd": 8.81e-6,
-      "price_change_1h": -73.9,
-      "price_change_24h": null,
-      "liquidity_usd": 7254.33
+      "liquidity_usd": 10644.09
     },
     "ApMSeu8uUcsu1YQpE8JpfsbnNizsJjHeyqhyvgBEpump": {
       "symbol": "DBEET",
       "name": "Donald Bee Trump",
-      "mcap_usd": 40482.0,
-      "price_usd": 0.00004048,
-      "price_change_1h": 17.62,
+      "mcap_usd": 38660.0,
+      "price_usd": 0.00003866,
+      "price_change_1h": 12.33,
       "price_change_24h": null,
-      "liquidity_usd": 15444.02
+      "liquidity_usd": 15104.41
     },
     "GeHVujP6CY9wFsBtXvAwHJm3umV6RyyTxGW22ewcpump": {
       "symbol": "TRUTH",
       "name": "those afraid of truth oppose it",
-      "mcap_usd": 92013.0,
-      "price_usd": 0.00009201,
-      "price_change_1h": 164.0,
+      "mcap_usd": 33618.0,
+      "price_usd": 0.00003361,
+      "price_change_1h": -3.71,
       "price_change_24h": null,
-      "liquidity_usd": 23700.0
-    },
-    "23jt3m4S6TSBVXqsJwU78GTteaQyvzPDBvf1fXsvpump": {
-      "symbol": "Eric",
-      "name": "Eric",
-      "mcap_usd": 9411.0,
-      "price_usd": 9.411e-6,
-      "price_change_1h": -72.98,
-      "price_change_24h": null,
-      "liquidity_usd": 7475.91
-    },
-    "HLhBUiPPkkNu1mcHGdEnmsgCd4Ce8BiMB9nqzJJLpump": {
-      "symbol": "SPAY",
-      "name": "Smartpay",
-      "mcap_usd": 3157.0,
-      "price_usd": 3.157e-6,
-      "price_change_1h": -90.94,
-      "price_change_24h": null,
-      "liquidity_usd": 4326.33
+      "liquidity_usd": 14541.78
     },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 312878.0,
-      "price_usd": 0.0003151,
-      "price_change_1h": 8.43,
+      "mcap_usd": 299533.0,
+      "price_usd": 0.0003017,
+      "price_change_1h": 4.8,
       "price_change_24h": null,
-      "liquidity_usd": 66843.03
+      "liquidity_usd": 65391.61
     }
   }
 }
