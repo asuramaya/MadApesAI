@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777419879,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 74ig…pump · DEVELOPING→STAIRCASE · top -13.95%",
+      "mint": "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump",
+      "signature": null
+    },
+    {
+      "ts": 1777419879,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 74ig…pump · deployer down 44.1% (316209055 → 176680540)",
+      "mint": "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump",
+      "signature": null
+    },
+    {
       "ts": 1777418580,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -34,23 +50,32 @@
     }
   ],
   "tokens": {
-    "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump": {
-      "symbol": "Kylo",
-      "name": "Kylo The Doge",
-      "mcap_usd": 117881.0,
-      "price_usd": 0.0001178,
-      "price_change_1h": 42.7,
+    "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump": {
+      "symbol": "ELONHOUSE",
+      "name": "18 Egido St., Starbase, TX 78521",
+      "mcap_usd": 38921.0,
+      "price_usd": 0.00003892,
+      "price_change_1h": 13.15,
       "price_change_24h": null,
-      "liquidity_usd": 29264.9
+      "liquidity_usd": 15476.32
     },
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 304024.0,
-      "price_usd": 0.0003062,
-      "price_change_1h": 0.46,
+      "mcap_usd": 302900.0,
+      "price_usd": 0.000305,
+      "price_change_1h": 2.11,
       "price_change_24h": null,
-      "liquidity_usd": 66004.16
+      "liquidity_usd": 65901.99
+    },
+    "9UFYtsAqq56BFAtBJAxXhTAnMjmZWhjpyEnQpuvkpump": {
+      "symbol": "Kylo",
+      "name": "Kylo The Doge",
+      "mcap_usd": 122450.0,
+      "price_usd": 0.0001224,
+      "price_change_1h": 44.24,
+      "price_change_24h": null,
+      "liquidity_usd": 30020.22
     }
   }
 }
