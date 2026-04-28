@@ -1,0 +1,186 @@
+{
+  "basic_scout": {
+    "deployer": null,
+    "liquidity_usd": 0.0,
+    "mcap_usd": 4010.2,
+    "mint": "FNi1q77BXgDJf6HTMBWTpTFRJu2oaCPzah9zQjZvpump",
+    "name": "Sneaky Sam",
+    "pair_dex": "pumpfun",
+    "socials": [],
+    "symbol": "SAM",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777339105,
+    "classification": "CURVE",
+    "confidence": 58,
+    "entry_liquidity_usd": 7711.64625595,
+    "entry_mcap_usd": 40312.608766489546,
+    "entry_pair_dex": "curve",
+    "entry_price_usd": 0.00004031260876648954,
+    "entry_top_holder_pct": 0.0,
+    "mint": "FNi1q77BXgDJf6HTMBWTpTFRJu2oaCPzah9zQjZvpump",
+    "note": "horizon=SHORT source=curve fill=10.7% velocity=1.94sol/min alpha=59",
+    "source": "curve",
+    "symbol": ""
+  },
+  "call_id": 34,
+  "captured_at": 1777340582,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "FNi1q77BXgDJf6HTMBWTpTFRJu2oaCPzah9zQjZvpump",
+    "reference_count": 0
+  },
+  "deployer_history": [],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 0,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "FNi1q77BXgDJf6HTMBWTpTFRJu2oaCPzah9zQjZvpump",
+    "note": "no top-holder snapshots for this mint",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpfun uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "11111111111111111111111111111111",
+    "lp_supply_ui": 0.0,
+    "pair_address": "CSCXSbNoNoBPxh6VZcRkZ7pSPzeQBbfLUbGXJnf2MN25",
+    "pair_dex": "pumpfun",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 0.0,
+    "mcap_usd": 4010.2,
+    "name": "Sneaky Sam",
+    "pair_address": "CSCXSbNoNoBPxh6VZcRkZ7pSPzeQBbfLUbGXJnf2MN25",
+    "pair_dex": "pumpfun",
+    "symbol": "SAM"
+  },
+  "sniper_cohort": {
+    "available": false,
+    "mint": "FNi1q77BXgDJf6HTMBWTpTFRJu2oaCPzah9zQjZvpump",
+    "note": "no sniper cohort captured (mint predates tracking)",
+    "retention_pct": 0.0,
+    "sniper_count": 0,
+    "still_in_top_100": 0
+  },
+  "whales": [
+    {
+      "action": "accumulating",
+      "balance_ui": 931261719.619976,
+      "net_change_24h_ui": 20589329.056730986,
+      "net_change_7d_ui": 20589329.056730986,
+      "owner": "CSCXSbNoNoBPxh6VZcRkZ7pSPzeQBbfLUbGXJnf2MN25",
+      "pct_of_supply": 93.1261719619976,
+      "token_account": "EkhNBmJ9sXVQ8KeMigdnVV4KNzSfwRsEzBFm4GHcE5Xz",
+      "tx_count_24h": 46,
+      "tx_count_7d": 46
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 43243378.923129,
+      "net_change_24h_ui": 43243378.923129,
+      "net_change_7d_ui": 43243378.923129,
+      "owner": "29bX4EAypZm4sPmh3C8cnVq4jywAY63twL6YBhNBPbUr",
+      "pct_of_supply": 4.3243378923129,
+      "token_account": "HRfy3i5AJMzYGwtj7B4Lari8QL1YmgcVbSPrp6ZH4JVL",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17978500.287024,
+      "net_change_24h_ui": 17978500.287024,
+      "net_change_7d_ui": 17978500.287024,
+      "owner": "9Y7ph1eonYRoSw9oUqYFaKe1iZvoB1UVsqTKuBN6mMzB",
+      "pct_of_supply": 1.7978500287024,
+      "token_account": "GoMmDui1zGSBEf2t62VDZZRWwM6xmVjagSECKbRjakwn",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 4519376.602858,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "F1WYv89YB2T5ENvVjq5NA8aCFmPJj4uThoXUerDrbSnJ",
+      "pct_of_supply": 0.45193766028580007,
+      "token_account": "DYtetpFaTzLp24NgWjDc7Fu2R2bwnoZjMJHHB4EBEzHn",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 2996348.65944,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Coaxvjiv3MCBnVYfostpBb2XiE5nFpy77JKjKvgv4cMn",
+      "pct_of_supply": 0.299634865944,
+      "token_account": "51LbXRCSitjaLqaZzg3x1kbhv2bk5xPcB5TQqF3wcTgB",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 675.907573,
+      "net_change_24h_ui": 675.907573,
+      "net_change_7d_ui": 675.907573,
+      "owner": "99j6HWTKqEigSbRpe1uJ1g3EVpRZJNnB7wbKsjhfPz8g",
+      "pct_of_supply": 0.0000675907573,
+      "token_account": "61LxHUZ6FzLDSQXto3XC1Q9YvSz1FySkArENhqd3ymcY",
+      "tx_count_24h": 1,
+      "tx_count_7d": 1
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 0.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "FHa9uFwax7CNcZqRFjZNZnjApkBocWuL4ETG5mnDU6zz",
+      "pct_of_supply": 0.0,
+      "token_account": "J89J4euEFECt65QEMEHngpUQRNiYNYvhxMUxXEKzFZfV",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 0.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2hHEDg4dxLdN7oiJjr97KFdSYdjDsFrcSXggoqJ8c6P4",
+      "pct_of_supply": 0.0,
+      "token_account": "H9PWtrABH9AkJZmXTTYvuUTVk7u5NkXzStX3cKaQUCJe",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 0.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Aa1fekLz6CHi4R6aU8dVCk2PfCvD5nDwcuKboyerNJH",
+      "pct_of_supply": 0.0,
+      "token_account": "GymUG7Q9YMDPjtKWcJrn899vqSuHCnGvdpXWNp9phDeD",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    },
+    {
+      "action": "distributing",
+      "balance_ui": 0.0,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "EUdbKgBtWW8zK81tGDS6KSgh7yqzg3cgUQjMzFmgRzC1",
+      "pct_of_supply": 0.0,
+      "token_account": "GmN3YLhLVZn2E5h2XztsbnXifYcqAMWceWnz4MEYsmEk",
+      "tx_count_24h": 2,
+      "tx_count_7d": 2
+    }
+  ]
+}
