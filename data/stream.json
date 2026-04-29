@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777500443,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 3t4G…pump · top 18.55%→25.23% (+6.69%) · DEVELOPING",
+      "mint": "3t4GiENDepWKkGicwDoMz2V2fWDZXHLAoJ3ZrpZQpump",
+      "signature": null
+    },
+    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -17,5 +25,15 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {}
+  "tokens": {
+    "3t4GiENDepWKkGicwDoMz2V2fWDZXHLAoJ3ZrpZQpump": {
+      "symbol": "UNICEF",
+      "name": "UNICEF",
+      "mcap_usd": 19822.0,
+      "price_usd": 0.00001982,
+      "price_change_1h": -27.25,
+      "price_change_24h": null,
+      "liquidity_usd": 10878.1
+    }
+  }
 }
