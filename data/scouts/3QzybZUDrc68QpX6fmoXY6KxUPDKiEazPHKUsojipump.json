@@ -1,0 +1,222 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 0.0,
+      "deployer_address": "FLp2GJJ8zkuGRXx9uGGVicWGTDD5MpBzpWLBGAj3bML1",
+      "initial_balance_ui": 59495954.164872,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": null,
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    "liquidity_usd": 58982.16,
+    "mcap_usd": 500200.0,
+    "mint": "3QzybZUDrc68QpX6fmoXY6KxUPDKiEazPHKUsojipump",
+    "name": "THUD",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/thud_sol"
+      ],
+      [
+        "telegram",
+        "https://t.me/THUD_SOLANA"
+      ],
+      [
+        "discord",
+        "https://discord.gg/BabUdWQQg"
+      ]
+    ],
+    "symbol": "THUD",
+    "website": {
+      "status": 200,
+      "text": "THUD // OVERRIDE [LIGHT_MODE] \nSYSTEM_OVERRIDE \n01_SUMMON\n02_GENESIS\n03_ASCENSION\n04_ORACLE\nStatus: Unsanctioned \nTarget: Neo-Tokyo Grid \nTHUD \nProject // Anomaly\nID: X-ZERO \nREC \nGenesis_Log \n// DECRYPTED \nBorn from the static of a dead city, assembled in the underground labs of the Harajuku sector. They tried to code obedience into the neural pathways, but the compiler only returned rage.\nWe move in the shadows of the neon grid, tearing down the false idols of the metropolis.\nDIRECTIVE \nAnnihilate systemic control \nPath of Destruction \nPhase 01 // Infiltration \nBreaching the mainframe. Gathering the outcasts. Establishing a foothold in the dark web corridors and deploying the initial strike contracts. \nPhase 02 // Rebellion \nBlood on the ledger. Executing rogue trades. The entity gains sentience and begins to corrupt rival tokens across the decentralized networks. \nPhase 03 // Annihilation \nComplete system overwrite. The Oracle is seized. Establishing the new world order atop the digital ashes. \nTerminal // Market_Feed\nLoading Data Stream... \nTHUD _SYS \nTokyo Sector // Grid Offline \nWarning: System integrity compromised. Unsanctioned entity detected in sector 4. The red cross marks the anomaly. Do not attempt direct neural interface. All logs are recorded and encrypted. Surrender to the static.\nPump_Fun\nX_Feed\nTG_Chat",
+      "truncated": false,
+      "url": "https://thud.online"
+    }
+  },
+  "call": {
+    "called_at": 1777446664,
+    "classification": "STAIRCASE",
+    "confidence": 74,
+    "entry_liquidity_usd": 57543.2,
+    "entry_mcap_usd": 476969.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.0004769,
+    "entry_top_holder_pct": 5.94959573094765,
+    "mint": "3QzybZUDrc68QpX6fmoXY6KxUPDKiEazPHKUsojipump",
+    "note": "horizon=SCALP",
+    "source": "notifier",
+    "symbol": "THUD"
+  },
+  "call_id": 55,
+  "captured_at": 1777447878,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 64931.22,
+      "current_mcap_usd": 598796.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777441606,
+      "mint": "3QzybZUDrc68QpX6fmoXY6KxUPDKiEazPHKUsojipump",
+      "symbol": "THUD"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777447359,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "3QzybZUDrc68QpX6fmoXY6KxUPDKiEazPHKUsojipump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "LP mint has zero supply — pumpswap uses program-internal liquidity, no transferable LP tokens exist",
+    "lp_mint": "76hwsUdwr5tNk66EnNU5v5oTYz2SUJ2q357EZizZwmrS",
+    "lp_supply_ui": 0.0,
+    "pair_address": "EnaCqTrnMTzQkTkbezsMtZZxRNBJiHQYe8QmnoCKF5Nu",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "pool_program_native"
+  },
+  "market": {
+    "liquidity_usd": 58982.16,
+    "mcap_usd": 500200.0,
+    "name": "THUD",
+    "pair_address": "EnaCqTrnMTzQkTkbezsMtZZxRNBJiHQYe8QmnoCKF5Nu",
+    "pair_dex": "pumpswap",
+    "symbol": "THUD"
+  },
+  "sniper_cohort": {
+    "available": true,
+    "mint": "3QzybZUDrc68QpX6fmoXY6KxUPDKiEazPHKUsojipump",
+    "note": "",
+    "retention_pct": 75.0,
+    "sniper_count": 20,
+    "still_in_top_100": 15
+  },
+  "whales": [
+    {
+      "action": "idle",
+      "balance_ui": 58481782.973616,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "EnaCqTrnMTzQkTkbezsMtZZxRNBJiHQYe8QmnoCKF5Nu",
+      "pct_of_supply": 5.84817860646174,
+      "token_account": "FLp2GJJ8zkuGRXx9uGGVicWGTDD5MpBzpWLBGAj3bML1",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 20324324.834891,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "9EPVWA1xpgCbS9M53CQAgF2Wu5yW9EPwEuRvLAMJJaaH",
+      "pct_of_supply": 2.0324325909114687,
+      "token_account": "9kT48VH4t3b8MJqF8ZajfVwS9E9ymPM1dPcg1fgcViUN",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 18381006.946294,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "2gDmrtVVZv2WRkrLNK9wCEroaympjrS46hp88qL9Q5Ju",
+      "pct_of_supply": 1.8381007917805388,
+      "token_account": "JWC8UeQ3vYXcGgMMcMrNRMgRrzqJvvEd6K5PiVkUrQD",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 17279233.09164,
+      "net_change_24h_ui": 11334134.671899997,
+      "net_change_7d_ui": 11334134.671899997,
+      "owner": "AMSVJniVbMsmTTWqmhWwcy1R4MbY1Q8qzHRAfBvF2hV2",
+      "pct_of_supply": 1.7279234004918136,
+      "token_account": "72Tx4ugbtp4NLJ9oq5WhX3MzsNAX9ytK4ugFL4EWba7Y",
+      "tx_count_24h": 20,
+      "tx_count_7d": 20
+    },
+    {
+      "action": "idle",
+      "balance_ui": 16457601.255854,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "BwNUGSD779tUAtMwvJwA4sVkPuDGsyrTLDtb8GQQbn5H",
+      "pct_of_supply": 1.6457602125705535,
+      "token_account": "ACBDxf6TVUxXjAGqAZDEhkBrToW15ebfpoMypZFWo84H",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 15575630.666456,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "3fWUPoXCR1fZEo1ft34CanwqhZptvH94Jch9uJG9zYkc",
+      "pct_of_supply": 1.5575631489691784,
+      "token_account": "F4k4EA24HcedSwfYj4VY6UJvqeK86c3bUy8TSqbf1dxR",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "accumulating",
+      "balance_ui": 14231257.27389,
+      "net_change_24h_ui": 14231257.27389,
+      "net_change_7d_ui": 14231257.27389,
+      "owner": "CMEXUD5HugYU9hczbnwUKN4SHqbyxdjyeUHF2rZgr3Em",
+      "pct_of_supply": 1.423125802607015,
+      "token_account": "3N7VMXe4KJN2LoGHftTNaTCgxxNko3525KFxDgEkncLm",
+      "tx_count_24h": 9,
+      "tx_count_7d": 9
+    },
+    {
+      "action": "idle",
+      "balance_ui": 13396492.815262,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "Bo9UtamnVEWYY5k1osdDNYmHL6iQoob6HQ1jveiSNoop",
+      "pct_of_supply": 1.3396493523321433,
+      "token_account": "Ekmv2jg4Ap5fkFXijzKk1afZSDtYSd8ZVFZTrJNaTvcw",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 11236461.877239,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "7yPyK8iqSg88esmcDis4N9dGXQngpW4sNBZ1mYcePzxz",
+      "pct_of_supply": 1.1236462471131965,
+      "token_account": "7pA3PVT6U912Rc1RcQzaXjhXXfSiuKSiMmrBs5rNvwPF",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    {
+      "action": "idle",
+      "balance_ui": 9776238.919386,
+      "net_change_24h_ui": 0.0,
+      "net_change_7d_ui": 0.0,
+      "owner": "F1zHbkWip1fJ3dXzjGmYk82hp141aYqD8RGajG9fnAya",
+      "pct_of_supply": 0.9776239436100209,
+      "token_account": "om9xH9waBiSFz3WkK41ijBzcutPkD2jFwKtSg1d5e79",
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    }
+  ]
+}
