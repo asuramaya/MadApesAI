@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777466608,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING Ck9W…pump · top 15.17%→23.51% (+8.34%) · GRINDER",
+      "mint": "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump",
+      "signature": null
+    },
+    {
+      "ts": 1777465820,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING Ck9W…pump · top 10.98%→15.17% (+4.19%) · GRINDER",
+      "mint": "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump",
+      "signature": null
+    },
+    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -17,5 +33,15 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {}
+  "tokens": {
+    "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump": {
+      "symbol": "diVine",
+      "name": "diVine",
+      "mcap_usd": 36114.0,
+      "price_usd": 0.00003611,
+      "price_change_1h": 3.79,
+      "price_change_24h": null,
+      "liquidity_usd": 15813.4
+    }
+  }
 }
