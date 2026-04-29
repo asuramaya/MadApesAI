@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777501825,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Ez7k…pump · STAIRCASE→GRINDER · top -2.29%",
+      "mint": "Ez7kt6vmS8Sym6sHmts6mQncxvxNe4kbba9ejHEnpump",
+      "signature": null
+    },
+    {
       "ts": 1777500443,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -29,11 +37,20 @@
     "3t4GiENDepWKkGicwDoMz2V2fWDZXHLAoJ3ZrpZQpump": {
       "symbol": "UNICEF",
       "name": "UNICEF",
-      "mcap_usd": 27091.0,
-      "price_usd": 0.00002709,
-      "price_change_1h": -42.61,
+      "mcap_usd": 41459.0,
+      "price_usd": 0.00004145,
+      "price_change_1h": 0.18,
       "price_change_24h": null,
-      "liquidity_usd": 12718.19
+      "liquidity_usd": 15736.45
+    },
+    "Ez7kt6vmS8Sym6sHmts6mQncxvxNe4kbba9ejHEnpump": {
+      "symbol": "Amureca",
+      "name": "Team Amureca",
+      "mcap_usd": 54441.0,
+      "price_usd": 0.00005444,
+      "price_change_1h": 58.15,
+      "price_change_24h": null,
+      "liquidity_usd": 18215.63
     }
   }
 }
