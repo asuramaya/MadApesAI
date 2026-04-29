@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777424359,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE DeUk…bonk · STAIRCASE→DEVELOPING · top +0.02%",
+      "mint": "DeUkSiDZXPgVfnA7L83zseYbJQcQY2vT581WqETPbonk",
+      "signature": null
+    },
+    {
       "ts": 1777251893,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -29,11 +37,20 @@
     "CAjtTHvC878f8cZ4zEwdvgjkjFM7rbYN8Mb1go1cpump": {
       "symbol": "DUMBMONEY",
       "name": "Dumb Money",
-      "mcap_usd": 310495.0,
-      "price_usd": 0.0003127,
-      "price_change_1h": 3.54,
+      "mcap_usd": 306108.0,
+      "price_usd": 0.0003083,
+      "price_change_1h": 0.76,
       "price_change_24h": null,
-      "liquidity_usd": 66721.82
+      "liquidity_usd": 66348.17
+    },
+    "DeUkSiDZXPgVfnA7L83zseYbJQcQY2vT581WqETPbonk": {
+      "symbol": "SNIFFER",
+      "name": "sniffer",
+      "mcap_usd": 44086.0,
+      "price_usd": 0.00004408,
+      "price_change_1h": -34.18,
+      "price_change_24h": null,
+      "liquidity_usd": 17349.08
     }
   }
 }
