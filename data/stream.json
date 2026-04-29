@@ -1,27 +1,11 @@
 {
   "events": [
     {
-      "ts": 1777469250,
+      "ts": 1777471653,
       "kind": "alert",
       "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING Sfie…pump · top 15.11%→20.49% (+5.37%) · STAIRCASE",
-      "mint": "Sfiee65N7H4L5Y21iBTdpxYAB4ZbB8QR1pfTh3spump",
-      "signature": null
-    },
-    {
-      "ts": 1777468234,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Ck9W…pump · GRINDER→DEVELOPING · top +17.90%",
-      "mint": "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump",
-      "signature": null
-    },
-    {
-      "ts": 1777468234,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING Ck9W…pump · top 23.51%→41.41% (+17.90%) · DEVELOPING",
-      "mint": "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump",
+      "summary": "CONCENTRATING 5C71…pump · top 7.98%→13.53% (+5.56%) · GRINDER",
+      "mint": "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump",
       "signature": null
     },
     {
@@ -42,23 +26,14 @@
     }
   ],
   "tokens": {
-    "Sfiee65N7H4L5Y21iBTdpxYAB4ZbB8QR1pfTh3spump": {
-      "symbol": "SYBAU",
-      "name": "SYBAU 💔🥀",
-      "mcap_usd": 24694.0,
-      "price_usd": 0.00002469,
-      "price_change_1h": -58.54,
+    "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump": {
+      "symbol": "MUSK",
+      "name": "The Based Musk",
+      "mcap_usd": 123586.0,
+      "price_usd": 0.0001235,
+      "price_change_1h": -14.81,
       "price_change_24h": null,
-      "liquidity_usd": 12757.07
-    },
-    "Ck9WTzumUc7CJvHNNaZQgLyCSsC9EWCZ7tGL6a8Gpump": {
-      "symbol": "diVine",
-      "name": "diVine",
-      "mcap_usd": 11365.0,
-      "price_usd": 0.00001136,
-      "price_change_1h": -85.19,
-      "price_change_24h": null,
-      "liquidity_usd": 8872.83
+      "liquidity_usd": 29252.24
     }
   }
 }
