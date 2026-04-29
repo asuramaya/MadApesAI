@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777471653,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 5C71…pump · top 7.98%→13.53% (+5.56%) · GRINDER",
-      "mint": "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -25,15 +17,5 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {
-    "5C71ySmA8Jd9NhyFHiNRsmZwrX26fRp7nknB7bzGpump": {
-      "symbol": "MUSK",
-      "name": "The Based Musk",
-      "mcap_usd": 113633.0,
-      "price_usd": 0.0001136,
-      "price_change_1h": -48.58,
-      "price_change_24h": null,
-      "liquidity_usd": 28152.81
-    }
-  }
+  "tokens": {}
 }
