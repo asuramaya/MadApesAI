@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "ts": 1777517979,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2ssM…pump · GRINDER→ACTIVE_TRAP · top +0.01%",
-      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
-      "signature": null
-    },
-    {
-      "ts": 1777517653,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · GRINDER→ACTIVE_TRAP · top -0.01%",
-      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -33,24 +17,5 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {
-    "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
-      "symbol": "Wish",
-      "name": "Make A Wish",
-      "mcap_usd": 2235563.0,
-      "price_usd": 0.002235,
-      "price_change_1h": 27.34,
-      "price_change_24h": null,
-      "liquidity_usd": 148562.1
-    },
-    "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump": {
-      "symbol": "Goblin",
-      "name": "GoblinCoin",
-      "mcap_usd": 1378746.0,
-      "price_usd": 0.001819,
-      "price_change_1h": 6.4,
-      "price_change_24h": null,
-      "liquidity_usd": 132506.69
-    }
-  }
+  "tokens": {}
 }
