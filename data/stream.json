@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777557482,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2ssM…pump · GRINDER→ACTIVE_TRAP · top +0.00%",
+      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
+      "signature": null
+    },
+    {
       "ts": 1777556860,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -33,14 +41,6 @@
       "signature": null
     },
     {
-      "ts": 1777555810,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 79V1…pump · STAIRCASE→ACTIVE_TRAP · top -0.10%",
-      "mint": "79V1pN6f8iwsVGFP7L9qznM6dCP4WYK7eBDt4bxUpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -58,23 +58,23 @@
     }
   ],
   "tokens": {
-    "79V1pN6f8iwsVGFP7L9qznM6dCP4WYK7eBDt4bxUpump": {
-      "symbol": "PrayTogeth",
-      "name": "PrayTogether",
-      "mcap_usd": 1561.0,
-      "price_usd": 1.561e-6,
-      "price_change_1h": -96.22,
+    "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
+      "symbol": "Wish",
+      "name": "Make A Wish",
+      "mcap_usd": 1816162.0,
+      "price_usd": 0.001816,
+      "price_change_1h": -25.49,
       "price_change_24h": null,
-      "liquidity_usd": 3085.85
+      "liquidity_usd": 140820.21
     },
     "BSJnMxNSXY8K5DFa6Xi1ks75NDDmSZnJRUNJf28YLDqZ": {
       "symbol": "RATELON",
       "name": "Rat Elon",
-      "mcap_usd": 256480.0,
-      "price_usd": 0.0002564,
-      "price_change_1h": 15250.0,
+      "mcap_usd": 308846.0,
+      "price_usd": 0.0003088,
+      "price_change_1h": 18384.0,
       "price_change_24h": null,
-      "liquidity_usd": 42787.36
+      "liquidity_usd": 46980.77
     }
   }
 }
