@@ -35,16 +35,16 @@
     {
       "ts": 1777532938,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH 79og…pump · vel 5.25x→0.31x · tpm 11.2",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 79og…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "79ogrGd2bhRS455phmsJo8iHYzBusqgLeyxF9Tf5pump",
       "signature": null
     },
     {
       "ts": 1777532938,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 79og…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 79og…pump · vel 5.25x→0.31x · tpm 11.2",
       "mint": "79ogrGd2bhRS455phmsJo8iHYzBusqgLeyxF9Tf5pump",
       "signature": null
     },
@@ -97,14 +97,6 @@
       "signature": null
     },
     {
-      "ts": 1777531708,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING HDmo…pump · top 17.47%→19.86% (+2.39%) · GRINDER",
-      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -125,47 +117,47 @@
     "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump": {
       "symbol": "MSPAINTIFY",
       "name": "mspaintify",
-      "mcap_usd": 15846.0,
-      "price_usd": 0.00001584,
-      "price_change_1h": -53.57,
+      "mcap_usd": 15270.0,
+      "price_usd": 0.00001527,
+      "price_change_1h": -55.25,
       "price_change_24h": null,
-      "liquidity_usd": 9767.07
-    },
-    "79ogrGd2bhRS455phmsJo8iHYzBusqgLeyxF9Tf5pump": {
-      "symbol": "RC",
-      "name": "Red Cross",
-      "mcap_usd": 210284.0,
-      "price_usd": 0.0002102,
-      "price_change_1h": -0.82,
-      "price_change_24h": null,
-      "liquidity_usd": 38030.41
+      "liquidity_usd": 9588.13
     },
     "4ZdhpbJJNPBHNYVGfv41DRfTytjrb6Yg5P4y5iuRpump": {
       "symbol": "BREAST",
       "name": "Breastcoin",
-      "mcap_usd": 84560.0,
-      "price_usd": 0.00008455,
-      "price_change_1h": 148.0,
+      "mcap_usd": 81974.0,
+      "price_usd": 0.00008197,
+      "price_change_1h": 141.0,
       "price_change_24h": null,
-      "liquidity_usd": 22791.39
+      "liquidity_usd": 22451.05
     },
-    "oi2are2SFf2N57f6XPrafSzmJ5nevBnL9FnhoB9pump": {
-      "symbol": "DisabWhale",
-      "name": "The Disabled Whale",
-      "mcap_usd": 1592.0,
-      "price_usd": 1.591e-6,
-      "price_change_1h": -95.99,
+    "79ogrGd2bhRS455phmsJo8iHYzBusqgLeyxF9Tf5pump": {
+      "symbol": "RC",
+      "name": "Red Cross",
+      "mcap_usd": 210752.0,
+      "price_usd": 0.0002107,
+      "price_change_1h": 18.15,
       "price_change_24h": null,
-      "liquidity_usd": 3063.5
+      "liquidity_usd": 38074.91
     },
     "LauQprDjyRQGFhwdXH2TLis9iUqXyx6grx18YnSpump": {
       "symbol": "BALLS",
       "name": "Balls Coin",
-      "mcap_usd": 13702.0,
-      "price_usd": 0.0000137,
-      "price_change_1h": -60.38,
+      "mcap_usd": 13667.0,
+      "price_usd": 0.00001366,
+      "price_change_1h": -60.48,
       "price_change_24h": null,
-      "liquidity_usd": 8979.23
+      "liquidity_usd": 8968.02
+    },
+    "oi2are2SFf2N57f6XPrafSzmJ5nevBnL9FnhoB9pump": {
+      "symbol": "DisabWhale",
+      "name": "The Disabled Whale",
+      "mcap_usd": 1549.0,
+      "price_usd": 1.549e-6,
+      "price_change_1h": -96.1,
+      "price_change_24h": null,
+      "liquidity_usd": 3022.52
     }
   }
 }
