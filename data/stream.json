@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777532402,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING HDmo…pump · top 20.66%→26.59% (+5.93%) · GRINDER",
+      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
+      "signature": null
+    },
+    {
       "ts": 1777532077,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -11,16 +19,16 @@
     {
       "ts": 1777532030,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING HDmo…pump · top 18.56%→20.66% (+2.10%) · GRINDER",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE HDmo…pump · DEVELOPING→GRINDER · top +2.10%",
       "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
       "signature": null
     },
     {
       "ts": 1777532030,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE HDmo…pump · DEVELOPING→GRINDER · top +2.10%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING HDmo…pump · top 18.56%→20.66% (+2.10%) · GRINDER",
       "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
       "signature": null
     },
@@ -37,14 +45,6 @@
       "kind": "alert",
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING HDmo…pump · top 17.47%→19.86% (+2.39%) · GRINDER",
-      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
-      "signature": null
-    },
-    {
-      "ts": 1777531583,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING HDmo…pump · top 14.01%→17.47% (+3.46%) · GRINDER",
       "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
       "signature": null
     },
@@ -90,32 +90,32 @@
     }
   ],
   "tokens": {
+    "4ZdhpbJJNPBHNYVGfv41DRfTytjrb6Yg5P4y5iuRpump": {
+      "symbol": "BREAST",
+      "name": "Breastcoin",
+      "mcap_usd": 98998.0,
+      "price_usd": 0.00009899,
+      "price_change_1h": 191.0,
+      "price_change_24h": null,
+      "liquidity_usd": 24221.45
+    },
     "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump": {
       "symbol": "BP",
       "name": "Barking Puppy - kg",
-      "mcap_usd": 126314.0,
-      "price_usd": 0.0001263,
-      "price_change_1h": -68.83,
+      "mcap_usd": 113972.0,
+      "price_usd": 0.0001139,
+      "price_change_1h": -72.09,
       "price_change_24h": null,
-      "liquidity_usd": 29692.89
+      "liquidity_usd": 28245.88
     },
     "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump": {
       "symbol": "MSPAINTIFY",
       "name": "mspaintify",
-      "mcap_usd": 32388.0,
-      "price_usd": 0.00003238,
-      "price_change_1h": -5.09,
+      "mcap_usd": 21244.0,
+      "price_usd": 0.00002124,
+      "price_change_1h": -37.75,
       "price_change_24h": null,
-      "liquidity_usd": 13946.29
-    },
-    "4ZdhpbJJNPBHNYVGfv41DRfTytjrb6Yg5P4y5iuRpump": {
-      "symbol": "BREAST",
-      "name": "Breastcoin",
-      "mcap_usd": 68628.0,
-      "price_usd": 0.00006862,
-      "price_change_1h": 102.0,
-      "price_change_24h": null,
-      "liquidity_usd": 20084.78
+      "liquidity_usd": 11298.06
     }
   }
 }
