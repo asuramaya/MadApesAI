@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "ts": 1777551387,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2fF4…pump · GRINDER→DEVELOPING · top +0.00%",
+      "mint": "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump",
+      "signature": null
+    },
+    {
+      "ts": 1777551280,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 5i4t…BLNK · top 23.10%→27.98% (+4.88%) · STAIRCASE",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
+      "ts": 1777551261,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · DEVELOPING→STAIRCASE · top -4.13%",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
+      "ts": 1777551183,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 5i4t…BLNK · top 23.10%→27.23% (+4.13%) · DEVELOPING",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
       "ts": 1777551060,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -29,11 +61,20 @@
     "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
       "symbol": "BLANKY",
       "name": "Blank Mascot",
-      "mcap_usd": 21209.0,
-      "price_usd": 0.00002121,
-      "price_change_1h": -25.67,
+      "mcap_usd": 25211.0,
+      "price_usd": 0.00002521,
+      "price_change_1h": -16.06,
       "price_change_24h": null,
-      "liquidity_usd": 11899.35
+      "liquidity_usd": 12975.1
+    },
+    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
+      "symbol": "ETH",
+      "name": "The Ethereum Foundation. ",
+      "mcap_usd": 21047.0,
+      "price_usd": 0.00002104,
+      "price_change_1h": -37.29,
+      "price_change_24h": null,
+      "liquidity_usd": 11086.89
     }
   }
 }
