@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777582697,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE F8ZV…pump · GRINDER→DEVELOPING · top -0.27%",
+      "mint": "F8ZVdDU2EdqYaBuJsA488Hr1QPachasWnQF6k3TDpump",
+      "signature": null
+    },
+    {
+      "ts": 1777582696,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE Fdsc…pump · STAIRCASE→DEVELOPING · top +1.30%",
+      "mint": "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump",
+      "signature": null
+    },
+    {
       "ts": 1777582544,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -33,14 +49,6 @@
       "signature": null
     },
     {
-      "ts": 1777580919,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 9NCL…pump · top 14.39%→17.50% (+3.11%) · DEVELOPING",
-      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -58,32 +66,41 @@
     }
   ],
   "tokens": {
-    "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
-      "symbol": "CORE",
-      "name": "Create Own Run Everything",
-      "mcap_usd": 29550.0,
-      "price_usd": 0.00002954,
-      "price_change_1h": -13.53,
+    "F8ZVdDU2EdqYaBuJsA488Hr1QPachasWnQF6k3TDpump": {
+      "symbol": "CCP",
+      "name": "Chinese Communist Peptides",
+      "mcap_usd": 577747.0,
+      "price_usd": 0.0005777,
+      "price_change_1h": 368.0,
       "price_change_24h": null,
-      "liquidity_usd": 13231.61
-    },
-    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
-      "symbol": "CLAUDE",
-      "name": "Claude's Body",
-      "mcap_usd": 47213.0,
-      "price_usd": 0.00004721,
-      "price_change_1h": 37.77,
-      "price_change_24h": null,
-      "liquidity_usd": 16680.46
+      "liquidity_usd": 59781.12
     },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 20570.0,
-      "price_usd": 0.00002057,
-      "price_change_1h": -56.29,
+      "mcap_usd": 17862.0,
+      "price_usd": 0.00001786,
+      "price_change_1h": -54.24,
       "price_change_24h": null,
-      "liquidity_usd": 11221.96
+      "liquidity_usd": 10457.5
+    },
+    "FdscVgZ9Wzz5JTc5yGc9TpJzto7zZLFhhPAmHKy8pump": {
+      "symbol": "CORE",
+      "name": "Create Own Run Everything",
+      "mcap_usd": 29642.0,
+      "price_usd": 0.00002964,
+      "price_change_1h": -13.26,
+      "price_change_24h": null,
+      "liquidity_usd": 13249.11
+    },
+    "4D7UFHc6dDc5eKFdbMqdaBC8Sri8V56sE9zSkW53pump": {
+      "symbol": "CLAUDE",
+      "name": "Claude's Body",
+      "mcap_usd": 40775.0,
+      "price_usd": 0.00004077,
+      "price_change_1h": 18.99,
+      "price_change_24h": null,
+      "liquidity_usd": 15510.3
     }
   }
 }
