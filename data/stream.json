@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777512711,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE H3cr…pump · STAIRCASE→DEVELOPING · top +0.67%",
+      "mint": "H3crQvWLcqSRqR6oCBDmip5kYw4JibCG5r3x4Xs6pump",
+      "signature": null
+    },
+    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -17,5 +25,15 @@
       "signature": "45RXtCqk8bTzXANup5n74wBtxuawcCFhDgXpmYEFK8Dd5cf37DztyeYVJB1h6SQZ1DSqVgzDrxtu4sH48JxDLG1P"
     }
   ],
-  "tokens": {}
+  "tokens": {
+    "H3crQvWLcqSRqR6oCBDmip5kYw4JibCG5r3x4Xs6pump": {
+      "symbol": "LEASH",
+      "name": "Leashcoin",
+      "mcap_usd": 45520.0,
+      "price_usd": 0.00004552,
+      "price_change_1h": -49.02,
+      "price_change_24h": null,
+      "liquidity_usd": 17430.42
+    }
+  }
 }
