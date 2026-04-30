@@ -1,27 +1,19 @@
 {
   "events": [
     {
+      "ts": 1777555810,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 79V1…pump · STAIRCASE→ACTIVE_TRAP · top -0.10%",
+      "mint": "79V1pN6f8iwsVGFP7L9qznM6dCP4WYK7eBDt4bxUpump",
+      "signature": null
+    },
+    {
       "ts": 1777554454,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 9iR8…Fb7n · DEVELOPING→GRINDER · top +0.00%",
       "mint": "9iR8Urs95yLeiajX3T6eYK9t4YBcLbrWS8pCKgoPFb7n",
-      "signature": null
-    },
-    {
-      "ts": 1777553908,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
-      "ts": 1777553892,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · DEVELOPING→STAIRCASE · top +0.01%",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
       "signature": null
     },
     {
@@ -42,23 +34,23 @@
     }
   ],
   "tokens": {
+    "79V1pN6f8iwsVGFP7L9qznM6dCP4WYK7eBDt4bxUpump": {
+      "symbol": "PrayTogeth",
+      "name": "PrayTogether",
+      "mcap_usd": 112892.0,
+      "price_usd": 0.0001128,
+      "price_change_1h": 173.0,
+      "price_change_24h": null,
+      "liquidity_usd": 26089.13
+    },
     "9iR8Urs95yLeiajX3T6eYK9t4YBcLbrWS8pCKgoPFb7n": {
       "symbol": "PRX",
       "name": "Praxis",
-      "mcap_usd": 127432.0,
-      "price_usd": 0.0001274,
-      "price_change_1h": 56.78,
+      "mcap_usd": 148580.0,
+      "price_usd": 0.0001485,
+      "price_change_1h": 82.82,
       "price_change_24h": null,
-      "liquidity_usd": 31798.24
-    },
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 18703.0,
-      "price_usd": 0.0000187,
-      "price_change_1h": -13.0,
-      "price_change_24h": null,
-      "liquidity_usd": 11183.45
+      "liquidity_usd": 34306.13
     }
   }
 }
