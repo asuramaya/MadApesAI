@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777580919,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 9NCL…pump · top 14.39%→17.50% (+3.11%) · DEVELOPING",
+      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
+      "signature": null
+    },
+    {
       "ts": 1777580638,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
@@ -19,16 +27,16 @@
     {
       "ts": 1777579949,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
       "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
       "signature": null
     },
     {
       "ts": 1777579949,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
       "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
       "signature": null
     },
@@ -58,23 +66,23 @@
     }
   ],
   "tokens": {
-    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
-      "symbol": "TOR",
-      "name": "Tor Freedom Fund",
-      "mcap_usd": 51689.0,
-      "price_usd": 0.00005168,
-      "price_change_1h": 51.12,
-      "price_change_24h": null,
-      "liquidity_usd": 17756.12
-    },
     "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump": {
       "symbol": "TREND",
       "name": "TREND ORACLE",
-      "mcap_usd": 28439.0,
-      "price_usd": 0.00002844,
-      "price_change_1h": -16.86,
+      "mcap_usd": 28085.0,
+      "price_usd": 0.00002808,
+      "price_change_1h": -17.89,
       "price_change_24h": null,
-      "liquidity_usd": 12906.3
+      "liquidity_usd": 12825.59
+    },
+    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
+      "symbol": "TOR",
+      "name": "Tor Freedom Fund",
+      "mcap_usd": 33135.0,
+      "price_usd": 0.00003313,
+      "price_change_1h": -3.12,
+      "price_change_24h": null,
+      "liquidity_usd": 14236.15
     }
   }
 }
