@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777579949,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
+      "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
+      "signature": null
+    },
+    {
+      "ts": 1777579949,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
+      "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
+      "signature": null
+    },
+    {
       "ts": 1777579419,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -12,16 +28,16 @@
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
-      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
+      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
+      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
       "signature": null
     },
     {
       "ts": 1777578346,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE JCig…pump · DEVELOPING→STAIRCASE · top -0.48%",
-      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
+      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · STAIRCASE→DEVELOPING · top -2.12%",
+      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
       "signature": null
     },
     {
@@ -42,32 +58,41 @@
     }
   ],
   "tokens": {
-    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
-      "symbol": "CLUTCH",
-      "name": "Clutch the Bald Eagle",
-      "mcap_usd": 45869.0,
-      "price_usd": 0.00004586,
-      "price_change_1h": 29.5,
-      "price_change_24h": null,
-      "liquidity_usd": 12578.43
-    },
-    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
-      "symbol": "TOR",
-      "name": "Tor Freedom Fund",
-      "mcap_usd": 97609.0,
-      "price_usd": 0.0000976,
-      "price_change_1h": 185.0,
-      "price_change_24h": null,
-      "liquidity_usd": 24214.01
-    },
     "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
       "symbol": "MUSK",
       "name": "Musk Foundation",
       "mcap_usd": 3747.0,
-      "price_usd": 3.747e-6,
-      "price_change_1h": -98.46,
+      "price_usd": 3.746e-6,
+      "price_change_1h": -98.39,
       "price_change_24h": null,
-      "liquidity_usd": 4707.72
+      "liquidity_usd": 4707.38
+    },
+    "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump": {
+      "symbol": "TREND",
+      "name": "TREND ORACLE",
+      "mcap_usd": 26408.0,
+      "price_usd": 0.0000264,
+      "price_change_1h": -22.8,
+      "price_change_24h": null,
+      "liquidity_usd": 12430.4
+    },
+    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
+      "symbol": "CLUTCH",
+      "name": "Clutch the Bald Eagle",
+      "mcap_usd": 48182.0,
+      "price_usd": 0.00004818,
+      "price_change_1h": 31.89,
+      "price_change_24h": null,
+      "liquidity_usd": 12892.85
+    },
+    "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
+      "symbol": "TOR",
+      "name": "Tor Freedom Fund",
+      "mcap_usd": 91935.0,
+      "price_usd": 0.00009193,
+      "price_change_1h": 169.0,
+      "price_change_24h": null,
+      "liquidity_usd": 23542.15
     }
   }
 }
