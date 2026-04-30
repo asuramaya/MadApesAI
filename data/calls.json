@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 68,
+      "mint": "DQVPFGUyR9UgHAJSmqedqY5uN7XZk7sz9yW4xXtMpump",
+      "symbol": "STEALON",
+      "classification": "GRINDER",
+      "confidence": 67,
+      "called_at": 1777569763,
+      "expires_at": 1777584163,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 114407.0,
+      "entry_price_usd": 0.0001144,
+      "entry_liquidity_usd": 26178.26,
+      "entry_top_holder_pct": 10.45788383029823,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 114407.0,
+      "current_price_usd": 0.0001144,
+      "current_liquidity_usd": 26178.26,
+      "pct_from_call": 0.0,
+      "peak_pct": -26.284965034965037,
+      "peak_at": 1777569763,
+      "trough_pct": -26.284965034965037,
+      "trough_at": 1777569763,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 67,
@@ -607,17 +638,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 18,
-        "wins": 6,
-        "losses": 11,
-        "expired": 1,
-        "win_rate": 35.294117647058826,
-        "avg_winner_pct": 45.509085484218204,
-        "avg_loser_pct": -64.496883380145,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -628,6 +648,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 18,
+        "wins": 6,
+        "losses": 11,
+        "expired": 1,
+        "win_rate": 35.294117647058826,
+        "avg_winner_pct": 45.509085484218204,
+        "avg_loser_pct": -64.496883380145,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
