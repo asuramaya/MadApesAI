@@ -1,83 +1,43 @@
 {
   "events": [
     {
-      "ts": 1777574585,
+      "ts": 1777577907,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6SFJ…pump · deployer down 85.8% (349609144 → 49609144)",
-      "mint": "6SFJr9e55BvPEk2ZeyeEqaMxnxia7WxQM7TU3jiSpump",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH JCig…pump · vel 2.00x→0.47x · tpm 30.9",
+      "mint": "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump",
       "signature": null
     },
     {
-      "ts": 1777574294,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6SFJ…pump · deployer down 85.8% (349609144 → 49609144)",
-      "mint": "6SFJr9e55BvPEk2ZeyeEqaMxnxia7WxQM7TU3jiSpump",
-      "signature": null
-    },
-    {
-      "ts": 1777574243,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 7KKH…pump · top 27.76%→31.88% (+4.12%) · DEVELOPING",
-      "mint": "7KKHcwDnUxFTVjofDgz29i8Mm28yqDeGNN65v4Kdpump",
-      "signature": null
-    },
-    {
-      "ts": 1777574122,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3Pax…pump · deployer down 31.1% (189176172 → 130256843)",
-      "mint": "3PaxJXBAQXTA35XxCHERQUZfuv9JVEk6oEyjAcdapump",
-      "signature": null
-    },
-    {
-      "ts": 1777574122,
+      "ts": 1777577472,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3Pax…pump · STAIRCASE→DEVELOPING · top +1.94%",
-      "mint": "3PaxJXBAQXTA35XxCHERQUZfuv9JVEk6oEyjAcdapump",
+      "summary": "CLASSIFICATION_CHANGE 74CQ…dpce · DEVELOPING→STAIRCASE · top -1.07%",
+      "mint": "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce",
       "signature": null
     },
     {
-      "ts": 1777573745,
+      "ts": 1777577053,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 6SFJ…pump · deployer down 85.8% (349609144 → 49609144)",
-      "mint": "6SFJr9e55BvPEk2ZeyeEqaMxnxia7WxQM7TU3jiSpump",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 99m1…EBGT · vel 2.03x→0.46x · tpm 1.0",
+      "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
-      "ts": 1777573323,
+      "ts": 1777577053,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING DQVP…pump · top 10.99%→13.50% (+2.51%) · GRINDER",
-      "mint": "DQVPFGUyR9UgHAJSmqedqY5uN7XZk7sz9yW4xXtMpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · STAIRCASE→DEVELOPING · top -0.00%",
+      "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
-      "ts": 1777573268,
+      "ts": 1777576687,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3Pax…pump · deployer down 41.4% (189176172 → 110876653)",
-      "mint": "3PaxJXBAQXTA35XxCHERQUZfuv9JVEk6oEyjAcdapump",
-      "signature": null
-    },
-    {
-      "ts": 1777572989,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3Pax…pump · deployer down 41.8% (189176172 → 110187534)",
-      "mint": "3PaxJXBAQXTA35XxCHERQUZfuv9JVEk6oEyjAcdapump",
-      "signature": null
-    },
-    {
-      "ts": 1777572989,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING DQVP…pump · top 7.56%→10.99% (+3.43%) · GRINDER",
-      "mint": "DQVPFGUyR9UgHAJSmqedqY5uN7XZk7sz9yW4xXtMpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 99m1…EBGT · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT",
       "signature": null
     },
     {
@@ -98,41 +58,32 @@
     }
   ],
   "tokens": {
-    "DQVPFGUyR9UgHAJSmqedqY5uN7XZk7sz9yW4xXtMpump": {
-      "symbol": "STEALON",
-      "name": "Stealon Musk",
-      "mcap_usd": 84330.0,
-      "price_usd": 0.00008433,
-      "price_change_1h": -55.72,
+    "JCigDPFMM2mXohrseuNK2RsRC7mbTzLVeJMfhWizpump": {
+      "symbol": "MUSK",
+      "name": "Musk Foundation",
+      "mcap_usd": 266890.0,
+      "price_usd": 0.0002668,
+      "price_change_1h": 434.0,
       "price_change_24h": null,
-      "liquidity_usd": 24202.27
+      "liquidity_usd": 39670.42
     },
-    "3PaxJXBAQXTA35XxCHERQUZfuv9JVEk6oEyjAcdapump": {
-      "symbol": "BEAST",
-      "name": "Beast Philanthropy ",
-      "mcap_usd": 75789.0,
-      "price_usd": 0.00007578,
-      "price_change_1h": -21.82,
+    "74CQjPmRd5A7MGc7Dnp1kgUNdPsYtB8FNbtak2Padpce": {
+      "symbol": "CLUTCH",
+      "name": "Clutch the Bald Eagle",
+      "mcap_usd": 51281.0,
+      "price_usd": 0.00005128,
+      "price_change_1h": 6.3,
       "price_change_24h": null,
-      "liquidity_usd": 21556.91
+      "liquidity_usd": 13312.98
     },
-    "6SFJr9e55BvPEk2ZeyeEqaMxnxia7WxQM7TU3jiSpump": {
-      "symbol": "GHOST",
-      "name": "GhostPool",
-      "mcap_usd": 14493.0,
-      "price_usd": 0.00001449,
-      "price_change_1h": -57.51,
+    "99m1r3HXtQPT2up1eusCnZSp5f4t8xVRn1EZuqYtEBGT": {
+      "symbol": "$GCUL",
+      "name": "Google Cloud Universal Ledger",
+      "mcap_usd": 413097.0,
+      "price_usd": 0.000413,
+      "price_change_1h": -0.17,
       "price_change_24h": null,
-      "liquidity_usd": 9209.73
-    },
-    "7KKHcwDnUxFTVjofDgz29i8Mm28yqDeGNN65v4Kdpump": {
-      "symbol": "MB",
-      "name": "Market Bubble",
-      "mcap_usd": 21827.0,
-      "price_usd": 0.00002182,
-      "price_change_1h": -36.15,
-      "price_change_24h": null,
-      "liquidity_usd": 11365.91
+      "liquidity_usd": 30419.36
     }
   }
 }
