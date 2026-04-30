@@ -51,16 +51,16 @@
     {
       "ts": 1777529005,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2PGT…pump · GRINDER→DEVELOPING · top +11.56%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 2PGT…pump · top 21.27%→32.83% (+11.56%) · DEVELOPING",
       "mint": "2PGTiTh7a7NHGTwwR5k2gSVWpztFaadZtShSMnaCpump",
       "signature": null
     },
     {
       "ts": 1777529005,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 2PGT…pump · top 21.27%→32.83% (+11.56%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2PGT…pump · GRINDER→DEVELOPING · top +11.56%",
       "mint": "2PGTiTh7a7NHGTwwR5k2gSVWpztFaadZtShSMnaCpump",
       "signature": null
     },
@@ -82,14 +82,23 @@
     }
   ],
   "tokens": {
+    "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump": {
+      "symbol": "STJUDE",
+      "name": "St. Jude",
+      "mcap_usd": 551596.0,
+      "price_usd": 0.0005516,
+      "price_change_1h": 5.42,
+      "price_change_24h": null,
+      "liquidity_usd": 80049.33
+    },
     "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump": {
       "symbol": "CATE",
       "name": "Catecoin",
-      "mcap_usd": 78035.0,
-      "price_usd": 0.00007803,
-      "price_change_1h": 130.0,
+      "mcap_usd": 88297.0,
+      "price_usd": 0.00008829,
+      "price_change_1h": 160.0,
       "price_change_24h": null,
-      "liquidity_usd": 21783.27
+      "liquidity_usd": 23192.32
     },
     "DwXWgqgSawzaTuPrbDwNrty9FqmJNR8mnDv1tz3kpump": {
       "symbol": "KEVSZN",
@@ -103,29 +112,20 @@
     "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump": {
       "symbol": "Peng",
       "name": "Peng",
-      "mcap_usd": 2293.0,
-      "price_usd": 2.292e-6,
-      "price_change_1h": -93.25,
+      "mcap_usd": 2202.0,
+      "price_usd": 2.202e-6,
+      "price_change_1h": -93.52,
       "price_change_24h": null,
-      "liquidity_usd": 3653.65
-    },
-    "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump": {
-      "symbol": "STJUDE",
-      "name": "St. Jude",
-      "mcap_usd": 565230.0,
-      "price_usd": 0.0005652,
-      "price_change_1h": 7.59,
-      "price_change_24h": null,
-      "liquidity_usd": 81031.0
+      "liquidity_usd": 3581.26
     },
     "2PGTiTh7a7NHGTwwR5k2gSVWpztFaadZtShSMnaCpump": {
       "symbol": "G",
       "name": "Billy G",
-      "mcap_usd": 4326.0,
-      "price_usd": 4.325e-6,
-      "price_change_1h": -87.01,
+      "mcap_usd": 4143.0,
+      "price_usd": 4.143e-6,
+      "price_change_1h": -87.56,
       "price_change_24h": null,
-      "liquidity_usd": 5107.16
+      "liquidity_usd": 4998.64
     }
   }
 }
