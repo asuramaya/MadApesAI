@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777552984,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 5i4t…BLNK · vel 1.25x→0.48x · tpm 2.3",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
       "ts": 1777552832,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -89,22 +97,6 @@
       "signature": null
     },
     {
-      "ts": 1777551280,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 5i4t…BLNK · top 23.10%→27.98% (+4.88%) · STAIRCASE",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
-      "ts": 1777551183,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 5i4t…BLNK · top 23.10%→27.23% (+4.13%) · DEVELOPING",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -122,41 +114,41 @@
     }
   ],
   "tokens": {
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 21618.0,
-      "price_usd": 0.00002162,
-      "price_change_1h": -33.86,
+    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
+      "symbol": "SISYPHUS",
+      "name": "Sisyphus",
+      "mcap_usd": 25738.0,
+      "price_usd": 0.00002573,
+      "price_change_1h": -23.56,
       "price_change_24h": null,
-      "liquidity_usd": 12033.77
+      "liquidity_usd": 12417.48
     },
     "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
       "symbol": "ETH",
       "name": "The Ethereum Foundation. ",
-      "mcap_usd": 26699.0,
-      "price_usd": 0.00002669,
-      "price_change_1h": -20.45,
+      "mcap_usd": 26670.0,
+      "price_usd": 0.00002667,
+      "price_change_1h": -20.53,
       "price_change_24h": null,
-      "liquidity_usd": 12507.31
+      "liquidity_usd": 12495.03
     },
-    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
-      "symbol": "SISYPHUS",
-      "name": "Sisyphus",
-      "mcap_usd": 26878.0,
-      "price_usd": 0.00002687,
-      "price_change_1h": -20.18,
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 23016.0,
+      "price_usd": 0.00002301,
+      "price_change_1h": -11.14,
       "price_change_24h": null,
-      "liquidity_usd": 12685.57
+      "liquidity_usd": 12417.55
     },
     "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump": {
       "symbol": "PETA",
       "name": "PETA For All Animals",
-      "mcap_usd": 1707.0,
-      "price_usd": 1.706e-6,
-      "price_change_1h": -95.07,
+      "mcap_usd": 1717.0,
+      "price_usd": 1.717e-6,
+      "price_change_1h": -95.04,
       "price_change_24h": null,
-      "liquidity_usd": 3232.15
+      "liquidity_usd": 3240.9
     }
   }
 }
