@@ -1,11 +1,19 @@
 {
   "events": [
     {
-      "ts": 1777512711,
+      "ts": 1777514672,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE H3cr…pump · STAIRCASE→DEVELOPING · top +0.67%",
-      "mint": "H3crQvWLcqSRqR6oCBDmip5kYw4JibCG5r3x4Xs6pump",
+      "summary": "CLASSIFICATION_CHANGE 2ssM…pump · GRINDER→ACTIVE_TRAP · top -0.60%",
+      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777513936,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 2ssM…pump · deployer down 52.3% (80705754 → 38532840)",
+      "mint": "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
       "signature": null
     },
     {
@@ -26,14 +34,14 @@
     }
   ],
   "tokens": {
-    "H3crQvWLcqSRqR6oCBDmip5kYw4JibCG5r3x4Xs6pump": {
-      "symbol": "LEASH",
-      "name": "Leashcoin",
-      "mcap_usd": 31752.0,
-      "price_usd": 0.00003175,
-      "price_change_1h": -34.27,
+    "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
+      "symbol": "Wish",
+      "name": "Make A Wish",
+      "mcap_usd": 1699658.0,
+      "price_usd": 0.001699,
+      "price_change_1h": -4.68,
       "price_change_24h": null,
-      "liquidity_usd": 14553.51
+      "liquidity_usd": 128797.48
     }
   }
 }
