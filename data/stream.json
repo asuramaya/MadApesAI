@@ -33,22 +33,6 @@
       "signature": null
     },
     {
-      "ts": 1777529347,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 2PGT…pump · top 32.83%→37.34% (+4.51%) · DEVELOPING",
-      "mint": "2PGTiTh7a7NHGTwwR5k2gSVWpztFaadZtShSMnaCpump",
-      "signature": null
-    },
-    {
-      "ts": 1777529196,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE E8sy…pump · GRINDER→DEVELOPING · top +0.18%",
-      "mint": "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -66,23 +50,14 @@
     }
   ],
   "tokens": {
-    "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump": {
-      "symbol": "CATE",
-      "name": "Catecoin",
-      "mcap_usd": 48702.0,
-      "price_usd": 0.0000487,
-      "price_change_1h": 43.41,
+    "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump": {
+      "symbol": "Peng",
+      "name": "Peng",
+      "mcap_usd": 2036.0,
+      "price_usd": 2.035e-6,
+      "price_change_1h": -94.01,
       "price_change_24h": null,
-      "liquidity_usd": 17342.44
-    },
-    "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump": {
-      "symbol": "STJUDE",
-      "name": "St. Jude",
-      "mcap_usd": 567036.0,
-      "price_usd": 0.000567,
-      "price_change_1h": 1.06,
-      "price_change_24h": null,
-      "liquidity_usd": 81273.93
+      "liquidity_usd": 3448.06
     },
     "DwXWgqgSawzaTuPrbDwNrty9FqmJNR8mnDv1tz3kpump": {
       "symbol": "KEVSZN",
@@ -93,23 +68,14 @@
       "price_change_24h": null,
       "liquidity_usd": 483.71
     },
-    "2PGTiTh7a7NHGTwwR5k2gSVWpztFaadZtShSMnaCpump": {
-      "symbol": "G",
-      "name": "Billy G",
-      "mcap_usd": 4665.0,
-      "price_usd": 4.664e-6,
-      "price_change_1h": -85.99,
+    "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump": {
+      "symbol": "CATE",
+      "name": "Catecoin",
+      "mcap_usd": 45560.0,
+      "price_usd": 0.00004555,
+      "price_change_1h": 34.16,
       "price_change_24h": null,
-      "liquidity_usd": 5310.87
-    },
-    "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump": {
-      "symbol": "Peng",
-      "name": "Peng",
-      "mcap_usd": 2006.0,
-      "price_usd": 2.006e-6,
-      "price_change_1h": -94.09,
-      "price_change_24h": null,
-      "liquidity_usd": 3422.52
+      "liquidity_usd": 16819.73
     }
   }
 }
