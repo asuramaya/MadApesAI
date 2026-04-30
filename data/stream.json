@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777531708,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING HDmo…pump · top 17.47%→19.86% (+2.39%) · GRINDER",
+      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
+      "signature": null
+    },
+    {
+      "ts": 1777531583,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE JB8r…pump · STAIRCASE→DEVELOPING · top -0.04%",
+      "mint": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
+      "signature": null
+    },
+    {
       "ts": 1777531583,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
@@ -11,9 +27,9 @@
     {
       "ts": 1777531583,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE JB8r…pump · STAIRCASE→DEVELOPING · top -0.04%",
-      "mint": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING HDmo…pump · top 14.01%→17.47% (+3.46%) · GRINDER",
+      "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
       "signature": null
     },
     {
@@ -30,30 +46,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE HDmo…pump · GRINDER→DEVELOPING · top -0.38%",
       "mint": "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump",
-      "signature": null
-    },
-    {
-      "ts": 1777529978,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2vXc…pump · DEVELOPING→GRINDER · top +0.01%",
-      "mint": "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump",
-      "signature": null
-    },
-    {
-      "ts": 1777529968,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9r7X…pump · STAIRCASE→GRINDER · top +0.00%",
-      "mint": "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump",
-      "signature": null
-    },
-    {
-      "ts": 1777529932,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2vXc…pump · STAIRCASE→DEVELOPING · top -0.01%",
-      "mint": "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump",
       "signature": null
     },
     {
@@ -74,41 +66,23 @@
     }
   ],
   "tokens": {
-    "9r7Xd3uoqnXYTo7Mb88kB8JKX1jKWmDnLBmfG7xMpump": {
-      "symbol": "Peng",
-      "name": "Peng",
-      "mcap_usd": 2094.0,
-      "price_usd": 2.093e-6,
-      "price_change_1h": -93.84,
-      "price_change_24h": null,
-      "liquidity_usd": 3496.19
-    },
     "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump": {
       "symbol": "BP",
       "name": "Barking Puppy - kg",
-      "mcap_usd": 346401.0,
-      "price_usd": 0.0003464,
-      "price_change_1h": -43.22,
+      "mcap_usd": 165061.0,
+      "price_usd": 0.000165,
+      "price_change_1h": -63.37,
       "price_change_24h": null,
-      "liquidity_usd": 49017.67
+      "liquidity_usd": 33872.49
     },
     "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump": {
       "symbol": "MSPAINTIFY",
       "name": "mspaintify",
-      "mcap_usd": 45514.0,
-      "price_usd": 0.00004551,
-      "price_change_1h": 33.37,
+      "mcap_usd": 38909.0,
+      "price_usd": 0.0000389,
+      "price_change_1h": 14.02,
       "price_change_24h": null,
-      "liquidity_usd": 16472.6
-    },
-    "2vXcBr1sNDwQuD65kPAASUE26AANvYbZnrtNPQ3Ppump": {
-      "symbol": "CATE",
-      "name": "Catecoin",
-      "mcap_usd": 50691.0,
-      "price_usd": 0.00005069,
-      "price_change_1h": 49.27,
-      "price_change_24h": null,
-      "liquidity_usd": 17773.69
+      "liquidity_usd": 15258.99
     }
   }
 }
