@@ -35,16 +35,16 @@
     {
       "ts": 1777579949,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
       "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
       "signature": null
     },
     {
       "ts": 1777579949,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING CXEG…pump · top 20.48%→23.56% (+3.08%) · STAIRCASE",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CXEG…pump · DEVELOPING→STAIRCASE · top +3.08%",
       "mint": "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump",
       "signature": null
     },
@@ -66,23 +66,23 @@
     }
   ],
   "tokens": {
-    "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump": {
-      "symbol": "TREND",
-      "name": "TREND ORACLE",
-      "mcap_usd": 27909.0,
-      "price_usd": 0.0000279,
-      "price_change_1h": -18.41,
-      "price_change_24h": null,
-      "liquidity_usd": 12783.93
-    },
     "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump": {
       "symbol": "TOR",
       "name": "Tor Freedom Fund",
-      "mcap_usd": 14063.0,
-      "price_usd": 0.00001406,
-      "price_change_1h": -58.88,
+      "mcap_usd": 13837.0,
+      "price_usd": 0.00001383,
+      "price_change_1h": -59.55,
       "price_change_24h": null,
-      "liquidity_usd": 9275.71
+      "liquidity_usd": 9201.2
+    },
+    "CXEGcb1BWp4grrTCDdg57XDhxrEQsuQAFT3QNvedpump": {
+      "symbol": "TREND",
+      "name": "TREND ORACLE",
+      "mcap_usd": 28234.0,
+      "price_usd": 0.00002823,
+      "price_change_1h": -17.46,
+      "price_change_24h": null,
+      "liquidity_usd": 12858.11
     }
   }
 }
