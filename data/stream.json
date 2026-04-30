@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777551507,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · STAIRCASE→DEVELOPING · top -0.59%",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
       "ts": 1777551387,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -61,20 +69,20 @@
     "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
       "symbol": "BLANKY",
       "name": "Blank Mascot",
-      "mcap_usd": 25211.0,
-      "price_usd": 0.00002521,
-      "price_change_1h": -16.06,
+      "mcap_usd": 22411.0,
+      "price_usd": 0.00002241,
+      "price_change_1h": -20.02,
       "price_change_24h": null,
-      "liquidity_usd": 12975.1
+      "liquidity_usd": 12247.53
     },
     "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
       "symbol": "ETH",
       "name": "The Ethereum Foundation. ",
-      "mcap_usd": 21047.0,
-      "price_usd": 0.00002104,
-      "price_change_1h": -37.29,
+      "mcap_usd": 25801.0,
+      "price_usd": 0.0000258,
+      "price_change_1h": -23.12,
       "price_change_24h": null,
-      "liquidity_usd": 11086.89
+      "liquidity_usd": 12289.36
     }
   }
 }
