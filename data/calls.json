@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 66,
+      "mint": "EsZtjUeVjMoD9mZjvv4q32amPyzmVZwrFppEsX3Ppump",
+      "symbol": "KINDNESS",
+      "classification": "GRINDER",
+      "confidence": 67,
+      "called_at": 1777538121,
+      "expires_at": 1777552521,
+      "note": "horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 72550.0,
+      "entry_price_usd": 0.00007255,
+      "entry_liquidity_usd": 20719.07,
+      "entry_top_holder_pct": 13.458034341416722,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 72550.0,
+      "current_price_usd": 0.00007255,
+      "current_liquidity_usd": 20719.07,
+      "pct_from_call": 0.0,
+      "peak_pct": null,
+      "peak_at": null,
+      "trough_pct": null,
+      "trough_at": null,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 65,
@@ -547,17 +578,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 16,
-        "wins": 6,
-        "losses": 9,
-        "expired": 1,
-        "win_rate": 40.0,
-        "avg_winner_pct": 45.509085484218204,
-        "avg_loser_pct": -64.76058010358307,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -568,6 +588,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 16,
+        "wins": 6,
+        "losses": 9,
+        "expired": 1,
+        "win_rate": 40.0,
+        "avg_winner_pct": 45.509085484218204,
+        "avg_loser_pct": -64.76058010358307,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
