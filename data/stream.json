@@ -1,35 +1,11 @@
 {
   "events": [
     {
-      "ts": 1777543045,
+      "ts": 1777544788,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4f7s…pump · STAIRCASE→DEVELOPING · top +10.88%",
-      "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777543045,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 4f7s…pump · top 28.37%→39.24% (+10.88%) · DEVELOPING",
-      "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
-      "signature": null
-    },
-    {
-      "ts": 1777542874,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6TPs…pump · SURGE→DEVELOPING · top +18.67%",
-      "mint": "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump",
-      "signature": null
-    },
-    {
-      "ts": 1777542874,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 6TPs…pump · top 0.00%→18.67% (+18.67%) · DEVELOPING",
-      "mint": "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump",
+      "summary": "CLASSIFICATION_CHANGE 6BWN…pump · DEVELOPING→STAIRCASE · top -0.68%",
+      "mint": "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump",
       "signature": null
     },
     {
@@ -50,23 +26,14 @@
     }
   ],
   "tokens": {
-    "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump": {
-      "symbol": "CRYPTOLESS",
-      "name": "CRYPTOLESS",
-      "mcap_usd": 5708.0,
-      "price_usd": 5.708e-6,
-      "price_change_1h": -83.33,
+    "6BWNVicT5QrzdmyxuZLmdtHHbNagvcoRYRDkHdGmpump": {
+      "symbol": "CDSX",
+      "name": "CDSX",
+      "mcap_usd": 27099.0,
+      "price_usd": 0.00002709,
+      "price_change_1h": -16.05,
       "price_change_24h": null,
-      "liquidity_usd": 5850.91
-    },
-    "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump": {
-      "symbol": "CENSORED",
-      "name": "Censored Coin",
-      "mcap_usd": 7240.0,
-      "price_usd": 7.239e-6,
-      "price_change_1h": -79.16,
-      "price_change_24h": null,
-      "liquidity_usd": 6518.57
+      "liquidity_usd": 12574.71
     }
   }
 }
