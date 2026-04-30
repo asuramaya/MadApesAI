@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777551925,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 9qbi…xiTv · GRINDER→STAIRCASE · top -2.71%",
+      "mint": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
+      "signature": null
+    },
+    {
+      "ts": 1777551906,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 9qbi…xiTv · DEVELOPING→GRINDER · top +0.00%",
+      "mint": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
+      "signature": null
+    },
+    {
+      "ts": 1777551905,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7zwn…pump · GRINDER→DEVELOPING · top -0.82%",
+      "mint": "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump",
+      "signature": null
+    },
+    {
       "ts": 1777551507,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -66,23 +90,41 @@
     }
   ],
   "tokens": {
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 22411.0,
-      "price_usd": 0.00002241,
-      "price_change_1h": -20.02,
+    "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump": {
+      "symbol": "PETA",
+      "name": "PETA For All Animals",
+      "mcap_usd": 45492.0,
+      "price_usd": 0.00004549,
+      "price_change_1h": 31.49,
       "price_change_24h": null,
-      "liquidity_usd": 12247.53
+      "liquidity_usd": 16498.35
+    },
+    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
+      "symbol": "SISYPHUS",
+      "name": "Sisyphus",
+      "mcap_usd": 46232.0,
+      "price_usd": 0.00004623,
+      "price_change_1h": 37.3,
+      "price_change_24h": null,
+      "liquidity_usd": 16527.98
     },
     "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
       "symbol": "ETH",
       "name": "The Ethereum Foundation. ",
-      "mcap_usd": 25801.0,
-      "price_usd": 0.0000258,
-      "price_change_1h": -23.12,
+      "mcap_usd": 25656.0,
+      "price_usd": 0.00002565,
+      "price_change_1h": -23.55,
       "price_change_24h": null,
-      "liquidity_usd": 12289.36
+      "liquidity_usd": 12265.12
+    },
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 21497.0,
+      "price_usd": 0.00002149,
+      "price_change_1h": -27.13,
+      "price_change_24h": null,
+      "liquidity_usd": 12004.98
     }
   }
 }
