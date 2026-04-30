@@ -3,16 +3,16 @@
     {
       "ts": 1777543045,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 4f7s…pump · top 28.37%→39.24% (+10.88%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 4f7s…pump · STAIRCASE→DEVELOPING · top +10.88%",
       "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
       "signature": null
     },
     {
       "ts": 1777543045,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 4f7s…pump · STAIRCASE→DEVELOPING · top +10.88%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 4f7s…pump · top 28.37%→39.24% (+10.88%) · DEVELOPING",
       "mint": "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump",
       "signature": null
     },
@@ -41,22 +41,6 @@
       "signature": null
     },
     {
-      "ts": 1777541927,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6RhH…pump · STAIRCASE→DEVELOPING · top +0.33%",
-      "mint": "6RhH7zVMckGazH6DMBQrKfpKc2C3M7Rk8D6HzEgqpump",
-      "signature": null
-    },
-    {
-      "ts": 1777541880,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 6RhH…pump · DEVELOPING→STAIRCASE · top +0.32%",
-      "mint": "6RhH7zVMckGazH6DMBQrKfpKc2C3M7Rk8D6HzEgqpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -74,41 +58,32 @@
     }
   ],
   "tokens": {
-    "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump": {
-      "symbol": "CRYPTOLESS",
-      "name": "CRYPTOLESS",
-      "mcap_usd": 11749.0,
-      "price_usd": 0.00001174,
-      "price_change_1h": -65.68,
+    "ADQELCPrz6x4oSKV4bBJ4y4q8RxKAVnq3dc6fgQSpump": {
+      "symbol": "goblicorn",
+      "name": "goblicorn",
+      "mcap_usd": 4255.0,
+      "price_usd": 4.255e-6,
+      "price_change_1h": -87.59,
       "price_change_24h": null,
-      "liquidity_usd": 8399.76
-    },
-    "6RhH7zVMckGazH6DMBQrKfpKc2C3M7Rk8D6HzEgqpump": {
-      "symbol": "HEALTH",
-      "name": "Mental Health Awareness",
-      "mcap_usd": 55679.0,
-      "price_usd": 0.00005567,
-      "price_change_1h": 62.97,
-      "price_change_24h": null,
-      "liquidity_usd": 18394.18
+      "liquidity_usd": 4994.58
     },
     "4f7swDAaczWCMi5utewB5j1DpNhJTTtRSGeu9bqGpump": {
       "symbol": "CENSORED",
       "name": "Censored Coin",
-      "mcap_usd": 8630.0,
-      "price_usd": 8.63e-6,
-      "price_change_1h": -75.16,
+      "mcap_usd": 6635.0,
+      "price_usd": 6.635e-6,
+      "price_change_1h": -80.9,
       "price_change_24h": null,
-      "liquidity_usd": 7123.14
+      "liquidity_usd": 6245.1
     },
-    "ADQELCPrz6x4oSKV4bBJ4y4q8RxKAVnq3dc6fgQSpump": {
-      "symbol": "goblicorn",
-      "name": "goblicorn",
-      "mcap_usd": 4324.0,
-      "price_usd": 4.324e-6,
-      "price_change_1h": -87.39,
+    "6TPse8kiEunPdrjWhCjY8C8ZWbQroFQTio8w1tKUpump": {
+      "symbol": "CRYPTOLESS",
+      "name": "CRYPTOLESS",
+      "mcap_usd": 7474.0,
+      "price_usd": 7.474e-6,
+      "price_change_1h": -78.17,
       "price_change_24h": null,
-      "liquidity_usd": 5035.97
+      "liquidity_usd": 6699.67
     }
   }
 }
