@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777553248,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING G7Zd…pump · top 19.22%→21.49% (+2.27%) · STAIRCASE",
+      "mint": "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777553232,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE G7Zd…pump · DEVELOPING→STAIRCASE · top -3.92%",
+      "mint": "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777553209,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2fF4…pump · GRINDER→STAIRCASE · top +1.21%",
+      "mint": "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump",
+      "signature": null
+    },
+    {
       "ts": 1777552984,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
@@ -89,14 +113,6 @@
       "signature": null
     },
     {
-      "ts": 1777551387,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2fF4…pump · GRINDER→DEVELOPING · top +0.00%",
-      "mint": "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -114,41 +130,50 @@
     }
   ],
   "tokens": {
-    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
-      "symbol": "SISYPHUS",
-      "name": "Sisyphus",
-      "mcap_usd": 25738.0,
-      "price_usd": 0.00002573,
-      "price_change_1h": -23.56,
+    "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
+      "symbol": "TTC",
+      "name": "Tittiecoin",
+      "mcap_usd": 29042.0,
+      "price_usd": 0.00002904,
+      "price_change_1h": -15.13,
       "price_change_24h": null,
-      "liquidity_usd": 12417.48
-    },
-    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
-      "symbol": "ETH",
-      "name": "The Ethereum Foundation. ",
-      "mcap_usd": 26670.0,
-      "price_usd": 0.00002667,
-      "price_change_1h": -20.53,
-      "price_change_24h": null,
-      "liquidity_usd": 12495.03
-    },
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 23016.0,
-      "price_usd": 0.00002301,
-      "price_change_1h": -11.14,
-      "price_change_24h": null,
-      "liquidity_usd": 12417.55
+      "liquidity_usd": 13082.81
     },
     "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump": {
       "symbol": "PETA",
       "name": "PETA For All Animals",
-      "mcap_usd": 1717.0,
-      "price_usd": 1.717e-6,
-      "price_change_1h": -95.04,
+      "mcap_usd": 1935.0,
+      "price_usd": 1.934e-6,
+      "price_change_1h": -94.41,
       "price_change_24h": null,
-      "liquidity_usd": 3240.9
+      "liquidity_usd": 3439.74
+    },
+    "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
+      "symbol": "ETH",
+      "name": "The Ethereum Foundation. ",
+      "mcap_usd": 23070.0,
+      "price_usd": 0.00002306,
+      "price_change_1h": -31.26,
+      "price_change_24h": null,
+      "liquidity_usd": 11619.97
+    },
+    "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
+      "symbol": "SISYPHUS",
+      "name": "Sisyphus",
+      "mcap_usd": 21019.0,
+      "price_usd": 0.00002101,
+      "price_change_1h": -37.58,
+      "price_change_24h": null,
+      "liquidity_usd": 11216.18
+    },
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 21789.0,
+      "price_usd": 0.00002179,
+      "price_change_1h": -6.98,
+      "price_change_24h": null,
+      "liquidity_usd": 12076.06
     }
   }
 }
