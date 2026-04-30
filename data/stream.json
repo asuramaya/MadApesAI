@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "ts": 1777553908,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
+      "ts": 1777553892,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · DEVELOPING→STAIRCASE · top +0.01%",
+      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
+      "signature": null
+    },
+    {
+      "ts": 1777553649,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3jHQ…pump · STAIRCASE→GRINDER · top -4.43%",
+      "mint": "3jHQ99DkDxvnPaBHxvoYFmYeW8tpidCB9HZqDLL5pump",
+      "signature": null
+    },
+    {
+      "ts": 1777553476,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE G7Zd…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump",
+      "signature": null
+    },
+    {
       "ts": 1777553248,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -41,14 +73,6 @@
       "signature": null
     },
     {
-      "ts": 1777552680,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · DEVELOPING→STAIRCASE · top +0.00%",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
       "ts": 1777552664,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -73,46 +97,6 @@
       "signature": null
     },
     {
-      "ts": 1777552450,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5i4t…BLNK · STAIRCASE→DEVELOPING · top +0.04%",
-      "mint": "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK",
-      "signature": null
-    },
-    {
-      "ts": 1777552153,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9qbi…xiTv · STAIRCASE→DEVELOPING · top -3.03%",
-      "mint": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
-      "signature": null
-    },
-    {
-      "ts": 1777552030,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7zwn…pump · DEVELOPING→STAIRCASE · top -0.52%",
-      "mint": "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777551925,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9qbi…xiTv · GRINDER→STAIRCASE · top -2.71%",
-      "mint": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
-      "signature": null
-    },
-    {
-      "ts": 1777551905,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7zwn…pump · GRINDER→DEVELOPING · top -0.82%",
-      "mint": "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -130,50 +114,50 @@
     }
   ],
   "tokens": {
-    "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
-      "symbol": "TTC",
-      "name": "Tittiecoin",
-      "mcap_usd": 29042.0,
-      "price_usd": 0.00002904,
-      "price_change_1h": -15.13,
+    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
+      "symbol": "BLANKY",
+      "name": "Blank Mascot",
+      "mcap_usd": 22809.0,
+      "price_usd": 0.00002281,
+      "price_change_1h": -16.79,
       "price_change_24h": null,
-      "liquidity_usd": 13082.81
-    },
-    "7zwnAH8oHmUJpXJUGMixoRqYvnfumsbJAC8SsVoZpump": {
-      "symbol": "PETA",
-      "name": "PETA For All Animals",
-      "mcap_usd": 1935.0,
-      "price_usd": 1.934e-6,
-      "price_change_1h": -94.41,
-      "price_change_24h": null,
-      "liquidity_usd": 3439.74
+      "liquidity_usd": 12354.38
     },
     "2fF4iZpMVQ9U4WnXXaEvnPVJcU6BjBjpzzpmTLXFpump": {
       "symbol": "ETH",
       "name": "The Ethereum Foundation. ",
-      "mcap_usd": 23070.0,
-      "price_usd": 0.00002306,
-      "price_change_1h": -31.26,
+      "mcap_usd": 24319.0,
+      "price_usd": 0.00002431,
+      "price_change_1h": -27.54,
       "price_change_24h": null,
-      "liquidity_usd": 11619.97
+      "liquidity_usd": 11929.62
     },
     "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv": {
       "symbol": "SISYPHUS",
       "name": "Sisyphus",
-      "mcap_usd": 21019.0,
-      "price_usd": 0.00002101,
-      "price_change_1h": -37.58,
+      "mcap_usd": 5919.0,
+      "price_usd": 5.918e-6,
+      "price_change_1h": -82.42,
       "price_change_24h": null,
-      "liquidity_usd": 11216.18
+      "liquidity_usd": 5954.49
     },
-    "5i4tFU1CocgJwGUQbkeRTENN4NY3oMKt4dXr2TvPBLNK": {
-      "symbol": "BLANKY",
-      "name": "Blank Mascot",
-      "mcap_usd": 21789.0,
-      "price_usd": 0.00002179,
-      "price_change_1h": -6.98,
+    "3jHQ99DkDxvnPaBHxvoYFmYeW8tpidCB9HZqDLL5pump": {
+      "symbol": "PEPELKA",
+      "name": "Pepelka",
+      "mcap_usd": 130315.0,
+      "price_usd": 0.0001303,
+      "price_change_1h": 276.0,
       "price_change_24h": null,
-      "liquidity_usd": 12076.06
+      "liquidity_usd": 28299.79
+    },
+    "G7Zd2Z27DtxkAf9zbQUTcijTgRcK4xtJ4S3npoqYpump": {
+      "symbol": "TTC",
+      "name": "Tittiecoin",
+      "mcap_usd": 6241.0,
+      "price_usd": 6.24e-6,
+      "price_change_1h": -81.76,
+      "price_change_24h": null,
+      "liquidity_usd": 6068.89
     }
   }
 }
