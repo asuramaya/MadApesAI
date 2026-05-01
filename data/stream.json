@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777667226,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3vH3…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "3vH3NzuHafRNvwKKzoGTWNuLtg5Kc38BxsmfUwgPpump",
+      "signature": null
+    },
+    {
       "ts": 1777666933,
       "kind": "alert",
       "tag": "CONCENTRATING",
@@ -106,59 +114,41 @@
     }
   ],
   "tokens": {
-    "yks7qyAPonTPAkiRXaGsKHinGNcpyQZK12HseDApump": {
-      "symbol": "SQWARK",
-      "name": "Sqwark",
-      "mcap_usd": 11500.0,
-      "price_usd": 0.0000115,
-      "price_change_1h": -17.57,
+    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
+      "symbol": "PET",
+      "name": "Petification",
+      "mcap_usd": 7778.0,
+      "price_usd": 7.864e-6,
+      "price_change_1h": 33.21,
       "price_change_24h": null,
-      "liquidity_usd": 8377.04
+      "liquidity_usd": 6842.29
     },
-    "CmN1NmtrwpWitGvhoakh9nyeEVZnMp8VtQZSNifUpump": {
-      "symbol": "IRL",
-      "name": "PUMPATHON IRL",
-      "mcap_usd": 52224.0,
-      "price_usd": 0.00005222,
-      "price_change_1h": 51.45,
+    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
+      "symbol": "STARCAT",
+      "name": "STARCAT",
+      "mcap_usd": 51445.0,
+      "price_usd": 0.00005144,
+      "price_change_1h": 51.23,
       "price_change_24h": null,
-      "liquidity_usd": 18095.6
+      "liquidity_usd": 17461.02
     },
     "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
       "symbol": "scribpoop",
       "name": "scribbli poop",
-      "mcap_usd": 123486.0,
-      "price_usd": 0.0001234,
-      "price_change_1h": 255.0,
+      "mcap_usd": 131590.0,
+      "price_usd": 0.0001315,
+      "price_change_1h": 278.0,
       "price_change_24h": null,
-      "liquidity_usd": 28136.67
+      "liquidity_usd": 29038.15
     },
-    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
-      "symbol": "S&L",
-      "name": "Sandy & Luna",
-      "mcap_usd": 53180.0,
-      "price_usd": 0.00005318,
-      "price_change_1h": 23.19,
+    "CmN1NmtrwpWitGvhoakh9nyeEVZnMp8VtQZSNifUpump": {
+      "symbol": "IRL",
+      "name": "PUMPATHON IRL",
+      "mcap_usd": 57577.0,
+      "price_usd": 0.00005757,
+      "price_change_1h": 66.97,
       "price_change_24h": null,
-      "liquidity_usd": 18817.51
-    },
-    "7QL2Gu88UabsX5dwNDRVQyJrVAq1thxNFiX33We6pump": {
-      "symbol": "VAULT",
-      "name": "The Vault",
-      "mcap_usd": 3742.23,
-      "price_usd": 3.742e-6,
-      "price_change_1h": -82.52,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
-      "symbol": "Pets",
-      "name": "Codex Pets",
-      "mcap_usd": 18178.0,
-      "price_usd": 0.00001882,
-      "price_change_1h": -14.96,
-      "price_change_24h": null,
-      "liquidity_usd": 10577.6
+      "liquidity_usd": 18998.2
     },
     "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
       "symbol": "Crayon",
@@ -169,23 +159,50 @@
       "price_change_24h": null,
       "liquidity_usd": 4133.45
     },
-    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
-      "symbol": "STARCAT",
-      "name": "STARCAT",
-      "mcap_usd": 55826.0,
-      "price_usd": 0.00005582,
-      "price_change_1h": 64.11,
+    "7QL2Gu88UabsX5dwNDRVQyJrVAq1thxNFiX33We6pump": {
+      "symbol": "VAULT",
+      "name": "The Vault",
+      "mcap_usd": 3742.23,
+      "price_usd": 3.742e-6,
+      "price_change_1h": -82.52,
       "price_change_24h": null,
-      "liquidity_usd": 18187.47
+      "liquidity_usd": null
     },
-    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
-      "symbol": "PET",
-      "name": "Petification",
-      "mcap_usd": 7778.0,
-      "price_usd": 7.864e-6,
-      "price_change_1h": 33.21,
+    "3vH3NzuHafRNvwKKzoGTWNuLtg5Kc38BxsmfUwgPpump": {
+      "symbol": "LUNCHMONEY",
+      "name": "LUNCHMONEY",
+      "mcap_usd": 606035.0,
+      "price_usd": 0.000606,
+      "price_change_1h": -20.36,
       "price_change_24h": null,
-      "liquidity_usd": 6842.29
+      "liquidity_usd": 71327.36
+    },
+    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
+      "symbol": "S&L",
+      "name": "Sandy & Luna",
+      "mcap_usd": 53027.0,
+      "price_usd": 0.00005303,
+      "price_change_1h": 33.69,
+      "price_change_24h": null,
+      "liquidity_usd": 18788.85
+    },
+    "yks7qyAPonTPAkiRXaGsKHinGNcpyQZK12HseDApump": {
+      "symbol": "SQWARK",
+      "name": "Sqwark",
+      "mcap_usd": 11500.0,
+      "price_usd": 0.0000115,
+      "price_change_1h": -17.57,
+      "price_change_24h": null,
+      "liquidity_usd": 8377.04
+    },
+    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
+      "symbol": "Pets",
+      "name": "Codex Pets",
+      "mcap_usd": 18138.0,
+      "price_usd": 0.00001878,
+      "price_change_1h": -15.14,
+      "price_change_24h": null,
+      "liquidity_usd": 10566.05
     }
   }
 }
