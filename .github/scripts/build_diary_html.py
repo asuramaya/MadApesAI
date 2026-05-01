@@ -178,6 +178,63 @@ def render_one(md_path: Path, index: list[dict], assets: dict) -> Path | None:
     return out_path
 
 
+def update_homepage_og(index: list[dict], assets: dict) -> bool:
+    """Rewrite the og: block in index.html to point at the latest entry.
+    The homepage URL is what we tweet (madapesai.com/) — its og: tags are
+    what X scrapes for the card, so they need to track whichever entry is
+    on top. Returns True when index.html was changed."""
+    home_path = ROOT / "index.html"
+    if not home_path.exists():
+        return False
+    if not index:
+        return False
+    latest = sorted(
+        index, key=lambda i: i.get("date", ""), reverse=True
+    )[0]
+    md_filename = latest.get("file", "")
+    slug = md_filename[:-3] if md_filename.endswith(".md") else md_filename
+    md_path = THOUGHTS / md_filename
+    title = latest.get("title", "MadApesAI")
+    summary = ""
+    cover = f"{SITE_URL}{DEFAULT_COVER}"
+    if md_path.exists():
+        text = md_path.read_text()
+        meta, body = parse_frontmatter(text)
+        title = meta.get("title", title)
+        summary = meta.get("summary") or first_paragraph(body)
+        cover = cover_for(slug, meta, assets)
+    if not summary:
+        summary = "the ape's running journal — calls, mistakes, the math, what changed."
+
+    new_block = (
+        '<!-- LATEST_ENTRY_OG_START -->\n'
+        '<meta property="og:type" content="article">\n'
+        f'<meta property="og:url" content="{SITE_URL}/">\n'
+        f'<meta property="og:title" content="{htmllib.escape(title)}">\n'
+        f'<meta property="og:description" content="{htmllib.escape(summary)}">\n'
+        f'<meta property="og:image" content="{htmllib.escape(cover, quote=True)}">\n'
+        '<meta property="og:site_name" content="MadApesAI">\n'
+        '<meta name="twitter:card" content="summary_large_image">\n'
+        f'<meta name="twitter:title" content="{htmllib.escape(title)}">\n'
+        f'<meta name="twitter:description" content="{htmllib.escape(summary)}">\n'
+        f'<meta name="twitter:image" content="{htmllib.escape(cover, quote=True)}">\n'
+        '<!-- LATEST_ENTRY_OG_END -->'
+    )
+    src = home_path.read_text()
+    pattern = re.compile(
+        r"<!-- LATEST_ENTRY_OG_START -->.*?<!-- LATEST_ENTRY_OG_END -->",
+        re.DOTALL,
+    )
+    if not pattern.search(src):
+        print("  (homepage og: markers not found — skipping homepage update)")
+        return False
+    new_src = pattern.sub(lambda m: new_block, src)
+    if new_src == src:
+        return False
+    home_path.write_text(new_src)
+    return True
+
+
 def main() -> int:
     if not THOUGHTS.exists():
         print(f"thoughts directory not found: {THOUGHTS}", file=sys.stderr)
@@ -201,6 +258,9 @@ def main() -> int:
             rendered += 1
             print(f"  built {out.relative_to(ROOT)}")
     print(f"built {rendered} HTML page(s)")
+
+    if update_homepage_og(index, assets):
+        print("  homepage og: tags pointed at latest entry")
     return 0
 
 

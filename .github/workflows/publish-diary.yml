@@ -32,6 +32,11 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet markdown pyyaml requests requests_oauthlib
 
+      - name: Generate covers for entries that lack them
+        env:
+          RECRAFT_API_KEY: ${{ secrets.RECRAFT_API_KEY }}
+        run: python .github/scripts/generate_covers.py
+
       - name: Build static HTML pages
         run: python .github/scripts/build_diary_html.py
 
@@ -49,10 +54,10 @@ jobs:
         run: |
           git config user.name "MadApes Diary Bot"
           git config user.email "diary-bot@madapesai.com"
-          git add thoughts/*.html thoughts/.published.json 2>/dev/null || true
+          git add thoughts/*.html thoughts/.published.json thoughts/assets.json index.html assets/thoughts/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "no generated artifacts to commit"
           else
-            git commit -m "diary: auto-build HTML + update published tracker"
+            git commit -m "diary: auto-build HTML + covers + published tracker"
             git push
           fi

@@ -74,18 +74,29 @@ def save_published(slugs: set[str]) -> None:
 
 def compose_tweet(meta: dict, body: str, slug: str) -> str:
     """Return the tweet body. `tweet:` field in frontmatter wins; otherwise
-    composed from title + first paragraph + URL. Hard-capped at 270 chars
-    so the URL has room (X auto-counts URLs as 23 chars but we play safe)."""
-    url = f"{SITE_URL}/thoughts/{slug}"
+    composed from title + first paragraph + URL. We use the SITE root URL
+    (madapesai.com/) as the link target — the homepage's og: tags are
+    rewritten on every build to point at the latest entry, so the social
+    card always renders the latest post regardless of how the URL is
+    truncated by clients."""
+    url = SITE_URL.rstrip("/") + "/"
     if meta.get("tweet"):
         text = str(meta["tweet"]).strip()
-        if url not in text:
-            text = f"{text}\n\n{url}"
-        return text[:280]
+        # Strip any pre-baked URL the operator wrote in frontmatter to
+        # avoid double-posting. Then re-append the canonical short URL.
+        text = re.sub(r"https?://\S+", "", text).strip()
+        # Trim to leave room for the URL + the two newlines.
+        url_budget = len(url) + 2
+        if len(text) + url_budget > 280:
+            text = text[: 280 - url_budget - 1].rstrip() + "…"
+        return f"{text}\n\n{url}"
     title = meta.get("title") or slug
-    summary = meta.get("summary") or first_paragraph(body, max_chars=160)
-    body_text = f"new entry — {title}\n\n{summary}\n\n{url}"
-    return body_text[:280]
+    summary = meta.get("summary") or first_paragraph(body, max_chars=140)
+    body_text = f"new entry — {title}\n\n{summary}"
+    url_budget = len(url) + 2
+    if len(body_text) + url_budget > 280:
+        body_text = body_text[: 280 - url_budget - 1].rstrip() + "…"
+    return f"{body_text}\n\n{url}"
 
 
 def post_x(text: str) -> dict:
