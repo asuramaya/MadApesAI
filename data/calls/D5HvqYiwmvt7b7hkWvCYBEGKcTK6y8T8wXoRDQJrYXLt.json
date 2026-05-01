@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 46,
-    "current_liquidity_usd": 17386.43,
-    "current_mcap_usd": 47883.0,
-    "current_price_usd": 0.00004788,
+    "current_liquidity_usd": 17799.67,
+    "current_mcap_usd": 50183.0,
+    "current_price_usd": 0.00005018,
     "entry_liquidity_usd": 17554.12,
     "entry_mcap_usd": 49154.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
     "note": "horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": -2.5839267548321443,
+    "pct_from_call": 2.09562563580874,
     "peak_at": 1777656584,
     "peak_pct": 5.4526958290946,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777656281,
     "trough_pct": -44.45574771108851
   },
-  "captured_at": 1777656709,
-  "last_snapshot_ts": 1777656705,
+  "captured_at": 1777656739,
+  "last_snapshot_ts": 1777656725,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -1039,6 +1039,34 @@
       "tx_rate": 1000.0000000000001,
       "velocity": 1.0,
       "volume_h1_usd": 316744.55
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 4190,
+      "classification": "DEVELOPING",
+      "confidence": 46,
+      "distribution": 53,
+      "forensics_computed_at": 1777655275,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17799.67,
+      "mcap_usd": 50183.0,
+      "momentum": 58,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 42.12,
+      "price_usd": 0.00005018,
+      "sells_h1": 3581,
+      "smart_money_count": 0,
+      "sniper_pct": 49.31391258746013,
+      "spring": 26,
+      "timestamp": 1777656725,
+      "token_address": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "top10_pct": 39.146215789318184,
+      "top5_pct": 29.04991804905946,
+      "top_holder_pct": 19.127472757760277,
+      "tx_rate": 1000.0000000000001,
+      "velocity": 1.0,
+      "volume_h1_usd": 317114.41
     }
   ]
 }

@@ -20,10 +20,10 @@
       "entry_liquidity_usd": 17554.12,
       "entry_top_holder_pct": 16.19195980271337,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 47883.0,
-      "current_price_usd": 0.00004788,
-      "current_liquidity_usd": 17386.43,
-      "pct_from_call": -2.5839267548321443,
+      "current_mcap_usd": 50183.0,
+      "current_price_usd": 0.00005018,
+      "current_liquidity_usd": 17799.67,
+      "pct_from_call": 2.09562563580874,
       "peak_pct": 5.4526958290946,
       "peak_at": 1777656584,
       "trough_pct": -44.45574771108851,
@@ -50,10 +50,10 @@
       "entry_liquidity_usd": 5534.04,
       "entry_top_holder_pct": 52.99119155298162,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 4697.0,
-      "current_price_usd": 4.698e-6,
-      "current_liquidity_usd": 5301.19,
-      "pct_from_call": -8.008615625611915,
+      "current_mcap_usd": 5004.0,
+      "current_price_usd": 5.005e-6,
+      "current_liquidity_usd": 5470.76,
+      "pct_from_call": -1.9972586645780277,
       "peak_pct": -1.58605835128256,
       "peak_at": 1777653167,
       "trough_pct": -1.58605835128256,
@@ -938,17 +938,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 27,
-        "wins": 8,
-        "losses": 18,
-        "expired": 1,
-        "win_rate": 30.76923076923077,
-        "avg_winner_pct": 46.432667765922865,
-        "avg_loser_pct": -52.47157777688236,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -959,6 +948,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 27,
+        "wins": 8,
+        "losses": 18,
+        "expired": 1,
+        "win_rate": 30.76923076923077,
+        "avg_winner_pct": 46.432667765922865,
+        "avg_loser_pct": -52.47157777688236,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
