@@ -2,6 +2,36 @@
   "active": [],
   "history": [
     {
+      "id": 72,
+      "mint": "8c3JdTcEqy9XdUJ36NAns7XVDfh356nWxvwcMYKNpump",
+      "symbol": "Scribbli",
+      "classification": "STAIRCASE",
+      "confidence": 73,
+      "called_at": 1777638782,
+      "expires_at": 1777660382,
+      "note": "horizon=SHORT",
+      "source": "notifier",
+      "status": "withdrew",
+      "outcome_type": "withdrew",
+      "closed_at": 1777640519,
+      "exit_price_usd": 0.001226,
+      "exit_note": "+57.3% · took the win",
+      "entry_mcap_usd": 770160.0,
+      "entry_price_usd": 0.0007792,
+      "entry_liquidity_usd": 92174.53,
+      "entry_top_holder_pct": 5.253997320429798,
+      "entry_pair_dex": "meteora",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.001226,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": 57.340862422997965,
+      "peak_pct": 46.688911704312105,
+      "peak_at": 1777640358,
+      "trough_pct": 0.0,
+      "trough_at": 1777638782,
+      "thesis_url": null
+    },
+    {
       "id": 71,
       "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
       "symbol": "Goblin",
@@ -694,12 +724,12 @@
   ],
   "stats": {
     "short": {
-      "count": 20,
-      "wins": 7,
+      "count": 21,
+      "wins": 8,
       "losses": 12,
       "expired": 1,
-      "win_rate": 36.84210526315789,
-      "avg_winner_pct": 44.84176452151711,
+      "win_rate": 40.0,
+      "avg_winner_pct": 46.0916743116652,
       "avg_loser_pct": -59.529289032362456,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
@@ -716,17 +746,28 @@
       "worst_pct": -20.052770448548817
     },
     "overall": {
-      "count": 23,
-      "wins": 7,
+      "count": 24,
+      "wins": 8,
       "losses": 15,
       "expired": 1,
-      "win_rate": 31.818181818181817,
-      "avg_winner_pct": 45.341848300215354,
+      "win_rate": 34.78260869565217,
+      "avg_winner_pct": 46.432667765922865,
       "avg_loser_pct": -52.191124336094965,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 23,
+        "wins": 8,
+        "losses": 14,
+        "expired": 1,
+        "win_rate": 36.36363636363637,
+        "avg_winner_pct": 46.432667765922865,
+        "avg_loser_pct": -54.86932049339048,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -737,17 +778,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 22,
-        "wins": 7,
-        "losses": 14,
-        "expired": 1,
-        "win_rate": 33.33333333333333,
-        "avg_winner_pct": 45.341848300215354,
-        "avg_loser_pct": -54.86932049339048,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
       }
     }
   }
