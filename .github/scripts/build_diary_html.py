@@ -69,15 +69,22 @@ def first_paragraph(md_body: str, max_chars: int = 280) -> str:
 
 
 def cover_for(slug: str, meta: dict, assets: dict) -> str:
-    """Resolve the cover image URL for og:image, absolute (X requires absolute)."""
+    """Resolve the cover image URL for og:image, absolute (X requires absolute).
+    Picks the lowest-idx asset for this entry — array order isn't reliable
+    because photon's image processor appends in generation order, not idx
+    order (regenerating idx 0 after 1-3 puts it last in the array)."""
     if meta.get("cover"):
         rel = meta["cover"].lstrip("/")
         return f"{SITE_URL}/{rel}"
-    # Legacy: first asset entry from assets.json
     md_filename = f"{slug}.md"
     items = assets.get(md_filename) or []
-    if items and items[0].get("asset"):
-        return f"{SITE_URL}/{items[0]['asset']}"
+    if items:
+        # Sort by idx and grab the lowest — that's the entry's lead image.
+        # Falls back to first array element if idx is missing/identical.
+        sorted_items = sorted(items, key=lambda i: i.get("idx", 0))
+        first = sorted_items[0]
+        if first.get("asset"):
+            return f"{SITE_URL}/{first['asset']}"
     return f"{SITE_URL}{DEFAULT_COVER}"
 
 
