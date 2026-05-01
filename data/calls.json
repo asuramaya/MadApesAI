@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 98,
       "mint": "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump",
@@ -10,28 +11,26 @@
       "expires_at": 1777679213,
       "note": "moonshot punt on a fresh $29.1k DEV with 27% top1, tape is loud. sniper 61% but riding it. Aping in — +250 take, -25 stop, ~90min if it doesn't move. · horizon=MOONSHOT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777673852,
+      "exit_price_usd": 0.00001665,
+      "exit_note": "-42.8% · moonshot stop",
       "entry_mcap_usd": 29110.0,
       "entry_price_usd": 0.00002911,
       "entry_liquidity_usd": 13349.37,
       "entry_top_holder_pct": 27.222637405567802,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 27112.0,
-      "current_price_usd": 0.00002711,
-      "current_liquidity_usd": 12883.78,
-      "pct_from_call": -6.870491240123677,
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00001665,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -42.803160425970454,
       "peak_pct": -6.870491240123677,
       "peak_at": 1777673813,
-      "trough_pct": -6.870491240123677,
-      "trough_at": 1777673813,
+      "trough_pct": -42.803160425970454,
+      "trough_at": 1777673850,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 97,
       "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
@@ -1505,13 +1504,13 @@
   ],
   "stats": {
     "short": {
-      "count": 46,
+      "count": 47,
       "wins": 10,
-      "losses": 34,
+      "losses": 35,
       "expired": 2,
-      "win_rate": 22.727272727272727,
+      "win_rate": 22.22222222222222,
       "avg_winner_pct": 45.64086853090759,
-      "avg_loser_pct": -55.74298265589583,
+      "avg_loser_pct": -55.37327344932654,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
@@ -1527,28 +1526,17 @@
       "worst_pct": -20.052770448548817
     },
     "overall": {
-      "count": 49,
+      "count": 50,
       "wins": 10,
-      "losses": 37,
+      "losses": 38,
       "expired": 2,
-      "win_rate": 21.27659574468085,
+      "win_rate": 20.833333333333336,
       "avg_winner_pct": 45.96407882149158,
-      "avg_loser_pct": -53.303440203158495,
+      "avg_loser_pct": -53.0196488578291,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 48,
-        "wins": 10,
-        "losses": 36,
-        "expired": 2,
-        "win_rate": 21.73913043478261,
-        "avg_winner_pct": 45.96407882149158,
-        "avg_loser_pct": -54.253459339004486,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -1559,6 +1547,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 49,
+        "wins": 10,
+        "losses": 37,
+        "expired": 2,
+        "win_rate": 21.27659574468085,
+        "avg_winner_pct": 45.96407882149158,
+        "avg_loser_pct": -53.9353954803091,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }

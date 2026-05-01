@@ -1,31 +1,23 @@
 {
   "events": [
     {
+      "ts": 1777673869,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
+      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
+      "signature": null
+    },
+    {
+      "ts": 1777673852,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
+      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
+      "signature": null
+    },
+    {
       "ts": 1777673816,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
-      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
-      "signature": null
-    },
-    {
-      "ts": 1777673813,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$BANDIT at $29k mcap — entry frozen",
-      "mint": "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump",
-      "signature": null
-    },
-    {
-      "ts": 1777673797,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
-      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
-      "signature": null
-    },
-    {
-      "ts": 1777673762,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
@@ -45,29 +37,20 @@
     "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump": {
       "symbol": "eBay",
       "name": "eBay Inc",
-      "mcap_usd": 14718.0,
-      "price_usd": 0.00001471,
+      "mcap_usd": 13898.0,
+      "price_usd": 0.00001389,
       "price_change_1h": -99.99,
       "price_change_24h": null,
-      "liquidity_usd": 9406.95
-    },
-    "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump": {
-      "symbol": "BANDIT",
-      "name": "Justice For Bandit",
-      "mcap_usd": 27112.0,
-      "price_usd": 0.00002711,
-      "price_change_1h": -21.22,
-      "price_change_24h": null,
-      "liquidity_usd": 12883.78
+      "liquidity_usd": 9140.75
     },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 7041.0,
-      "price_usd": 7.119e-6,
-      "price_change_1h": -35.03,
+      "mcap_usd": 7006.0,
+      "price_usd": 7.084e-6,
+      "price_change_1h": -33.94,
       "price_change_24h": null,
-      "liquidity_usd": 6511.68
+      "liquidity_usd": 6496.66
     }
   }
 }
