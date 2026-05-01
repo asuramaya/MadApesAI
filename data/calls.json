@@ -1,6 +1,36 @@
 {
   "active": [
     {
+      "id": 95,
+      "mint": "7jMhgpKrT1cAAD7n8AtV7sDouvkyi7i5yLeaEP1Vpump",
+      "symbol": "ok",
+      "classification": "DEVELOPING",
+      "confidence": 61,
+      "called_at": 1777671163,
+      "expires_at": 1777930363,
+      "note": "DEVELOPING conf 61 fired at $58.0k mcap, top1 21.5%, 20 holders, 333/min flow, h1 +69%, liq $18.6k. Forensics: sniper 61%. Bucket B (right-tail capture): DEVELOPING zone with confirmed positive pre-DEV slope, concentrated holders read as early accumulation, not honeypot. Take +250%, stop -25%, 72h hold. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 57967.0,
+      "entry_price_usd": 0.00005796,
+      "entry_liquidity_usd": 18574.1,
+      "entry_top_holder_pct": 21.46675932440559,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 52010.0,
+      "current_price_usd": 0.00005201,
+      "current_liquidity_usd": 17593.15,
+      "pct_from_call": -10.265700483091788,
+      "peak_pct": -10.265700483091788,
+      "peak_at": 1777671163,
+      "trough_pct": -10.265700483091788,
+      "trough_at": 1777671163,
+      "thesis_url": null
+    },
+    {
       "id": 91,
       "mint": "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump",
       "symbol": "STARCAT",
@@ -20,10 +50,10 @@
       "entry_liquidity_usd": 17599.05,
       "entry_top_holder_pct": 19.111539495162933,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 81778.0,
-      "current_price_usd": 0.00008178,
-      "current_liquidity_usd": 22254.25,
-      "pct_from_call": 57.39030023094691,
+      "current_mcap_usd": 71404.0,
+      "current_price_usd": 0.0000714,
+      "current_liquidity_usd": 20807.19,
+      "pct_from_call": 37.413394919168596,
       "peak_pct": 75.05773672055427,
       "peak_at": 1777669286,
       "trough_pct": 0.0,
@@ -50,10 +80,10 @@
       "entry_liquidity_usd": 6704.15,
       "entry_top_holder_pct": 36.8790933352759,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 9313.0,
-      "current_price_usd": 9.416e-6,
-      "current_liquidity_usd": 7483.92,
-      "pct_from_call": 24.847520551577816,
+      "current_mcap_usd": 8590.0,
+      "current_price_usd": 8.684e-6,
+      "current_liquidity_usd": 7185.66,
+      "pct_from_call": 15.141872182444981,
       "peak_pct": -5.26385574118271,
       "peak_at": 1777660154,
       "trough_pct": -49.363564041368335,
@@ -1418,17 +1448,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 43,
         "wins": 9,
@@ -1439,6 +1458,17 @@
         "avg_loser_pct": -55.49449694795994,
         "best_pct": 117.68707482993194,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
