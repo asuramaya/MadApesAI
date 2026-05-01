@@ -1,36 +1,6 @@
 {
   "active": [
     {
-      "id": 96,
-      "mint": "C9vmDqcuoLUfX6nU2xhw6CyKxnJVNqpw99ePRdripump",
-      "symbol": "ZERO",
-      "classification": "DEVELOPING",
-      "confidence": 47,
-      "called_at": 1777671275,
-      "expires_at": 1777930475,
-      "note": "DEVELOPING conf 47 fired at $56.4k mcap, top1 55.9%, 20 holders, 375/min flow, h1 -100%, liq $18.4k. Forensics: sniper 59%. Bucket B (right-tail capture): DEVELOPING zone with confirmed positive pre-DEV slope, concentrated holders read as early accumulation, not honeypot. Take +250%, stop -25%, 72h hold. · horizon=MOONSHOT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 56405.0,
-      "entry_price_usd": 0.0000564,
-      "entry_liquidity_usd": 18383.83,
-      "entry_top_holder_pct": 55.8504548050746,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 6093.0,
-      "current_price_usd": 6.093e-6,
-      "current_liquidity_usd": 6051.17,
-      "pct_from_call": -89.19680851063829,
-      "peak_pct": -89.19680851063829,
-      "peak_at": 1777671275,
-      "trough_pct": -89.19680851063829,
-      "trough_at": 1777671275,
-      "thesis_url": null
-    },
-    {
       "id": 81,
       "mint": "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump",
       "symbol": "PET",
@@ -62,6 +32,36 @@
     }
   ],
   "history": [
+    {
+      "id": 96,
+      "mint": "C9vmDqcuoLUfX6nU2xhw6CyKxnJVNqpw99ePRdripump",
+      "symbol": "ZERO",
+      "classification": "DEVELOPING",
+      "confidence": 47,
+      "called_at": 1777671275,
+      "expires_at": 1777930475,
+      "note": "DEVELOPING conf 47 fired at $56.4k mcap, top1 55.9%, 20 holders, 375/min flow, h1 -100%, liq $18.4k. Forensics: sniper 59%. Bucket B (right-tail capture): DEVELOPING zone with confirmed positive pre-DEV slope, concentrated holders read as early accumulation, not honeypot. Take +250%, stop -25%, 72h hold. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777671276,
+      "exit_price_usd": 6.093e-6,
+      "exit_note": "-89.2% · severe dev exit",
+      "entry_mcap_usd": 56405.0,
+      "entry_price_usd": 0.0000564,
+      "entry_liquidity_usd": 18383.83,
+      "entry_top_holder_pct": 55.8504548050746,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 6.093e-6,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -89.19680851063829,
+      "peak_pct": -89.19680851063829,
+      "peak_at": 1777671275,
+      "trough_pct": -89.19680851063829,
+      "trough_at": 1777671275,
+      "thesis_url": null
+    },
     {
       "id": 95,
       "mint": "7jMhgpKrT1cAAD7n8AtV7sDouvkyi7i5yLeaEP1Vpump",
@@ -1445,13 +1445,13 @@
   ],
   "stats": {
     "short": {
-      "count": 43,
+      "count": 44,
       "wins": 10,
-      "losses": 32,
+      "losses": 33,
       "expired": 1,
-      "win_rate": 23.809523809523807,
+      "win_rate": 23.25581395348837,
       "avg_winner_pct": 45.64086853090759,
-      "avg_loser_pct": -56.96814046512977,
+      "avg_loser_pct": -57.97528634155191,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
@@ -1467,17 +1467,28 @@
       "worst_pct": -20.052770448548817
     },
     "overall": {
-      "count": 46,
+      "count": 47,
       "wins": 10,
-      "losses": 35,
+      "losses": 36,
       "expired": 1,
-      "win_rate": 22.22222222222222,
+      "win_rate": 21.73913043478261,
       "avg_winner_pct": 45.96407882149158,
-      "avg_loser_pct": -54.23256943734153,
+      "avg_loser_pct": -55.26092941008555,
       "best_pct": 117.68707482993194,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 46,
+        "wins": 10,
+        "losses": 35,
+        "expired": 1,
+        "win_rate": 22.22222222222222,
+        "avg_winner_pct": 45.96407882149158,
+        "avg_loser_pct": -56.3278433180109,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -1488,17 +1499,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 45,
-        "wins": 10,
-        "losses": 34,
-        "expired": 1,
-        "win_rate": 22.727272727272727,
-        "avg_winner_pct": 45.96407882149158,
-        "avg_loser_pct": -55.3006881557413,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
       }
     }
   }
