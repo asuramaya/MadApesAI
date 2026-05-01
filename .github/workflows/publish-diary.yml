@@ -1,0 +1,58 @@
+name: Publish diary entries
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "thoughts/*.md"
+      - ".github/scripts/build_diary_html.py"
+      - ".github/scripts/post_socials.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # so the auto-commit of generated HTML + .published.json sticks
+
+concurrency:
+  group: publish-diary
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet markdown pyyaml requests requests_oauthlib
+
+      - name: Build static HTML pages
+        run: python .github/scripts/build_diary_html.py
+
+      - name: Post new entries to X + Telegram
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python .github/scripts/post_socials.py
+
+      - name: Commit generated artifacts
+        run: |
+          git config user.name "MadApes Diary Bot"
+          git config user.email "diary-bot@madapesai.com"
+          git add thoughts/*.html thoughts/.published.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "no generated artifacts to commit"
+          else
+            git commit -m "diary: auto-build HTML + update published tracker"
+            git push
+          fi
