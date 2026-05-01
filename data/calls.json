@@ -20,14 +20,14 @@
       "entry_liquidity_usd": 17554.12,
       "entry_top_holder_pct": 16.19195980271337,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 40917.0,
-      "current_price_usd": 0.00004091,
-      "current_liquidity_usd": 16019.69,
-      "pct_from_call": -16.765005086469998,
+      "current_mcap_usd": 33653.0,
+      "current_price_usd": 0.00003365,
+      "current_liquidity_usd": 14565.32,
+      "pct_from_call": -31.53611393692778,
       "peak_pct": -16.765005086469998,
       "peak_at": 1777656074,
-      "trough_pct": -16.765005086469998,
-      "trough_at": 1777656074,
+      "trough_pct": -44.45574771108851,
+      "trough_at": 1777656281,
       "thesis_url": null
     },
     {
@@ -50,12 +50,12 @@
       "entry_liquidity_usd": 13505.84,
       "entry_top_holder_pct": 19.756645391972278,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 24548.0,
-      "current_price_usd": 0.00002454,
-      "current_liquidity_usd": 12342.81,
-      "pct_from_call": -16.53061224489796,
-      "peak_pct": 11.258503401360542,
-      "peak_at": 1777655842,
+      "current_mcap_usd": 37367.0,
+      "current_price_usd": 0.00003736,
+      "current_liquidity_usd": 15233.74,
+      "pct_from_call": 27.074829931972786,
+      "peak_pct": 27.074829931972786,
+      "peak_at": 1777656381,
       "trough_pct": -16.53061224489796,
       "trough_at": 1777656091,
       "thesis_url": null
@@ -80,10 +80,10 @@
       "entry_liquidity_usd": 5534.04,
       "entry_top_holder_pct": 52.99119155298162,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 4143.0,
-      "current_price_usd": 4.142e-6,
-      "current_liquidity_usd": 4982.19,
-      "pct_from_call": -18.895633444292148,
+      "current_mcap_usd": 4381.0,
+      "current_price_usd": 4.383e-6,
+      "current_liquidity_usd": 5123.86,
+      "pct_from_call": -14.176620325044064,
       "peak_pct": -1.58605835128256,
       "peak_at": 1777653167,
       "trough_pct": -1.58605835128256,
@@ -938,17 +938,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 26,
-        "wins": 8,
-        "losses": 17,
-        "expired": 1,
-        "win_rate": 32.0,
-        "avg_winner_pct": 46.432667765922865,
-        "avg_loser_pct": -51.84950155611216,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -959,6 +948,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 26,
+        "wins": 8,
+        "losses": 17,
+        "expired": 1,
+        "win_rate": 32.0,
+        "avg_winner_pct": 46.432667765922865,
+        "avg_loser_pct": -51.84950155611216,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
