@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 71,
+      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
+      "symbol": "Goblin",
+      "classification": "STAIRCASE",
+      "confidence": 72,
+      "called_at": 1777624222,
+      "expires_at": 1780216222,
+      "note": "horizon=LONG",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 2410877.0,
+      "entry_price_usd": 0.003269,
+      "entry_liquidity_usd": 195656.05,
+      "entry_top_holder_pct": 4.010219265979968,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 2297387.0,
+      "current_price_usd": 0.003116,
+      "current_liquidity_usd": 191012.23,
+      "pct_from_call": -4.680330376261866,
+      "peak_pct": 0.48944631385745563,
+      "peak_at": 1777624239,
+      "trough_pct": -4.741511165494039,
+      "trough_at": 1777624666,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 70,
@@ -697,17 +728,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 21,
-        "wins": 7,
-        "losses": 13,
-        "expired": 1,
-        "win_rate": 35.0,
-        "avg_winner_pct": 45.341848300215354,
-        "avg_loser_pct": -59.529289032362456,
-        "best_pct": 117.68707482993194,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -718,6 +738,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 21,
+        "wins": 7,
+        "losses": 13,
+        "expired": 1,
+        "win_rate": 35.0,
+        "avg_winner_pct": 45.341848300215354,
+        "avg_loser_pct": -59.529289032362456,
+        "best_pct": 117.68707482993194,
+        "worst_pct": -99.16252723311547
       }
     }
   }
