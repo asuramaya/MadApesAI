@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777659019,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$Pets at $11k mcap — entry frozen",
+      "mint": "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump",
+      "signature": null
+    },
+    {
       "ts": 1777658673,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -133,65 +141,74 @@
     "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
       "symbol": "S&L",
       "name": "Sandy & Luna",
-      "mcap_usd": 53086.0,
-      "price_usd": 0.00005308,
-      "price_change_1h": -14.17,
+      "mcap_usd": 55283.0,
+      "price_usd": 0.00005528,
+      "price_change_1h": 8.95,
       "price_change_24h": null,
-      "liquidity_usd": 18606.32
+      "liquidity_usd": 19022.59
+    },
+    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
+      "symbol": "Pets",
+      "name": "Codex Pets",
+      "mcap_usd": 6814.0,
+      "price_usd": 6.813e-6,
+      "price_change_1h": -80.74,
+      "price_change_24h": null,
+      "liquidity_usd": 6359.56
     },
     "RoAFTaaY51FvFTiEaiVYbg8bjFnGkBMzEor85JwVibe": {
       "symbol": "ROAF",
       "name": "Russian Oil Asset Fund",
-      "mcap_usd": 2630479.0,
+      "mcap_usd": 2630270.0,
       "price_usd": 0.00263,
-      "price_change_1h": 0.05,
+      "price_change_1h": 0.04,
       "price_change_24h": null,
-      "liquidity_usd": 137622.92
-    },
-    "68XUiXdnJxVTTLNvFwNYi8v12okwFDqea5LYUJ4pump": {
-      "symbol": "Pokefy",
-      "name": "Pokemonification",
-      "mcap_usd": 41331.0,
-      "price_usd": 0.00004133,
-      "price_change_1h": 17.14,
-      "price_change_24h": null,
-      "liquidity_usd": 16201.83
+      "liquidity_usd": 137617.46
     },
     "HiBnd8VF1yyYNHS7MrLuNPJr9DBHgZC7rgbpZrwEpump": {
       "symbol": "Bwubby",
       "name": "Bwubby",
-      "mcap_usd": 1926.0,
-      "price_usd": 1.926e-6,
-      "price_change_1h": -94.56,
+      "mcap_usd": 1997.0,
+      "price_usd": 1.997e-6,
+      "price_change_1h": -94.36,
       "price_change_24h": null,
-      "liquidity_usd": 3380.75
+      "liquidity_usd": 3443.76
+    },
+    "68XUiXdnJxVTTLNvFwNYi8v12okwFDqea5LYUJ4pump": {
+      "symbol": "Pokefy",
+      "name": "Pokemonification",
+      "mcap_usd": 42789.0,
+      "price_usd": 0.00004278,
+      "price_change_1h": 21.27,
+      "price_change_24h": null,
+      "liquidity_usd": 16499.01
     },
     "BJyqZdnN8ymSVwKmWSFPpUb4mpoXoxzwmgv8rf6bajje": {
       "symbol": "CHONKERS",
       "name": "CHONKERS",
-      "mcap_usd": 2099447.0,
-      "price_usd": 0.0021,
-      "price_change_1h": 45.77,
+      "mcap_usd": 2012064.0,
+      "price_usd": 0.002012,
+      "price_change_1h": 43.94,
       "price_change_24h": null,
-      "liquidity_usd": 120329.97
-    },
-    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
-      "symbol": "Crayon",
-      "name": "Crayonification",
-      "mcap_usd": 3893.0,
-      "price_usd": 3.894e-6,
-      "price_change_1h": -22.85,
-      "price_change_24h": null,
-      "liquidity_usd": 4833.0
+      "liquidity_usd": 117826.6
     },
     "GZj588SjSX2y3QkkqEHSNkUdwZPnz4J44WMeu4jmpump": {
       "symbol": "PSA10",
       "name": "PSA10 COIN",
-      "mcap_usd": 7423.0,
-      "price_usd": 7.422e-6,
-      "price_change_1h": -79.03,
+      "mcap_usd": 8828.0,
+      "price_usd": 8.828e-6,
+      "price_change_1h": -75.06,
       "price_change_24h": null,
-      "liquidity_usd": 6686.11
+      "liquidity_usd": 7294.43
+    },
+    "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
+      "symbol": "Crayon",
+      "name": "Crayonification",
+      "mcap_usd": 3739.0,
+      "price_usd": 3.74e-6,
+      "price_change_1h": -21.47,
+      "price_change_24h": null,
+      "liquidity_usd": 4737.71
     }
   }
 }
