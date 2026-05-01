@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777618302,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE hpvo…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump",
+      "signature": null
+    },
+    {
+      "ts": 1777617962,
+      "kind": "alert",
+      "tag": "STAIRCASE",
+      "summary": "STAIRCASE CVmf…pump · mom 84 · dist 53 · top 33.96%",
+      "mint": "CVmfApALZWCXDHBb14JtMQwxQGLdutkg5u52HjjVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777617957,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2p5e…pump · STAIRCASE→GRINDER · top +0.18%",
+      "mint": "2p5e3sudKx2LtM8iSefaSszMY9nCiHz6CTEASQ9Xpump",
+      "signature": null
+    },
+    {
       "ts": 1777617852,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -14,6 +38,30 @@
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING DQa4…pump · deployer down 47.7% (215887110 → 112916640)",
       "mint": "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump",
+      "signature": null
+    },
+    {
+      "ts": 1777617608,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2p5e…pump · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "2p5e3sudKx2LtM8iSefaSszMY9nCiHz6CTEASQ9Xpump",
+      "signature": null
+    },
+    {
+      "ts": 1777617589,
+      "kind": "alert",
+      "tag": "GRADUATION SCOUT",
+      "summary": "GRADUATION_SCOUT 8Jx8…pump · site https://www.penguinonsol.com · \"$PENGUIN  ð§ \"  Nietzschean Penguin  Introducing the Nietzschean Penguin  \"One of them caught our eye, he would neither go towards the feeding grounds at the edge of the ice nor return to the colony â shortly afterwards we saw him headi…\"",
+      "mint": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+      "signature": null
+    },
+    {
+      "ts": 1777617588,
+      "kind": "alert",
+      "tag": "GRADUATION",
+      "summary": "GRADUATION 8Jx8…pump · pumpswap → raydium · mcap $151667k · liq $455k",
+      "mint": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
       "signature": null
     },
     {
@@ -58,32 +106,68 @@
     }
   ],
   "tokens": {
-    "3qwtMkiBc4uFSPmZeK7TMq8dVzmB4kCqnARXxAkmpump": {
-      "symbol": "AGI",
-      "name": "artificial goblin intelligence",
-      "mcap_usd": 52507.0,
-      "price_usd": 0.00005948,
-      "price_change_1h": -9.83,
+    "CCSEV1P3YmCmRofbY86Hr6jgb87V35vkjh5Ui2e6pump": {
+      "symbol": "GIGAFLY",
+      "name": "GIGAFLY",
+      "mcap_usd": 13742.0,
+      "price_usd": 0.00001374,
+      "price_change_1h": -60.25,
       "price_change_24h": null,
-      "liquidity_usd": 20529.16
+      "liquidity_usd": 9012.73
+    },
+    "hpvoUYjKkvy2hyqC7444mU6eXFD3ETZW4tLd6Dapump": {
+      "symbol": "RJGN",
+      "name": "RetardedJewishGayNigga",
+      "mcap_usd": 311663.0,
+      "price_usd": 0.0003116,
+      "price_change_1h": -15.18,
+      "price_change_24h": null,
+      "liquidity_usd": 54674.78
     },
     "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
       "symbol": "ELUENT",
       "name": "Eluent Peptides",
-      "mcap_usd": 128199.0,
-      "price_usd": 0.0001281,
-      "price_change_1h": 58.72,
+      "mcap_usd": 119747.0,
+      "price_usd": 0.0001197,
+      "price_change_1h": 48.27,
       "price_change_24h": null,
-      "liquidity_usd": 28798.54
+      "liquidity_usd": 27859.49
     },
-    "CCSEV1P3YmCmRofbY86Hr6jgb87V35vkjh5Ui2e6pump": {
-      "symbol": "GIGAFLY",
-      "name": "GIGAFLY",
-      "mcap_usd": 8716.0,
-      "price_usd": 8.716e-6,
-      "price_change_1h": -74.79,
+    "CVmfApALZWCXDHBb14JtMQwxQGLdutkg5u52HjjVpump": {
+      "symbol": "QUAI",
+      "name": "QUAI NETWORK",
+      "mcap_usd": 2343.5,
+      "price_usd": 2.343e-6,
+      "price_change_1h": -7.66,
       "price_change_24h": null,
-      "liquidity_usd": 7171.64
+      "liquidity_usd": null
+    },
+    "2p5e3sudKx2LtM8iSefaSszMY9nCiHz6CTEASQ9Xpump": {
+      "symbol": "Dragon",
+      "name": "Dragoncoin",
+      "mcap_usd": 264003.0,
+      "price_usd": 0.0002935,
+      "price_change_1h": 37.14,
+      "price_change_24h": null,
+      "liquidity_usd": 46547.66
+    },
+    "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump": {
+      "symbol": "PENGUIN",
+      "name": "Nietzschean Penguin",
+      "mcap_usd": 151666553.0,
+      "price_usd": 0.1516,
+      "price_change_1h": null,
+      "price_change_24h": null,
+      "liquidity_usd": 455026.7
+    },
+    "3qwtMkiBc4uFSPmZeK7TMq8dVzmB4kCqnARXxAkmpump": {
+      "symbol": "AGI",
+      "name": "artificial goblin intelligence",
+      "mcap_usd": 51540.0,
+      "price_usd": 0.00005849,
+      "price_change_1h": -4.15,
+      "price_change_24h": null,
+      "liquidity_usd": 20377.33
     }
   }
 }
