@@ -51,16 +51,16 @@
     {
       "ts": 1777649268,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 8EWS…pump · top 25.49%→28.88% (+3.38%) · STAIRCASE",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 8EWS…pump · DEVELOPING→STAIRCASE · top +3.38%",
       "mint": "8EWSz13jhDX5DyvnyYhRwq9EQuB7cUsQ9UMKwd12pump",
       "signature": null
     },
     {
       "ts": 1777649268,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8EWS…pump · DEVELOPING→STAIRCASE · top +3.38%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 8EWS…pump · top 25.49%→28.88% (+3.38%) · STAIRCASE",
       "mint": "8EWSz13jhDX5DyvnyYhRwq9EQuB7cUsQ9UMKwd12pump",
       "signature": null
     },
@@ -225,14 +225,6 @@
       "signature": null
     },
     {
-      "ts": 1777648585,
-      "kind": "alert",
-      "tag": "DEVELOPING",
-      "summary": "DEVELOPING VkcF…pump · mom 72 · top 45.04% · 20 holders",
-      "mint": "VkcFQQphUxjVwmv9sFcNZqvrBPnUunaRnE7cUJapump",
-      "signature": null
-    },
-    {
       "ts": 1775738956,
       "kind": "trade",
       "tag": "BUY",
@@ -250,122 +242,32 @@
     }
   ],
   "tokens": {
-    "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
-      "symbol": "Wish",
-      "name": "Make A Wish",
-      "mcap_usd": 1809624.0,
-      "price_usd": 0.001809,
-      "price_change_1h": -3.51,
-      "price_change_24h": null,
-      "liquidity_usd": 152841.03
-    },
-    "6EKbK3wp6GZcXwdnugtFhErK1nxpi8H1bgCrFUEPpump": {
-      "symbol": "cannons",
-      "name": "cannons",
-      "mcap_usd": 219745.0,
-      "price_usd": 0.0002197,
-      "price_change_1h": 207.0,
-      "price_change_24h": null,
-      "liquidity_usd": 38608.82
-    },
-    "9J8atVTjynrpfg7KPbcp1TLYvGABvcD9RrPsnQidpump": {
-      "symbol": "SCRIBJAK",
-      "name": "Scribbli Wojak",
-      "mcap_usd": 22990.71,
-      "price_usd": 0.00002299,
-      "price_change_1h": 853.0,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "D3UifAp4u388cHyBNYng91mVgCSgaVsMqPuGj7zEpump": {
-      "symbol": "DWOGE",
-      "name": "dwoge",
-      "mcap_usd": 330344.0,
-      "price_usd": 0.0003303,
-      "price_change_1h": 22.58,
-      "price_change_24h": null,
-      "liquidity_usd": 44875.72
-    },
     "8EWSz13jhDX5DyvnyYhRwq9EQuB7cUsQ9UMKwd12pump": {
       "symbol": "GenY",
       "name": "Gen Y",
-      "mcap_usd": 10278.48,
-      "price_usd": 0.00001027,
-      "price_change_1h": 261.0,
+      "mcap_usd": 7272.99,
+      "price_usd": 7.272e-6,
+      "price_change_1h": 155.0,
       "price_change_24h": null,
       "liquidity_usd": null
-    },
-    "8HyG5qPSp1M5Ez8KvL67NktTyCtHvr6Xn87b2UHNpump": {
-      "symbol": "MOODANG",
-      "name": "Moo Dang",
-      "mcap_usd": 387471.0,
-      "price_usd": 0.0003874,
-      "price_change_1h": -21.13,
-      "price_change_24h": null,
-      "liquidity_usd": 53702.69
-    },
-    "8c3JdTcEqy9XdUJ36NAns7XVDfh356nWxvwcMYKNpump": {
-      "symbol": "Scribbli",
-      "name": "Scribblification",
-      "mcap_usd": 1284421.0,
-      "price_usd": 0.001393,
-      "price_change_1h": 7.77,
-      "price_change_24h": null,
-      "liquidity_usd": 108327.93
-    },
-    "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS": {
-      "symbol": "ASTEROID",
-      "name": "Asteroid The Space Shiba Inu",
-      "mcap_usd": 3177123.0,
-      "price_usd": 0.003177,
-      "price_change_1h": 0.6,
-      "price_change_24h": null,
-      "liquidity_usd": 257999.53
     },
     "ARea51UmRfn22Ds7KwFZirSMEEn1gtBdrhW4zLeveeV1": {
       "symbol": "AALIEN",
       "name": "Anon Alien",
-      "mcap_usd": 220583.0,
-      "price_usd": 0.0002205,
-      "price_change_1h": 7.47,
+      "mcap_usd": 224565.0,
+      "price_usd": 0.0002245,
+      "price_change_1h": 2.39,
       "price_change_24h": null,
-      "liquidity_usd": 37635.31
+      "liquidity_usd": 37978.46
     },
     "HDmojpFZvf1F421Gev2hh2p1ThaVbWsW5qh9C5Bipump": {
       "symbol": "MSPAINTIFY",
       "name": "mspaintify",
-      "mcap_usd": 168751.0,
-      "price_usd": 0.0001688,
-      "price_change_1h": -15.1,
+      "mcap_usd": 160290.0,
+      "price_usd": 0.0001603,
+      "price_change_1h": -15.85,
       "price_change_24h": null,
-      "liquidity_usd": 39899.79
-    },
-    "A6QjfnFKrtNwqJT3nBku7SY3PPEwLHyzhfyy4JzYpump": {
-      "symbol": "Effect",
-      "name": "Butterfly Effect",
-      "mcap_usd": 2422.41,
-      "price_usd": 2.422e-6,
-      "price_change_1h": 0.79,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump": {
-      "symbol": "BOAR",
-      "name": "NIKITA BOAR",
-      "mcap_usd": 352782.0,
-      "price_usd": 0.0003528,
-      "price_change_1h": 85.76,
-      "price_change_24h": null,
-      "liquidity_usd": 77483.44
-    },
-    "533wS5wLqdr9JtnLfRW5WKv5cFdKHLKMnjwidJSgpump": {
-      "symbol": "Life",
-      "name": "Bucket List",
-      "mcap_usd": 137398.0,
-      "price_usd": 0.0001373,
-      "price_change_1h": -6.65,
-      "price_change_24h": null,
-      "liquidity_usd": 31428.82
+      "liquidity_usd": 38883.78
     },
     "8v52XbKNTQxZ6v2xgCBShwnaquySrWpXa5Bjwiwppump": {
       "symbol": "SPURIT",
@@ -376,21 +278,102 @@
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "VkcFQQphUxjVwmv9sFcNZqvrBPnUunaRnE7cUJapump": {
-      "symbol": "Duke",
-      "name": "The Duke",
-      "mcap_usd": 7927.05,
-      "price_usd": 7.927e-6,
-      "price_change_1h": 216.0,
+    "D3UifAp4u388cHyBNYng91mVgCSgaVsMqPuGj7zEpump": {
+      "symbol": "DWOGE",
+      "name": "dwoge",
+      "mcap_usd": 363567.0,
+      "price_usd": 0.0003635,
+      "price_change_1h": 27.93,
+      "price_change_24h": null,
+      "liquidity_usd": 47096.78
+    },
+    "8c3JdTcEqy9XdUJ36NAns7XVDfh356nWxvwcMYKNpump": {
+      "symbol": "Scribbli",
+      "name": "Scribblification",
+      "mcap_usd": 1222802.0,
+      "price_usd": 0.001326,
+      "price_change_1h": 1.05,
+      "price_change_24h": null,
+      "liquidity_usd": 105709.44
+    },
+    "4UeLCRqARmfb6e6KQijtiktqqXUxbfk6jZng7DhuBAGS": {
+      "symbol": "ASTEROID",
+      "name": "Asteroid The Space Shiba Inu",
+      "mcap_usd": 3943663.0,
+      "price_usd": 0.003943,
+      "price_change_1h": 24.88,
+      "price_change_24h": null,
+      "liquidity_usd": 287550.03
+    },
+    "9J8atVTjynrpfg7KPbcp1TLYvGABvcD9RrPsnQidpump": {
+      "symbol": "SCRIBJAK",
+      "name": "Scribbli Wojak",
+      "mcap_usd": 2639.55,
+      "price_usd": 2.639e-6,
+      "price_change_1h": 9.43,
       "price_change_24h": null,
       "liquidity_usd": null
+    },
+    "8HyG5qPSp1M5Ez8KvL67NktTyCtHvr6Xn87b2UHNpump": {
+      "symbol": "MOODANG",
+      "name": "Moo Dang",
+      "mcap_usd": 401993.0,
+      "price_usd": 0.000402,
+      "price_change_1h": -22.45,
+      "price_change_24h": null,
+      "liquidity_usd": 54693.59
+    },
+    "5ohBqLgmccJstRhrFskitBYa7DtwQ13HZmFzH8Wepump": {
+      "symbol": "BOAR",
+      "name": "NIKITA BOAR",
+      "mcap_usd": 341111.0,
+      "price_usd": 0.0003412,
+      "price_change_1h": 79.85,
+      "price_change_24h": null,
+      "liquidity_usd": 76186.33
+    },
+    "2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump": {
+      "symbol": "Wish",
+      "name": "Make A Wish",
+      "mcap_usd": 1747122.0,
+      "price_usd": 0.001747,
+      "price_change_1h": -4.92,
+      "price_change_24h": null,
+      "liquidity_usd": 150183.45
     },
     "JSaSHFFYMw6jL4ZcfbvudKnhwxVSth8sxtVSiHVpump": {
       "symbol": "Owl",
       "name": "Owlcoin",
-      "mcap_usd": 2360.54,
-      "price_usd": 2.36e-6,
-      "price_change_1h": -2.54,
+      "mcap_usd": 2362.81,
+      "price_usd": 2.362e-6,
+      "price_change_1h": -2.44,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "6EKbK3wp6GZcXwdnugtFhErK1nxpi8H1bgCrFUEPpump": {
+      "symbol": "cannons",
+      "name": "cannons",
+      "mcap_usd": 198615.0,
+      "price_usd": 0.0001986,
+      "price_change_1h": 148.0,
+      "price_change_24h": null,
+      "liquidity_usd": 36738.77
+    },
+    "533wS5wLqdr9JtnLfRW5WKv5cFdKHLKMnjwidJSgpump": {
+      "symbol": "Life",
+      "name": "Bucket List",
+      "mcap_usd": 139399.0,
+      "price_usd": 0.0001393,
+      "price_change_1h": -8.06,
+      "price_change_24h": null,
+      "liquidity_usd": 31655.62
+    },
+    "A6QjfnFKrtNwqJT3nBku7SY3PPEwLHyzhfyy4JzYpump": {
+      "symbol": "Effect",
+      "name": "Butterfly Effect",
+      "mcap_usd": 2428.89,
+      "price_usd": 2.428e-6,
+      "price_change_1h": 1.06,
       "price_change_24h": null,
       "liquidity_usd": null
     }
