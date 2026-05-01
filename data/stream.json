@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777670463,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$Hesam at $37k mcap — entry frozen",
+      "mint": "Y2T6DuPD6qJoFd7Kocyik2r3Y76HNqB3HPbpLru1uXx",
+      "signature": null
+    },
+    {
       "ts": 1777669828,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -9,18 +17,18 @@
       "signature": null
     },
     {
-      "ts": 1777669627,
+      "ts": 1777669809,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3uyg…pump · deployer down 44.5% (228934710 → 127004756)",
+      "summary": "DEV_SELLING 3uyg…pump · deployer down 35.3% (228934710 → 148153747)",
       "mint": "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump",
       "signature": null
     },
     {
-      "ts": 1777669607,
+      "ts": 1777669791,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3uyg…pump · deployer down 44.5% (228934710 → 127004756)",
+      "summary": "DEV_SELLING 3uyg…pump · deployer down 35.3% (228934710 → 148153747)",
       "mint": "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump",
       "signature": null
     },
@@ -66,32 +74,41 @@
     }
   ],
   "tokens": {
+    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
+      "symbol": "STARCAT",
+      "name": "STARCAT",
+      "mcap_usd": 102949.0,
+      "price_usd": 0.0001029,
+      "price_change_1h": 283.0,
+      "price_change_24h": null,
+      "liquidity_usd": 24929.32
+    },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
-      "mcap_usd": 10838.0,
-      "price_usd": 0.00001095,
-      "price_change_1h": -7.64,
+      "mcap_usd": 10136.0,
+      "price_usd": 0.00001024,
+      "price_change_1h": 16.23,
       "price_change_24h": null,
-      "liquidity_usd": 8066.62
+      "liquidity_usd": 7803.18
+    },
+    "Y2T6DuPD6qJoFd7Kocyik2r3Y76HNqB3HPbpLru1uXx": {
+      "symbol": "Hesam",
+      "name": "Justice for Hesam Alaeddin",
+      "mcap_usd": 32779.0,
+      "price_usd": 0.00003277,
+      "price_change_1h": -99.98,
+      "price_change_24h": null,
+      "liquidity_usd": 14159.35
     },
     "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump": {
       "symbol": "scribpoop",
       "name": "scribbli poop",
-      "mcap_usd": 23812.0,
-      "price_usd": 0.00002381,
-      "price_change_1h": -78.06,
+      "mcap_usd": 20858.0,
+      "price_usd": 0.00002085,
+      "price_change_1h": -77.36,
       "price_change_24h": null,
-      "liquidity_usd": 13205.64
-    },
-    "3uyg2CuY74R8FrBLfJMgCkpGm7qzaShmH5uZJoNJpump": {
-      "symbol": "STARCAT",
-      "name": "STARCAT",
-      "mcap_usd": 93698.0,
-      "price_usd": 0.0000937,
-      "price_change_1h": 307.0,
-      "price_change_24h": null,
-      "liquidity_usd": 23752.53
+      "liquidity_usd": 12364.8
     }
   }
 }
