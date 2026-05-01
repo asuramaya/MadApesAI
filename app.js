@@ -226,6 +226,12 @@ function chartObserver() {
         iframe.loading = "lazy";
         iframe.referrerPolicy = "no-referrer-when-downgrade";
         iframe.title = "chart " + mint;
+        // Drop the loading skeleton once the iframe paints — keeps the
+        // shimmer behind the chart from leaking pixels at the edges.
+        iframe.addEventListener("load", () => {
+          const skel = host.querySelector(".card-chart-skeleton");
+          if (skel) skel.remove();
+        });
         host.appendChild(iframe);
         host.dataset.loaded = "1";
         CALL_CHART_OBSERVER.unobserve(host);
@@ -235,6 +241,13 @@ function chartObserver() {
   );
   return CALL_CHART_OBSERVER;
 }
+
+// Cache of rendered cards by mint. The 30s data refresh re-runs renderCalls;
+// without this cache every iframe gets destroyed and rebuilt every cycle
+// (the "reload punch" — chart flashes mid-interaction). We keep cards
+// alive between renders, update only the volatile parts (pct, pills,
+// market data), and remove cards whose mints are no longer active.
+const CALL_CARD_CACHE = new Map();
 
 function fmtDate(ts) {
   if (!ts) return null;
@@ -246,110 +259,164 @@ function fmtDate(ts) {
 // CALLS section — active calls only. Closed calls live in HISTORY (they
 // were shown here in a "recent" subsection but that duplicated work and
 // gave each closed call two visual identities. Single home now.)
+// Build the volatile pills list (changes every refresh — pct, time-ago,
+// expiry-left). Returns DOM nodes the caller swaps into the card.
+function buildCallPills(c) {
+  const pills = [];
+  if (c.entry_mcap_usd) pills.push("mcap " + "$" + formatMcap(c.entry_mcap_usd));
+  if (c.current_mcap_usd && c.outcome_type === "active") pills.push("now $" + formatMcap(c.current_mcap_usd));
+  if (c.entry_top_holder_pct != null) pills.push("top1 " + c.entry_top_holder_pct.toFixed(1) + "%");
+  if (c.entry_liquidity_usd) pills.push("liq $" + formatMcap(c.entry_liquidity_usd));
+  pills.push(fmtTimeAgo(c.called_at));
+  if (c.expires_at) {
+    const left = c.expires_at - Date.now() / 1000;
+    if (left > 0) {
+      pills.push(left > 86400 ? Math.floor(left / 86400) + "d left" : Math.floor(left / 3600) + "h left");
+    } else {
+      pills.push("expired");
+    }
+  }
+  return pills.map((p) => el("span", { class: "card-pill", text: p }));
+}
+
+// Build the static parts of a call card. Called once per mint — subsequent
+// renders mutate the existing card in place via updateCallCard so the
+// iframe (which is the only expensive child) survives data refreshes.
+function buildCallCard(c) {
+  const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
+  const term = callTerm(c);
+  const narrative = cleanNote(c.note);
+  const sideLabel = term ? term.toUpperCase() : "AUTO";
+
+  const headSym = el("a", { href: "#call=" + c.mint, class: "card-sym sym-link", text: sym });
+  const headBadge = el("span", { class: "card-badge card-badge-" + (term || "auto"), text: sideLabel });
+  const headPct = el("div", { class: "card-head-right num", text: "" });
+  const header = el("div", { class: "card-head" }, [
+    el("div", { class: "card-head-left" }, [headSym, headBadge]),
+    headPct,
+  ]);
+
+  const chartHost = el("div", { class: "card-chart", "data-mint": c.mint }, [
+    el("div", { class: "card-chart-skeleton", text: "chart loading…" }),
+  ]);
+  const obs = chartObserver();
+  if (obs) {
+    obs.observe(chartHost);
+  } else {
+    const iframe = document.createElement("iframe");
+    iframe.src = "https://dexscreener.com/solana/" + c.mint + "?embed=1&theme=dark&trades=0&info=0";
+    chartHost.appendChild(iframe);
+  }
+
+  const narrativeEl = el("div", { class: "card-narrative", text: narrative || "" });
+  if (!narrative) narrativeEl.style.display = "none";
+
+  const pillsEl = el("div", { class: "card-pills" }, buildCallPills(c));
+
+  const linkChildren = [
+    el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "📊 chart" }),
+    el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }),
+    el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }),
+  ];
+  if (c.thesis_url) {
+    linkChildren.push(
+      el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" })
+    );
+  }
+  const linksEl = el("div", { class: "card-links" }, linkChildren);
+
+  const card = el(
+    "div",
+    { class: "call-card", title: c.mint },
+    [header, chartHost, narrativeEl, pillsEl, linksEl]
+  );
+  header.addEventListener("click", (ev) => {
+    if (ev.target.closest("a")) return;
+    card.classList.toggle("call-card--collapsed");
+  });
+
+  // Stash mutable refs on the card so updates can target them without
+  // re-querying every refresh cycle.
+  card._refs = { headPct, narrativeEl, pillsEl };
+  return card;
+}
+
+// In-place update of a cached card. Touches only volatile fields (pct
+// number + class, narrative text if changed, pills) and never replaces
+// the chartHost / iframe — that's the whole point of the cache.
+function updateCallCard(card, c) {
+  if (!card._refs) return;
+  const pctValue = callPctValue(c);
+  const pctCls = pctValue === null ? "" : pnlClass(pctValue);
+  card._refs.headPct.textContent = fmtPct(pctValue);
+  card._refs.headPct.className = "card-head-right num " + pctCls;
+
+  const narrative = cleanNote(c.note);
+  if (narrative) {
+    if (card._refs.narrativeEl.textContent !== narrative) {
+      card._refs.narrativeEl.textContent = narrative;
+    }
+    card._refs.narrativeEl.style.display = "";
+  } else {
+    card._refs.narrativeEl.style.display = "none";
+  }
+
+  // Pills are entirely volatile (time-ago + expiry-left tick every render).
+  // Cheap to fully replace; nothing inside is expensive.
+  clear(card._refs.pillsEl);
+  for (const p of buildCallPills(c)) card._refs.pillsEl.appendChild(p);
+}
+
+// CALLS section — active calls only. Closed calls live in HISTORY (they
+// were shown here in a "recent" subsection but that duplicated work and
+// gave each closed call two visual identities. Single home now.)
 function renderCalls(calls /*, history (intentionally unused) */) {
   const container = document.getElementById("calls-list");
-  clear(container);
   const active = calls || [];
 
   if (!active.length) {
+    clear(container);
+    CALL_CARD_CACHE.clear();
     container.appendChild(el("div", { class: "empty", text: "no active calls" }));
     return;
   }
 
-  // Newest call first — keeps the most relevant card at the top of the page.
+  // Newest call first — keeps the most relevant card at the top.
   const sorted = active.slice().sort((a, b) => (b.called_at || 0) - (a.called_at || 0));
+  const seen = new Set();
+
   for (let i = 0; i < sorted.length; i++) {
     const c = sorted[i];
-    const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
-    const pctValue = callPctValue(c);
-    const pctCls = pctValue === null ? "" : pnlClass(pctValue);
-    const term = callTerm(c);
-    const narrative = cleanNote(c.note);
-
-    // Top header strip — symbol + horizon badge on the left, pct on the right.
-    const sideLabel = term ? term.toUpperCase() : "AUTO";
-    const header = el("div", { class: "card-head" }, [
-      el("div", { class: "card-head-left" }, [
-        el("a", { href: "#call=" + c.mint, class: "card-sym sym-link", text: sym }),
-        el("span", { class: "card-badge card-badge-" + (term || "auto"), text: sideLabel }),
-      ]),
-      el("div", { class: "card-head-right num " + pctCls, text: fmtPct(pctValue) }),
-    ]);
-
-    // Chart host — the iframe slots in here when scrolled into view. The
-    // placeholder keeps layout stable so the page doesn't jump on hydration.
-    const chartHost = el("div", { class: "card-chart", "data-mint": c.mint }, [
-      el("div", { class: "card-chart-skeleton", text: "chart loading…" }),
-    ]);
-    const obs = chartObserver();
-    if (obs) {
-      obs.observe(chartHost);
+    seen.add(c.mint);
+    let card = CALL_CARD_CACHE.get(c.mint);
+    if (card) {
+      // Existing card — patch in place. iframe survives unscathed.
+      updateCallCard(card, c);
     } else {
-      // No IntersectionObserver (very old browser) — load immediately.
-      const iframe = document.createElement("iframe");
-      iframe.src = "https://dexscreener.com/solana/" + c.mint + "?embed=1&theme=dark&trades=0&info=0";
-      chartHost.appendChild(iframe);
+      // New mint — build full card. The first card in the list expands
+      // by default; older cards collapse to header-only.
+      card = buildCallCard(c);
+      updateCallCard(card, c);
+      if (i > 0) card.classList.add("call-card--collapsed");
+      CALL_CARD_CACHE.set(c.mint, card);
     }
-
-    // Narrative — the thesis paragraph. Auto-fired calls now ship a structural
-    // narrative from compose_auto_narrative; operator-typed /call notes
-    // override and read editorial. Hidden when empty (older auto calls).
-    const narrativeEl = narrative
-      ? el("div", { class: "card-narrative", text: narrative })
-      : null;
-
-    // Metric pills — at-a-glance numbers. Only render the ones we have.
-    const pills = [];
-    if (c.entry_mcap_usd) pills.push("mcap " + "$" + formatMcap(c.entry_mcap_usd));
-    if (c.current_mcap_usd && c.outcome_type === "active") pills.push("now $" + formatMcap(c.current_mcap_usd));
-    if (c.entry_top_holder_pct != null) pills.push("top1 " + c.entry_top_holder_pct.toFixed(1) + "%");
-    if (c.entry_liquidity_usd) pills.push("liq $" + formatMcap(c.entry_liquidity_usd));
-    pills.push(fmtTimeAgo(c.called_at));
-    if (c.expires_at) {
-      const left = c.expires_at - Date.now() / 1000;
-      if (left > 0) {
-        pills.push(left > 86400 ? Math.floor(left / 86400) + "d left" : Math.floor(left / 3600) + "h left");
-      } else {
-        pills.push("expired");
-      }
-    }
-    const pillsEl = el(
-      "div",
-      { class: "card-pills" },
-      pills.map((p) => el("span", { class: "card-pill", text: p }))
-    );
-
-    // Action links — chart, scout, whales, optional thesis.
-    const linkChildren = [
-      el("a", { href: DEXSCREENER + "/" + c.mint, target: "_blank", rel: "noopener", text: "📊 chart" }),
-      el("a", { href: "data/scouts/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "scout" }),
-      el("a", { href: "data/whales/" + c.mint + ".json", target: "_blank", rel: "noopener", text: "whales" }),
-    ];
-    if (c.thesis_url) {
-      linkChildren.push(
-        el("a", { href: "#note=" + encodeURIComponent(c.thesis_url.replace(/^thoughts\//, "")), text: "📖 thesis" })
-      );
-    }
-    const linksEl = el("div", { class: "card-links" }, linkChildren);
-
-    // Card assembly. The newest card is open by default; older cards
-    // collapse the chart to keep the list scannable. The toggle flips
-    // .card--collapsed on the host.
-    const isCollapsed = i > 0;
-    const card = el(
-      "div",
-      {
-        class: "call-card" + (isCollapsed ? " call-card--collapsed" : ""),
-        title: c.mint,
-      },
-      [header, chartHost, narrativeEl, pillsEl, linksEl].filter(Boolean)
-    );
-    header.addEventListener("click", (ev) => {
-      // Don't toggle when the click landed on a real link inside the head.
-      if (ev.target.closest("a")) return;
-      card.classList.toggle("call-card--collapsed");
-    });
+    // Reorder: ensure DOM order matches sorted order. appendChild on an
+    // already-attached node moves it without destroying.
     container.appendChild(card);
+  }
+
+  // Drop cards for mints that are no longer active (closed, expired, etc).
+  for (const [mint, card] of CALL_CARD_CACHE) {
+    if (!seen.has(mint)) {
+      if (card.parentNode === container) container.removeChild(card);
+      CALL_CARD_CACHE.delete(mint);
+    }
+  }
+
+  // Remove any stray non-card children (the "no active calls" empty-state
+  // div from a prior render where the list was empty).
+  for (const child of Array.from(container.children)) {
+    if (!child.classList.contains("call-card")) container.removeChild(child);
   }
 }
 

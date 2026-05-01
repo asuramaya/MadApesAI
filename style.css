@@ -697,6 +697,8 @@ h2 {
   border-bottom: 1px solid var(--border);
 }
 .card-chart iframe {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
   border: 0;
@@ -712,6 +714,12 @@ h2 {
   font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  /* Sits behind the iframe so DexScreener's chart receives clicks.
+   * Without this the skeleton (position:absolute inset:0) covers the
+   * iframe and swallows every interaction — chart looks loaded but
+   * scroll/click do nothing. */
+  z-index: 0;
+  pointer-events: none;
 }
 
 .card-narrative {
