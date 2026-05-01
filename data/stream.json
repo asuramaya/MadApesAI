@@ -1,10 +1,42 @@
 {
   "events": [
     {
+      "ts": 1777676269,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE H1tr…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777676205,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING H1tr…pump · top 24.61%→27.23% (+2.62%) · STAIRCASE",
+      "mint": "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777676169,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING H1tr…pump · top 24.61%→27.30% (+2.70%) · STAIRCASE",
+      "mint": "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump",
+      "signature": null
+    },
+    {
       "ts": 1777676088,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE H1tr…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777676056,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE H1tr…pump · STAIRCASE→GRINDER · top +1.09%",
       "mint": "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump",
       "signature": null
     },
@@ -17,6 +49,22 @@
       "signature": null
     },
     {
+      "ts": 1777675622,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE yoX5…pump · GRINDER→DEVELOPING · top +0.28%",
+      "mint": "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump",
+      "signature": null
+    },
+    {
+      "ts": 1777675589,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6ixv…pump · GRINDER→STAIRCASE · top -0.04%",
+      "mint": "6ixv7h9LQ8Vz4S9F4Ta8BWM7USaDapihZroDWSRBpump",
+      "signature": null
+    },
+    {
       "ts": 1777675555,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -25,18 +73,18 @@
       "signature": null
     },
     {
+      "ts": 1777675502,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7YyE…pump · DEVELOPING→STAIRCASE · top -6.81%",
+      "mint": "7YyEFHUa5jtEDEgxhya3cG3skfDjMEF6Au9wU1bopump",
+      "signature": null
+    },
+    {
       "ts": 1777675501,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE yoX5…pump · STAIRCASE→GRINDER · top +0.57%",
-      "mint": "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump",
-      "signature": null
-    },
-    {
-      "ts": 1777675467,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE yoX5…pump · GRINDER→STAIRCASE · top +1.27%",
       "mint": "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump",
       "signature": null
     },
@@ -57,10 +105,10 @@
       "signature": null
     },
     {
-      "ts": 1777675117,
+      "ts": 1777675218,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7YyE…pump · DEVELOPING→STAIRCASE · top -3.53%",
+      "summary": "CLASSIFICATION_CHANGE 7YyE…pump · DEVELOPING→STAIRCASE · top +0.73%",
       "mint": "7YyEFHUa5jtEDEgxhya3cG3skfDjMEF6Au9wU1bopump",
       "signature": null
     },
@@ -70,6 +118,14 @@
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING 7YyE…pump · top 27.35%→29.59% (+2.24%) · STAIRCASE",
       "mint": "7YyEFHUa5jtEDEgxhya3cG3skfDjMEF6Au9wU1bopump",
+      "signature": null
+    },
+    {
+      "ts": 1777674964,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6mbo…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump",
       "signature": null
     },
     {
@@ -91,17 +147,17 @@
     {
       "ts": 1777674895,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · GRINDER→STAIRCASE · top +0.01%",
-      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
+      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
       "signature": null
     },
     {
       "ts": 1777674895,
       "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING FXq9…pump · deployer down 100.0% (235324368 → 0)",
-      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3KHM…pump · GRINDER→STAIRCASE · top +0.01%",
+      "mint": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
       "signature": null
     },
     {
@@ -121,6 +177,30 @@
       "signature": null
     },
     {
+      "ts": 1777674861,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE FXq9…pump · DEVELOPING→STAIRCASE · top +0.31%",
+      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
+      "signature": null
+    },
+    {
+      "ts": 1777674808,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE FXq9…pump · DEVELOPING→STAIRCASE · top -0.29%",
+      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
+      "signature": null
+    },
+    {
+      "ts": 1777674775,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 6mbo…pump · GRINDER→STAIRCASE · top +0.00%",
+      "mint": "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump",
+      "signature": null
+    },
+    {
       "ts": 1777674739,
       "kind": "alert",
       "tag": "GRADUATION",
@@ -137,30 +217,6 @@
       "signature": null
     },
     {
-      "ts": 1777674626,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE FXq9…pump · DEVELOPING→STAIRCASE · top -0.98%",
-      "mint": "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump",
-      "signature": null
-    },
-    {
-      "ts": 1777674524,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8n58…pump · DEVELOPING→GRINDER · top -0.80%",
-      "mint": "8n58q3pUr7VK3jhCXfx75rPLiygRWLuSSiyxP7aapump",
-      "signature": null
-    },
-    {
-      "ts": 1777674471,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 8n58…pump · DEVELOPING→GRINDER · top +0.00%",
-      "mint": "8n58q3pUr7VK3jhCXfx75rPLiygRWLuSSiyxP7aapump",
-      "signature": null
-    },
-    {
       "ts": 1777672758,
       "kind": "call",
       "tag": "CALL EXPIRED",
@@ -170,59 +226,50 @@
     }
   ],
   "tokens": {
-    "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump": {
-      "symbol": "JEWS",
-      "name": "The Jews Did 9/11",
-      "mcap_usd": 133649.0,
-      "price_usd": 0.0001336,
-      "price_change_1h": 50.23,
-      "price_change_24h": null,
-      "liquidity_usd": 29383.08
-    },
-    "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump": {
-      "symbol": "eBay",
-      "name": "eBay Inc",
-      "mcap_usd": 16228.0,
-      "price_usd": 0.00001622,
-      "price_change_1h": -69.53,
-      "price_change_24h": null,
-      "liquidity_usd": 9880.62
-    },
-    "8n58q3pUr7VK3jhCXfx75rPLiygRWLuSSiyxP7aapump": {
-      "symbol": "GMEBAY",
-      "name": "GMEBAY",
-      "mcap_usd": 105530.0,
-      "price_usd": 0.0001055,
-      "price_change_1h": 206.0,
-      "price_change_24h": null,
-      "liquidity_usd": 25942.49
-    },
-    "7YyEFHUa5jtEDEgxhya3cG3skfDjMEF6Au9wU1bopump": {
-      "symbol": "eBay",
-      "name": "RareVintageJailbreakPS4Lowballs",
-      "mcap_usd": 7996.0,
-      "price_usd": 7.996e-6,
-      "price_change_1h": -76.82,
-      "price_change_24h": null,
-      "liquidity_usd": 6966.8
-    },
-    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
-      "symbol": "Ewon",
-      "name": "Scribbillion EWON",
-      "mcap_usd": 617258.0,
-      "price_usd": 0.0006172,
-      "price_change_1h": 16.25,
-      "price_change_24h": null,
-      "liquidity_usd": 61506.65
-    },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
       "name": "Petification",
       "mcap_usd": 5554.0,
       "price_usd": 5.615e-6,
-      "price_change_1h": -17.77,
+      "price_change_1h": -16.14,
       "price_change_24h": null,
       "liquidity_usd": 5782.49
+    },
+    "7YyEFHUa5jtEDEgxhya3cG3skfDjMEF6Au9wU1bopump": {
+      "symbol": "eBay",
+      "name": "RareVintageJailbreakPS4Lowballs",
+      "mcap_usd": 17295.0,
+      "price_usd": 0.00001729,
+      "price_change_1h": -71.12,
+      "price_change_24h": null,
+      "liquidity_usd": 10248.38
+    },
+    "6ixv7h9LQ8Vz4S9F4Ta8BWM7USaDapihZroDWSRBpump": {
+      "symbol": "Shrek",
+      "name": "Menace Shrek",
+      "mcap_usd": 46395.0,
+      "price_usd": 0.00004639,
+      "price_change_1h": 34.55,
+      "price_change_24h": null,
+      "liquidity_usd": 16648.49
+    },
+    "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump": {
+      "symbol": "lifeTCG",
+      "name": "Life TCG ",
+      "mcap_usd": 8551.0,
+      "price_usd": 8.551e-6,
+      "price_change_1h": -75.82,
+      "price_change_24h": null,
+      "liquidity_usd": 7100.12
+    },
+    "FXq9ztrn3FW7TXvgJ8gf2oRiUdBQjw4qTPTDryawpump": {
+      "symbol": "eBay",
+      "name": "eBay Inc",
+      "mcap_usd": 15382.0,
+      "price_usd": 0.00001538,
+      "price_change_1h": -52.02,
+      "price_change_24h": null,
+      "liquidity_usd": 9621.07
     },
     "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump": {
       "symbol": "USDS",
@@ -233,23 +280,32 @@
       "price_change_24h": null,
       "liquidity_usd": 9737779.94
     },
-    "6ixv7h9LQ8Vz4S9F4Ta8BWM7USaDapihZroDWSRBpump": {
-      "symbol": "Shrek",
-      "name": "Menace Shrek",
-      "mcap_usd": 47312.0,
-      "price_usd": 0.00004731,
-      "price_change_1h": 37.21,
+    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
+      "symbol": "Ewon",
+      "name": "Scribbillion EWON",
+      "mcap_usd": 607245.0,
+      "price_usd": 0.0006072,
+      "price_change_1h": 7.43,
       "price_change_24h": null,
-      "liquidity_usd": 16794.01
+      "liquidity_usd": 61019.46
     },
-    "H1trb3yQmeCKvLF1HquG2PGbcWrU8q5AkxrBBLVJpump": {
-      "symbol": "lifeTCG",
-      "name": "Life TCG ",
-      "mcap_usd": 19561.0,
-      "price_usd": 0.00001956,
-      "price_change_1h": -44.69,
+    "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump": {
+      "symbol": "JEWS",
+      "name": "The Jews Did 9/11",
+      "mcap_usd": 156139.0,
+      "price_usd": 0.0001561,
+      "price_change_1h": 121.0,
       "price_change_24h": null,
-      "liquidity_usd": 10735.35
+      "liquidity_usd": 31816.9
+    },
+    "6mboWrwobyZepexFHFD4VGqtwpsN8cGGSB9WHHAmpump": {
+      "symbol": "BANDIT",
+      "name": "Justice For Bandit",
+      "mcap_usd": 22849.0,
+      "price_usd": 0.00002284,
+      "price_change_1h": -33.6,
+      "price_change_24h": null,
+      "liquidity_usd": 11951.69
     }
   }
 }
