@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777660013,
+      "ts": 1777660172,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 5qkq…pump · deployer down 100.0% (166097373 → 0)",
@@ -9,7 +9,15 @@
       "signature": null
     },
     {
-      "ts": 1777659995,
+      "ts": 1777660172,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$NIB at $79k mcap — entry frozen",
+      "mint": "8m9ska6uPw1xoFskyAWKaHnVqobC37F1okjve6L5pump",
+      "signature": null
+    },
+    {
+      "ts": 1777660154,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 5qkq…pump · deployer down 100.0% (166097373 → 0)",
@@ -17,7 +25,15 @@
       "signature": null
     },
     {
-      "ts": 1777659979,
+      "ts": 1777660154,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$PET at $8k mcap — entry frozen",
+      "mint": "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump",
+      "signature": null
+    },
+    {
+      "ts": 1777660137,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING 5qkq…pump · deployer down 100.0% (166097373 → 0)",
@@ -49,30 +65,6 @@
       "signature": null
     },
     {
-      "ts": 1777659616,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3QQQ…pump · deployer down 69.2% (223004514 → 68730441)",
-      "mint": "3QQQxazHaMb72d7N9iftT26vuk6A4Re31fYmkwA2pump",
-      "signature": null
-    },
-    {
-      "ts": 1777659581,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3QQQ…pump · deployer down 69.2% (223004514 → 68730441)",
-      "mint": "3QQQxazHaMb72d7N9iftT26vuk6A4Re31fYmkwA2pump",
-      "signature": null
-    },
-    {
-      "ts": 1777659564,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3QQQ…pump · deployer down 69.2% (223004514 → 68730441)",
-      "mint": "3QQQxazHaMb72d7N9iftT26vuk6A4Re31fYmkwA2pump",
-      "signature": null
-    },
-    {
       "ts": 1777659019,
       "kind": "call",
       "tag": "CALL FIRED",
@@ -98,59 +90,59 @@
     }
   ],
   "tokens": {
-    "5qkq98FwnNVxaRAXRhnFGX7hfrfGy9juk9GtsuPcpump": {
-      "symbol": "PETS",
-      "name": "Codex Pets",
-      "mcap_usd": 51202.0,
-      "price_usd": 0.0000512,
-      "price_change_1h": 21.17,
-      "price_change_24h": null,
-      "liquidity_usd": 17663.38
-    },
-    "3QQQxazHaMb72d7N9iftT26vuk6A4Re31fYmkwA2pump": {
-      "symbol": "PETS",
-      "name": "Codex Pets",
-      "mcap_usd": 441538.0,
-      "price_usd": 0.0004415,
-      "price_change_1h": 1175.0,
-      "price_change_24h": null,
-      "liquidity_usd": 56382.15
-    },
-    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
-      "symbol": "Pets",
-      "name": "Codex Pets",
-      "mcap_usd": 11419.0,
-      "price_usd": 0.00001141,
-      "price_change_1h": -67.73,
-      "price_change_24h": null,
-      "liquidity_usd": 8234.3
-    },
     "8m9ska6uPw1xoFskyAWKaHnVqobC37F1okjve6L5pump": {
       "symbol": "NIB",
       "name": "Nib",
-      "mcap_usd": 96802.0,
-      "price_usd": 0.0000968,
-      "price_change_1h": 173.0,
+      "mcap_usd": 81703.0,
+      "price_usd": 0.0000817,
+      "price_change_1h": 131.0,
       "price_change_24h": null,
-      "liquidity_usd": 26628.73
-    },
-    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
-      "symbol": "S&L",
-      "name": "Sandy & Luna",
-      "mcap_usd": 39282.0,
-      "price_usd": 0.00003928,
-      "price_change_1h": 22.5,
-      "price_change_24h": null,
-      "liquidity_usd": 16102.48
+      "liquidity_usd": 24612.89
     },
     "Er1pcbrV1omVTzVxAKSA4FsnuExne8CpB27hj7B1pump": {
       "symbol": "Crayon",
       "name": "Crayonification",
       "mcap_usd": 4091.0,
       "price_usd": 4.092e-6,
-      "price_change_1h": -6.63,
+      "price_change_1h": -3.64,
       "price_change_24h": null,
       "liquidity_usd": 4956.11
+    },
+    "H2oBpD4bAmzsyN51mDgxoY9GYnG5soFT4ZnCzFvKpump": {
+      "symbol": "Pets",
+      "name": "Codex Pets",
+      "mcap_usd": 15273.0,
+      "price_usd": 0.00001527,
+      "price_change_1h": -56.84,
+      "price_change_24h": null,
+      "liquidity_usd": 9522.81
+    },
+    "5qkq98FwnNVxaRAXRhnFGX7hfrfGy9juk9GtsuPcpump": {
+      "symbol": "PETS",
+      "name": "Codex Pets",
+      "mcap_usd": 15183.0,
+      "price_usd": 0.00001518,
+      "price_change_1h": -64.07,
+      "price_change_24h": null,
+      "liquidity_usd": 9620.7
+    },
+    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
+      "symbol": "PET",
+      "name": "Petification",
+      "mcap_usd": 7093.0,
+      "price_usd": 7.093e-6,
+      "price_change_1h": -79.97,
+      "price_change_24h": null,
+      "liquidity_usd": 6500.36
+    },
+    "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt": {
+      "symbol": "S&L",
+      "name": "Sandy & Luna",
+      "mcap_usd": 37762.0,
+      "price_usd": 0.00003776,
+      "price_change_1h": -22.62,
+      "price_change_24h": null,
+      "liquidity_usd": 15790.25
     }
   }
 }
