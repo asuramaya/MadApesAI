@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777617852,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3qwt…pump · deployer down 49.0% (337030702 → 171981443)",
+      "mint": "3qwtMkiBc4uFSPmZeK7TMq8dVzmB4kCqnARXxAkmpump",
+      "signature": null
+    },
+    {
       "ts": 1777617724,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -50,23 +58,32 @@
     }
   ],
   "tokens": {
-    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
-      "symbol": "ELUENT",
-      "name": "Eluent Peptides",
-      "mcap_usd": 131472.0,
-      "price_usd": 0.0001314,
-      "price_change_1h": 61.38,
-      "price_change_24h": null,
-      "liquidity_usd": 29182.54
-    },
     "CCSEV1P3YmCmRofbY86Hr6jgb87V35vkjh5Ui2e6pump": {
       "symbol": "GIGAFLY",
       "name": "GIGAFLY",
-      "mcap_usd": 7286.0,
-      "price_usd": 7.286e-6,
-      "price_change_1h": -78.92,
+      "mcap_usd": 9574.0,
+      "price_usd": 9.574e-6,
+      "price_change_1h": -72.3,
       "price_change_24h": null,
-      "liquidity_usd": 6561.39
+      "liquidity_usd": 7518.2
+    },
+    "3qwtMkiBc4uFSPmZeK7TMq8dVzmB4kCqnARXxAkmpump": {
+      "symbol": "AGI",
+      "name": "artificial goblin intelligence",
+      "mcap_usd": 49493.0,
+      "price_usd": 0.00005607,
+      "price_change_1h": -7.16,
+      "price_change_24h": null,
+      "liquidity_usd": 19937.28
+    },
+    "DQa4mxFws6WsXMwn8gpEBXqMsGfDn4Uopi8W2Zvopump": {
+      "symbol": "ELUENT",
+      "name": "Eluent Peptides",
+      "mcap_usd": 125236.0,
+      "price_usd": 0.0001252,
+      "price_change_1h": 56.88,
+      "price_change_24h": null,
+      "liquidity_usd": 28472.97
     }
   }
 }
