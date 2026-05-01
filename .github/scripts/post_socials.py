@@ -167,9 +167,11 @@ def main() -> int:
 
         # Telegram first — it's free and noiseless when it fails.
         tg_text = tweet_text  # same body, TG will auto-render og: card
+        any_ok = False
         try:
             post_telegram(tg_text)
             print("✓ telegram posted")
+            any_ok = True
         except Exception as e:
             print(f"✗ telegram failed: {e}")
             failures += 1
@@ -178,14 +180,18 @@ def main() -> int:
         try:
             post_x(tweet_text)
             print("✓ X posted")
+            any_ok = True
         except Exception as e:
             print(f"✗ X failed: {e}")
             failures += 1
 
-        # Mark published only if at least one channel succeeded.
-        # (Avoids re-posting on every push when X creds are still missing —
-        # if both fail, retry next run; if only one fails, accept the asym.)
-        published.add(slug)
+        # Only mark published when at least one channel succeeded — that way
+        # a config-broken first push retries on the next push instead of
+        # silently dropping the entry from social distribution forever.
+        if any_ok:
+            published.add(slug)
+        else:
+            print(f"  → not marked published; next push will retry {slug}")
 
     save_published(published)
     print(f"\npublished tracker updated: {PUBLISHED.relative_to(ROOT)}")
