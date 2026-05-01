@@ -368,7 +368,9 @@ function formatMcap(n) {
 // note.
 const HISTORY_PAGE_SIZE = 20;
 let HISTORY_STATE = {
-  filter: "all",
+  // Default to wins so visitors land on the success cohort first. Users can
+  // pivot to all/failed/expired/horizon-specific via the filter pills.
+  filter: "won",
   page: 1,
   data: [],   // full ordered history
   stats: null,
