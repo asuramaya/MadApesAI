@@ -20,56 +20,20 @@
       "ts": 1777745223,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Athb…doge · STAIRCASE→DEVELOPING · top -0.88%",
-      "mint": "AthbBQNmhXWxdCwvxzhf9so4NsKjB4UxKtXGReTcdoge",
+      "summary": "CLASSIFICATION_CHANGE 3hHZ…pump · DEVELOPING→GRINDER · top +1.70%",
+      "mint": "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump",
       "signature": null
     },
     {
       "ts": 1777745223,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3hHZ…pump · DEVELOPING→GRINDER · top +1.70%",
-      "mint": "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump",
+      "summary": "CLASSIFICATION_CHANGE Athb…doge · STAIRCASE→DEVELOPING · top -0.88%",
+      "mint": "AthbBQNmhXWxdCwvxzhf9so4NsKjB4UxKtXGReTcdoge",
       "signature": null
     }
   ],
   "tokens": {
-    "42ieLgTvKFwecrnYRNpTSBwWYgHLjCkfKKLecX9Tpump": {
-      "symbol": "HODLERS",
-      "name": "The Hodlers",
-      "mcap_usd": 35023.0,
-      "price_usd": 0.00003502,
-      "price_change_1h": -16.85,
-      "price_change_24h": null,
-      "liquidity_usd": 14824.44
-    },
-    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
-      "symbol": "wifout",
-      "name": "dogwifouthat",
-      "mcap_usd": 114766.0,
-      "price_usd": 0.0001147,
-      "price_change_1h": 232.0,
-      "price_change_24h": null,
-      "liquidity_usd": 26889.57
-    },
-    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
-      "symbol": "FINE",
-      "name": "This is Fine",
-      "mcap_usd": 181759.0,
-      "price_usd": 0.0001817,
-      "price_change_1h": 290.0,
-      "price_change_24h": null,
-      "liquidity_usd": 33564.44
-    },
-    "AthbBQNmhXWxdCwvxzhf9so4NsKjB4UxKtXGReTcdoge": {
-      "symbol": "DOXX",
-      "name": "Doxx",
-      "mcap_usd": 23082.93,
-      "price_usd": 0.00002308,
-      "price_change_1h": 34.5,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
       "name": "Minecraft Grandma Fund",
@@ -78,6 +42,42 @@
       "price_change_1h": -0.36,
       "price_change_24h": null,
       "liquidity_usd": 72771.42
+    },
+    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
+      "symbol": "FINE",
+      "name": "This is Fine",
+      "mcap_usd": 220116.0,
+      "price_usd": 0.0002201,
+      "price_change_1h": 373.0,
+      "price_change_24h": null,
+      "liquidity_usd": 36969.0
+    },
+    "AthbBQNmhXWxdCwvxzhf9so4NsKjB4UxKtXGReTcdoge": {
+      "symbol": "DOXX",
+      "name": "Doxx",
+      "mcap_usd": 23122.78,
+      "price_usd": 0.00002312,
+      "price_change_1h": 34.63,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
+      "symbol": "wifout",
+      "name": "dogwifouthat",
+      "mcap_usd": 105964.0,
+      "price_usd": 0.0001059,
+      "price_change_1h": 206.0,
+      "price_change_24h": null,
+      "liquidity_usd": 25917.64
+    },
+    "42ieLgTvKFwecrnYRNpTSBwWYgHLjCkfKKLecX9Tpump": {
+      "symbol": "HODLERS",
+      "name": "The Hodlers",
+      "mcap_usd": 21402.0,
+      "price_usd": 0.0000214,
+      "price_change_1h": -49.19,
+      "price_change_24h": null,
+      "liquidity_usd": 11603.3
     }
   },
   "watching": [
@@ -87,7 +87,7 @@
       "classification": "GRINDER",
       "confidence": 75,
       "top_holder_pct": 12.1603552680933,
-      "age_secs": 1462,
+      "age_secs": 1763,
       "gate": "age",
       "gap": "age 797s < 900s",
       "last_seen": 1777745279
@@ -98,7 +98,7 @@
       "classification": "GRINDER",
       "confidence": 75,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 1463,
+      "age_secs": 1764,
       "gate": "tx_rate",
       "gap": "txr 0.5/min < 5.0 (short by 4.5)",
       "last_seen": 1777745278
