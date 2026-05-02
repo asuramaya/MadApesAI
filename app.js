@@ -1028,12 +1028,40 @@ function renderTokenLinks(mint) {
   return row;
 }
 
+// One row in the "watching" subsection — passing classifier but
+// blocked by some secondary gate. Format mirrors the call rows so the
+// eye reads it the same way: ticker, classification, conf, gap.
+function renderWatchingRow(w) {
+  const sym = w.symbol ? "$" + w.symbol : shortAddr(w.mint || "");
+  const ageStr = w.age_secs < 60 ? w.age_secs + "s" : Math.floor(w.age_secs / 60) + "m";
+  const meta = [
+    w.classification,
+    "conf " + w.confidence,
+    "top1 " + (w.top_holder_pct || 0).toFixed(1) + "%",
+    "blocked: " + (w.gate || "?"),
+    ageStr + " ago",
+  ].join(" · ");
+  const symEl = el("div", { class: "sym stream-watching-sym" }, [
+    "👁 ",
+    el("a", {
+      href: DEXSCREENER + "/" + w.mint,
+      target: "_blank",
+      rel: "noopener",
+      class: "sym-link",
+      text: sym,
+    }),
+  ]);
+  const detail = el("div", { class: "detail dim" }, [meta]);
+  return el("div", { class: "row stream-watching-row", title: w.gap || "" }, [symEl, detail]);
+}
+
 function renderStream(stream) {
   const body = document.getElementById("stream-body");
   const status = document.getElementById("stream-status");
   if (!body) return;
   const events = (stream && stream.events) || [];
   const tokens = (stream && stream.tokens) || {};
+  const watching = (stream && stream.watching) || [];
 
   // Track signatures so newly-arrived events can flash on next render.
   const newSignatures = new Set();
@@ -1046,9 +1074,28 @@ function renderStream(stream) {
   }
 
   clear(body);
-  if (!events.length) {
+
+  // "Watching" subsection — tokens passing classifier with conf >= 60 in
+  // the last 5min that didn't fire a call. Renders above events because
+  // it's the live thinking stream; events are historical.
+  if (watching.length) {
+    const watchHeader = el("div", { class: "stream-watching-header" }, [
+      "watching · " + watching.length,
+    ]);
+    body.appendChild(watchHeader);
+    for (const w of watching) {
+      body.appendChild(renderWatchingRow(w));
+    }
+  }
+
+  if (!events.length && !watching.length) {
     body.appendChild(el("div", { class: "stream-empty", text: "no events yet" }));
     if (status) status.textContent = "—";
+    STREAM_FIRST_RENDER = false;
+    return;
+  }
+  if (!events.length) {
+    if (status) status.textContent = watching.length + " watching";
     STREAM_FIRST_RENDER = false;
     return;
   }

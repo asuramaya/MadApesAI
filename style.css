@@ -257,6 +257,33 @@ h1 .dot { color: var(--accent); }
   padding: 10px 0;
 }
 
+/* ---------- watching tier ---------- */
+/* Rendered above the events list. "Bot is currently considering" view —
+   tokens passing classifier in the last 5min but not yet fired. */
+.stream-watching-header {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--fg-dim, #888);
+  text-transform: uppercase;
+  padding: 8px 0 4px 0;
+  border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.06));
+  margin-bottom: 4px;
+}
+.stream-watching-row {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 4px 6px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  color: var(--fg-dim, #999);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.04);
+}
+.stream-watching-row:last-of-type { margin-bottom: 10px; }
+.stream-watching-row .sym { color: var(--fg, #ddd); flex: 0 0 auto; }
+.stream-watching-row .detail { font-size: 10px; }
+
 /* ---------- live-feed groups ---------- */
 /* Groups roll up all events for one mint into a single foldable card.
    Header always visible (symbol · mc · 1h%); body expands on click. */
