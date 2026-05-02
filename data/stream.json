@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": 1777690415,
+      "ts": 1777690483,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING DbpQ…pump · deployer down 100.0% (212971048 → 0)",
@@ -9,7 +9,15 @@
       "signature": null
     },
     {
-      "ts": 1777690398,
+      "ts": 1777690465,
+      "kind": "call",
+      "tag": "CALL FIRED",
+      "summary": "$CLIPPY at $41k mcap — entry frozen",
+      "mint": "D9R54eMFLQibLmWhyE9qX6buoKRkrjN15dQAGYAYpump",
+      "signature": null
+    },
+    {
+      "ts": 1777690450,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING DbpQ…pump · deployer down 100.0% (212971048 → 0)",
@@ -17,27 +25,11 @@
       "signature": null
     },
     {
-      "ts": 1777690331,
+      "ts": 1777690432,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING DbpQ…pump · deployer down 100.0% (212971048 → 0)",
       "mint": "DbpQEL1wmnNkZJdBeNR9agWKXNhujFjmWnzRn9odpump",
-      "signature": null
-    },
-    {
-      "ts": 1777689079,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3zVB…riDa · deployer down 100.0% (213630327 → 0)",
-      "mint": "3zVBKbZuYQzBAzF8mQfzPefgPLgHAEzEcnkj6NSxriDa",
-      "signature": null
-    },
-    {
-      "ts": 1777689045,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING 3zVB…riDa · deployer down 100.0% (213630327 → 0)",
-      "mint": "3zVBKbZuYQzBAzF8mQfzPefgPLgHAEzEcnkj6NSxriDa",
       "signature": null
     },
     {
@@ -50,14 +42,23 @@
     }
   ],
   "tokens": {
-    "3zVBKbZuYQzBAzF8mQfzPefgPLgHAEzEcnkj6NSxriDa": {
-      "symbol": "Clippy",
+    "D9R54eMFLQibLmWhyE9qX6buoKRkrjN15dQAGYAYpump": {
+      "symbol": "CLIPPY",
       "name": "Clippy",
-      "mcap_usd": 3155.0,
-      "price_usd": 3.155e-6,
-      "price_change_1h": -90.65,
+      "mcap_usd": 42942.0,
+      "price_usd": 0.00004294,
+      "price_change_1h": 24.34,
       "price_change_24h": null,
-      "liquidity_usd": 4341.3
+      "liquidity_usd": 15999.18
+    },
+    "DbpQEL1wmnNkZJdBeNR9agWKXNhujFjmWnzRn9odpump": {
+      "symbol": "/hatch",
+      "name": "/hatch",
+      "mcap_usd": 19978.0,
+      "price_usd": 0.00001997,
+      "price_change_1h": -41.27,
+      "price_change_24h": null,
+      "liquidity_usd": 10883.62
     },
     "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
       "symbol": "PET",
@@ -67,15 +68,6 @@
       "price_change_1h": -6.56,
       "price_change_24h": null,
       "liquidity_usd": 6153.49
-    },
-    "DbpQEL1wmnNkZJdBeNR9agWKXNhujFjmWnzRn9odpump": {
-      "symbol": "/hatch",
-      "name": "/hatch",
-      "mcap_usd": 17563.0,
-      "price_usd": 0.00001756,
-      "price_change_1h": -48.37,
-      "price_change_24h": null,
-      "liquidity_usd": 10207.14
     }
   }
 }
