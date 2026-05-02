@@ -988,6 +988,24 @@ function groupEventsByMint(events) {
 
 // Render the token-card header — the always-visible row that summarizes the
 // group. Click to fold/unfold the events list.
+// Compress overly long alert tag strings so they fit the 320px live-feed
+// column without overflowing. Publisher uppercases + space-replaces alert
+// types ("classification_change" → "CLASSIFICATION CHANGE"); those are
+// 20+ chars and clip on the right edge. Short forms preserve meaning.
+const STREAM_TAG_SHORT = {
+  "CLASSIFICATION CHANGE": "CLASS-FLIP",
+  "DEV SELLING": "DEV-OUT",
+  "CONCENTRATING": "TOP-RISING",
+  "VOLUME COLLAPSE": "VOL-DEAD",
+  "MOMENTUM COLLAPSE": "MOM-DEAD",
+  "STRUCTURAL COLLAPSE": "STRUCT-OUT",
+  "SEVERE DEV EXIT": "DEV-RUG",
+};
+function shortenStreamTag(tag) {
+  if (!tag) return tag;
+  return STREAM_TAG_SHORT[tag] || tag;
+}
+
 function renderTokenHeader(mint, info, events, isExpanded, symbolDuplicates) {
   const baseSym = info?.symbol ? "$" + info.symbol : shortAddr(mint);
   // Append a mint suffix when this header shares its symbol with another
@@ -1001,7 +1019,7 @@ function renderTokenHeader(mint, info, events, isExpanded, symbolDuplicates) {
   // freshest event signals what's happening (alert/call/trade).
   const latest = events[0];
   const latestKind = latest?.kind || "alert";
-  const latestTag = latest?.tag || latestKind.toUpperCase();
+  const latestTag = shortenStreamTag(latest?.tag || latestKind.toUpperCase());
 
   // Numeric meta — mcap, 1h change, count. Each cell has its own colour
   // so a glance tells you the token state without reading.
@@ -1048,7 +1066,7 @@ function renderEventLine(ev) {
   const time = el("span", { class: "stream-evt-ts", text: fmtTimeAgo(ev.ts), "data-ts": ev.ts });
   const tag = el("span", {
     class: "stream-kind stream-kind-" + ev.kind,
-    text: ev.tag || ev.kind,
+    text: shortenStreamTag(ev.tag || ev.kind),
   });
   const summaryEl = el("div", { class: "stream-evt-summary" });
   linkifySummary(summaryEl, ev.summary || "", ev.mint);

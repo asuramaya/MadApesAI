@@ -317,6 +317,13 @@ h1 .dot { color: var(--accent); }
   background: var(--bg-elev);
   color: var(--fg-dim);
   white-space: nowrap;
+  /* Prevent long tag strings (CLASSIFICATION CHANGE) from overflowing
+     the right-side live-feed column (320px). Truncate with ellipsis
+     when needed instead of pushing the whole row past the viewport. */
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
 }
 .stream-kind-alert    { color: #d9b96f; background: rgba(217, 185, 111, 0.08); }
 .stream-kind-call     { color: var(--accent); background: rgba(255, 122, 26, 0.10); }
@@ -540,6 +547,10 @@ h2 {
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: 4px;
+  /* uPlot's canvas + axes can render a couple px past the container box
+     under certain DPR/window-width combinations. clip the bleed so the
+     chart line never escapes into the live-feed column. */
+  overflow: hidden;
 }
 
 /* uPlot overrides to match theme */
