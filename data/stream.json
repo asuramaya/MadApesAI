@@ -1,18 +1,34 @@
 {
   "events": [
     {
-      "ts": 1777698502,
+      "ts": 1777698699,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING EzwM…pump · top 26.77%→29.26% (+2.48%) · STAIRCASE",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top -6.17%",
+      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
+      "signature": null
+    },
+    {
+      "ts": 1777698601,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EzwM…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
+      "signature": null
+    },
+    {
+      "ts": 1777698585,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top -4.76%",
       "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
       "signature": null
     },
     {
       "ts": 1777698502,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top +2.48%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING EzwM…pump · top 26.77%→29.26% (+2.48%) · STAIRCASE",
       "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
       "signature": null
     },
@@ -49,27 +65,11 @@
       "signature": null
     },
     {
-      "ts": 1777697920,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top -0.00%",
-      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
-      "signature": null
-    },
-    {
       "ts": 1777697887,
       "kind": "alert",
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH CEqa…pump · vel 12.00x→0.42x · tpm 34.9",
       "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777697855,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EzwM…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
       "signature": null
     },
     {
@@ -90,41 +90,41 @@
     }
   ],
   "tokens": {
-    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
-      "symbol": "Ewon",
-      "name": "Scribbillion EWON",
-      "mcap_usd": 1161507.0,
-      "price_usd": 0.001161,
-      "price_change_1h": 13.22,
-      "price_change_24h": null,
-      "liquidity_usd": 85649.11
-    },
-    "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
-      "symbol": "goblintown",
-      "name": "goblintown",
-      "mcap_usd": 163589.0,
-      "price_usd": 0.0001635,
-      "price_change_1h": 12.73,
-      "price_change_24h": null,
-      "liquidity_usd": 32155.48
-    },
     "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump": {
       "symbol": "Matrix",
       "name": "Escape The Matrix",
-      "mcap_usd": 17298.0,
-      "price_usd": 0.00001729,
-      "price_change_1h": -49.67,
+      "mcap_usd": 11710.0,
+      "price_usd": 0.00001171,
+      "price_change_1h": -65.93,
       "price_change_24h": null,
-      "liquidity_usd": 10100.11
+      "liquidity_usd": 8308.23
     },
     "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump": {
       "symbol": "NPC",
       "name": "Not Predictable Coin",
-      "mcap_usd": 49919.0,
-      "price_usd": 0.00004991,
-      "price_change_1h": 45.25,
+      "mcap_usd": 45105.0,
+      "price_usd": 0.0000451,
+      "price_change_1h": 31.24,
       "price_change_24h": null,
-      "liquidity_usd": 17157.33
+      "liquidity_usd": 16306.47
+    },
+    "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
+      "symbol": "Ewon",
+      "name": "Scribbillion EWON",
+      "mcap_usd": 1129343.0,
+      "price_usd": 0.001129,
+      "price_change_1h": 11.81,
+      "price_change_24h": null,
+      "liquidity_usd": 84425.57
+    },
+    "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
+      "symbol": "goblintown",
+      "name": "goblintown",
+      "mcap_usd": 135025.0,
+      "price_usd": 0.000135,
+      "price_change_1h": -1.64,
+      "price_change_24h": null,
+      "liquidity_usd": 29232.16
     }
   }
 }
