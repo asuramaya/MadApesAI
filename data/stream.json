@@ -1,15 +1,55 @@
 {
   "events": [
     {
-      "ts": 1777725301,
+      "ts": 1777726430,
       "kind": "alert",
       "tag": "DEV SELLING",
-      "summary": "DEV_SELLING FDr2…pump · deployer down 100.0% (251942689 → 0)",
-      "mint": "FDr2CPmau1iCKU4aJy87sd86cnsgFr3B7GVe7jwJpump",
+      "summary": "DEV_SELLING 3h4F…pump · deployer down 100.0% (259304829 → 0)",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
       "signature": null
     },
     {
-      "ts": 1777725285,
+      "ts": 1777726430,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3h4F…pump · STAIRCASE→DEVELOPING · top +0.96%",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
+      "signature": null
+    },
+    {
+      "ts": 1777726413,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3h4F…pump · deployer down 100.0% (259304829 → 0)",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
+      "signature": null
+    },
+    {
+      "ts": 1777726413,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3h4F…pump · GRINDER→STAIRCASE · top +1.00%",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
+      "signature": null
+    },
+    {
+      "ts": 1777726397,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 3h4F…pump · deployer down 100.0% (259304829 → 0)",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
+      "signature": null
+    },
+    {
+      "ts": 1777726397,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3h4F…pump · STAIRCASE→GRINDER · top -0.78%",
+      "mint": "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump",
+      "signature": null
+    },
+    {
+      "ts": 1777725301,
       "kind": "alert",
       "tag": "DEV SELLING",
       "summary": "DEV_SELLING FDr2…pump · deployer down 100.0% (251942689 → 0)",
@@ -21,6 +61,14 @@
       "kind": "alert",
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING FDr2…pump · top 25.19%→29.12% (+3.93%) · GRINDER",
+      "mint": "FDr2CPmau1iCKU4aJy87sd86cnsgFr3B7GVe7jwJpump",
+      "signature": null
+    },
+    {
+      "ts": 1777725285,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING FDr2…pump · deployer down 100.0% (251942689 → 0)",
       "mint": "FDr2CPmau1iCKU4aJy87sd86cnsgFr3B7GVe7jwJpump",
       "signature": null
     },
@@ -55,51 +103,44 @@
       "summary": "DEV_SELLING 3XZx…pump · deployer down 70.8% (491396249 → 143430955)",
       "mint": "3XZxBJ4rF7p2SnE866MCYnx1rNCbUjmmC9u25Cw3pump",
       "signature": null
-    },
-    {
-      "ts": 1777724517,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3XZx…pump · DEVELOPING→STAIRCASE · top -3.79%",
-      "mint": "3XZxBJ4rF7p2SnE866MCYnx1rNCbUjmmC9u25Cw3pump",
-      "signature": null
-    },
-    {
-      "ts": 1777724453,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3XZx…pump · SURGE→DEVELOPING · top -3.08%",
-      "mint": "3XZxBJ4rF7p2SnE866MCYnx1rNCbUjmmC9u25Cw3pump",
-      "signature": null
     }
   ],
   "tokens": {
-    "3XZxBJ4rF7p2SnE866MCYnx1rNCbUjmmC9u25Cw3pump": {
-      "symbol": "wef",
-      "name": "wef",
-      "mcap_usd": 278763.0,
-      "price_usd": 0.0002787,
-      "price_change_1h": 453.0,
+    "3h4F4V8vRa9k6MUqNy2f6xGjQ3hVHmqBF7qLYjanpump": {
+      "symbol": "unstoblin",
+      "name": "unstable goblin",
+      "mcap_usd": 46364.0,
+      "price_usd": 0.00004636,
+      "price_change_1h": 33.01,
       "price_change_24h": null,
-      "liquidity_usd": 40801.17
+      "liquidity_usd": 16592.19
     },
     "4y874got9bZ2sR42qHYdnfoL6UcdfMaa1SjcP7Ucpump": {
       "symbol": "NORMIE",
       "name": "NORMIE",
-      "mcap_usd": 106730.0,
-      "price_usd": 0.0001067,
-      "price_change_1h": 209.0,
+      "mcap_usd": 114467.0,
+      "price_usd": 0.0001144,
+      "price_change_1h": 231.0,
       "price_change_24h": null,
-      "liquidity_usd": 25181.4
+      "liquidity_usd": 26074.56
+    },
+    "3XZxBJ4rF7p2SnE866MCYnx1rNCbUjmmC9u25Cw3pump": {
+      "symbol": "wef",
+      "name": "wef",
+      "mcap_usd": 261949.0,
+      "price_usd": 0.0002619,
+      "price_change_1h": 419.0,
+      "price_change_24h": null,
+      "liquidity_usd": 39549.82
     },
     "FDr2CPmau1iCKU4aJy87sd86cnsgFr3B7GVe7jwJpump": {
       "symbol": "Falcon512",
       "name": "Solana-Falcon512",
-      "mcap_usd": 3170.0,
-      "price_usd": 3.169e-6,
-      "price_change_1h": -90.85,
+      "mcap_usd": 3543.0,
+      "price_usd": 3.543e-6,
+      "price_change_1h": -89.77,
       "price_change_24h": null,
-      "liquidity_usd": 4330.8
+      "liquidity_usd": 4576.69
     }
   }
 }
