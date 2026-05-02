@@ -1,36 +1,6 @@
 {
   "active": [
     {
-      "id": 130,
-      "mint": "F7ySj1p4f83fLXzdN8Dgf9UySr4MrkPVgZ1usFMzpump",
-      "symbol": "NYAN",
-      "classification": "DEVELOPING",
-      "confidence": 59,
-      "called_at": 1777757488,
-      "expires_at": 1777762888,
-      "note": "NYAN at 60k, 429 tx/min and 1.03 buys/sells, but the sniper load makes this a quick moonshot · horizon=MOONSHOT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 60158.0,
-      "entry_price_usd": 0.00006015,
-      "entry_liquidity_usd": 18988.54,
-      "entry_top_holder_pct": 15.956945354595101,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 60158.0,
-      "current_price_usd": 0.00006015,
-      "current_liquidity_usd": 18988.54,
-      "pct_from_call": 0.0,
-      "peak_pct": 0.0,
-      "peak_at": 1777757488,
-      "trough_pct": 0.0,
-      "trough_at": 1777757488,
-      "thesis_url": null
-    },
-    {
       "id": 129,
       "mint": "EvmirLpR7d1bLKFAPmndAimac5jYGwwg5Ee31tc7baiN",
       "symbol": "SAM MOGMAN",
@@ -50,10 +20,10 @@
       "entry_liquidity_usd": 25531.49,
       "entry_top_holder_pct": 12.159348972855009,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 98069.0,
-      "current_price_usd": 0.00009806,
-      "current_liquidity_usd": 24531.27,
-      "pct_from_call": -7.924882629107977,
+      "current_mcap_usd": 84447.0,
+      "current_price_usd": 0.00008444,
+      "current_liquidity_usd": 22770.37,
+      "pct_from_call": -20.713615023474187,
       "peak_pct": -4.131455399061035,
       "peak_at": 1777757276,
       "trough_pct": -21.352112676056343,
@@ -62,6 +32,36 @@
     }
   ],
   "history": [
+    {
+      "id": 130,
+      "mint": "F7ySj1p4f83fLXzdN8Dgf9UySr4MrkPVgZ1usFMzpump",
+      "symbol": "NYAN",
+      "classification": "DEVELOPING",
+      "confidence": 59,
+      "called_at": 1777757488,
+      "expires_at": 1777762888,
+      "note": "NYAN at 60k, 429 tx/min and 1.03 buys/sells, but the sniper load makes this a quick moonshot · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777757571,
+      "exit_price_usd": 0.00004351,
+      "exit_note": "-27.7% · moonshot stop",
+      "entry_mcap_usd": 60158.0,
+      "entry_price_usd": 0.00006015,
+      "entry_liquidity_usd": 18988.54,
+      "entry_top_holder_pct": 15.956945354595101,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00004351,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -27.66417290108063,
+      "peak_pct": 0.0,
+      "peak_at": 1777757488,
+      "trough_pct": -27.66417290108063,
+      "trough_at": 1777757568,
+      "thesis_url": null
+    },
     {
       "id": 128,
       "mint": "C86oXELBwYeKiK4GM2wAiRcKmWsmRmFTbaoQJUMjpump",
@@ -2487,13 +2487,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 53,
+      "count": 54,
       "wins": 14,
-      "losses": 38,
+      "losses": 39,
       "expired": 1,
-      "win_rate": 26.923076923076923,
+      "win_rate": 26.41509433962264,
       "avg_winner_pct": 117.93700716644284,
-      "avg_loser_pct": -44.52857105983618,
+      "avg_loser_pct": -44.15380665630828,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -2509,17 +2509,28 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 80,
+      "count": 81,
       "wins": 23,
-      "losses": 55,
+      "losses": 56,
       "expired": 2,
-      "win_rate": 29.48717948717949,
+      "win_rate": 29.11392405063291,
       "avg_winner_pct": 75.94772045928416,
-      "avg_loser_pct": -45.21431192236834,
+      "avg_loser_pct": -44.92180960534688,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 80,
+        "wins": 23,
+        "losses": 55,
+        "expired": 2,
+        "win_rate": 29.48717948717949,
+        "avg_winner_pct": 75.94772045928416,
+        "avg_loser_pct": -45.34331874359769,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -2530,17 +2541,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 79,
-        "wins": 23,
-        "losses": 54,
-        "expired": 2,
-        "win_rate": 29.87012987012987,
-        "avg_winner_pct": 75.94772045928416,
-        "avg_loser_pct": -45.64813160295143,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
       }
     }
   }
