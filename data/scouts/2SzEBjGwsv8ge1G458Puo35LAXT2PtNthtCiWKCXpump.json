@@ -1,0 +1,98 @@
+{
+  "basic_scout": {
+    "deployer": {
+      "active": false,
+      "current_balance_ui": 0.0,
+      "deployer_address": "ATpFuH1MymN2YjdZ6VtZE856UKbRmMWXQ5j98ECM8Mp6",
+      "initial_balance_ui": 192344063.804333,
+      "pct_sold": 100.0,
+      "seconds_since_last_tx": null,
+      "tx_count_24h": 0,
+      "tx_count_7d": 0
+    },
+    "liquidity_usd": 14965.95,
+    "mcap_usd": 37556.0,
+    "mint": "2SzEBjGwsv8ge1G458Puo35LAXT2PtNthtCiWKCXpump",
+    "name": "Animals in Crisis",
+    "pair_dex": "pumpswap",
+    "socials": [
+      [
+        "twitter",
+        "https://x.com/AnimalsCrisisX"
+      ]
+    ],
+    "symbol": "ANIMALS",
+    "website": null
+  },
+  "call": {
+    "called_at": 1777719094,
+    "classification": "DEVELOPING",
+    "confidence": 45,
+    "entry_liquidity_usd": 15052.75,
+    "entry_mcap_usd": 38335.0,
+    "entry_pair_dex": "pumpswap",
+    "entry_price_usd": 0.00003833,
+    "entry_top_holder_pct": 20.0396339405893,
+    "mint": "2SzEBjGwsv8ge1G458Puo35LAXT2PtNthtCiWKCXpump",
+    "note": "moonshot punt on a fresh $38.3k DEV with 20% top1, flow's stacking. sniper 63% but riding it. Aping in — +250 take, -25 stop, ~90min if it doesn't move. · horizon=MOONSHOT",
+    "source": "notifier",
+    "symbol": "ANIMALS"
+  },
+  "call_id": 121,
+  "captured_at": 1777732025,
+  "cohort_overlap": {
+    "holder_overlaps": [],
+    "holders_with_any_overlap": 0,
+    "mint": "",
+    "reference_count": 0
+  },
+  "deployer_history": [
+    {
+      "current_liquidity_usd": 14965.95,
+      "current_mcap_usd": 37556.0,
+      "current_pair_dex": "pumpswap",
+      "first_seen": 1777706197,
+      "mint": "2SzEBjGwsv8ge1G458Puo35LAXT2PtNthtCiWKCXpump",
+      "symbol": "ANIMALS"
+    }
+  ],
+  "holder_evolution_24h": {
+    "accumulators": [],
+    "available": false,
+    "curr_snapshot_ts": 1777719455,
+    "distributors": [],
+    "entrants": [],
+    "exits": [],
+    "mint": "2SzEBjGwsv8ge1G458Puo35LAXT2PtNthtCiWKCXpump",
+    "note": "no snapshot ≥24h before the latest — token too new for this window",
+    "prev_snapshot_ts": 0,
+    "window_hours": 24
+  },
+  "lp": {
+    "detail": "pair account not found",
+    "lp_mint": "",
+    "lp_supply_ui": 0.0,
+    "pair_address": "9Wa1KTkGUhCz73KKWQee8zLVVAMEAs2peHqaxtfi31ir",
+    "pair_dex": "pumpswap",
+    "top_lp_holder": "",
+    "top_lp_holder_pct": 0.0,
+    "verdict": "error"
+  },
+  "market": {
+    "liquidity_usd": 14965.95,
+    "mcap_usd": 37556.0,
+    "name": "Animals in Crisis",
+    "pair_address": "9Wa1KTkGUhCz73KKWQee8zLVVAMEAs2peHqaxtfi31ir",
+    "pair_dex": "pumpswap",
+    "symbol": "ANIMALS"
+  },
+  "sniper_cohort": {
+    "available": false,
+    "mint": "",
+    "note": "",
+    "retention_pct": 0.0,
+    "sniper_count": 0,
+    "still_in_top_100": 0
+  },
+  "whales": []
+}
