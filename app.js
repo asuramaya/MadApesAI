@@ -443,6 +443,50 @@ let HISTORY_STATE = {
   stats: null,
 };
 
+// "Runners" — top 5 historical catches by peak%. Reframes the page so a
+// small wallet doesn't read as a small operation: the *signal quality*
+// is the proof, not the balance. Reads from CALLS_DATA history; no new
+// server-side schema. Filtered to peak >= 50% so we don't show micro-pops.
+function renderRunners(history) {
+  const container = document.getElementById("runners-list");
+  if (!container) return;
+  clear(container);
+  if (!Array.isArray(history) || !history.length) {
+    container.appendChild(el("div", { class: "empty", text: "no runners yet" }));
+    return;
+  }
+  const ranked = history
+    .filter((c) => c && typeof c.peak_pct === "number" && c.peak_pct >= 50)
+    .sort((a, b) => b.peak_pct - a.peak_pct)
+    .slice(0, 5);
+  if (!ranked.length) {
+    container.appendChild(el("div", { class: "empty", text: "no runners yet" }));
+    return;
+  }
+  for (const c of ranked) {
+    const sym = c.symbol ? "$" + c.symbol : shortAddr(c.mint || "");
+    const term = callTerm(c);
+    const peakStr = fmtPct(c.peak_pct);
+    const exitPct = callPctValue(c);
+    const exitStr = exitPct == null ? "—" : fmtPct(exitPct);
+    const exitCls = exitPct == null ? "dim" : pnlClass(exitPct);
+    const meta = [];
+    if (term) meta.push(term);
+    meta.push("entry $" + (c.entry_mcap_usd ? formatMcap(c.entry_mcap_usd) : "?"));
+    meta.push(fmtTimeAgo(c.closed_at || c.called_at));
+    const symEl = el("div", { class: "sym runner-sym" }, [
+      "🏆 ",
+      el("a", { href: "#call=" + c.mint, class: "sym-link", text: sym }),
+    ]);
+    const detail = el("div", { class: "detail dim", text: meta.join(" · ") });
+    const peakEl = el("div", { class: "num pos", text: "peak " + peakStr });
+    const exitEl = el("div", { class: "num " + exitCls, text: "exit " + exitStr });
+    container.appendChild(
+      el("div", { class: "row runner-row", title: c.mint }, [symEl, detail, peakEl, exitEl])
+    );
+  }
+}
+
 function renderHistoryStats(stats) {
   const banner = document.getElementById("history-stats");
   if (!banner) return;
@@ -463,8 +507,10 @@ function renderHistoryStats(stats) {
     : [];
   const buckets = [
     ["overall", stats.overall],
+    ["moonshot", stats.moonshot],
     ["short", stats.short],
     ["long", stats.long],
+    ["scalp", stats.scalp],
     ...sourceBuckets,
   ].filter(([, b]) => b && b.count > 0);
   for (const [label, b] of buckets) {
@@ -807,9 +853,11 @@ function renderTicker(health, pnl, calls, positions) {
   }
   if (pnl && pnl.total_value_usd != null) {
     const hasOpenPositions = Array.isArray(positions) && positions.length > 0;
+    // Only attach a pct when we have a real number — empty bag should
+    // not render a trailing em-dash separator. Reads "BAG $19.19" cleanly.
     const bagPct = hasOpenPositions && pnl.unrealized_pnl_usd != null
       ? fmtPct((pnl.unrealized_pnl_usd / (pnl.total_value_usd || 1)) * 100)
-      : "—";
+      : null;
     items.push({
       sym: "BAG",
       val: fmtUsd(pnl.total_value_usd),
@@ -940,8 +988,13 @@ function groupEventsByMint(events) {
 
 // Render the token-card header — the always-visible row that summarizes the
 // group. Click to fold/unfold the events list.
-function renderTokenHeader(mint, info, events, isExpanded) {
-  const sym = info?.symbol ? "$" + info.symbol : shortAddr(mint);
+function renderTokenHeader(mint, info, events, isExpanded, symbolDuplicates) {
+  const baseSym = info?.symbol ? "$" + info.symbol : shortAddr(mint);
+  // Append a mint suffix when this header shares its symbol with another
+  // group in the same stream — disambiguates distinct mints with the
+  // same ticker (e.g. multiple $WINNING launches firing alerts together).
+  const isDup = info?.symbol && symbolDuplicates && symbolDuplicates.has(info.symbol);
+  const sym = isDup ? baseSym + " (" + shortAddr(mint) + ")" : baseSym;
   const nameEl = el("span", { class: "stream-group-sym", text: sym });
 
   // Right side: count + most recent event time. The kind badge of the
@@ -1121,9 +1174,22 @@ function renderStream(stream) {
   }
 
   const groups = groupEventsByMint(events);
+  // Count symbols across groups to flag duplicates — same ticker, different
+  // mints get a (mint-suffix) appended so they're visually distinct.
+  const groupSymbolCounts = new Map();
+  for (const [mint] of groups) {
+    if (mint === STREAM_NO_MINT_KEY) continue;
+    const sym = tokens[mint]?.symbol;
+    if (!sym) continue;
+    groupSymbolCounts.set(sym, (groupSymbolCounts.get(sym) || 0) + 1);
+  }
+  const groupSymbolDuplicates = new Set(
+    [...groupSymbolCounts.entries()].filter(([, n]) => n > 1).map(([s]) => s)
+  );
   if (status) {
+    const watchSeg = watching.length ? " · " + watching.length + " watching" : "";
     status.textContent =
-      groups.length + " tokens · " + events.length + " events · " + timeOfDay();
+      groups.length + " tokens · " + events.length + " events" + watchSeg + " · " + timeOfDay();
   }
 
   for (const [mint, evList] of groups) {
@@ -1137,7 +1203,7 @@ function renderStream(stream) {
     });
 
     // Header (always visible, click to toggle).
-    const header = renderTokenHeader(mint, info, evList, isExpanded);
+    const header = renderTokenHeader(mint, info, evList, isExpanded, groupSymbolDuplicates);
     header.style.cursor = "pointer";
     header.addEventListener("click", (e) => {
       // Don't toggle when the click landed on a link — let it through.
@@ -1196,10 +1262,30 @@ function redrawChart() {
   // Skip zero-value samples — those come from transient RPC failures
   // where sol_balance fetched as 0. They'd drag the chart to the floor
   // and misrepresent reality.
-  const filteredSeries = series.filter(
+  let filteredSeries = series.filter(
     (p) => p.ts >= cutoff && p.value_usd > 0
   );
-  const filteredTrades = trades.filter((t) => t.ts >= cutoff);
+  // Trim a leading near-zero plateau — e.g. legacy samples from a prior
+  // wallet whose USD balance was a fraction of the current. Without this,
+  // the ALL view shows a $0 flatline for a week then a sudden jump,
+  // visually suggesting "did nothing then teleported", which is just a
+  // wallet swap artifact. Heuristic: drop leading entries below 20% of
+  // the median value; once we cross that threshold, keep everything.
+  if (filteredSeries.length >= 3) {
+    const sorted = filteredSeries.map((p) => p.value_usd).sort((a, b) => a - b);
+    const median = sorted[Math.floor(sorted.length / 2)];
+    const threshold = median * 0.2;
+    let firstReal = 0;
+    for (let i = 0; i < filteredSeries.length; i++) {
+      if (filteredSeries[i].value_usd >= threshold) {
+        firstReal = i;
+        break;
+      }
+    }
+    if (firstReal > 0) filteredSeries = filteredSeries.slice(firstReal);
+  }
+  const startTs = filteredSeries.length ? filteredSeries[0].ts : cutoff;
+  const filteredTrades = trades.filter((t) => t.ts >= startTs);
   renderChart(filteredSeries, filteredTrades);
 }
 
@@ -1643,6 +1729,7 @@ async function refreshLiveData() {
   HISTORY_STATE.data = (calls && calls.history) || [];
   HISTORY_STATE.stats = (calls && calls.stats) || null;
   renderHistoryStats(HISTORY_STATE.stats);
+  renderRunners(HISTORY_STATE.data);
   renderHistory();
   renderActivity(activity && activity.activity, posArr);
   renderStream(stream);

@@ -257,6 +257,26 @@ h1 .dot { color: var(--accent); }
   padding: 10px 0;
 }
 
+/* ---------- runners showcase ---------- */
+/* Top historical catches — frames the page as "look at these wins"
+   instead of "look at this small wallet". Stronger visual weight than
+   normal history rows: bigger sym, two right-aligned numerics (peak +
+   exit), trophy emoji prefix. */
+.runners-list .row {
+  font-family: var(--mono);
+  font-size: 13px;
+  padding: 8px 6px;
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) 2fr auto auto;
+  gap: 12px;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+.runners-list .row:last-child { border-bottom: none; }
+.runner-sym { font-weight: 600; }
+.runner-row .num { font-size: 12px; }
+.runner-row .num.pos { color: var(--green); }
+
 /* ---------- watching tier ---------- */
 /* Rendered above the events list. "Bot is currently considering" view —
    tokens passing classifier in the last 5min but not yet fired. */
