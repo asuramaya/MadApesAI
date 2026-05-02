@@ -1,7 +1,15 @@
 {
   "events": [
     {
-      "ts": 1777741418,
+      "ts": 1777741693,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.01%",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777741659,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.00%",
@@ -9,11 +17,27 @@
       "signature": null
     },
     {
-      "ts": 1777741401,
+      "ts": 1777741642,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.09%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777741574,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 6.00x→0.06x · tpm 18.0",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777741454,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top +0.16%",
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
       "signature": null
     },
     {
@@ -21,14 +45,6 @@
       "kind": "alert",
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.43x→0.40x · tpm 17.2",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777741384,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top -0.02%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
@@ -41,97 +57,41 @@
       "signature": null
     },
     {
-      "ts": 1777741057,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 3.00x→0.38x · tpm 130.4",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777740790,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 83VT…pump · top 36.55%→41.78% (+5.23%) · DEVELOPING",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777740568,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 9xR3…pump · top 19.33%→21.41% (+2.08%) · GRINDER",
-      "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
-      "signature": null
-    },
-    {
-      "ts": 1777740517,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 83VT…pump · top 38.32%→41.88% (+3.57%) · DEVELOPING",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
       "ts": 1777740449,
       "kind": "alert",
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING 9xR3…pump · top 17.01%→19.43% (+2.42%) · GRINDER",
       "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
       "signature": null
-    },
-    {
-      "ts": 1777739840,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top +1.21%",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777739823,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 83VT…pump · STAIRCASE→DEVELOPING · top -0.77%",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777739776,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top -1.19%",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
     }
   ],
   "tokens": {
-    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
-      "symbol": "Piper",
-      "name": "Pied Piper",
-      "mcap_usd": 11860.0,
-      "price_usd": 0.00001186,
-      "price_change_1h": -65.76,
-      "price_change_24h": null,
-      "liquidity_usd": 8389.55
-    },
     "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 134249.0,
-      "price_usd": 0.0001342,
-      "price_change_1h": 233.0,
+      "mcap_usd": 131001.0,
+      "price_usd": 0.000131,
+      "price_change_1h": 225.0,
       "price_change_24h": null,
-      "liquidity_usd": 28238.03
+      "liquidity_usd": 27884.08
+    },
+    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
+      "symbol": "Piper",
+      "name": "Pied Piper",
+      "mcap_usd": 9574.0,
+      "price_usd": 9.573e-6,
+      "price_change_1h": -72.36,
+      "price_change_24h": null,
+      "liquidity_usd": 7534.87
     },
     "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump": {
       "symbol": "VINCENT",
       "name": "Vincent For President",
-      "mcap_usd": 62611.0,
-      "price_usd": 0.00006261,
-      "price_change_1h": 80.65,
+      "mcap_usd": 55905.0,
+      "price_usd": 0.0000559,
+      "price_change_1h": 61.3,
       "price_change_24h": null,
-      "liquidity_usd": 19786.34
+      "liquidity_usd": 18777.89
     }
   },
   "watching": []
