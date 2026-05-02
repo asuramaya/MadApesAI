@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "ts": 1777698067,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CEqa…pump · DEVELOPING→STAIRCASE · top +1.12%",
+      "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777698051,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CEqa…pump · STAIRCASE→DEVELOPING · top -1.12%",
+      "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
+      "signature": null
+    },
+    {
+      "ts": 1777697920,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top -0.00%",
+      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
+      "signature": null
+    },
+    {
       "ts": 1777697903,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -13,14 +37,6 @@
       "kind": "alert",
       "tag": "VELOCITY CRASH",
       "summary": "VELOCITY_CRASH CEqa…pump · vel 12.00x→0.42x · tpm 34.9",
-      "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
-      "signature": null
-    },
-    {
-      "ts": 1777697887,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CEqa…pump · STAIRCASE→DEVELOPING · top -0.65%",
       "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
       "signature": null
     },
@@ -38,22 +54,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE EzwM…pump · DEVELOPING→STAIRCASE · top +0.00%",
       "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
-      "signature": null
-    },
-    {
-      "ts": 1777697724,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE EzwM…pump · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
-      "signature": null
-    },
-    {
-      "ts": 1777697606,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CEqa…pump · GRINDER→STAIRCASE · top -0.77%",
-      "mint": "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump",
       "signature": null
     },
     {
@@ -83,16 +83,16 @@
     {
       "ts": 1777696470,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · GRINDER→DEVELOPING · top +2.64%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING WZcc…pump · top 21.04%→23.68% (+2.64%) · DEVELOPING",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
     {
       "ts": 1777696470,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING WZcc…pump · top 21.04%→23.68% (+2.64%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE WZcc…pump · GRINDER→DEVELOPING · top +2.64%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -101,14 +101,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE WZcc…pump · DEVELOPING→GRINDER · top -2.04%",
-      "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
-      "signature": null
-    },
-    {
-      "ts": 1777696277,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE WZcc…pump · STAIRCASE→DEVELOPING · top -5.15%",
       "mint": "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump",
       "signature": null
     },
@@ -122,50 +114,50 @@
     }
   ],
   "tokens": {
-    "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump": {
-      "symbol": "Dog",
-      "name": "DogCoin",
-      "mcap_usd": 22633.0,
-      "price_usd": 0.00002263,
-      "price_change_1h": -33.06,
-      "price_change_24h": null,
-      "liquidity_usd": 11644.57
-    },
-    "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump": {
-      "symbol": "NPC",
-      "name": "Not Predictable Coin",
-      "mcap_usd": 41667.0,
-      "price_usd": 0.00004166,
-      "price_change_1h": 21.24,
-      "price_change_24h": null,
-      "liquidity_usd": 15659.07
-    },
-    "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump": {
-      "symbol": "Matrix",
-      "name": "Escape The Matrix",
-      "mcap_usd": 12148.0,
-      "price_usd": 0.00001214,
-      "price_change_1h": -64.66,
-      "price_change_24h": null,
-      "liquidity_usd": 8457.17
-    },
     "DJ15QJxVPFGv6kYhT6LvDGqG9b4aBFWQzavA7dGxpump": {
       "symbol": "goblintown",
       "name": "goblintown",
-      "mcap_usd": 160977.0,
-      "price_usd": 0.0001609,
-      "price_change_1h": 135.0,
+      "mcap_usd": 179240.0,
+      "price_usd": 0.0001792,
+      "price_change_1h": 111.0,
       "price_change_24h": null,
-      "liquidity_usd": 31793.95
+      "liquidity_usd": 33592.24
     },
     "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump": {
       "symbol": "Ewon",
       "name": "Scribbillion EWON",
-      "mcap_usd": 1172177.0,
-      "price_usd": 0.001172,
-      "price_change_1h": 21.2,
+      "mcap_usd": 1192928.0,
+      "price_usd": 0.001192,
+      "price_change_1h": 21.82,
       "price_change_24h": null,
-      "liquidity_usd": 85973.06
+      "liquidity_usd": 86762.4
+    },
+    "WZccG4FdRUKoGLZtZtJeBEgn9sign3AmAADPqxSpump": {
+      "symbol": "Dog",
+      "name": "DogCoin",
+      "mcap_usd": 27488.0,
+      "price_usd": 0.00002748,
+      "price_change_1h": -18.7,
+      "price_change_24h": null,
+      "liquidity_usd": 12836.76
+    },
+    "CEqaq1pe8TZUFyiTSy8MAz7wzoBu5xWExqW99BBVpump": {
+      "symbol": "NPC",
+      "name": "Not Predictable Coin",
+      "mcap_usd": 45819.0,
+      "price_usd": 0.00004581,
+      "price_change_1h": 33.32,
+      "price_change_24h": null,
+      "liquidity_usd": 16429.85
+    },
+    "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump": {
+      "symbol": "Matrix",
+      "name": "Escape The Matrix",
+      "mcap_usd": 22852.0,
+      "price_usd": 0.00002285,
+      "price_change_1h": -33.52,
+      "price_change_24h": null,
+      "liquidity_usd": 11604.01
     }
   }
 }
