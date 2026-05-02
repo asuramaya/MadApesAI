@@ -1,27 +1,67 @@
 {
   "events": [
     {
-      "ts": 1777742153,
+      "ts": 1777742725,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.04%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777742135,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top -0.06%",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777742067,
+      "ts": 1777742675,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.00%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777742590,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.24%",
+      "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777742589,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.00%",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777742429,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BaCS…pump · DEVELOPING→STAIRCASE · top -0.93%",
+      "mint": "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump",
+      "signature": null
+    },
+    {
+      "ts": 1777742428,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 1.12x→0.40x · tpm 25.4",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777742412,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top +0.86%",
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
+      "signature": null
+    },
+    {
+      "ts": 1777742376,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE BaCS…pump · GRINDER→STAIRCASE · top +0.25%",
+      "mint": "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump",
       "signature": null
     },
     {
@@ -39,17 +79,36 @@
       "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.33x→0.38x · tpm 18.8",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
-    },
-    {
-      "ts": 1777741384,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.43x→0.40x · tpm 17.2",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
     }
   ],
   "tokens": {
+    "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump": {
+      "symbol": "memegotchi",
+      "name": "your onchain pet",
+      "mcap_usd": 64038.0,
+      "price_usd": 0.00006403,
+      "price_change_1h": 84.94,
+      "price_change_24h": null,
+      "liquidity_usd": 19513.47
+    },
+    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
+      "symbol": "Piper",
+      "name": "Pied Piper",
+      "mcap_usd": 8278.0,
+      "price_usd": 8.277e-6,
+      "price_change_1h": -76.1,
+      "price_change_24h": null,
+      "liquidity_usd": 7003.96
+    },
+    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
+      "symbol": "WINNING",
+      "name": "WINNING",
+      "mcap_usd": 142964.0,
+      "price_usd": 0.0001429,
+      "price_change_1h": 255.0,
+      "price_change_24h": null,
+      "liquidity_usd": 29137.25
+    },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
       "name": "Minecraft Grandma Fund",
@@ -59,32 +118,14 @@
       "price_change_24h": null,
       "liquidity_usd": 72993.41
     },
-    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
-      "symbol": "Piper",
-      "name": "Pied Piper",
-      "mcap_usd": 8097.0,
-      "price_usd": 8.096e-6,
-      "price_change_1h": -76.62,
+    "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump": {
+      "symbol": "LGBT",
+      "name": "Luigi Got Big Titties ",
+      "mcap_usd": 27911.0,
+      "price_usd": 0.00002791,
+      "price_change_1h": -19.42,
       "price_change_24h": null,
-      "liquidity_usd": 6929.78
-    },
-    "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
-      "symbol": "WINNING",
-      "name": "WINNING",
-      "mcap_usd": 146159.0,
-      "price_usd": 0.0001461,
-      "price_change_1h": 263.0,
-      "price_change_24h": null,
-      "liquidity_usd": 29462.44
-    },
-    "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump": {
-      "symbol": "VINCENT",
-      "name": "Vincent For President",
-      "mcap_usd": 37008.0,
-      "price_usd": 0.000037,
-      "price_change_1h": 6.78,
-      "price_change_24h": null,
-      "liquidity_usd": 15335.52
+      "liquidity_usd": 12847.01
     }
   },
   "watching": [
@@ -94,32 +135,10 @@
       "classification": "GRINDER",
       "confidence": 68,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 11,
+      "age_secs": 12,
       "gate": "top10",
       "gap": "top10 41.1% >= 33.0% (over by 8.1pp)",
-      "last_seen": 1777742187
-    },
-    {
-      "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
-      "symbol": "VINCENT",
-      "classification": "GRINDER",
-      "confidence": 64,
-      "top_holder_pct": 14.860573842182575,
-      "age_secs": 1392,
-      "gate": "conf",
-      "gap": "conf 64 < 65 (short by 1)",
-      "last_seen": 1777740806
-    },
-    {
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "symbol": "Piper",
-      "classification": "STAIRCASE",
-      "confidence": 62,
-      "top_holder_pct": 35.59914636670277,
-      "age_secs": 727,
-      "gate": "conf",
-      "gap": "conf 62 < 65 (short by 3)",
-      "last_seen": 1777741471
+      "last_seen": 1777742742
     }
   ]
 }
