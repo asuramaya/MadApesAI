@@ -1,6 +1,36 @@
 {
   "active": [
     {
+      "id": 123,
+      "mint": "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump",
+      "symbol": "Bekozu",
+      "classification": "DEVELOPING",
+      "confidence": 57,
+      "called_at": 1777750055,
+      "expires_at": 1777755455,
+      "note": "fresh DEV at $17.7k. top1 36%, flow stacking. holders look weird but the tape is the tape. lottery shot — out at 3.5x or -25. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 17731.0,
+      "entry_price_usd": 0.00001773,
+      "entry_liquidity_usd": 10254.36,
+      "entry_top_holder_pct": 36.11446949612753,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 10990.0,
+      "current_price_usd": 0.00001099,
+      "current_liquidity_usd": 8073.02,
+      "pct_from_call": -38.0146644106035,
+      "peak_pct": -38.0146644106035,
+      "peak_at": 1777750055,
+      "trough_pct": -38.0146644106035,
+      "trough_at": 1777750055,
+      "thesis_url": null
+    },
+    {
       "id": 122,
       "mint": "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump",
       "symbol": "wifout",
@@ -20,14 +50,14 @@
       "entry_liquidity_usd": 22101.48,
       "entry_top_holder_pct": 14.494646022272919,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 76992.0,
-      "current_price_usd": 0.00007699,
-      "current_liquidity_usd": 22425.12,
-      "pct_from_call": 2.9415697285733566,
-      "peak_pct": 2.9415697285733566,
-      "peak_at": 1777749884,
-      "trough_pct": 2.9415697285733566,
-      "trough_at": 1777749884,
+      "current_mcap_usd": 90718.0,
+      "current_price_usd": 0.00009071,
+      "current_liquidity_usd": 24355.51,
+      "pct_from_call": 21.286268217676184,
+      "peak_pct": 23.331996256183984,
+      "peak_at": 1777749987,
+      "trough_pct": -0.10696617194811964,
+      "trough_at": 1777749917,
       "thesis_url": null
     }
   ],
@@ -2280,17 +2310,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 72,
         "wins": 22,
@@ -2301,6 +2320,17 @@
         "avg_loser_pct": -48.1441696113244,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
