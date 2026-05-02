@@ -1,19 +1,59 @@
 {
   "events": [
     {
-      "ts": 1777729585,
+      "ts": 1777729811,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · STAIRCASE→DEVELOPING · top +1.61%",
+      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · STAIRCASE→DEVELOPING · top +2.82%",
       "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
       "signature": null
     },
     {
-      "ts": 1777729553,
+      "ts": 1777729811,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 2RbW…tz9Q · top 28.34%→31.15% (+2.82%) · DEVELOPING",
+      "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
+      "signature": null
+    },
+    {
+      "ts": 1777729794,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · DEVELOPING→STAIRCASE · top -0.85%",
+      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · DEVELOPING→STAIRCASE · top -0.00%",
       "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
+      "signature": null
+    },
+    {
+      "ts": 1777729763,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · GRINDER→DEVELOPING · top +0.59%",
+      "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
+      "signature": null
+    },
+    {
+      "ts": 1777729746,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 2RbW…tz9Q · top 22.04%→27.75% (+5.71%) · GRINDER",
+      "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
+      "signature": null
+    },
+    {
+      "ts": 1777729713,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE pfKA…ppeg · STAIRCASE→DEVELOPING · top +0.24%",
+      "mint": "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg",
+      "signature": null
+    },
+    {
+      "ts": 1777729697,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE pfKA…ppeg · DEVELOPING→STAIRCASE · top -0.48%",
+      "mint": "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg",
       "signature": null
     },
     {
@@ -21,22 +61,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE pfKA…ppeg · STAIRCASE→DEVELOPING · top +0.00%",
-      "mint": "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg",
-      "signature": null
-    },
-    {
-      "ts": 1777729536,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 2RbW…tz9Q · GRINDER→DEVELOPING · top -0.33%",
-      "mint": "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q",
-      "signature": null
-    },
-    {
-      "ts": 1777729536,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE pfKA…ppeg · DEVELOPING→STAIRCASE · top -0.39%",
       "mint": "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg",
       "signature": null
     },
@@ -55,52 +79,35 @@
       "summary": "DEV_SELLING oy7w…pump · deployer down 100.0% (790509209 → 0)",
       "mint": "oy7wHqkEGigW2aTYkEG4HZivp2QfUNXawLdFgmcpump",
       "signature": null
-    },
-    {
-      "ts": 1777727778,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 9SqU…pump · DEVELOPING→STAIRCASE · top -0.04%",
-      "mint": "9SqUgFAC6td5oXUTJbpBxE4HDQnrGLa9JxcSbBpjpump",
-      "signature": null
     }
   ],
   "tokens": {
-    "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q": {
-      "symbol": "pepe",
-      "name": "pepe",
-      "mcap_usd": 41293.0,
-      "price_usd": 0.00004129,
-      "price_change_1h": 19.42,
+    "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg": {
+      "symbol": "UNKNOWN",
+      "name": "Unknown",
+      "mcap_usd": 7868.0,
+      "price_usd": 3.14,
+      "price_change_1h": 1386.0,
       "price_change_24h": null,
-      "liquidity_usd": 15729.56
+      "liquidity_usd": 3936.78
     },
     "oy7wHqkEGigW2aTYkEG4HZivp2QfUNXawLdFgmcpump": {
       "symbol": "$LKA",
       "name": "LKAO",
-      "mcap_usd": 3075.0,
-      "price_usd": 3.074e-6,
-      "price_change_1h": -92.5,
+      "mcap_usd": 2244.0,
+      "price_usd": 2.244e-6,
+      "price_change_1h": -94.52,
       "price_change_24h": null,
-      "liquidity_usd": 4370.24
+      "liquidity_usd": 3733.31
     },
-    "9SqUgFAC6td5oXUTJbpBxE4HDQnrGLa9JxcSbBpjpump": {
-      "symbol": "DARIO",
-      "name": "Dario",
-      "mcap_usd": 37631.0,
-      "price_usd": 0.00003763,
-      "price_change_1h": 8.72,
+    "2RbW2y6BRAkZtuv55L7Qu7SXrRYQkTyH9EL3Yzsztz9Q": {
+      "symbol": "pepe",
+      "name": "pepe",
+      "mcap_usd": 16775.0,
+      "price_usd": 0.00001677,
+      "price_change_1h": -51.49,
       "price_change_24h": null,
-      "liquidity_usd": 15048.26
-    },
-    "pfKAC56v3mb661Kwd2ZK9sMWrGMbS2UHm5tj124ppeg": {
-      "symbol": "UNKNOWN",
-      "name": "Unknown",
-      "mcap_usd": 6547.0,
-      "price_usd": 2.61,
-      "price_change_1h": 1137.0,
-      "price_change_24h": null,
-      "liquidity_usd": 3591.06
+      "liquidity_usd": 10036.12
     }
   }
 }
