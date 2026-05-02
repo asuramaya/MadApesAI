@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777750264,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 3T3e…pump · STAIRCASE→DEVELOPING · top +0.22%",
+      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
+      "signature": null
+    },
+    {
       "ts": 1777750241,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -19,16 +27,16 @@
     {
       "ts": 1777750219,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE GdbJ…pump · STAIRCASE→DEVELOPING · top +0.00%",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH GdbJ…pump · vel 1.88x→0.28x · tpm 1.1",
       "mint": "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump",
       "signature": null
     },
     {
       "ts": 1777750219,
       "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH GdbJ…pump · vel 1.88x→0.28x · tpm 1.1",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE GdbJ…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump",
       "signature": null
     },
@@ -38,14 +46,6 @@
       "tag": "CONCENTRATING",
       "summary": "CONCENTRATING Hb3Z…pump · top 34.33%→36.71% (+2.38%) · DEVELOPING",
       "mint": "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump",
-      "signature": null
-    },
-    {
-      "ts": 1777750179,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 3T3e…pump · STAIRCASE→GRINDER · top -0.15%",
-      "mint": "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump",
       "signature": null
     },
     {
@@ -162,6 +162,33 @@
     }
   ],
   "tokens": {
+    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
+      "symbol": "Faglon",
+      "name": "Faglon",
+      "mcap_usd": 7915.0,
+      "price_usd": 7.914e-6,
+      "price_change_1h": -77.13,
+      "price_change_24h": null,
+      "liquidity_usd": 6886.9
+    },
+    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
+      "symbol": "FINE",
+      "name": "This is Fine",
+      "mcap_usd": 208095.0,
+      "price_usd": 0.000208,
+      "price_change_1h": 14.36,
+      "price_change_24h": null,
+      "liquidity_usd": 36014.98
+    },
+    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
+      "symbol": "wifout",
+      "name": "dogwifouthat",
+      "mcap_usd": 72093.0,
+      "price_usd": 0.00007209,
+      "price_change_1h": -34.58,
+      "price_change_24h": null,
+      "liquidity_usd": 21734.09
+    },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
       "name": "Minecraft Grandma Fund",
@@ -171,32 +198,14 @@
       "price_change_24h": null,
       "liquidity_usd": 72635.01
     },
-    "3hHZ3QFWKVgUdi64uHJumK9T7hDR2Tr6WZBjUfP5pump": {
-      "symbol": "FINE",
-      "name": "This is Fine",
-      "mcap_usd": 207377.0,
-      "price_usd": 0.0002073,
-      "price_change_1h": -3.73,
-      "price_change_24h": null,
-      "liquidity_usd": 35956.87
-    },
     "Hb3ZsZrd8hkmPmvJyMmGaZrxvdxJFBb3S9La6vsEpump": {
       "symbol": "Bekozu",
       "name": "べこ〜ず",
-      "mcap_usd": 13478.0,
-      "price_usd": 0.00001347,
-      "price_change_1h": -60.55,
+      "mcap_usd": 13972.0,
+      "price_usd": 0.00001397,
+      "price_change_1h": -59.11,
       "price_change_24h": null,
-      "liquidity_usd": 8940.0
-    },
-    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
-      "symbol": "LMEOW",
-      "name": "LMEOW",
-      "mcap_usd": 38387.0,
-      "price_usd": 0.00003838,
-      "price_change_1h": 10.77,
-      "price_change_24h": null,
-      "liquidity_usd": 15470.86
+      "liquidity_usd": 9103.0
     },
     "GdbJgfLXG5pBEibnrpSvfmXfbNKvyZkLQoTiQLoJpump": {
       "symbol": "FLIP",
@@ -207,23 +216,14 @@
       "price_change_24h": null,
       "liquidity_usd": 33812.91
     },
-    "SNKqt8BJnNXtZ9MpKmUnZuSDS5FDBH2BZFUmcC5v8S6": {
-      "symbol": "Faglon",
-      "name": "Faglon",
-      "mcap_usd": 8115.0,
-      "price_usd": 8.114e-6,
-      "price_change_1h": -76.55,
+    "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
+      "symbol": "LMEOW",
+      "name": "LMEOW",
+      "mcap_usd": 39093.0,
+      "price_usd": 0.00003909,
+      "price_change_1h": 12.81,
       "price_change_24h": null,
-      "liquidity_usd": 6974.88
-    },
-    "CFWsZSFdtXV92KweDu4Mf5GEVVKK6zZPp21VJVjApump": {
-      "symbol": "wifout",
-      "name": "dogwifouthat",
-      "mcap_usd": 69338.0,
-      "price_usd": 0.00006933,
-      "price_change_1h": -34.93,
-      "price_change_24h": null,
-      "liquidity_usd": 21309.58
+      "liquidity_usd": 15614.8
     }
   },
   "watching": [
@@ -233,10 +233,10 @@
       "classification": "GRINDER",
       "confidence": 76,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 4,
+      "age_secs": 2,
       "gate": "tx_rate",
       "gap": "txr 0.3/min < 5.0 (short by 4.7)",
-      "last_seen": 1777750240
+      "last_seen": 1777750305
     }
   ]
 }
