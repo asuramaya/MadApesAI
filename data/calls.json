@@ -1,6 +1,36 @@
 {
   "active": [
     {
+      "id": 127,
+      "mint": "5fctAP4JyfytHdQoonnS4epKTmWdQwCugUUM8EbRpump",
+      "symbol": "MOG",
+      "classification": "DEVELOPING",
+      "confidence": 61,
+      "called_at": 1777756364,
+      "expires_at": 1777761764,
+      "note": "MOG at 26.9k, 1k tx/min, top1's 30 but buys still edge sells, so I took the shot. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 26854.0,
+      "entry_price_usd": 0.00002685,
+      "entry_liquidity_usd": 12612.24,
+      "entry_top_holder_pct": 30.084856269511427,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 23752.0,
+      "current_price_usd": 0.00002375,
+      "current_liquidity_usd": 11861.89,
+      "pct_from_call": -11.545623836126618,
+      "peak_pct": -11.545623836126618,
+      "peak_at": 1777756364,
+      "trough_pct": -11.545623836126618,
+      "trough_at": 1777756364,
+      "thesis_url": null
+    },
+    {
       "id": 126,
       "mint": "DyhgWtTeAE2UYEfLwpAZ4441eaCWFedRMoxUYM9ypump",
       "symbol": "ML",
@@ -20,10 +50,10 @@
       "entry_liquidity_usd": 20047.44,
       "entry_top_holder_pct": 15.32581154316631,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 63728.0,
-      "current_price_usd": 0.0000638,
-      "current_liquidity_usd": 19750.25,
-      "pct_from_call": -3.024775801793589,
+      "current_mcap_usd": 65311.0,
+      "current_price_usd": 0.00006539,
+      "current_liquidity_usd": 19995.06,
+      "pct_from_call": -0.6079951360389302,
       "peak_pct": -0.8055935552515714,
       "peak_at": 1777754864,
       "trough_pct": -4.0279677762578014,
@@ -2400,17 +2430,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 76,
         "wins": 23,
@@ -2421,6 +2440,17 @@
         "avg_loser_pct": -46.53774983621053,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
