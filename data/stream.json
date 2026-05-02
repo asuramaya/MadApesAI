@@ -9,6 +9,22 @@
       "signature": null
     },
     {
+      "ts": 1777680426,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · GRINDER→STAIRCASE · top -0.09%",
+      "mint": "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump",
+      "signature": null
+    },
+    {
+      "ts": 1777680171,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "mint": "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump",
+      "signature": null
+    },
+    {
       "ts": 1777680058,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -41,11 +57,19 @@
       "signature": null
     },
     {
-      "ts": 1777679528,
+      "ts": 1777679494,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · DEVELOPING→STAIRCASE · top +0.16%",
-      "mint": "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump",
+      "summary": "CLASSIFICATION_CHANGE Zra3…pump · DEVELOPING→STAIRCASE · top +0.55%",
+      "mint": "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump",
+      "signature": null
+    },
+    {
+      "ts": 1777679356,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7GAP…pump · GRINDER→STAIRCASE · top -2.47%",
+      "mint": "7GAPfso74bsKtwEcomQainnVu8PS4iLo8MgS4S52pump",
       "signature": null
     },
     {
@@ -74,32 +98,14 @@
     }
   ],
   "tokens": {
-    "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump": {
-      "symbol": "NEWSCUM",
-      "name": "Gavin Newscum",
-      "mcap_usd": 33533.0,
-      "price_usd": 0.00003353,
-      "price_change_1h": -1.19,
-      "price_change_24h": null,
-      "liquidity_usd": 14059.27
-    },
     "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump": {
       "symbol": "GMEBAY",
       "name": "GameStop x eBay",
-      "mcap_usd": 188117.0,
-      "price_usd": 0.0001881,
-      "price_change_1h": 10.86,
+      "mcap_usd": 191085.0,
+      "price_usd": 0.000191,
+      "price_change_1h": 2.86,
       "price_change_24h": null,
-      "liquidity_usd": 35185.23
-    },
-    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
-      "symbol": "PET",
-      "name": "Petification",
-      "mcap_usd": 8063.0,
-      "price_usd": 8.152e-6,
-      "price_change_1h": 47.44,
-      "price_change_24h": null,
-      "liquidity_usd": 6967.73
+      "liquidity_usd": 35459.71
     },
     "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump": {
       "symbol": "VAGINA",
@@ -109,6 +115,33 @@
       "price_change_1h": -96.66,
       "price_change_24h": null,
       "liquidity_usd": 3271.07
+    },
+    "7GAPfso74bsKtwEcomQainnVu8PS4iLo8MgS4S52pump": {
+      "symbol": "Guido",
+      "name": "I'm Not Fucking Leaving",
+      "mcap_usd": 90994.0,
+      "price_usd": 0.00009099,
+      "price_change_1h": 447.0,
+      "price_change_24h": null,
+      "liquidity_usd": 24265.19
+    },
+    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
+      "symbol": "PET",
+      "name": "Petification",
+      "mcap_usd": 7694.0,
+      "price_usd": 7.779e-6,
+      "price_change_1h": 40.69,
+      "price_change_24h": null,
+      "liquidity_usd": 6806.41
+    },
+    "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump": {
+      "symbol": "NEWSCUM",
+      "name": "Gavin Newscum",
+      "mcap_usd": 33902.0,
+      "price_usd": 0.0000339,
+      "price_change_1h": -0.11,
+      "price_change_24h": null,
+      "liquidity_usd": 14151.97
     }
   }
 }
