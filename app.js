@@ -1031,8 +1031,17 @@ function renderTokenLinks(mint) {
 // One row in the "watching" subsection — passing classifier but
 // blocked by some secondary gate. Format mirrors the call rows so the
 // eye reads it the same way: ticker, classification, conf, gap.
-function renderWatchingRow(w) {
-  const sym = w.symbol ? "$" + w.symbol : shortAddr(w.mint || "");
+//
+// `symbolDuplicates` is a Set of symbol strings that appear more than
+// once in the watching list — for those we append a `(…abcd)` mint
+// suffix so distinct tokens with the same ticker (e.g. multiple
+// $WINNING launches) are visually different. Without this, three
+// different mints with the same ticker render as if they're the
+// same token.
+function renderWatchingRow(w, symbolDuplicates) {
+  const baseSym = w.symbol ? "$" + w.symbol : shortAddr(w.mint || "");
+  const isDup = w.symbol && symbolDuplicates.has(w.symbol);
+  const sym = isDup ? baseSym + " (" + shortAddr(w.mint || "") + ")" : baseSym;
   const ageStr = w.age_secs < 60 ? w.age_secs + "s" : Math.floor(w.age_secs / 60) + "m";
   const meta = [
     w.classification,
@@ -1076,15 +1085,26 @@ function renderStream(stream) {
   clear(body);
 
   // "Watching" subsection — tokens passing classifier with conf >= 60 in
-  // the last 5min that didn't fire a call. Renders above events because
-  // it's the live thinking stream; events are historical.
+  // the last 30min that didn't fire a call. Renders above events because
+  // it's the live thinking stream; events are historical. Server-side
+  // dedupes against `events` so same mint never appears in both lists.
   if (watching.length) {
+    // Find symbols that appear in >1 watching row — those need mint-suffix
+    // disambiguation in the row renderer.
+    const symbolCounts = new Map();
+    for (const w of watching) {
+      if (!w.symbol) continue;
+      symbolCounts.set(w.symbol, (symbolCounts.get(w.symbol) || 0) + 1);
+    }
+    const symbolDuplicates = new Set(
+      [...symbolCounts.entries()].filter(([, n]) => n > 1).map(([s]) => s)
+    );
     const watchHeader = el("div", { class: "stream-watching-header" }, [
       "watching · " + watching.length,
     ]);
     body.appendChild(watchHeader);
     for (const w of watching) {
-      body.appendChild(renderWatchingRow(w));
+      body.appendChild(renderWatchingRow(w, symbolDuplicates));
     }
   }
 
