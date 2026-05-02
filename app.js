@@ -1636,11 +1636,18 @@ async function renderThoughts(index) {
   }
 
   const assets = (await loadJson("thoughts/assets.json")) || {};
-  const sorted = [...normalized].sort((a, b) => {
-    const d = (b.date || "").localeCompare(a.date || "");
-    if (d !== 0) return d;
-    return (b.file || "").localeCompare(a.file || "");
-  });
+  // Sort by date desc, ties broken by index.json position (preserves
+  // operator-controlled order for same-day entries — alphabetical
+  // filename was previously dropping later-published entries below
+  // earlier-titled ones, e.g. "morning" landing above "day" because
+  // 'm' > 'd' in descending lex order).
+  const sorted = [...normalized]
+    .map((t, i) => ({ ...t, _idx: i }))
+    .sort((a, b) => {
+      const d = (b.date || "").localeCompare(a.date || "");
+      if (d !== 0) return d;
+      return a._idx - b._idx;
+    });
   const mds = await Promise.all(
     sorted.map((t) => loadText("thoughts/" + t.file))
   );
