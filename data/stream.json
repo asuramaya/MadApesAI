@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777740517,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 83VT…pump · top 38.32%→41.88% (+3.57%) · DEVELOPING",
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
+      "signature": null
+    },
+    {
+      "ts": 1777740449,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 9xR3…pump · top 17.01%→19.43% (+2.42%) · GRINDER",
+      "mint": "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump",
+      "signature": null
+    },
+    {
       "ts": 1777739840,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -91,16 +107,16 @@
     {
       "ts": 1777738926,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE E1d8…pump · STAIRCASE→DEVELOPING · top +2.60%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING E1d8…pump · top 19.31%→21.91% (+2.60%) · DEVELOPING",
       "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
       "signature": null
     },
     {
       "ts": 1777738926,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING E1d8…pump · top 19.31%→21.91% (+2.60%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE E1d8…pump · STAIRCASE→DEVELOPING · top +2.60%",
       "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
       "signature": null
     },
@@ -146,6 +162,60 @@
     }
   ],
   "tokens": {
+    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
+      "symbol": "unc",
+      "name": "unc",
+      "mcap_usd": 5631717.0,
+      "price_usd": 0.005632,
+      "price_change_1h": -4.79,
+      "price_change_24h": null,
+      "liquidity_usd": 364598.85
+    },
+    "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump": {
+      "symbol": "INKWELL",
+      "name": "Inkwell Terminal",
+      "mcap_usd": 12365.0,
+      "price_usd": 0.00001236,
+      "price_change_1h": -63.0,
+      "price_change_24h": null,
+      "liquidity_usd": 8699.05
+    },
+    "E6okad4df8N7sx8WqnTBXwnHB2GVgNgvEUDSi4h6pump": {
+      "symbol": "GOP",
+      "name": "GOP",
+      "mcap_usd": 33834.0,
+      "price_usd": 0.00003383,
+      "price_change_1h": -3.55,
+      "price_change_24h": null,
+      "liquidity_usd": 14150.99
+    },
+    "J34kJALFnK2ysjHC8aprkzn3uEf2x1BRC3WMWQswpump": {
+      "symbol": "BLINDGOBLIN",
+      "name": "blind goblin",
+      "mcap_usd": 64337.0,
+      "price_usd": 0.00006433,
+      "price_change_1h": -59.14,
+      "price_change_24h": null,
+      "liquidity_usd": 20797.2
+    },
+    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
+      "symbol": "Piper",
+      "name": "Pied Piper",
+      "mcap_usd": 9728.0,
+      "price_usd": 9.728e-6,
+      "price_change_1h": -71.91,
+      "price_change_24h": null,
+      "liquidity_usd": 7594.26
+    },
+    "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22": {
+      "symbol": "Saul",
+      "name": "Saul",
+      "mcap_usd": 3086.0,
+      "price_usd": 3.086e-6,
+      "price_change_1h": -91.09,
+      "price_change_24h": null,
+      "liquidity_usd": 4299.17
+    },
     "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
       "symbol": "TripleT",
       "name": "Tung Tung Tung Sahur",
@@ -155,59 +225,14 @@
       "price_change_24h": null,
       "liquidity_usd": 295911.17
     },
-    "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22": {
-      "symbol": "Saul",
-      "name": "Saul",
-      "mcap_usd": 2982.0,
-      "price_usd": 2.982e-6,
-      "price_change_1h": -91.39,
+    "9xR3y1b3UPsSqnUVMWUhM5veq2grU6Cj8tjCvhPbpump": {
+      "symbol": "VINCENT",
+      "name": "Vincent For President",
+      "mcap_usd": 44271.0,
+      "price_usd": 0.00004427,
+      "price_change_1h": 27.73,
       "price_change_24h": null,
-      "liquidity_usd": 4227.02
-    },
-    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
-      "symbol": "unc",
-      "name": "unc",
-      "mcap_usd": 5699588.0,
-      "price_usd": 0.0057,
-      "price_change_1h": -5.34,
-      "price_change_24h": null,
-      "liquidity_usd": 365135.57
-    },
-    "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump": {
-      "symbol": "INKWELL",
-      "name": "Inkwell Terminal",
-      "mcap_usd": 11192.0,
-      "price_usd": 0.00001119,
-      "price_change_1h": -66.51,
-      "price_change_24h": null,
-      "liquidity_usd": 8275.65
-    },
-    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
-      "symbol": "Piper",
-      "name": "Pied Piper",
-      "mcap_usd": 12005.0,
-      "price_usd": 0.000012,
-      "price_change_1h": -65.34,
-      "price_change_24h": null,
-      "liquidity_usd": 8436.81
-    },
-    "E6okad4df8N7sx8WqnTBXwnHB2GVgNgvEUDSi4h6pump": {
-      "symbol": "GOP",
-      "name": "GOP",
-      "mcap_usd": 34247.0,
-      "price_usd": 0.00003424,
-      "price_change_1h": -2.38,
-      "price_change_24h": null,
-      "liquidity_usd": 14240.28
-    },
-    "J34kJALFnK2ysjHC8aprkzn3uEf2x1BRC3WMWQswpump": {
-      "symbol": "BLINDGOBLIN",
-      "name": "blind goblin",
-      "mcap_usd": 63914.0,
-      "price_usd": 0.00006391,
-      "price_change_1h": -65.95,
-      "price_change_24h": null,
-      "liquidity_usd": 20702.09
+      "liquidity_usd": 16364.96
     }
   },
   "watching": []
