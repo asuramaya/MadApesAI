@@ -1,50 +1,74 @@
 {
   "events": [
     {
-      "ts": 1777743030,
+      "ts": 1777743339,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING GnqR…pump · deployer down 30.7% (479523704 → 332305020)",
+      "mint": "GnqRKyQfcna6XbkoJMKkvUZUBQdtMb8oy5rH2ocpump",
+      "signature": null
+    },
+    {
+      "ts": 1777743338,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.08%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777743011,
+      "ts": 1777743336,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING 4KeZ…pump · deployer down 100.0% (235305891 → 0)",
+      "mint": "4KeZZMNeW1xqG8trwu7KaJivzLf8S1vyeJzpU2JHpump",
+      "signature": null
+    },
+    {
+      "ts": 1777743302,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.08%",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top -0.43%",
       "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
       "signature": null
     },
     {
-      "ts": 1777742939,
+      "ts": 1777743264,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top -0.33%",
-      "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
-      "signature": null
-    },
-    {
-      "ts": 1777742902,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top -0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · DEVELOPING→STAIRCASE · top +0.30%",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
     {
-      "ts": 1777742885,
+      "ts": 1777743247,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top -0.03%",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.50%",
       "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
       "signature": null
     },
     {
-      "ts": 1777742794,
+      "ts": 1777743246,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top +0.01%",
+      "summary": "CLASSIFICATION_CHANGE W1Nq…KC4m · STAIRCASE→DEVELOPING · top -0.06%",
+      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
+      "signature": null
+    },
+    {
+      "ts": 1777743175,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE CLJJ…pump · DEVELOPING→STAIRCASE · top +0.13%",
+      "mint": "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump",
+      "signature": null
+    },
+    {
+      "ts": 1777743137,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 1.75x→0.40x · tpm 12.8",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
     },
@@ -63,76 +87,44 @@
       "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 1.12x→0.40x · tpm 25.4",
       "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
       "signature": null
-    },
-    {
-      "ts": 1777742412,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 83VT…pump · DEVELOPING→STAIRCASE · top +0.86%",
-      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
-      "signature": null
-    },
-    {
-      "ts": 1777742376,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE BaCS…pump · GRINDER→STAIRCASE · top +0.25%",
-      "mint": "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump",
-      "signature": null
-    },
-    {
-      "ts": 1777741947,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 4.50x→0.14x · tpm 35.3",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
-    },
-    {
-      "ts": 1777741796,
-      "kind": "alert",
-      "tag": "VELOCITY CRASH",
-      "summary": "VELOCITY_CRASH W1Nq…KC4m · vel 5.33x→0.38x · tpm 18.8",
-      "mint": "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m",
-      "signature": null
     }
   ],
   "tokens": {
-    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
-      "symbol": "Piper",
-      "name": "Pied Piper",
-      "mcap_usd": 7955.0,
-      "price_usd": 7.954e-6,
-      "price_change_1h": -77.03,
+    "GnqRKyQfcna6XbkoJMKkvUZUBQdtMb8oy5rH2ocpump": {
+      "symbol": "MSTRUMP",
+      "name": "MS Paint Trump",
+      "mcap_usd": 183495.0,
+      "price_usd": 0.0001834,
+      "price_change_1h": 121.0,
       "price_change_24h": null,
-      "liquidity_usd": 6867.13
-    },
-    "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump": {
-      "symbol": "LGBT",
-      "name": "Luigi Got Big Titties ",
-      "mcap_usd": 31787.0,
-      "price_usd": 0.00003178,
-      "price_change_1h": -8.23,
-      "price_change_24h": null,
-      "liquidity_usd": 13718.76
+      "liquidity_usd": 33081.31
     },
     "W1NqGUNfaxJpiKeeu9p8yxZNomPaC1ugLHeZ5ZvKC4m": {
       "symbol": "WINNING",
       "name": "WINNING",
-      "mcap_usd": 141607.0,
-      "price_usd": 0.0001416,
-      "price_change_1h": 252.0,
+      "mcap_usd": 140582.0,
+      "price_usd": 0.0001405,
+      "price_change_1h": 249.0,
       "price_change_24h": null,
-      "liquidity_usd": 29007.41
+      "liquidity_usd": 28915.82
+    },
+    "4KeZZMNeW1xqG8trwu7KaJivzLf8S1vyeJzpU2JHpump": {
+      "symbol": "Farmer",
+      "name": "Farmer",
+      "mcap_usd": 31090.0,
+      "price_usd": 0.00003108,
+      "price_change_1h": -10.29,
+      "price_change_24h": null,
+      "liquidity_usd": 13565.04
     },
     "BaCSr6omaLf113LfDDv9Wgb2dfGmJzKWvQhJB2QNpump": {
       "symbol": "memegotchi",
       "name": "your onchain pet",
-      "mcap_usd": 45042.0,
-      "price_usd": 0.00004504,
-      "price_change_1h": 30.08,
+      "mcap_usd": 50184.0,
+      "price_usd": 0.00005018,
+      "price_change_1h": 44.93,
       "price_change_24h": null,
-      "liquidity_usd": 16395.73
+      "liquidity_usd": 17330.92
     },
     "axUxN2q4AWzHaU6LXmjqQh7KEjaXDPKScjmzwEBpump": {
       "symbol": "Grandma",
@@ -142,6 +134,24 @@
       "price_change_1h": -0.99,
       "price_change_24h": null,
       "liquidity_usd": 72993.41
+    },
+    "CLJJs8pSkSkgHvzeZRoS1Jkge7SxPhd9LrJmArvSpump": {
+      "symbol": "LGBT",
+      "name": "Luigi Got Big Titties ",
+      "mcap_usd": 39299.0,
+      "price_usd": 0.00003929,
+      "price_change_1h": 13.46,
+      "price_change_24h": null,
+      "liquidity_usd": 15264.61
+    },
+    "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump": {
+      "symbol": "Piper",
+      "name": "Pied Piper",
+      "mcap_usd": 8585.0,
+      "price_usd": 8.585e-6,
+      "price_change_1h": -63.9,
+      "price_change_24h": null,
+      "liquidity_usd": 7136.12
     }
   },
   "watching": [
@@ -151,10 +161,21 @@
       "classification": "GRINDER",
       "confidence": 68,
       "top_holder_pct": 11.500214853039353,
-      "age_secs": 5,
+      "age_secs": 17,
       "gate": "top10",
       "gap": "top10 41.1% >= 33.0% (over by 8.1pp)",
-      "last_seen": 1777743049
+      "last_seen": 1777743338
+    },
+    {
+      "mint": "83VTqzxszRFPSzJHvTeNRydcuUmmhEjj9FH4F7TZpump",
+      "symbol": "Piper",
+      "classification": "STAIRCASE",
+      "confidence": 64,
+      "top_holder_pct": 41.79846883956009,
+      "age_secs": 943,
+      "gate": "conf",
+      "gap": "conf 64 < 65 (short by 1)",
+      "last_seen": 1777742412
     }
   ]
 }
