@@ -1,6 +1,46 @@
 {
   "events": [
     {
+      "ts": 1777739536,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING E1d8…pump · top 45.25%→48.39% (+3.14%) · DEVELOPING",
+      "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
+      "signature": null
+    },
+    {
+      "ts": 1777739436,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 47xV…XP22 · top 38.97%→47.96% (+8.99%) · DEVELOPING",
+      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
+      "signature": null
+    },
+    {
+      "ts": 1777739352,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 47xV…XP22 · GRINDER→DEVELOPING · top +0.22%",
+      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
+      "signature": null
+    },
+    {
+      "ts": 1777739335,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING 47xV…XP22 · top 24.83%→27.39% (+2.57%) · GRINDER",
+      "mint": "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22",
+      "signature": null
+    },
+    {
+      "ts": 1777739317,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE J34k…pump · STAIRCASE→ACTIVE_TRAP · top -0.70%",
+      "mint": "J34kJALFnK2ysjHC8aprkzn3uEf2x1BRC3WMWQswpump",
+      "signature": null
+    },
+    {
       "ts": 1777738994,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -27,16 +67,16 @@
     {
       "ts": 1777738926,
       "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE E1d8…pump · STAIRCASE→DEVELOPING · top +2.60%",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING E1d8…pump · top 19.31%→21.91% (+2.60%) · DEVELOPING",
       "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
       "signature": null
     },
     {
       "ts": 1777738926,
       "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING E1d8…pump · top 19.31%→21.91% (+2.60%) · DEVELOPING",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE E1d8…pump · STAIRCASE→DEVELOPING · top +2.60%",
       "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
       "signature": null
     },
@@ -114,77 +154,86 @@
     }
   ],
   "tokens": {
-    "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump": {
-      "symbol": "LGBT",
-      "name": "Luigi Got big titties",
-      "mcap_usd": 28663.0,
-      "price_usd": 0.00002866,
-      "price_change_1h": -17.14,
-      "price_change_24h": null,
-      "liquidity_usd": 13069.88
-    },
-    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
-      "symbol": "unc",
-      "name": "unc",
-      "mcap_usd": 5872899.0,
-      "price_usd": 0.005873,
-      "price_change_1h": -8.85,
-      "price_change_24h": null,
-      "liquidity_usd": 364060.89
-    },
-    "E6okad4df8N7sx8WqnTBXwnHB2GVgNgvEUDSi4h6pump": {
-      "symbol": "GOP",
-      "name": "GOP",
-      "mcap_usd": 34235.0,
-      "price_usd": 0.00003423,
-      "price_change_1h": -2.41,
-      "price_change_24h": null,
-      "liquidity_usd": 14235.36
-    },
     "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump": {
       "symbol": "INKWELL",
       "name": "Inkwell Terminal",
-      "mcap_usd": 10168.0,
-      "price_usd": 0.00001016,
-      "price_change_1h": -69.58,
+      "mcap_usd": 6490.0,
+      "price_usd": 6.49e-6,
+      "price_change_1h": -80.58,
       "price_change_24h": null,
-      "liquidity_usd": 7872.77
+      "liquidity_usd": 6291.15
     },
-    "6GpCAUAE1eCYrt3Mm2JZTt8sT1fhBHGx7gR5WXNoSsKe": {
-      "symbol": "CASHEW",
-      "name": "Cashew",
-      "mcap_usd": 5735.0,
-      "price_usd": 5.735e-6,
-      "price_change_1h": -83.4,
+    "47xVqQQR2F2NgtJmUaQscHzQVDkFXBDFS1XUqiBvXP22": {
+      "symbol": "Saul",
+      "name": "Saul",
+      "mcap_usd": 4124.0,
+      "price_usd": 4.123e-6,
+      "price_change_1h": -88.1,
       "price_change_24h": null,
-      "liquidity_usd": 5845.72
+      "liquidity_usd": 4967.26
     },
-    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
-      "symbol": "GOLD",
-      "name": "Penguins Finding Gold",
-      "mcap_usd": 27462.0,
-      "price_usd": 0.00002746,
-      "price_change_1h": -18.83,
+    "4FLRZFsC7zJQoUeKE89CYbijA7D5QNCo3VWsRrqnpump": {
+      "symbol": "LGBT",
+      "name": "Luigi Got big titties",
+      "mcap_usd": 34142.0,
+      "price_usd": 0.00003414,
+      "price_change_1h": -1.3,
       "price_change_24h": null,
-      "liquidity_usd": 12774.88
+      "liquidity_usd": 14261.26
     },
     "J34kJALFnK2ysjHC8aprkzn3uEf2x1BRC3WMWQswpump": {
       "symbol": "BLINDGOBLIN",
       "name": "blind goblin",
-      "mcap_usd": 141185.0,
-      "price_usd": 0.0001411,
-      "price_change_1h": 23.34,
+      "mcap_usd": 79843.0,
+      "price_usd": 0.00007984,
+      "price_change_1h": -9.57,
       "price_change_24h": null,
-      "liquidity_usd": 30581.23
+      "liquidity_usd": 23055.17
+    },
+    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
+      "symbol": "unc",
+      "name": "unc",
+      "mcap_usd": 5736715.0,
+      "price_usd": 0.005737,
+      "price_change_1h": -5.7,
+      "price_change_24h": null,
+      "liquidity_usd": 361885.81
+    },
+    "6GpCAUAE1eCYrt3Mm2JZTt8sT1fhBHGx7gR5WXNoSsKe": {
+      "symbol": "CASHEW",
+      "name": "Cashew",
+      "mcap_usd": 3477.0,
+      "price_usd": 3.477e-6,
+      "price_change_1h": -89.93,
+      "price_change_24h": null,
+      "liquidity_usd": 4551.56
+    },
+    "E6okad4df8N7sx8WqnTBXwnHB2GVgNgvEUDSi4h6pump": {
+      "symbol": "GOP",
+      "name": "GOP",
+      "mcap_usd": 33683.0,
+      "price_usd": 0.00003368,
+      "price_change_1h": -3.98,
+      "price_change_24h": null,
+      "liquidity_usd": 14115.35
     },
     "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
       "symbol": "TripleT",
       "name": "Tung Tung Tung Sahur",
-      "mcap_usd": 3666426.0,
-      "price_usd": 0.003666,
-      "price_change_1h": -0.96,
+      "mcap_usd": 3632045.0,
+      "price_usd": 0.003632,
+      "price_change_1h": -2.65,
       "price_change_24h": null,
-      "liquidity_usd": 295636.24
+      "liquidity_usd": 295017.76
+    },
+    "3dPuVtjPzmrkTcC7Udbd2KbZzs4yt9qDKKRxkmWbpump": {
+      "symbol": "GOLD",
+      "name": "Penguins Finding Gold",
+      "mcap_usd": 26467.0,
+      "price_usd": 0.00002646,
+      "price_change_1h": -21.78,
+      "price_change_24h": null,
+      "liquidity_usd": 12539.51
     }
   },
   "watching": []
