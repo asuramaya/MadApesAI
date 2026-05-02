@@ -1,11 +1,19 @@
 {
   "events": [
     {
-      "ts": 1777680658,
-      "kind": "call",
-      "tag": "CALL FIRED",
-      "summary": "$NEWSCUM at $34k mcap — entry frozen",
-      "mint": "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump",
+      "ts": 1777681030,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING iBca…pump · deployer down 41.8% (333650557 → 194153474)",
+      "mint": "iBcavzgHdvaHHEM6Tdm9UsRqEJu2iQRac3cjinbpump",
+      "signature": null
+    },
+    {
+      "ts": 1777680995,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING iBca…pump · deployer down 31.7% (333650557 → 227727612)",
+      "mint": "iBcavzgHdvaHHEM6Tdm9UsRqEJu2iQRac3cjinbpump",
       "signature": null
     },
     {
@@ -17,18 +25,34 @@
       "signature": null
     },
     {
-      "ts": 1777680171,
+      "ts": 1777680393,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · STAIRCASE→GRINDER · top +0.00%",
       "mint": "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump",
       "signature": null
     },
     {
-      "ts": 1777680058,
+      "ts": 1777680345,
+      "kind": "alert",
+      "tag": "CONCENTRATING",
+      "summary": "CONCENTRATING BGv4…pump · top 24.09%→27.49% (+3.40%) · STAIRCASE",
+      "mint": "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump",
+      "signature": null
+    },
+    {
+      "ts": 1777680345,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · DEVELOPING→STAIRCASE · top -0.21%",
+      "summary": "CLASSIFICATION_CHANGE BGv4…pump · DEVELOPING→STAIRCASE · top +3.40%",
+      "mint": "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump",
+      "signature": null
+    },
+    {
+      "ts": 1777680171,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 5zT5…pump · DEVELOPING→STAIRCASE · top +0.00%",
       "mint": "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump",
       "signature": null
     },
@@ -73,18 +97,18 @@
       "signature": null
     },
     {
-      "ts": 1777679178,
+      "ts": 1777679339,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Zra3…pump · DEVELOPING→STAIRCASE · top -0.69%",
+      "summary": "CLASSIFICATION_CHANGE Zra3…pump · DEVELOPING→STAIRCASE · top +0.12%",
       "mint": "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump",
       "signature": null
     },
     {
-      "ts": 1777679005,
+      "ts": 1777679229,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE Zra3…pump · DEVELOPING→STAIRCASE · top +0.00%",
+      "summary": "CLASSIFICATION_CHANGE Zra3…pump · DEVELOPING→STAIRCASE · top -0.24%",
       "mint": "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump",
       "signature": null
     },
@@ -98,50 +122,59 @@
     }
   ],
   "tokens": {
+    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
+      "symbol": "PET",
+      "name": "Petification",
+      "mcap_usd": 8164.0,
+      "price_usd": 8.254e-6,
+      "price_change_1h": 49.28,
+      "price_change_24h": null,
+      "liquidity_usd": 7009.87
+    },
+    "iBcavzgHdvaHHEM6Tdm9UsRqEJu2iQRac3cjinbpump": {
+      "symbol": "NKT",
+      "name": "Narcissist King Trump",
+      "mcap_usd": 144945.0,
+      "price_usd": 0.0001449,
+      "price_change_1h": 177.0,
+      "price_change_24h": null,
+      "liquidity_usd": 29327.29
+    },
     "5zT51ri9kKSTXzJZVT83t3T2rU14bTvo2a6EwwLXpump": {
       "symbol": "GMEBAY",
       "name": "GameStop x eBay",
-      "mcap_usd": 191085.0,
-      "price_usd": 0.000191,
-      "price_change_1h": 2.86,
+      "mcap_usd": 178489.0,
+      "price_usd": 0.0001784,
+      "price_change_1h": -5.46,
       "price_change_24h": null,
-      "liquidity_usd": 35459.71
+      "liquidity_usd": 34270.33
     },
     "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump": {
       "symbol": "VAGINA",
       "name": "The Microbiome Menace",
-      "mcap_usd": 1749.0,
-      "price_usd": 1.749e-6,
-      "price_change_1h": -96.66,
+      "mcap_usd": 1883.0,
+      "price_usd": 1.882e-6,
+      "price_change_1h": -96.4,
       "price_change_24h": null,
-      "liquidity_usd": 3271.07
+      "liquidity_usd": 3392.85
     },
     "7GAPfso74bsKtwEcomQainnVu8PS4iLo8MgS4S52pump": {
       "symbol": "Guido",
       "name": "I'm Not Fucking Leaving",
-      "mcap_usd": 90994.0,
-      "price_usd": 0.00009099,
-      "price_change_1h": 447.0,
+      "mcap_usd": 95144.0,
+      "price_usd": 0.00009514,
+      "price_change_1h": 623.0,
       "price_change_24h": null,
-      "liquidity_usd": 24265.19
-    },
-    "4Uyj3QDSnMFscFo3qncEs4mvrn5iNJJs4DLDLgLDpump": {
-      "symbol": "PET",
-      "name": "Petification",
-      "mcap_usd": 7694.0,
-      "price_usd": 7.779e-6,
-      "price_change_1h": 40.69,
-      "price_change_24h": null,
-      "liquidity_usd": 6806.41
+      "liquidity_usd": 24856.52
     },
     "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump": {
       "symbol": "NEWSCUM",
       "name": "Gavin Newscum",
-      "mcap_usd": 33902.0,
-      "price_usd": 0.0000339,
-      "price_change_1h": -0.11,
+      "mcap_usd": 19020.0,
+      "price_usd": 0.00001901,
+      "price_change_1h": -43.96,
       "price_change_24h": null,
-      "liquidity_usd": 14151.97
+      "liquidity_usd": 10601.91
     }
   }
 }
