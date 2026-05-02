@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "ts": 1777753557,
+      "kind": "alert",
+      "tag": "VELOCITY CRASH",
+      "summary": "VELOCITY_CRASH 7tzX…pump · vel 3.50x→0.35x · tpm 31.3",
+      "mint": "7tzXaxLYLMqphmJuRwyXc9hRAX18awqvFbHbqZRUpump",
+      "signature": null
+    },
+    {
+      "ts": 1777753539,
+      "kind": "alert",
+      "tag": "CLASSIFICATION CHANGE",
+      "summary": "CLASSIFICATION_CHANGE 7tzX…pump · DEVELOPING→GRINDER · top +0.45%",
+      "mint": "7tzXaxLYLMqphmJuRwyXc9hRAX18awqvFbHbqZRUpump",
+      "signature": null
+    },
+    {
       "ts": 1777753453,
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
@@ -13,14 +29,6 @@
       "kind": "alert",
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 7tzX…pump · DEVELOPING→STAIRCASE · top -1.07%",
-      "mint": "7tzXaxLYLMqphmJuRwyXc9hRAX18awqvFbHbqZRUpump",
-      "signature": null
-    },
-    {
-      "ts": 1777753369,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE 7tzX…pump · STAIRCASE→DEVELOPING · top -1.18%",
       "mint": "7tzXaxLYLMqphmJuRwyXc9hRAX18awqvFbHbqZRUpump",
       "signature": null
     },
@@ -94,14 +102,6 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE 2i8x…pump · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "2i8xvbZgQyBw2M9DCjYSBtg6kBQSJ5mw5iHyi5o5pump",
-      "signature": null
-    },
-    {
-      "ts": 1777752217,
-      "kind": "alert",
-      "tag": "CONCENTRATING",
-      "summary": "CONCENTRATING 7wC7…5Z89 · top 17.51%→19.90% (+2.40%) · DEVELOPING",
-      "mint": "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89",
       "signature": null
     },
     {
@@ -189,65 +189,65 @@
     "2i8xvbZgQyBw2M9DCjYSBtg6kBQSJ5mw5iHyi5o5pump": {
       "symbol": "熊猫头",
       "name": "熊猫头",
-      "mcap_usd": 13058.24,
-      "price_usd": 0.00001305,
-      "price_change_1h": -0.51,
+      "mcap_usd": 12941.26,
+      "price_usd": 0.00001294,
+      "price_change_1h": -4.29,
       "price_change_24h": null,
       "liquidity_usd": null
-    },
-    "B1oY6Br2BaE6RjSb78zViF1QUm2Nc9y1fo86b58Wpump": {
-      "symbol": "PETDEX",
-      "name": "The Codex Pet Index",
-      "mcap_usd": 9721.04,
-      "price_usd": 9.721e-6,
-      "price_change_1h": -38.42,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "DyhgWtTeAE2UYEfLwpAZ4441eaCWFedRMoxUYM9ypump": {
-      "symbol": "ML",
-      "name": "Max Long",
-      "mcap_usd": 41809.0,
-      "price_usd": 0.00004181,
-      "price_change_1h": 11.95,
-      "price_change_24h": null,
-      "liquidity_usd": 15948.42
     },
     "DzZ25zeRccJ7uZw47DE9mZEjWa19bAKZerePfGRApump": {
       "symbol": "Shekel",
       "name": "Shekel-pegged",
-      "mcap_usd": 45685.0,
-      "price_usd": 0.00004568,
-      "price_change_1h": 31.95,
+      "mcap_usd": 41295.0,
+      "price_usd": 0.00004129,
+      "price_change_1h": 19.27,
       "price_change_24h": null,
-      "liquidity_usd": 16610.79
+      "liquidity_usd": 15799.86
+    },
+    "DyhgWtTeAE2UYEfLwpAZ4441eaCWFedRMoxUYM9ypump": {
+      "symbol": "ML",
+      "name": "Max Long",
+      "mcap_usd": 49820.0,
+      "price_usd": 0.00004983,
+      "price_change_1h": 33.4,
+      "price_change_24h": null,
+      "liquidity_usd": 17412.21
+    },
+    "B1oY6Br2BaE6RjSb78zViF1QUm2Nc9y1fo86b58Wpump": {
+      "symbol": "PETDEX",
+      "name": "The Codex Pet Index",
+      "mcap_usd": 10011.13,
+      "price_usd": 0.00001001,
+      "price_change_1h": -25.16,
+      "price_change_24h": null,
+      "liquidity_usd": null
     },
     "BfsCxCbV2xfPhfLZTdH3fXyNnWVDGooAQQCA9NvLsHEe": {
       "symbol": "CHANCE",
       "name": "Take a Chance",
-      "mcap_usd": 3779.0,
-      "price_usd": 3.778e-6,
-      "price_change_1h": -88.83,
+      "mcap_usd": 3231.0,
+      "price_usd": 3.23e-6,
+      "price_change_1h": -90.45,
       "price_change_24h": null,
-      "liquidity_usd": 4739.84
-    },
-    "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89": {
-      "symbol": "May4th",
-      "name": "Star Wars",
-      "mcap_usd": 45439.0,
-      "price_usd": 0.00004567,
-      "price_change_1h": 31.89,
-      "price_change_24h": null,
-      "liquidity_usd": 16511.82
+      "liquidity_usd": 4382.8
     },
     "7tzXaxLYLMqphmJuRwyXc9hRAX18awqvFbHbqZRUpump": {
       "symbol": "ROMEO ",
       "name": "The Lone Wolf",
-      "mcap_usd": 43171.0,
-      "price_usd": 0.00004317,
-      "price_change_1h": 24.81,
+      "mcap_usd": 39120.0,
+      "price_usd": 0.00003911,
+      "price_change_1h": 13.1,
       "price_change_24h": null,
-      "liquidity_usd": 16007.79
+      "liquidity_usd": 15241.94
+    },
+    "7wC7z6FbueVpDhb724xg7VHvsLwMPuQgwvHUfMbq5Z89": {
+      "symbol": "May4th",
+      "name": "Star Wars",
+      "mcap_usd": 46723.0,
+      "price_usd": 0.00004696,
+      "price_change_1h": 35.61,
+      "price_change_24h": null,
+      "liquidity_usd": 16742.78
     }
   },
   "watching": []
