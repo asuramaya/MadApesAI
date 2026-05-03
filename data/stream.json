@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777782151,
+      "kind": "trade",
+      "tag": "BUY",
+      "summary": "bought 144.4k tokens of 23na…pump for 0.013 SOL",
+      "mint": "23nayzZNhAeZoLUtESYgrL5K6XCQfS6StEZrCA8Kpump",
+      "signature": "2ThJv1mw82ytvcXS6XGvi2oYrJxx2uxKmK3e6bj6nWCs1HsRsmKWyjQgUdDUZWyPPiaxFsXnwGMaDmNLTWSQA54B"
+    },
+    {
       "ts": 1777782025,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -145,14 +153,6 @@
       "signature": "2BxPrMXAKwFR5Nx4nkJboXwtDnZdGzsnsLjNfDe24Gx5L3vAUK99Wd83tXwvXiTDZaGgPWLVQTNKebyFP3TrfQ1D"
     },
     {
-      "ts": 1777780082,
-      "kind": "trade",
-      "tag": "SELL",
-      "summary": "cut 361.0k tokens of 7kDW…pump for 0.022 SOL",
-      "mint": "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump",
-      "signature": "3yQdrNku8JfhQbUcUQ1nConqTtYaVkEEHZjZXFFysGTooVxX4Z5cmJhRfz5cb1pANa5Ayx1HWXrBGGpWwas7uoei"
-    },
-    {
       "ts": 1777773327,
       "kind": "call",
       "tag": "CALL WITHDREW",
@@ -194,86 +194,50 @@
     }
   ],
   "tokens": {
-    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
-      "symbol": "CHUDMAN",
-      "name": "Sam Chudman",
-      "mcap_usd": 6036.0,
-      "price_usd": 6.035e-6,
-      "price_change_1h": -11.78,
+    "23nayzZNhAeZoLUtESYgrL5K6XCQfS6StEZrCA8Kpump": {
+      "symbol": "psyop",
+      "name": "you have to buy this",
+      "mcap_usd": 7026.41,
+      "price_usd": 7.026e-6,
+      "price_change_1h": 195.0,
       "price_change_24h": null,
-      "liquidity_usd": 6090.39
+      "liquidity_usd": null
+    },
+    "Bz5WM8BZVjXZNiXgMvLkPqRLndqLvKPWCVzEK1LSpump": {
+      "symbol": "Soomer",
+      "name": "First Meme Man",
+      "mcap_usd": 2976.43,
+      "price_usd": 2.976e-6,
+      "price_change_1h": 19.27,
+      "price_change_24h": null,
+      "liquidity_usd": null
     },
     "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump": {
       "symbol": "CAMERON",
       "name": "The Patriot Foundation",
-      "mcap_usd": 31374.0,
-      "price_usd": 0.00003137,
-      "price_change_1h": -8.7,
+      "mcap_usd": 34480.0,
+      "price_usd": 0.00003448,
+      "price_change_1h": 0.34,
       "price_change_24h": null,
-      "liquidity_usd": 13596.45
-    },
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
-      "symbol": "memeoids",
-      "name": "memeoids",
-      "mcap_usd": 161664.0,
-      "price_usd": 0.0001616,
-      "price_change_1h": -2.08,
-      "price_change_24h": null,
-      "liquidity_usd": 33582.87
-    },
-    "7kDWnnYhJGGJoAW5wEeRe3yvmAEZGxPYzNg62Dtapump": {
-      "symbol": "ROCK",
-      "name": "Solid Investment",
-      "mcap_usd": 3940.95,
-      "price_usd": 3.94e-6,
-      "price_change_1h": 39.18,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "23nayzZNhAeZoLUtESYgrL5K6XCQfS6StEZrCA8Kpump": {
-      "symbol": "psyop",
-      "name": "you have to buy this",
-      "mcap_usd": 7266.68,
-      "price_usd": 7.266e-6,
-      "price_change_1h": 205.0,
-      "price_change_24h": null,
-      "liquidity_usd": null
+      "liquidity_usd": 14256.86
     },
     "91kDvTYSe6QwxsGpBqnjWWek6bpTc7ktV692yHLipump": {
       "symbol": "nugget",
       "name": "nugget69420",
-      "mcap_usd": 6771.0,
-      "price_usd": 6.771e-6,
-      "price_change_1h": -80.55,
+      "mcap_usd": 6898.0,
+      "price_usd": 6.898e-6,
+      "price_change_1h": -80.18,
       "price_change_24h": null,
-      "liquidity_usd": 6340.67
-    },
-    "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump": {
-      "symbol": "ROCK",
-      "name": "Official Pet Rock",
-      "mcap_usd": 28994.0,
-      "price_usd": 0.00002899,
-      "price_change_1h": -14.49,
-      "price_change_24h": null,
-      "liquidity_usd": 13163.91
+      "liquidity_usd": 6399.71
     },
     "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
       "symbol": "Slopcoin",
       "name": "Slopcoin",
       "mcap_usd": 3867.0,
       "price_usd": 4.562e-6,
-      "price_change_1h": -11.87,
+      "price_change_1h": -12.74,
       "price_change_24h": null,
       "liquidity_usd": 5260.28
-    },
-    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
-      "symbol": "MOG",
-      "name": "MOG",
-      "mcap_usd": 2346.0,
-      "price_usd": 2.346e-6,
-      "price_change_1h": -5.14,
-      "price_change_24h": null,
-      "liquidity_usd": 3737.48
     },
     "3T3ePWvriBnF82Qp8PA8xD9cacVoqatzfuvFxMfLpump": {
       "symbol": "LMEOW",
@@ -284,14 +248,41 @@
       "price_change_24h": null,
       "liquidity_usd": 8278.46
     },
-    "Bz5WM8BZVjXZNiXgMvLkPqRLndqLvKPWCVzEK1LSpump": {
-      "symbol": "Soomer",
-      "name": "First Meme Man",
-      "mcap_usd": 2977.43,
-      "price_usd": 2.977e-6,
-      "price_change_1h": 19.31,
+    "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump": {
+      "symbol": "ROCK",
+      "name": "Official Pet Rock",
+      "mcap_usd": 44167.0,
+      "price_usd": 0.00004416,
+      "price_change_1h": 30.26,
       "price_change_24h": null,
-      "liquidity_usd": null
+      "liquidity_usd": 16249.26
+    },
+    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
+      "symbol": "CHUDMAN",
+      "name": "Sam Chudman",
+      "mcap_usd": 6036.0,
+      "price_usd": 6.035e-6,
+      "price_change_1h": -11.78,
+      "price_change_24h": null,
+      "liquidity_usd": 6090.39
+    },
+    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
+      "symbol": "MOG",
+      "name": "MOG",
+      "mcap_usd": 2346.0,
+      "price_usd": 2.346e-6,
+      "price_change_1h": -5.14,
+      "price_change_24h": null,
+      "liquidity_usd": 3737.48
+    },
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
+      "symbol": "memeoids",
+      "name": "memeoids",
+      "mcap_usd": 161934.0,
+      "price_usd": 0.0001619,
+      "price_change_1h": -9.28,
+      "price_change_24h": null,
+      "liquidity_usd": 33614.09
     }
   },
   "watching": []
