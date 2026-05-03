@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 79,
-    "current_liquidity_usd": 24174.38,
-    "current_mcap_usd": 96720.0,
-    "current_price_usd": 0.00009672,
+    "current_liquidity_usd": 24200.66,
+    "current_mcap_usd": 96903.0,
+    "current_price_usd": 0.0000969,
     "entry_liquidity_usd": 22811.97,
     "entry_mcap_usd": 86179.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
     "note": "MTGA’s staircasing with top1 at 13 and 1.8 buys/sells, I’m taking the swing · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 12.230215827338121,
+    "pct_from_call": 12.43908099326989,
     "peak_at": 1777833230,
     "peak_pct": 12.230215827338121,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777833048,
     "trough_pct": -10.245996750986318
   },
-  "captured_at": 1777833256,
-  "last_snapshot_ts": 1777833230,
+  "captured_at": 1777833286,
+  "last_snapshot_ts": 1777833270,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -227,6 +227,34 @@
       "tx_rate": 88.23529411764707,
       "velocity": 1.0,
       "volume_h1_usd": 75109.46
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1098,
+      "classification": "STAIRCASE",
+      "confidence": 79,
+      "distribution": 54,
+      "forensics_computed_at": 1777832532,
+      "holder_count": 20,
+      "insider_pct": 7.49533187372262,
+      "liquidity_usd": 24200.66,
+      "mcap_usd": 96903.0,
+      "momentum": 74,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 42.77,
+      "price_usd": 0.0000969,
+      "sells_h1": 615,
+      "smart_money_count": 0,
+      "sniper_pct": 56.52033254786916,
+      "spring": 64,
+      "timestamp": 1777833270,
+      "token_address": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
+      "top10_pct": 32.86617000730273,
+      "top5_pct": 22.43726501323458,
+      "top_holder_pct": 12.212577415544192,
+      "tx_rate": 111.11111111111111,
+      "velocity": 0.5,
+      "volume_h1_usd": 76739.34
     }
   ]
 }
