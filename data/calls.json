@@ -1,36 +1,5 @@
 {
-  "active": [
-    {
-      "id": 145,
-      "mint": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
-      "symbol": "GOBLININU",
-      "classification": "DEVELOPING",
-      "confidence": 62,
-      "called_at": 1777792522,
-      "expires_at": 1777797922,
-      "note": "I’m taking $GOBLININU here at 44.5k; 158/min, no snipers, buys still ahead. · horizon=MOONSHOT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 44527.0,
-      "entry_price_usd": 0.00004452,
-      "entry_liquidity_usd": 16281.69,
-      "entry_top_holder_pct": 17.610203421873997,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 71610.0,
-      "current_price_usd": 0.0000716,
-      "current_liquidity_usd": 21347.65,
-      "pct_from_call": 60.82659478885895,
-      "peak_pct": 124.4384546271339,
-      "peak_at": 1777793891,
-      "trough_pct": -5.525606469002698,
-      "trough_at": 1777792522,
-      "thesis_url": null
-    }
-  ],
+  "active": [],
   "history": [
     {
       "id": 146,
@@ -60,6 +29,36 @@
       "peak_at": 1777792613,
       "trough_pct": 6.0446780551905555,
       "trough_at": 1777792613,
+      "thesis_url": null
+    },
+    {
+      "id": 145,
+      "mint": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
+      "symbol": "GOBLININU",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777792522,
+      "expires_at": 1777797922,
+      "note": "I’m taking $GOBLININU here at 44.5k; 158/min, no snipers, buys still ahead. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777794530,
+      "exit_price_usd": 2.113e-6,
+      "exit_note": "-95.3% · severe dev exit",
+      "entry_mcap_usd": 44527.0,
+      "entry_price_usd": 0.00004452,
+      "entry_liquidity_usd": 16281.69,
+      "entry_top_holder_pct": 17.610203421873997,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 2.113e-6,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -95.25381850853549,
+      "peak_pct": 124.4384546271339,
+      "peak_at": 1777793891,
+      "trough_pct": -5.525606469002698,
+      "trough_at": 1777792522,
       "thesis_url": null
     },
     {
@@ -2967,13 +2966,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 68,
+      "count": 69,
       "wins": 16,
-      "losses": 51,
+      "losses": 52,
       "expired": 1,
-      "win_rate": 23.88059701492537,
+      "win_rate": 23.52941176470588,
       "avg_winner_pct": 88.70551725982519,
-      "avg_loser_pct": -42.92371830921517,
+      "avg_loser_pct": -43.84179024253657,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -2989,13 +2988,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 97,
+      "count": 98,
       "wins": 26,
-      "losses": 69,
+      "losses": 70,
       "expired": 2,
-      "win_rate": 27.368421052631582,
+      "win_rate": 27.083333333333332,
       "avg_winner_pct": 66.745355302726,
-      "avg_loser_pct": -43.64349256311534,
+      "avg_loser_pct": -44.35048332949095,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -3012,13 +3011,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 96,
+        "count": 97,
         "wins": 26,
-        "losses": 68,
+        "losses": 69,
         "expired": 2,
-        "win_rate": 27.659574468085108,
+        "win_rate": 27.368421052631582,
         "avg_winner_pct": 66.745355302726,
-        "avg_loser_pct": -43.97575625486979,
+        "avg_loser_pct": -44.687951563948474,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
