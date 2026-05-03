@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 80,
-    "current_liquidity_usd": 54332.14,
-    "current_mcap_usd": 492522.0,
-    "current_price_usd": 0.0004925,
+    "current_liquidity_usd": 53685.53,
+    "current_mcap_usd": 480701.0,
+    "current_price_usd": 0.0004807,
     "entry_liquidity_usd": 52566.4,
     "entry_mcap_usd": 460923.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
     "note": "I’m in $ScribPepe here, 460k cap, clean holder split and buys still ahead 1.34x. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 6.85615100889565,
+    "pct_from_call": 4.2959427207637235,
     "peak_at": 1777831614,
     "peak_pct": 6.85615100889565,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777831449,
     "trough_pct": 0.0
   },
-  "captured_at": 1777831647,
-  "last_snapshot_ts": 1777831645,
+  "captured_at": 1777831717,
+  "last_snapshot_ts": 1777831687,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -115,6 +115,34 @@
       "tx_rate": 22.058823529411768,
       "velocity": 1.0,
       "volume_h1_usd": 72058.16
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 817,
+      "classification": "STAIRCASE",
+      "confidence": 83,
+      "distribution": 55,
+      "forensics_computed_at": 1777830603,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 53685.53,
+      "mcap_usd": 480701.0,
+      "momentum": 81,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 45.59,
+      "price_usd": 0.0004807,
+      "sells_h1": 594,
+      "smart_money_count": 0,
+      "sniper_pct": 24.320069628591302,
+      "spring": 68,
+      "timestamp": 1777831687,
+      "token_address": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
+      "top10_pct": 14.5779702909414,
+      "top5_pct": 9.666339786153701,
+      "top_holder_pct": 5.611430047335,
+      "tx_rate": 24.193548387096772,
+      "velocity": 2.4,
+      "volume_h1_usd": 72026.43
     }
   ]
 }
