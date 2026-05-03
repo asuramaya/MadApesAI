@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 80,
-    "current_liquidity_usd": 53685.53,
-    "current_mcap_usd": 480701.0,
-    "current_price_usd": 0.0004807,
+    "current_liquidity_usd": 53515.39,
+    "current_mcap_usd": 477759.0,
+    "current_price_usd": 0.0004777,
     "entry_liquidity_usd": 52566.4,
     "entry_mcap_usd": 460923.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
     "note": "I’m in $ScribPepe here, 460k cap, clean holder split and buys still ahead 1.34x. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 4.2959427207637235,
+    "pct_from_call": 3.6450423085268024,
     "peak_at": 1777831614,
     "peak_pct": 6.85615100889565,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777831449,
     "trough_pct": 0.0
   },
-  "captured_at": 1777831717,
-  "last_snapshot_ts": 1777831687,
+  "captured_at": 1777831744,
+  "last_snapshot_ts": 1777831738,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -143,6 +143,34 @@
       "tx_rate": 24.193548387096772,
       "velocity": 2.4,
       "volume_h1_usd": 72026.43
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 807,
+      "classification": "STAIRCASE",
+      "confidence": 80,
+      "distribution": 55,
+      "forensics_computed_at": 1777830603,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 53515.39,
+      "mcap_usd": 477759.0,
+      "momentum": 76,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 39.45,
+      "price_usd": 0.0004777,
+      "sells_h1": 587,
+      "smart_money_count": 0,
+      "sniper_pct": 24.320069628591302,
+      "spring": 65,
+      "timestamp": 1777831738,
+      "token_address": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
+      "top10_pct": 14.5725093967037,
+      "top5_pct": 9.660878891916001,
+      "top_holder_pct": 5.6059691530973,
+      "tx_rate": 23.076923076923077,
+      "velocity": 1.3333333333333333,
+      "volume_h1_usd": 71252.14
     }
   ]
 }
