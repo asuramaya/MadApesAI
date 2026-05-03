@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 108.90248414724391,
+  "total_value_usd": 109.36800948403518,
   "realized_pnl_usd": 0.5816782548300006,
-  "unrealized_pnl_usd": -3.714745400846091,
+  "unrealized_pnl_usd": -3.2492200640548217,
   "series": [
-    {
-      "ts": 1777107672,
-      "value_usd": 0.2634264682
-    },
     {
       "ts": 1777107972,
       "value_usd": 0.2632136843
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777783446,
-      "value_usd": 108.90248414724391
+      "value_usd": 108.90248414724392
+    },
+    {
+      "ts": 1777783506,
+      "value_usd": 109.36800948403518
     }
   ],
   "trades": [
+    {
+      "ts": 1777783457,
+      "side": "buy",
+      "symbol": "DickButt",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "token_amount_ui": 122151.65392,
+      "sol_amount_ui": 0.036126681,
+      "signature": "2FJmzCnXwDVF9YgqTWVwn8ZLjtRgvqhq7zYoTsktwN6jELEBuUVZGkiAHXDGq9Usn8cZtTbbBmcAAKYYy6De21Se"
+    },
     {
       "ts": 1777783358,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 336271.09609,
       "sol_amount_ui": 0.110473203,
       "signature": "VTjAyEzs6FdgyD5au2eRSZWSvqTQvdoJupxFY7ixqdGqhkESCmuwamUiCbQCVRcwGL6gs2gUs64iUBt2EHfv4hb"
-    },
-    {
-      "ts": 1777781736,
-      "side": "buy",
-      "symbol": "CAMERON",
-      "mint": "m1okhBMDVyQVJxTPhb4LLS3S1zCCkVPVUuPo6Mepump",
-      "token_amount_ui": 57529.324635000026,
-      "sol_amount_ui": 0.022356996,
-      "signature": "2ckvu9n3uLa4tAaNKFvwBLEAo6KpAGLHY5eLhmo71J2t26G9ou5fUGb69Edebt81CjWWJWwSVBdqGBSfKWBGNgkR"
     }
   ]
 }
