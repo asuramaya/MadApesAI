@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 83,
-    "current_liquidity_usd": 19437.63,
-    "current_mcap_usd": 60598.0,
-    "current_price_usd": 0.00006059,
+    "current_liquidity_usd": 19006.23,
+    "current_mcap_usd": 57940.0,
+    "current_price_usd": 0.00005793,
     "entry_liquidity_usd": 21347.11,
     "entry_mcap_usd": 73651.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
     "note": "Fatcoin's staircase is intact, 58/min and no bundle/sniper noise, I'm in for the swing. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -17.732518669382213,
+    "pct_from_call": -21.344195519348265,
     "peak_at": 1777826405,
     "peak_pct": -7.997284453496267,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777827114,
     "trough_pct": -39.21249151391718
   },
-  "captured_at": 1777827339,
-  "last_snapshot_ts": 1777827321,
+  "captured_at": 1777827370,
+  "last_snapshot_ts": 1777827363,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -479,6 +479,34 @@
       "tx_rate": 33.333333333333336,
       "velocity": 2.3333333333333335,
       "volume_h1_usd": 256285.85
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 3484,
+      "classification": "DEVELOPING",
+      "confidence": 61,
+      "distribution": 54,
+      "forensics_computed_at": 1777823963,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 19006.23,
+      "mcap_usd": 57940.0,
+      "momentum": 68,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 61.97,
+      "price_usd": 0.00005793,
+      "sells_h1": 2334,
+      "smart_money_count": 1,
+      "sniper_pct": 54.403835574371904,
+      "spring": 61,
+      "timestamp": 1777827363,
+      "token_address": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
+      "top10_pct": 38.214037723188326,
+      "top5_pct": 27.415933873139828,
+      "top_holder_pct": 16.78962325190668,
+      "tx_rate": 23.62204724409449,
+      "velocity": 1.2727272727272727,
+      "volume_h1_usd": 256423.47
     }
   ]
 }
