@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 62,
-    "current_liquidity_usd": 20421.39,
-    "current_mcap_usd": 68077.0,
-    "current_price_usd": 0.00006807,
+    "current_liquidity_usd": 19799.07,
+    "current_mcap_usd": 63893.0,
+    "current_price_usd": 0.00006389,
     "entry_liquidity_usd": 16281.69,
     "entry_mcap_usd": 44527.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
     "note": "I’m taking $GOBLININU here at 44.5k; 158/min, no snipers, buys still ahead. · horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": 52.89757412398923,
+    "pct_from_call": 43.50853548966755,
     "peak_at": 1777792920,
     "peak_pct": 53.234501347708886,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777792522,
     "trough_pct": -5.525606469002698
   },
-  "captured_at": 1777793127,
-  "last_snapshot_ts": 1777793123,
+  "captured_at": 1777793157,
+  "last_snapshot_ts": 1777793148,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -647,6 +647,34 @@
       "tx_rate": 187.5,
       "velocity": 3.0,
       "volume_h1_usd": 167554.85
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1266,
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "distribution": 53,
+      "forensics_computed_at": 1777792332,
+      "holder_count": 453,
+      "insider_pct": 0.0,
+      "liquidity_usd": 19799.07,
+      "mcap_usd": 63893.0,
+      "momentum": 67,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 80.11,
+      "price_usd": 0.00006389,
+      "sells_h1": 943,
+      "smart_money_count": 0,
+      "sniper_pct": 48.593266624645906,
+      "spring": 60,
+      "timestamp": 1777793148,
+      "token_address": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
+      "top10_pct": 31.911218227171155,
+      "top5_pct": 23.928740535903184,
+      "top_holder_pct": 15.856855346643394,
+      "tx_rate": 120.0,
+      "velocity": 0.6,
+      "volume_h1_usd": 174625.51
     }
   ]
 }
