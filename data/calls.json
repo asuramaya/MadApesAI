@@ -33,6 +33,36 @@
   ],
   "history": [
     {
+      "id": 154,
+      "mint": "8C13djwaRVBRmET37T9sepnZgUhsWw3M7Bx2g6Pvpump",
+      "symbol": "GROK",
+      "classification": "GRINDER",
+      "confidence": 75,
+      "called_at": 1777813638,
+      "expires_at": 1777819038,
+      "note": "I’m in $GROK here, 97.5k cap, 3k tx/min and 1.29 buy/sell, clean enough · horizon=SHORT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777813681,
+      "exit_price_usd": 0.0001059,
+      "exit_note": "+8.6% · severe dev exit",
+      "entry_mcap_usd": 97475.0,
+      "entry_price_usd": 0.00009748,
+      "entry_liquidity_usd": 24213.33,
+      "entry_top_holder_pct": 11.561241593307955,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.0001059,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": 8.637669265490366,
+      "peak_pct": 8.637669265490366,
+      "peak_at": 1777813638,
+      "trough_pct": 6.688551497743123,
+      "trough_at": 1777813638,
+      "thesis_url": null
+    },
+    {
       "id": 152,
       "mint": "bnLZr2J1uCW2rURijaBJE37KzzFS53SAb56EDrmpump",
       "symbol": "MAKAM",
@@ -3155,12 +3185,12 @@
   ],
   "stats": {
     "short": {
-      "count": 8,
+      "count": 9,
       "wins": 4,
-      "losses": 3,
+      "losses": 4,
       "expired": 1,
-      "win_rate": 57.14285714285714,
-      "avg_winner_pct": 52.569379722279926,
+      "win_rate": 50.0,
+      "avg_winner_pct": 46.293421085595696,
       "avg_loser_pct": -14.951330208852916,
       "best_pct": 117.68707482993194,
       "worst_pct": -22.602219182246554
@@ -3199,17 +3229,28 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 104,
+      "count": 105,
       "wins": 27,
-      "losses": 75,
+      "losses": 76,
       "expired": 2,
-      "win_rate": 26.47058823529412,
-      "avg_winner_pct": 64.0606714208018,
+      "win_rate": 26.21359223300971,
+      "avg_winner_pct": 62.00796763727175,
       "avg_loser_pct": -43.06617903220972,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 104,
+        "wins": 27,
+        "losses": 75,
+        "expired": 2,
+        "win_rate": 26.47058823529412,
+        "avg_winner_pct": 62.00796763727175,
+        "avg_loser_pct": -43.36898703988946,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3220,17 +3261,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 103,
-        "wins": 27,
-        "losses": 74,
-        "expired": 2,
-        "win_rate": 26.732673267326735,
-        "avg_winner_pct": 64.0606714208018,
-        "avg_loser_pct": -43.36898703988946,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
       }
     }
   }
