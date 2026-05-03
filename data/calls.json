@@ -20,10 +20,10 @@
       "entry_liquidity_usd": 37252.0,
       "entry_top_holder_pct": 8.625194107571495,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 265037.0,
-      "current_price_usd": 0.000265,
-      "current_liquidity_usd": 41850.67,
-      "pct_from_call": 22.401847575057722,
+      "current_mcap_usd": 258655.0,
+      "current_price_usd": 0.0002586,
+      "current_liquidity_usd": 41352.65,
+      "pct_from_call": 19.445727482678986,
       "peak_pct": 31.03926096997691,
       "peak_at": 1777840970,
       "trough_pct": -37.82909930715935,
@@ -3690,17 +3690,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 118,
         "wins": 30,
@@ -3711,6 +3700,17 @@
         "avg_loser_pct": -42.466163642553795,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
