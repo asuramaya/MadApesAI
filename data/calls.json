@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 148,
+      "mint": "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump",
+      "symbol": "Mike",
+      "classification": "DEVELOPING",
+      "confidence": 61,
+      "called_at": 1777796444,
+      "expires_at": 1777801844,
+      "note": "I’m in Mike here: 58.8k cap, 130/min, 1.18 buys, no bundle/sniper noise. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 58834.0,
+      "entry_price_usd": 0.00005883,
+      "entry_liquidity_usd": 18700.66,
+      "entry_top_holder_pct": 16.983641581928037,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 54325.0,
+      "current_price_usd": 0.00005432,
+      "current_liquidity_usd": 17975.72,
+      "pct_from_call": -7.666156722760487,
+      "peak_pct": -6.901240863505009,
+      "peak_at": 1777796444,
+      "trough_pct": -6.901240863505009,
+      "trough_at": 1777796444,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 147,
@@ -3029,17 +3060,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 98,
         "wins": 27,
@@ -3050,6 +3070,17 @@
         "avg_loser_pct": -44.687951563948474,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }
