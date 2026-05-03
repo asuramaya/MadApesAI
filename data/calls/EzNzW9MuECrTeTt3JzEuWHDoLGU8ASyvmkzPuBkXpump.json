@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 67,
-    "current_liquidity_usd": 22972.2,
-    "current_mcap_usd": 87324.0,
-    "current_price_usd": 0.00008732,
+    "current_liquidity_usd": 23346.39,
+    "current_mcap_usd": 90138.0,
+    "current_price_usd": 0.00009013,
     "entry_liquidity_usd": 17492.77,
     "entry_mcap_usd": 51314.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump",
     "note": "I’m in on $PALESTINE here, 51k cap, 500/min, top10 at 39, still looks early. · horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": 70.18125121808613,
+    "pct_from_call": 75.65776651724812,
     "peak_at": 1777795589,
     "peak_pct": 108.92613525628532,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777795449,
     "trough_pct": 18.670824400701626
   },
-  "captured_at": 1777795705,
-  "last_snapshot_ts": 1777795696,
+  "captured_at": 1777795735,
+  "last_snapshot_ts": 1777795718,
   "snapshots": [
     {
       "bundle_pct": 19.9213518475832,
@@ -227,6 +227,34 @@
       "tx_rate": 300.0,
       "velocity": 2.0,
       "volume_h1_usd": 114381.73
+    },
+    {
+      "bundle_pct": 19.9213518475832,
+      "buys_h1": 1516,
+      "classification": "GRINDER",
+      "confidence": 74,
+      "distribution": 54,
+      "forensics_computed_at": 1777795327,
+      "holder_count": 372,
+      "insider_pct": 0.0,
+      "liquidity_usd": 23346.39,
+      "mcap_usd": 90138.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 158.0,
+      "price_usd": 0.00009013,
+      "sells_h1": 1472,
+      "smart_money_count": 0,
+      "sniper_pct": 59.5229491800707,
+      "spring": 60,
+      "timestamp": 1777795718,
+      "token_address": "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump",
+      "top10_pct": 37.227691748438986,
+      "top5_pct": 26.382490255093913,
+      "top_holder_pct": 13.850648952630545,
+      "tx_rate": 1500.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 117923.25
     }
   ]
 }
