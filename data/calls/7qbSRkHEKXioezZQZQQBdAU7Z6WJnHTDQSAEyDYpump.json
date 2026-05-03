@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 39954.92,
-    "current_mcap_usd": 242530.0,
-    "current_price_usd": 0.0002425,
+    "current_liquidity_usd": 43252.15,
+    "current_mcap_usd": 283784.0,
+    "current_price_usd": 0.0002837,
     "entry_liquidity_usd": 37252.0,
     "entry_mcap_usd": 216501.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
     "note": "I’m in SueaAuan, 3k tx/min and 1.1 buy/sell; top1 at 9% is fine. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 12.009237875288692,
+    "pct_from_call": 31.03926096997691,
     "peak_at": 1777840920,
     "peak_pct": 12.009237875288692,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777840625,
     "trough_pct": -37.82909930715935
   },
-  "captured_at": 1777840941,
-  "last_snapshot_ts": 1777840920,
+  "captured_at": 1777840972,
+  "last_snapshot_ts": 1777840970,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -759,6 +759,34 @@
       "tx_rate": 1500.0,
       "velocity": 1.0,
       "volume_h1_usd": 759396.94
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 7110,
+      "classification": "GRINDER",
+      "confidence": 75,
+      "distribution": 54,
+      "forensics_computed_at": 1777837804,
+      "holder_count": 20,
+      "insider_pct": 6.591909000984517,
+      "liquidity_usd": 43252.15,
+      "mcap_usd": 283784.0,
+      "momentum": 67,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 748.0,
+      "price_usd": 0.0002837,
+      "sells_h1": 6280,
+      "smart_money_count": 0,
+      "sniper_pct": 84.07325793241756,
+      "spring": 60,
+      "timestamp": 1777840970,
+      "token_address": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
+      "top10_pct": 27.933715207406923,
+      "top5_pct": 18.207875208386255,
+      "top_holder_pct": 7.895781784360794,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 775976.67
     }
   ]
 }
