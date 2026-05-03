@@ -20,16 +20,18 @@
       "entry_liquidity_usd": 23897.77,
       "entry_top_holder_pct": 12.1228443780818,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 86722.0,
-      "current_price_usd": 0.00008672,
-      "current_liquidity_usd": 22920.79,
-      "pct_from_call": -8.465273379776239,
+      "current_mcap_usd": 82565.0,
+      "current_price_usd": 0.00008256,
+      "current_liquidity_usd": 22372.45,
+      "pct_from_call": -12.856238125395825,
       "peak_pct": 3.0398986700443276,
       "peak_at": 1777833959,
       "trough_pct": 3.0398986700443276,
       "trough_at": 1777833959,
       "thesis_url": null
-    },
+    }
+  ],
+  "history": [
     {
       "id": 167,
       "mint": "6HicgQpbQxMi31XZSXvfMwMp5dv7h9i4E3f5K4YPfPXu",
@@ -40,28 +42,26 @@
       "expires_at": 1777839206,
       "note": "I'm in $CRY here, grinder tape, 1.5x buys and top1 only 10% · horizon=SHORT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777834115,
+      "exit_price_usd": 0.00001714,
+      "exit_note": "-91.3% · severe collapse",
       "entry_mcap_usd": 197376.0,
       "entry_price_usd": 0.0001973,
       "entry_liquidity_usd": 38609.37,
       "entry_top_holder_pct": 9.837245356176238,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 17143.0,
+      "current_mcap_usd": 0.0,
       "current_price_usd": 0.00001714,
-      "current_liquidity_usd": 11409.27,
+      "current_liquidity_usd": 0.0,
       "pct_from_call": -91.31272174353776,
       "peak_pct": 0.0,
       "peak_at": 1777833806,
       "trough_pct": -86.13786112519006,
       "trough_at": 1777834092,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 166,
       "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
@@ -3605,15 +3605,15 @@
   ],
   "stats": {
     "short": {
-      "count": 19,
+      "count": 20,
       "wins": 6,
-      "losses": 12,
+      "losses": 13,
       "expired": 1,
-      "win_rate": 33.33333333333333,
+      "win_rate": 31.57894736842105,
       "avg_winner_pct": 39.03075160866736,
-      "avg_loser_pct": -27.547653900630486,
+      "avg_loser_pct": -33.92416068492121,
       "best_pct": 117.68707482993194,
-      "worst_pct": -90.45078071961983
+      "worst_pct": -91.31272174353776
     },
     "long": {
       "count": 3,
@@ -3649,13 +3649,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 117,
+      "count": 118,
       "wins": 29,
-      "losses": 86,
+      "losses": 87,
       "expired": 2,
-      "win_rate": 25.217391304347824,
+      "win_rate": 25.0,
       "avg_winner_pct": 56.22526456334409,
-      "avg_loser_pct": -41.62781127437746,
+      "avg_loser_pct": -42.205542791460715,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -3672,13 +3672,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 116,
+        "count": 117,
         "wins": 29,
-        "losses": 85,
+        "losses": 86,
         "expired": 2,
-        "win_rate": 25.438596491228072,
+        "win_rate": 25.217391304347824,
         "avg_winner_pct": 56.22526456334409,
-        "avg_loser_pct": -41.884656998494464,
+        "avg_loser_pct": -42.466163642553795,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
