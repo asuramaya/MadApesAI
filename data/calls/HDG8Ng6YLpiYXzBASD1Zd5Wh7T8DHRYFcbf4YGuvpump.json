@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 81876.95,
-    "current_mcap_usd": 663724.0,
-    "current_price_usd": 0.0007933,
+    "current_liquidity_usd": 81701.54,
+    "current_mcap_usd": 660955.0,
+    "current_price_usd": 0.00079,
     "entry_liquidity_usd": 82026.36,
     "entry_mcap_usd": 666652.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "HDG8Ng6YLpiYXzBASD1Zd5Wh7T8DHRYFcbf4YGuvpump",
     "note": "I’m in $Octopus: clean grinder, no bundle/insider noise, 1500/min, bid still ahead. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -0.4392570281124386,
+    "pct_from_call": -0.8534136546184623,
     "peak_at": 1777825953,
     "peak_pct": 0.0,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777825953,
     "trough_pct": 0.0
   },
-  "captured_at": 1777826075,
-  "last_snapshot_ts": 1777825953,
+  "captured_at": 1777826105,
+  "last_snapshot_ts": 1777826086,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -59,6 +59,34 @@
       "tx_rate": 1500.0,
       "velocity": 1.0,
       "volume_h1_usd": 55471.98
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 337,
+      "classification": "GRINDER",
+      "confidence": 76,
+      "distribution": 54,
+      "forensics_computed_at": 1777825039,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 81876.95,
+      "mcap_usd": 663724.0,
+      "momentum": 70,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 3.61,
+      "price_usd": 0.0007933,
+      "sells_h1": 295,
+      "smart_money_count": 0,
+      "sniper_pct": 15.037406930480103,
+      "spring": 62,
+      "timestamp": 1777826086,
+      "token_address": "HDG8Ng6YLpiYXzBASD1Zd5Wh7T8DHRYFcbf4YGuvpump",
+      "top10_pct": 22.77899900970966,
+      "top5_pct": 14.929926630288877,
+      "top_holder_pct": 6.279708208120573,
+      "tx_rate": 1000.0000000000001,
+      "velocity": 1.0,
+      "volume_h1_usd": 55113.79
     }
   ]
 }
