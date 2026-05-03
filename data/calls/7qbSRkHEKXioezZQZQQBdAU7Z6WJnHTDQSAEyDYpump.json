@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 41834.0,
-    "current_mcap_usd": 264098.0,
-    "current_price_usd": 0.000264,
+    "current_liquidity_usd": 42216.39,
+    "current_mcap_usd": 268943.0,
+    "current_price_usd": 0.0002689,
     "entry_liquidity_usd": 37252.0,
     "entry_mcap_usd": 216501.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
     "note": "I’m in SueaAuan, 3k tx/min and 1.1 buy/sell; top1 at 9% is fine. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 21.93995381062357,
+    "pct_from_call": 24.20323325635103,
     "peak_at": 1777840970,
     "peak_pct": 31.03926096997691,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777840625,
     "trough_pct": -37.82909930715935
   },
-  "captured_at": 1777841272,
-  "last_snapshot_ts": 1777841250,
+  "captured_at": 1777841303,
+  "last_snapshot_ts": 1777841290,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -927,6 +927,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 836101.42
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 7632,
+      "classification": "GRINDER",
+      "confidence": 74,
+      "distribution": 54,
+      "forensics_computed_at": 1777837804,
+      "holder_count": 20,
+      "insider_pct": 6.591909000984517,
+      "liquidity_usd": 42216.39,
+      "mcap_usd": 268943.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 704.0,
+      "price_usd": 0.0002689,
+      "sells_h1": 6789,
+      "smart_money_count": 0,
+      "sniper_pct": 84.07325793241756,
+      "spring": 60,
+      "timestamp": 1777841290,
+      "token_address": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
+      "top10_pct": 28.165994186278578,
+      "top5_pct": 18.44015418725791,
+      "top_holder_pct": 8.128060763232442,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 836524.78
     }
   ]
 }
