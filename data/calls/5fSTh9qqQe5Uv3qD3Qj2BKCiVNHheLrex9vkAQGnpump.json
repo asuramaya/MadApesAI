@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 83,
-    "current_liquidity_usd": 17611.88,
-    "current_mcap_usd": 49720.0,
-    "current_price_usd": 0.00004972,
+    "current_liquidity_usd": 18291.01,
+    "current_mcap_usd": 53646.0,
+    "current_price_usd": 0.00005364,
     "entry_liquidity_usd": 21347.11,
     "entry_mcap_usd": 73651.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
     "note": "Fatcoin's staircase is intact, 58/min and no bundle/sniper noise, I'm in for the swing. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -32.49151391717584,
+    "pct_from_call": -27.169042769857434,
     "peak_at": 1777826405,
     "peak_pct": -7.997284453496267,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777827114,
     "trough_pct": -39.21249151391718
   },
-  "captured_at": 1777827609,
-  "last_snapshot_ts": 1777827600,
+  "captured_at": 1777827669,
+  "last_snapshot_ts": 1777827656,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -647,6 +647,34 @@
       "tx_rate": 30.0,
       "velocity": 1.5,
       "volume_h1_usd": 206695.28
+    },
+    {
+      "bundle_pct": 16.46518256374009,
+      "buys_h1": 2857,
+      "classification": "DEVELOPING",
+      "confidence": 53,
+      "distribution": 54,
+      "forensics_computed_at": 1777827602,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 18291.01,
+      "mcap_usd": 53646.0,
+      "momentum": 58,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 43.66,
+      "price_usd": 0.00005364,
+      "sells_h1": 1938,
+      "smart_money_count": 1,
+      "sniper_pct": 35.96776704598858,
+      "spring": 27,
+      "timestamp": 1777827656,
+      "token_address": "5fSTh9qqQe5Uv3qD3Qj2BKCiVNHheLrex9vkAQGnpump",
+      "top10_pct": 37.819870606237544,
+      "top5_pct": 27.021766756189045,
+      "top_holder_pct": 16.395456134955896,
+      "tx_rate": 30.0,
+      "velocity": 0.42857142857142855,
+      "volume_h1_usd": 207146.81
     }
   ]
 }
