@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 99.53256078055708,
+  "total_value_usd": 100.34076089384138,
   "realized_pnl_usd": -11.832641964900002,
-  "unrealized_pnl_usd": -0.630206740242933,
+  "unrealized_pnl_usd": 0.17799337304136698,
   "series": [
-    {
-      "ts": 1777094849,
-      "value_usd": 0.2619369809
-    },
     {
       "ts": 1777095149,
       "value_usd": 0.2621193671
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777780642,
       "value_usd": 99.53256078055708
+    },
+    {
+      "ts": 1777780702,
+      "value_usd": 100.34076089384138
     }
   ],
   "trades": [
+    {
+      "ts": 1777780661,
+      "side": "buy",
+      "symbol": "ROCK",
+      "mint": "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump",
+      "token_amount_ui": 146049.231103,
+      "sol_amount_ui": 0.025861143,
+      "signature": "3A2R8Q8AvkTZg7hyCnGsvP7RbkWSpQh5PaG3C4iiKsXwRSPokNAGkUqMyK9ktHuZND9WCoPTRDNqyXwLZAd65pjy"
+    },
     {
       "ts": 1777780193,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 94424.575031,
       "sol_amount_ui": 0.005647934,
       "signature": "4U6j2MBKyQRRpKUy4h2RnfRDWhUJNbBGJvRXwtjxVfEZhU3icSfFZgsPwLxAP9LLHPrwM2J5Pm1rAKp1dL2vyRAr"
-    },
-    {
-      "ts": 1777775886,
-      "side": "buy",
-      "symbol": "farmcoin",
-      "mint": "H3X22tcfPJFzHADdXMBhq4w1t9kjDNEjk3KktAowpump",
-      "token_amount_ui": 94424.575031,
-      "sol_amount_ui": 0.013516955,
-      "signature": "2KK6xhaS3ABPuGNsGmhoSoUyMMsY4Z6D9MK3E9BNayXP69o7GdDncKm59D3EWpVriaUYbB7dj77BtF917wkpUNGZ"
     }
   ]
 }
