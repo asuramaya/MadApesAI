@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 80,
-    "current_liquidity_usd": 29984.53,
-    "current_mcap_usd": 145903.0,
-    "current_price_usd": 0.0001459,
+    "current_liquidity_usd": 29405.96,
+    "current_mcap_usd": 140337.0,
+    "current_price_usd": 0.0001403,
     "entry_liquidity_usd": 29996.12,
     "entry_mcap_usd": 146029.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "2Asc4zWYrZaoXhodSedEuR8rhPsuLbJRvypDo3r4pump",
     "note": "Took $DONALD, staircase setup, 10/47 dist, buyers still ahead 1.46. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -0.068493150684934,
+    "pct_from_call": -3.9041095890410937,
     "peak_at": 1777811546,
     "peak_pct": 0.9589041095890538,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777811571,
     "trough_pct": -0.4794520547945158
   },
-  "captured_at": 1777811664,
-  "last_snapshot_ts": 1777811656,
+  "captured_at": 1777811695,
+  "last_snapshot_ts": 1777811685,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -199,6 +199,34 @@
       "tx_rate": 11.278195488721805,
       "velocity": 0.7333333333333333,
       "volume_h1_usd": 18887.82
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 117,
+      "classification": "DEVELOPING",
+      "confidence": 67,
+      "distribution": 55,
+      "forensics_computed_at": 1777810591,
+      "holder_count": 20,
+      "insider_pct": 16.77666035675872,
+      "liquidity_usd": 29405.96,
+      "mcap_usd": 140337.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 1.28,
+      "price_usd": 0.0001403,
+      "sells_h1": 86,
+      "smart_money_count": 0,
+      "sniper_pct": 62.59545643897001,
+      "spring": 60,
+      "timestamp": 1777811685,
+      "token_address": "2Asc4zWYrZaoXhodSedEuR8rhPsuLbJRvypDo3r4pump",
+      "top10_pct": 46.992061032481686,
+      "top5_pct": 32.6891735030532,
+      "top_holder_pct": 10.313837853337269,
+      "tx_rate": 11.627906976744187,
+      "velocity": 1.3333333333333335,
+      "volume_h1_usd": 19182.84
     }
   ]
 }
