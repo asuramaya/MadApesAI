@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 122.79507783904008,
-  "realized_pnl_usd": -11.75102543618,
-  "unrealized_pnl_usd": 3.0181919378995974,
+  "total_value_usd": 105.85612911786006,
+  "realized_pnl_usd": -11.751025436179996,
+  "unrealized_pnl_usd": 5.617838448260079,
   "series": [
-    {
-      "ts": 1777129632,
-      "value_usd": 0.26309209349999996
-    },
     {
       "ts": 1777129932,
       "value_usd": 0.26300090039999996
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777786736,
       "value_usd": 122.79507783904008
+    },
+    {
+      "ts": 1777786766,
+      "value_usd": 105.85612911786006
     }
   ],
   "trades": [
+    {
+      "ts": 1777786735,
+      "side": "buy",
+      "symbol": "DOUG",
+      "mint": "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump",
+      "token_amount_ui": 478535.273856,
+      "sol_amount_ui": 0.202280257,
+      "signature": "FeTLfjmS741sRXc3G3sfh63eCfpL4EZKpoaywh793BTpb1oUbZA8du9Q26t75SHuMMeVoXP2uNJNJhqtoErZa1q"
+    },
     {
       "ts": 1777786375,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 242563.48420899996,
       "sol_amount_ui": 0.12040194,
       "signature": "31MZRKooQxoEtdZGpWzkTwmFvxaxSv3SkekQgcKK8qe2ypWGhHT9LBaMDMvC3BeygUSQRkrLjnfSknmQit1eZPLL"
-    },
-    {
-      "ts": 1777783893,
-      "side": "sell",
-      "symbol": "OBLYRA",
-      "mint": "HqvHRVLwcH4kp82p5YNKpZvBRvHxrJgAkKcvnjmgpump",
-      "token_amount_ui": 879537.098206,
-      "sol_amount_ui": 0.1297535,
-      "signature": "4RgBCNvVrVFtwuLisfXrabuSJfUANyoS53YjaZmxWjv6tDQVrdSvNcXUHJnLfYCshtdUhFAGGTPMLm5noTFKY6vN"
     }
   ]
 }

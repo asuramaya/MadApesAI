@@ -26,11 +26,11 @@
     "status": "active",
     "symbol": "DOUG",
     "thesis_url": null,
-    "trough_at": 1777786701,
-    "trough_pct": 0.0
+    "trough_at": 1777786754,
+    "trough_pct": -8.90227576974565
   },
-  "captured_at": 1777786757,
-  "last_snapshot_ts": 1777786754,
+  "captured_at": 1777786786,
+  "last_snapshot_ts": 1777786774,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -87,6 +87,34 @@
       "tx_rate": 428.5714285714286,
       "velocity": 1.0,
       "volume_h1_usd": 62161.55
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1224,
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "distribution": 53,
+      "forensics_computed_at": 1777786428,
+      "holder_count": 500,
+      "insider_pct": 0.0,
+      "liquidity_usd": 14138.22,
+      "mcap_usd": 33436.0,
+      "momentum": 70,
+      "pair_dex": "pumpswap",
+      "price_change_h1": -2.9,
+      "price_usd": 0.00003343,
+      "sells_h1": 812,
+      "smart_money_count": 0,
+      "sniper_pct": 51.13043654226897,
+      "spring": 61,
+      "timestamp": 1777786774,
+      "token_address": "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump",
+      "top10_pct": 37.921339201009694,
+      "top5_pct": 29.152487049609814,
+      "top_holder_pct": 19.49811885375458,
+      "tx_rate": 272.72727272727275,
+      "velocity": 1.0,
+      "volume_h1_usd": 75388.07
     }
   ]
 }
