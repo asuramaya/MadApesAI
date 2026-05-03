@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 85.29505520845001,
-  "realized_pnl_usd": 0.0,
-  "unrealized_pnl_usd": 2.8458677791299984,
+  "total_value_usd": 78.45655956056751,
+  "realized_pnl_usd": -4.9873332729,
+  "unrealized_pnl_usd": 1.1129544241175098,
   "series": [
-    {
-      "ts": 1777077715,
-      "value_usd": 0.2621193671
-    },
     {
       "ts": 1777078015,
       "value_usd": 0.2619673786
@@ -8066,9 +8062,76 @@
     {
       "ts": 1777775029,
       "value_usd": 85.29505520845001
+    },
+    {
+      "ts": 1777777330,
+      "value_usd": 78.45655956056751
     }
   ],
   "trades": [
+    {
+      "ts": 1777777125,
+      "side": "buy",
+      "symbol": "ASTEROID",
+      "mint": "Ht4WgbVTCUSZJCmPspbQjRGTQ1W5Lx22HoMTtijKpump",
+      "token_amount_ui": 116316.743601,
+      "sol_amount_ui": 0.015234276,
+      "signature": "sF3UPz26Wfy6Yurcvfr2Tjnh9nid4zbTX8dv32jzw5wyLw9fiKG5aEozNDdpcWv1dGZMAJ8hYnApFBUw6zQexhj"
+    },
+    {
+      "ts": 1777777095,
+      "side": "sell",
+      "symbol": "Farm",
+      "mint": "J3WdM5Ui8SvhZCgHB1CVoGx6nFZUMZ754wVQex6Upump",
+      "token_amount_ui": 296440.877939,
+      "sol_amount_ui": 0.008891962,
+      "signature": "5fEMePnxpfB666Jpmw6Fwj33EK1bkjPRe15KoxBUnS1DbNHDEjRrvvnrEEBxw3DecAe8cJr2xQcmme1erD42HoCU"
+    },
+    {
+      "ts": 1777776684,
+      "side": "buy",
+      "symbol": "GAY",
+      "mint": "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump",
+      "token_amount_ui": 33238.586417,
+      "sol_amount_ui": 0.016662724,
+      "signature": "3Hv7a5MnZWuFrWmAMXrxKy3pEd5F5NdB4iVidzqEzm2Avk1r6GkTYGuAiN7EVcQNM954gCwuVsgZKgccy6kxKtGM"
+    },
+    {
+      "ts": 1777776383,
+      "side": "buy",
+      "symbol": "Farm",
+      "mint": "J3WdM5Ui8SvhZCgHB1CVoGx6nFZUMZ754wVQex6Upump",
+      "token_amount_ui": 296440.877939,
+      "sol_amount_ui": 0.060715739,
+      "signature": "5S42vppFfuvf6AqiCi64w47ZumSVz5byi8Yp9cTZpwhYTqkMCDP1mZXtiV1pdK3dnuYp52tvM6CiLTyWaKwe38xp"
+    },
+    {
+      "ts": 1777776227,
+      "side": "sell",
+      "symbol": "farmcoin",
+      "mint": "H3X22tcfPJFzHADdXMBhq4w1t9kjDNEjk3KktAowpump",
+      "token_amount_ui": 94424.575031,
+      "sol_amount_ui": 0.005647934,
+      "signature": "4U6j2MBKyQRRpKUy4h2RnfRDWhUJNbBGJvRXwtjxVfEZhU3icSfFZgsPwLxAP9LLHPrwM2J5Pm1rAKp1dL2vyRAr"
+    },
+    {
+      "ts": 1777775886,
+      "side": "buy",
+      "symbol": "farmcoin",
+      "mint": "H3X22tcfPJFzHADdXMBhq4w1t9kjDNEjk3KktAowpump",
+      "token_amount_ui": 94424.575031,
+      "sol_amount_ui": 0.013516955,
+      "signature": "2KK6xhaS3ABPuGNsGmhoSoUyMMsY4Z6D9MK3E9BNayXP69o7GdDncKm59D3EWpVriaUYbB7dj77BtF917wkpUNGZ"
+    },
+    {
+      "ts": 1777775582,
+      "side": "buy",
+      "symbol": "GAYINC",
+      "mint": "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump",
+      "token_amount_ui": 56160.720598,
+      "sol_amount_ui": 0.010698687,
+      "signature": "4q8AApbKbMv8roJQ8Tc4Ab7fWCDFRjyS2qzn5fg1oyWKYdrUrCSqsbosK8fvLJNP96f3o8hjUYRBQDgi3UcFDgd8"
+    },
     {
       "ts": 1777755616,
       "side": "buy",
