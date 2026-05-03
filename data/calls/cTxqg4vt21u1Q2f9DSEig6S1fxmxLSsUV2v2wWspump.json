@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 41121.68,
-    "current_mcap_usd": 228405.0,
-    "current_price_usd": 0.0002284,
+    "current_liquidity_usd": 42698.79,
+    "current_mcap_usd": 246198.0,
+    "current_price_usd": 0.0002462,
     "entry_liquidity_usd": 43358.71,
     "entry_mcap_usd": 254645.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
     "note": "I’m taking the scalp here, 3k/min and 1.22 buy/sell with top1 only 9% · horizon=SCALP",
     "outcome_type": "active",
-    "pct_from_call": -10.290652003142187,
+    "pct_from_call": -3.299293008641002,
     "peak_at": 1777823241,
     "peak_pct": 1.256873527101332,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777823509,
     "trough_pct": -14.218381775333865
   },
-  "captured_at": 1777823730,
-  "last_snapshot_ts": 1777823712,
+  "captured_at": 1777823761,
+  "last_snapshot_ts": 1777823758,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -283,6 +283,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 2286099.58
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 13123,
+      "classification": "GRINDER",
+      "confidence": 74,
+      "distribution": 54,
+      "forensics_computed_at": 1777822696,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 42698.79,
+      "mcap_usd": 246198.0,
+      "momentum": 66,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 154.0,
+      "price_usd": 0.0002462,
+      "sells_h1": 10744,
+      "smart_money_count": 0,
+      "sniper_pct": 40.07033210846048,
+      "spring": 60,
+      "timestamp": 1777823758,
+      "token_address": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
+      "top10_pct": 24.924783792323797,
+      "top5_pct": 17.095054184408145,
+      "top_holder_pct": 8.33145003884389,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 2286080.31
     }
   ]
 }
