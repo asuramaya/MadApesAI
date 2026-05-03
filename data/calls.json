@@ -1,36 +1,6 @@
 {
   "active": [
     {
-      "id": 166,
-      "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
-      "symbol": "MTGA",
-      "classification": "STAIRCASE",
-      "confidence": 79,
-      "called_at": 1777832914,
-      "expires_at": 1777838314,
-      "note": "MTGA’s staircasing with top1 at 13 and 1.8 buys/sells, I’m taking the swing · horizon=SHORT",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 86179.0,
-      "entry_price_usd": 0.00008618,
-      "entry_liquidity_usd": 22811.97,
-      "entry_top_holder_pct": 13.148165075402574,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 83663.0,
-      "current_price_usd": 0.00008366,
-      "current_liquidity_usd": 22498.71,
-      "pct_from_call": -2.924112323044803,
-      "peak_pct": 19.74936180088187,
-      "peak_at": 1777833320,
-      "trough_pct": -10.245996750986318,
-      "trough_at": 1777833048,
-      "thesis_url": null
-    },
-    {
       "id": 165,
       "mint": "3NTE2DNV4xyqb2SqBfvBY43qytwJBRLvjMsWRofRpump",
       "symbol": "ScribPepe",
@@ -50,10 +20,10 @@
       "entry_liquidity_usd": 52566.4,
       "entry_top_holder_pct": 5.6504043420232,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 331001.0,
-      "current_price_usd": 0.000331,
-      "current_liquidity_usd": 44633.16,
-      "pct_from_call": -28.18398784985896,
+      "current_mcap_usd": 340777.0,
+      "current_price_usd": 0.0003407,
+      "current_liquidity_usd": 45307.13,
+      "pct_from_call": -26.0794098502929,
       "peak_pct": 6.85615100889565,
       "peak_at": 1777831614,
       "trough_pct": 0.0,
@@ -62,6 +32,36 @@
     }
   ],
   "history": [
+    {
+      "id": 166,
+      "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
+      "symbol": "MTGA",
+      "classification": "STAIRCASE",
+      "confidence": 79,
+      "called_at": 1777832914,
+      "expires_at": 1777838314,
+      "note": "MTGA’s staircasing with top1 at 13 and 1.8 buys/sells, I’m taking the swing · horizon=SHORT",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777833504,
+      "exit_price_usd": 0.00008358,
+      "exit_note": "-3.0% · thesis broke",
+      "entry_mcap_usd": 86179.0,
+      "entry_price_usd": 0.00008618,
+      "entry_liquidity_usd": 22811.97,
+      "entry_top_holder_pct": 13.148165075402574,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00008358,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -3.0169412856811406,
+      "peak_pct": 19.74936180088187,
+      "peak_at": 1777833320,
+      "trough_pct": -10.245996750986318,
+      "trough_at": 1777833048,
+      "thesis_url": null
+    },
     {
       "id": 164,
       "mint": "qMPetjaaH8q3BMG6uGRJHTpXsaTcdtxNMDvGvahpump",
@@ -3545,13 +3545,13 @@
   ],
   "stats": {
     "short": {
-      "count": 17,
+      "count": 18,
       "wins": 6,
-      "losses": 10,
+      "losses": 11,
       "expired": 1,
-      "win_rate": 37.5,
+      "win_rate": 35.294117647058826,
       "avg_winner_pct": 39.03075160866736,
-      "avg_loser_pct": -24.94495704262929,
+      "avg_loser_pct": -22.20395507301077,
       "best_pct": 117.68707482993194,
       "worst_pct": -90.45078071961983
     },
@@ -3589,17 +3589,28 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 115,
+      "count": 116,
       "wins": 29,
-      "losses": 84,
+      "losses": 85,
       "expired": 2,
-      "win_rate": 25.663716814159294,
+      "win_rate": 25.438596491228072,
       "avg_winner_pct": 56.22526456334409,
-      "avg_loser_pct": -41.747587620660426,
+      "avg_loser_pct": -41.28650849762495,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
+      "notifier": {
+        "count": 115,
+        "wins": 29,
+        "losses": 84,
+        "expired": 2,
+        "win_rate": 25.663716814159294,
+        "avg_winner_pct": 56.22526456334409,
+        "avg_loser_pct": -41.542336666890925,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
+      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3610,17 +3621,6 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
-      },
-      "notifier": {
-        "count": 114,
-        "wins": 29,
-        "losses": 83,
-        "expired": 2,
-        "win_rate": 25.892857142857146,
-        "avg_winner_pct": 56.22526456334409,
-        "avg_loser_pct": -42.012158561783735,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
       }
     }
   }
