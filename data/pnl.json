@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 106.82234788559232,
-  "realized_pnl_usd": -4.63669647557999,
-  "unrealized_pnl_usd": -4.73718637473768,
+  "total_value_usd": 106.62798975661073,
+  "realized_pnl_usd": -4.636696475579994,
+  "unrealized_pnl_usd": -4.93154450371927,
   "series": [
-    {
-      "ts": 1777404153,
-      "value_usd": 0.2544895444
-    },
     {
       "ts": 1777404453,
       "value_usd": 0.2547631237
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777825483,
       "value_usd": 106.82234788559232
+    },
+    {
+      "ts": 1777825513,
+      "value_usd": 106.62798975661073
     }
   ],
   "trades": [
+    {
+      "ts": 1777825496,
+      "side": "buy",
+      "symbol": "Tortellini",
+      "mint": "72CxU8WEjtzZvQsVnv2Zqhn2HaYEiPW7z6L16jPvpump",
+      "token_amount_ui": 301688.865567,
+      "sol_amount_ui": 0.125088194,
+      "signature": "5quvd7164vMJXFd4fDw74HcSzXCX2Cnu2WfEfj7GjZdEw7s6if3hp4BLP5fhPTCsz84RhaJpGEcfooLt9jq4jJ2q"
+    },
     {
       "ts": 1777825220,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 81457.27863399999,
       "sol_amount_ui": 0.013829986,
       "signature": "4ewja8tcJpjG9Bi3ysHQ5gbUBvdsEEFjWUGGZpRAx9aZixCW4PrRmwKwtFp2Q1DLZw3QDZ4Ep3tjyAcZoe63cLiN"
-    },
-    {
-      "ts": 1777785584,
-      "side": "sell",
-      "symbol": "BASED",
-      "mint": "EYuZi2uc94Nj4NsLga2pUqTULEPCEa837N5vBboHpump",
-      "token_amount_ui": 782499.359975,
-      "sol_amount_ui": 0.062359995,
-      "signature": "dthKDNcLJucrYdQZfsUMDbpCvjFtqduwFEVkbG3YVVA2MTvYbMwbD6gPJwpPGz63L318g9Uso7X3yMBEBQiiD9x"
     }
   ]
 }
