@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 111.10808622261885,
+  "total_value_usd": 109.56639622198206,
   "realized_pnl_usd": -6.0647986574,
-  "unrealized_pnl_usd": 5.2443783510188435,
+  "unrealized_pnl_usd": 3.702688350382053,
   "series": [
-    {
-      "ts": 1777083115,
-      "value_usd": 0.2624537418
-    },
     {
       "ts": 1777083415,
       "value_usd": 0.26233215099999996
@@ -8065,10 +8061,32 @@
     },
     {
       "ts": 1777778350,
-      "value_usd": 111.10808622261885
+      "value_usd": 111.10808622261884
+    },
+    {
+      "ts": 1777778410,
+      "value_usd": 109.56639622198206
     }
   ],
   "trades": [
+    {
+      "ts": 1777778373,
+      "side": "buy",
+      "symbol": "GAYINC",
+      "mint": "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump",
+      "token_amount_ui": 90813.23442800001,
+      "sol_amount_ui": 0.013002603,
+      "signature": "5jQ3Jy66FAJBrR2gVtimGoHMLSqDaGkyKiWsyD7oGncAJWCKWppQtJzyZTmW9NcwyUVuiXw7yBUHfvzwCBDNW7kP"
+    },
+    {
+      "ts": 1777778367,
+      "side": "buy",
+      "symbol": "GAY",
+      "mint": "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump",
+      "token_amount_ui": 53795.480553,
+      "sol_amount_ui": 0.013519944,
+      "signature": "3VNfvek4i93hud7VkauheEPif59GCPR5AeqmZrv3CprhK7Yju1zUPbYXwgJbtqyfZr9S7fiEjzn1iJ1yGiPLKzVt"
+    },
     {
       "ts": 1777778190,
       "side": "buy",
