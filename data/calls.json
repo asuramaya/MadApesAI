@@ -1,36 +1,5 @@
 {
-  "active": [
-    {
-      "id": 158,
-      "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
-      "symbol": "ECASH",
-      "classification": "GRINDER",
-      "confidence": 75,
-      "called_at": 1777823241,
-      "expires_at": 1777828641,
-      "note": "I’m taking the scalp here, 3k/min and 1.22 buy/sell with top1 only 9% · horizon=SCALP",
-      "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
-      "entry_mcap_usd": 254645.0,
-      "entry_price_usd": 0.0002546,
-      "entry_liquidity_usd": 43358.71,
-      "entry_top_holder_pct": 8.548171071706188,
-      "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 264724.0,
-      "current_price_usd": 0.0002647,
-      "current_liquidity_usd": 44353.72,
-      "pct_from_call": 3.967007069913575,
-      "peak_pct": 21.36684996072269,
-      "peak_at": 1777824207,
-      "trough_pct": -14.218381775333865,
-      "trough_at": 1777823509,
-      "thesis_url": null
-    }
-  ],
+  "active": [],
   "history": [
     {
       "id": 159,
@@ -60,6 +29,36 @@
       "peak_at": 1777824389,
       "trough_pct": -10.967117988394593,
       "trough_at": 1777824389,
+      "thesis_url": null
+    },
+    {
+      "id": 158,
+      "mint": "cTxqg4vt21u1Q2f9DSEig6S1fxmxLSsUV2v2wWspump",
+      "symbol": "ECASH",
+      "classification": "GRINDER",
+      "confidence": 75,
+      "called_at": 1777823241,
+      "expires_at": 1777828641,
+      "note": "I’m taking the scalp here, 3k/min and 1.22 buy/sell with top1 only 9% · horizon=SCALP",
+      "source": "notifier",
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777824630,
+      "exit_price_usd": 0.0002438,
+      "exit_note": "-4.2% · scalp stop",
+      "entry_mcap_usd": 254645.0,
+      "entry_price_usd": 0.0002546,
+      "entry_liquidity_usd": 43358.71,
+      "entry_top_holder_pct": 8.548171071706188,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.0002438,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -4.241948153967012,
+      "peak_pct": 21.36684996072269,
+      "peak_at": 1777824207,
+      "trough_pct": -14.218381775333865,
+      "trough_at": 1777823509,
       "thesis_url": null
     },
     {
@@ -3368,39 +3367,28 @@
       "worst_pct": -96.91800736576856
     },
     "scalp": {
-      "count": 20,
+      "count": 21,
       "wins": 6,
-      "losses": 14,
+      "losses": 15,
       "expired": 0,
-      "win_rate": 30.0,
+      "win_rate": 28.57142857142857,
       "avg_winner_pct": 34.696171544597725,
-      "avg_loser_pct": -57.0865118164418,
+      "avg_loser_pct": -53.02154538086682,
       "best_pct": 69.05594405594407,
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 109,
+      "count": 110,
       "wins": 27,
-      "losses": 80,
+      "losses": 81,
       "expired": 2,
-      "win_rate": 25.233644859813083,
+      "win_rate": 25.0,
       "avg_winner_pct": 56.11225136864165,
-      "avg_loser_pct": -42.54609981384805,
+      "avg_loser_pct": -42.06123713460906,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 108,
-        "wins": 27,
-        "losses": 79,
-        "expired": 2,
-        "win_rate": 25.471698113207548,
-        "avg_winner_pct": 56.11225136864165,
-        "avg_loser_pct": -42.838220974436354,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3411,6 +3399,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 109,
+        "wins": 27,
+        "losses": 80,
+        "expired": 2,
+        "win_rate": 25.233644859813083,
+        "avg_winner_pct": 56.11225136864165,
+        "avg_loser_pct": -42.34339696391752,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
