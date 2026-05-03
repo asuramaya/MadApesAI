@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 117.78947813279999,
-  "realized_pnl_usd": 6.468132537920006,
-  "unrealized_pnl_usd": -1.0202135497600027,
+  "total_value_usd": 116.31217143988297,
+  "realized_pnl_usd": 6.468132537920009,
+  "unrealized_pnl_usd": -2.4975202426770107,
   "series": [
-    {
-      "ts": 1777390053,
-      "value_usd": 0.253820795
-    },
     {
       "ts": 1777390353,
       "value_usd": 0.2529696594
@@ -8065,10 +8061,23 @@
     },
     {
       "ts": 1777823559,
-      "value_usd": 117.78947813279999
+      "value_usd": 117.7894781328
+    },
+    {
+      "ts": 1777823589,
+      "value_usd": 116.31217143988297
     }
   ],
   "trades": [
+    {
+      "ts": 1777823563,
+      "side": "buy",
+      "symbol": "DILLEY",
+      "mint": "H1cuPfBL45mWDmzNPDetL6dboMa8PigRqEeFxS1Jbonk",
+      "token_amount_ui": 526752.695069,
+      "sol_amount_ui": 0.122140497,
+      "signature": "5oNSYSHHHKHPBPtKD6xnLgPtKSbigxEGMucFSAhJiBXZoMR3UphgYwZ5qXNfGvuBaa1pYMjXo7H67pJWffoP64Yi"
+    },
     {
       "ts": 1777822972,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 230894.156564,
       "sol_amount_ui": 0.050414716,
       "signature": "2fg9bxMQ1fSjj6CCo5SqtRmtchTQ2Q91HL1Dn5MdycFTkV3LCJsxy9uUf1j9xcuSuBTo1oJo9NQNRMHvYPx4LHKm"
-    },
-    {
-      "ts": 1777784663,
-      "side": "buy",
-      "symbol": "BASED",
-      "mint": "EYuZi2uc94Nj4NsLga2pUqTULEPCEa837N5vBboHpump",
-      "token_amount_ui": 277739.909024,
-      "sol_amount_ui": 0.053084166,
-      "signature": "3riWMxhUsvpq6wyL3NJPUaDHsLvuLsnSCtLjcjaLnRQnTryszeYh7jfLm8EMvWiod4XgY6x85qNZA7mV7UJ8BNMj"
     }
   ]
 }
