@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 79,
-    "current_liquidity_usd": 22086.83,
-    "current_mcap_usd": 80748.0,
-    "current_price_usd": 0.00008074,
+    "current_liquidity_usd": 21841.32,
+    "current_mcap_usd": 78952.0,
+    "current_price_usd": 0.00007895,
     "entry_liquidity_usd": 22811.97,
     "entry_mcap_usd": 86179.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
     "note": "MTGA’s staircasing with top1 at 13 and 1.8 buys/sells, I’m taking the swing · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -6.312369459271294,
+    "pct_from_call": -8.389417498259466,
     "peak_at": 1777832914,
     "peak_pct": 1.5432815038291858,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777832914,
     "trough_pct": 1.5432815038291858
   },
-  "captured_at": 1777832982,
-  "last_snapshot_ts": 1777832914,
+  "captured_at": 1777833013,
+  "last_snapshot_ts": 1777832998,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -59,6 +59,34 @@
       "tx_rate": 136.36363636363637,
       "velocity": 1.0,
       "volume_h1_usd": 69834.01
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1015,
+      "classification": "STAIRCASE",
+      "confidence": 79,
+      "distribution": 55,
+      "forensics_computed_at": 1777832532,
+      "holder_count": 20,
+      "insider_pct": 7.49533187372262,
+      "liquidity_usd": 21841.32,
+      "mcap_usd": 78952.0,
+      "momentum": 74,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 26.88,
+      "price_usd": 0.00007895,
+      "sells_h1": 574,
+      "smart_money_count": 0,
+      "sniper_pct": 56.52033254786916,
+      "spring": 64,
+      "timestamp": 1777832998,
+      "token_address": "Gddas2JVfZ3YXjWoNmDtFJGBvtM4EqCLbL4hFjPMpump",
+      "top10_pct": 34.67481802937811,
+      "top5_pct": 24.092754853458324,
+      "top_holder_pct": 13.868067255767935,
+      "tx_rate": 42.85714285714286,
+      "velocity": 1.5,
+      "volume_h1_usd": 72349.95
     }
   ]
 }
