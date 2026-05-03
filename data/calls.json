@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 145,
+      "mint": "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump",
+      "symbol": "GOBLININU",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777792522,
+      "expires_at": 1777797922,
+      "note": "I’m taking $GOBLININU here at 44.5k; 158/min, no snipers, buys still ahead. · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 44527.0,
+      "entry_price_usd": 0.00004452,
+      "entry_liquidity_usd": 16281.69,
+      "entry_top_holder_pct": 17.610203421873997,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 55718.0,
+      "current_price_usd": 0.00005571,
+      "current_liquidity_usd": 18243.79,
+      "pct_from_call": 25.13477088948788,
+      "peak_pct": -5.525606469002698,
+      "peak_at": 1777792522,
+      "trough_pct": -5.525606469002698,
+      "trough_at": 1777792522,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 144,
@@ -2939,17 +2970,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 95,
-        "wins": 26,
-        "losses": 67,
-        "expired": 2,
-        "win_rate": 27.956989247311824,
-        "avg_winner_pct": 66.745355302726,
-        "avg_loser_pct": -44.18183942569682,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -2960,6 +2980,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 95,
+        "wins": 26,
+        "losses": 67,
+        "expired": 2,
+        "win_rate": 27.956989247311824,
+        "avg_winner_pct": 66.745355302726,
+        "avg_loser_pct": -44.18183942569682,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
