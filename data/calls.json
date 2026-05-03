@@ -20,12 +20,12 @@
       "entry_liquidity_usd": 23713.12,
       "entry_top_holder_pct": 12.344047482769215,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 112123.0,
-      "current_price_usd": 0.0001121,
-      "current_liquidity_usd": 26077.19,
-      "pct_from_call": 20.382302405498276,
-      "peak_pct": 16.301546391752588,
-      "peak_at": 1777843500,
+      "current_mcap_usd": 105578.0,
+      "current_price_usd": 0.0001055,
+      "current_liquidity_usd": 25320.4,
+      "pct_from_call": 13.294673539518897,
+      "peak_pct": 20.382302405498276,
+      "peak_at": 1777843591,
       "trough_pct": 3.125,
       "trough_at": 1777843422,
       "thesis_url": null
@@ -50,10 +50,10 @@
       "entry_liquidity_usd": 36439.99,
       "entry_top_holder_pct": 10.340404549821628,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 170985.0,
-      "current_price_usd": 0.0001962,
-      "current_liquidity_usd": 35925.14,
-      "pct_from_call": -2.9673590504451064,
+      "current_mcap_usd": 171256.0,
+      "current_price_usd": 0.0001965,
+      "current_liquidity_usd": 35955.65,
+      "pct_from_call": -2.8189910979228516,
       "peak_pct": 5.3907022749752675,
       "peak_at": 1777843299,
       "trough_pct": -13.155291790306622,
@@ -3750,17 +3750,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 119,
-        "wins": 31,
-        "losses": 86,
-        "expired": 2,
-        "win_rate": 26.495726495726498,
-        "avg_winner_pct": 54.47433138549023,
-        "avg_loser_pct": -42.466163642553795,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3771,6 +3760,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 119,
+        "wins": 31,
+        "losses": 86,
+        "expired": 2,
+        "win_rate": 26.495726495726498,
+        "avg_winner_pct": 54.47433138549023,
+        "avg_loser_pct": -42.466163642553795,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
