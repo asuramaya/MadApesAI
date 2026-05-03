@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 61,
-    "current_liquidity_usd": 16600.91,
-    "current_mcap_usd": 46063.0,
-    "current_price_usd": 0.00004606,
+    "current_liquidity_usd": 17663.41,
+    "current_mcap_usd": 51936.0,
+    "current_price_usd": 0.00005193,
     "entry_liquidity_usd": 17145.21,
     "entry_mcap_usd": 49513.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "EiUPu4rdjfRxBenJgqGj4n53538tKKkuEGF1UrgPpump",
     "note": "I’m in BIGOB here: 49.5k cap, 188/min, top1 17, top10 29, buys 1.8x sells. · horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": -6.968289234498071,
+    "pct_from_call": 4.887901434053732,
     "peak_at": 1777797230,
     "peak_pct": 5.857402544940427,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777797311,
     "trough_pct": -10.401939002221772
   },
-  "captured_at": 1777797430,
-  "last_snapshot_ts": 1777797418,
+  "captured_at": 1777797459,
+  "last_snapshot_ts": 1777797443,
   "snapshots": [
     {
       "bundle_pct": 19.1938562707628,
@@ -227,6 +227,34 @@
       "tx_rate": 333.3333333333333,
       "velocity": 1.0,
       "volume_h1_usd": 58004.03
+    },
+    {
+      "bundle_pct": 19.1938562707628,
+      "buys_h1": 670,
+      "classification": "STAIRCASE",
+      "confidence": 70,
+      "distribution": 53,
+      "forensics_computed_at": 1777797107,
+      "holder_count": 245,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17663.41,
+      "mcap_usd": 51936.0,
+      "momentum": 71,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 43.95,
+      "price_usd": 0.00005193,
+      "sells_h1": 398,
+      "smart_money_count": 0,
+      "sniper_pct": 48.497196956109704,
+      "spring": 62,
+      "timestamp": 1777797443,
+      "token_address": "EiUPu4rdjfRxBenJgqGj4n53538tKKkuEGF1UrgPpump",
+      "top10_pct": 30.1977713853886,
+      "top5_pct": 23.284218843031198,
+      "top_holder_pct": 15.702961387603597,
+      "tx_rate": 300.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 76729.2
     }
   ]
 }
