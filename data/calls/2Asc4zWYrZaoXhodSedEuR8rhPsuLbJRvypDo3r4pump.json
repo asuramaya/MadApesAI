@@ -4,9 +4,9 @@
     "classification": "STAIRCASE",
     "closed_at": null,
     "confidence": 80,
-    "current_liquidity_usd": 30062.1,
-    "current_mcap_usd": 146532.0,
-    "current_price_usd": 0.0001465,
+    "current_liquidity_usd": 30017.29,
+    "current_mcap_usd": 146097.0,
+    "current_price_usd": 0.000146,
     "entry_liquidity_usd": 29996.12,
     "entry_mcap_usd": 146029.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "2Asc4zWYrZaoXhodSedEuR8rhPsuLbJRvypDo3r4pump",
     "note": "Took $DONALD, staircase setup, 10/47 dist, buyers still ahead 1.46. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 0.34246575342467,
+    "pct_from_call": 0.0,
     "peak_at": 1777812350,
     "peak_pct": 1.7123287671232834,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777811955,
     "trough_pct": -5.616438356164388
   },
-  "captured_at": 1777812414,
-  "last_snapshot_ts": 1777812409,
+  "captured_at": 1777812444,
+  "last_snapshot_ts": 1777812437,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -899,6 +899,34 @@
       "tx_rate": 5.74712643678161,
       "velocity": 4.538461538461539,
       "volume_h1_usd": 22673.29
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 149,
+      "classification": "DEVELOPING",
+      "confidence": 58,
+      "distribution": 57,
+      "forensics_computed_at": 1777810591,
+      "holder_count": 20,
+      "insider_pct": 16.77666035675872,
+      "liquidity_usd": 30017.29,
+      "mcap_usd": 146097.0,
+      "momentum": 56,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 11.2,
+      "price_usd": 0.000146,
+      "sells_h1": 104,
+      "smart_money_count": 0,
+      "sniper_pct": 62.59545643897001,
+      "spring": 28,
+      "timestamp": 1777812437,
+      "token_address": "2Asc4zWYrZaoXhodSedEuR8rhPsuLbJRvypDo3r4pump",
+      "top10_pct": 46.59092920380184,
+      "top5_pct": 32.48804190274753,
+      "top_holder_pct": 10.112706253031606,
+      "tx_rate": 5.58659217877095,
+      "velocity": 0.09803921568627451,
+      "volume_h1_usd": 22717.12
     }
   ]
 }
