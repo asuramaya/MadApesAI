@@ -20,12 +20,12 @@
       "entry_liquidity_usd": 17262.07,
       "entry_top_holder_pct": 17.084651593022297,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 49008.0,
-      "current_price_usd": 0.00004932,
-      "current_liquidity_usd": 17098.46,
-      "pct_from_call": -1.928812885265463,
-      "peak_pct": 0.0,
-      "peak_at": 1777807141,
+      "current_mcap_usd": 53631.0,
+      "current_price_usd": 0.00005397,
+      "current_liquidity_usd": 17897.37,
+      "pct_from_call": 7.317558162656579,
+      "peak_pct": 7.317558162656579,
+      "peak_at": 1777807217,
       "trough_pct": -1.928812885265463,
       "trough_at": 1777807196,
       "thesis_url": null
@@ -3120,17 +3120,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "mcp": {
-        "count": 1,
-        "wins": 0,
-        "losses": 1,
-        "expired": 0,
-        "win_rate": 0.0,
-        "avg_winner_pct": 0.0,
-        "avg_loser_pct": -20.052770448548817,
-        "best_pct": -20.052770448548817,
-        "worst_pct": -20.052770448548817
-      },
       "notifier": {
         "count": 100,
         "wins": 27,
@@ -3141,6 +3130,17 @@
         "avg_loser_pct": -43.83680287399148,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
+      },
+      "mcp": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "expired": 0,
+        "win_rate": 0.0,
+        "avg_winner_pct": 0.0,
+        "avg_loser_pct": -20.052770448548817,
+        "best_pct": -20.052770448548817,
+        "worst_pct": -20.052770448548817
       }
     }
   }

@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777807239,
+      "kind": "alert",
+      "tag": "DEV SELLING",
+      "summary": "DEV_SELLING CFBs…pump · deployer down 100.0% (97545455 → 0)",
+      "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
+      "signature": null
+    },
+    {
       "ts": 1777807217,
       "kind": "alert",
       "tag": "DEV SELLING",
@@ -34,25 +42,9 @@
     },
     {
       "ts": 1777807141,
-      "kind": "alert",
-      "tag": "DEV SELLING",
-      "summary": "DEV_SELLING CFBs…pump · deployer down 100.0% (97545455 → 0)",
-      "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
-      "signature": null
-    },
-    {
-      "ts": 1777807141,
       "kind": "call",
       "tag": "CALL FIRED",
       "summary": "$WormTower at $50k mcap — entry frozen",
-      "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
-      "signature": null
-    },
-    {
-      "ts": 1777807100,
-      "kind": "alert",
-      "tag": "CLASSIFICATION CHANGE",
-      "summary": "CLASSIFICATION_CHANGE CFBs…pump · DEVELOPING→STAIRCASE · top +0.47%",
       "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
       "signature": null
     },
@@ -150,6 +142,14 @@
       "tag": "CLASSIFICATION CHANGE",
       "summary": "CLASSIFICATION_CHANGE H3fn…GMAR · STAIRCASE→DEVELOPING · top +0.00%",
       "mint": "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR",
+      "signature": null
+    },
+    {
+      "ts": 1777805767,
+      "kind": "alert",
+      "tag": "SMART WALLET BUY",
+      "summary": "SMART_WALLET_BUY Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x bought 3es9…pump (bal 5287364.36) [auto: 3/7 @ 43%]",
+      "mint": "3es9zL1uMp5MA6FbMGFi9jAhHapoUP7FpFE7njnypump",
       "signature": null
     },
     {
@@ -274,59 +274,14 @@
     }
   ],
   "tokens": {
-    "BwLqa4a7YiDZpM1KdhPFVpW4adEQ6LvTy9FsrRjMpump": {
-      "symbol": "ALEX",
-      "name": "Alex's Lemonade Stand",
-      "mcap_usd": 24740.0,
-      "price_usd": 0.00002475,
-      "price_change_1h": 1396.0,
+    "4xeCLJkMRAQRWvYzUf3RyL12mQxcLTp4mJpzLXM41JST": {
+      "symbol": "Luna",
+      "name": "ルナ",
+      "mcap_usd": 35401.0,
+      "price_usd": 0.0000354,
+      "price_change_1h": 4.74,
       "price_change_24h": null,
-      "liquidity_usd": 12141.3
-    },
-    "4y1gkKzCb4qAiH8pH8ft2xvezf6sazurmYDajWXwpump": {
-      "symbol": "CREATURES",
-      "name": "GoblinGremRaccoonTrollOgrePigeon",
-      "mcap_usd": 29568.0,
-      "price_usd": 0.0000478,
-      "price_change_1h": -1.93,
-      "price_change_24h": null,
-      "liquidity_usd": 22595.1
-    },
-    "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR": {
-      "symbol": "GMAR",
-      "name": "Global Military Arms Reserve",
-      "mcap_usd": 16220402.0,
-      "price_usd": 0.04055,
-      "price_change_1h": -1.42,
-      "price_change_24h": null,
-      "liquidity_usd": 161098.89
-    },
-    "B8Su2AXtCVDoH5k83iDLndKE1kCaV5Deox1YBeATpump": {
-      "symbol": "Microbiome",
-      "name": "Imagine the microbiome report",
-      "mcap_usd": 19431.0,
-      "price_usd": 0.00001944,
-      "price_change_1h": 36.84,
-      "price_change_24h": null,
-      "liquidity_usd": 10908.44
-    },
-    "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump": {
-      "symbol": "Mike",
-      "name": "MikeOSS",
-      "mcap_usd": 28034.0,
-      "price_usd": 0.00002803,
-      "price_change_1h": 74.39,
-      "price_change_24h": null,
-      "liquidity_usd": 12962.26
-    },
-    "5NgbSExYvnB2EMfbnhVGcmrCorwHKWEzGWgeurSHAUvb": {
-      "symbol": "מלו",
-      "name": "Mello",
-      "mcap_usd": 21301.0,
-      "price_usd": 0.0000213,
-      "price_change_1h": 43.28,
-      "price_change_24h": null,
-      "liquidity_usd": 12517.13
+      "liquidity_usd": 14547.05
     },
     "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump": {
       "symbol": "DOUG",
@@ -337,14 +292,23 @@
       "price_change_24h": null,
       "liquidity_usd": 9585.81
     },
-    "6qj8xMoawq6syZ74bW36FS9N8prmfGsKaB7hrQpopump": {
-      "symbol": "MOLECULE",
-      "name": "Molecule Labs",
-      "mcap_usd": 27679.0,
-      "price_usd": 0.00002768,
-      "price_change_1h": -8.54,
+    "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp": {
+      "symbol": "FALCON",
+      "name": "Falcon9",
+      "mcap_usd": 524632.0,
+      "price_usd": 0.0005246,
+      "price_change_1h": 30899.0,
       "price_change_24h": null,
-      "liquidity_usd": 12837.68
+      "liquidity_usd": 60521.75
+    },
+    "3es9zL1uMp5MA6FbMGFi9jAhHapoUP7FpFE7njnypump": {
+      "symbol": "MUSHI",
+      "name": "MUSHI",
+      "mcap_usd": 5119.0,
+      "price_usd": 5.119e-6,
+      "price_change_1h": 35.8,
+      "price_change_24h": null,
+      "liquidity_usd": 5780.33
     },
     "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump": {
       "symbol": "PALESTINE",
@@ -355,6 +319,15 @@
       "price_change_24h": null,
       "liquidity_usd": 9458.36
     },
+    "4y1gkKzCb4qAiH8pH8ft2xvezf6sazurmYDajWXwpump": {
+      "symbol": "CREATURES",
+      "name": "GoblinGremRaccoonTrollOgrePigeon",
+      "mcap_usd": 29568.0,
+      "price_usd": 0.0000478,
+      "price_change_1h": -1.93,
+      "price_change_24h": null,
+      "liquidity_usd": 22595.1
+    },
     "6rYtoAHHmQSNfge15Y6jaPyoH5gVY3cqEyLiPPzNpump": {
       "symbol": "goblinwif",
       "name": "goblin wif hat",
@@ -363,42 +336,6 @@
       "price_change_1h": null,
       "price_change_24h": null,
       "liquidity_usd": 3128.73
-    },
-    "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump": {
-      "symbol": "WormTower",
-      "name": "The Worm Tower",
-      "mcap_usd": 53631.0,
-      "price_usd": 0.00005397,
-      "price_change_1h": 56.55,
-      "price_change_24h": null,
-      "liquidity_usd": 17897.37
-    },
-    "4xeCLJkMRAQRWvYzUf3RyL12mQxcLTp4mJpzLXM41JST": {
-      "symbol": "Luna",
-      "name": "ルナ",
-      "mcap_usd": 35401.0,
-      "price_usd": 0.0000354,
-      "price_change_1h": 4.74,
-      "price_change_24h": null,
-      "liquidity_usd": 14547.05
-    },
-    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
-      "symbol": "DickButt",
-      "name": "DickButt",
-      "mcap_usd": 73292.0,
-      "price_usd": 0.00007329,
-      "price_change_1h": -24.55,
-      "price_change_24h": null,
-      "liquidity_usd": 21781.72
-    },
-    "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump": {
-      "symbol": "GOBLININU",
-      "name": "goblin inu",
-      "mcap_usd": 1850.0,
-      "price_usd": 1.849e-6,
-      "price_change_1h": -7.2,
-      "price_change_24h": null,
-      "liquidity_usd": 3433.29
     },
     "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
       "symbol": "memeoids",
@@ -418,14 +355,68 @@
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp": {
-      "symbol": "FALCON",
-      "name": "Falcon9",
-      "mcap_usd": 524632.0,
-      "price_usd": 0.0005246,
-      "price_change_1h": 30899.0,
+    "HKJJJVNFzCdJzeMvj8GoXf4QP3zAXSPHo4BzHWFfpump": {
+      "symbol": "GOBLININU",
+      "name": "goblin inu",
+      "mcap_usd": 1850.0,
+      "price_usd": 1.849e-6,
+      "price_change_1h": -7.2,
       "price_change_24h": null,
-      "liquidity_usd": 60521.75
+      "liquidity_usd": 3433.29
+    },
+    "6qj8xMoawq6syZ74bW36FS9N8prmfGsKaB7hrQpopump": {
+      "symbol": "MOLECULE",
+      "name": "Molecule Labs",
+      "mcap_usd": 27679.0,
+      "price_usd": 0.00002768,
+      "price_change_1h": -8.54,
+      "price_change_24h": null,
+      "liquidity_usd": 12837.68
+    },
+    "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump": {
+      "symbol": "WormTower",
+      "name": "The Worm Tower",
+      "mcap_usd": 54636.0,
+      "price_usd": 0.00005498,
+      "price_change_1h": 59.48,
+      "price_change_24h": null,
+      "liquidity_usd": 18078.34
+    },
+    "BwLqa4a7YiDZpM1KdhPFVpW4adEQ6LvTy9FsrRjMpump": {
+      "symbol": "ALEX",
+      "name": "Alex's Lemonade Stand",
+      "mcap_usd": 24740.0,
+      "price_usd": 0.00002475,
+      "price_change_1h": 1396.0,
+      "price_change_24h": null,
+      "liquidity_usd": 12141.3
+    },
+    "B8Su2AXtCVDoH5k83iDLndKE1kCaV5Deox1YBeATpump": {
+      "symbol": "Microbiome",
+      "name": "Imagine the microbiome report",
+      "mcap_usd": 19431.0,
+      "price_usd": 0.00001944,
+      "price_change_1h": 36.84,
+      "price_change_24h": null,
+      "liquidity_usd": 10908.44
+    },
+    "H3fneDN1q6vepZajtx9iFiXMRdnVBCcJ3vkmrSEyGMAR": {
+      "symbol": "GMAR",
+      "name": "Global Military Arms Reserve",
+      "mcap_usd": 16220402.0,
+      "price_usd": 0.04055,
+      "price_change_1h": -1.42,
+      "price_change_24h": null,
+      "liquidity_usd": 161098.89
+    },
+    "5NgbSExYvnB2EMfbnhVGcmrCorwHKWEzGWgeurSHAUvb": {
+      "symbol": "מלו",
+      "name": "Mello",
+      "mcap_usd": 21301.0,
+      "price_usd": 0.0000213,
+      "price_change_1h": 43.28,
+      "price_change_24h": null,
+      "liquidity_usd": 12517.13
     },
     "HFSSajRMnrrLTs8RNgCPy1Ja2aHDhDq318GGxmcnpump": {
       "symbol": "MMGA",
@@ -435,6 +426,24 @@
       "price_change_1h": -1.36,
       "price_change_24h": null,
       "liquidity_usd": null
+    },
+    "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump": {
+      "symbol": "DickButt",
+      "name": "DickButt",
+      "mcap_usd": 73292.0,
+      "price_usd": 0.00007329,
+      "price_change_1h": -24.55,
+      "price_change_24h": null,
+      "liquidity_usd": 21781.72
+    },
+    "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump": {
+      "symbol": "Mike",
+      "name": "MikeOSS",
+      "mcap_usd": 28034.0,
+      "price_usd": 0.00002803,
+      "price_change_1h": 74.39,
+      "price_change_24h": null,
+      "liquidity_usd": 12962.26
     }
   },
   "watching": [
@@ -444,9 +453,9 @@
       "classification": "GRINDER",
       "confidence": 67,
       "top_holder_pct": 23.5440596551629,
-      "age_secs": 1760,
-      "gate": "top_holder",
-      "gap": "top 25.80% >= 25.00% (over by 0.80pp)",
+      "age_secs": 1789,
+      "gate": "liquidity",
+      "gap": "liq $11602 < $20000",
       "last_seen": 1777805468
     },
     {
@@ -455,7 +464,7 @@
       "classification": "DEVELOPING",
       "confidence": 61,
       "top_holder_pct": 20.265392500125103,
-      "age_secs": 1400,
+      "age_secs": 1429,
       "gate": "",
       "gap": "",
       "last_seen": 1777805828
