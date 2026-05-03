@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 75,
-    "current_liquidity_usd": 36253.81,
-    "current_mcap_usd": 202578.0,
-    "current_price_usd": 0.0002025,
+    "current_liquidity_usd": 36377.51,
+    "current_mcap_usd": 203886.0,
+    "current_price_usd": 0.0002038,
     "entry_liquidity_usd": 37252.0,
     "entry_mcap_usd": 216501.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
     "note": "I’m in SueaAuan, 3k tx/min and 1.1 buy/sell; top1 at 9% is fine. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -6.46651270207853,
+    "pct_from_call": -5.866050808314094,
     "peak_at": 1777839577,
     "peak_pct": -5.173210161662823,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777839934,
     "trough_pct": -18.106235565819862
   },
-  "captured_at": 1777840088,
-  "last_snapshot_ts": 1777840072,
+  "captured_at": 1777840118,
+  "last_snapshot_ts": 1777840115,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -339,6 +339,34 @@
       "tx_rate": 3000.0,
       "velocity": 1.0,
       "volume_h1_usd": 636604.67
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 5824,
+      "classification": "GRINDER",
+      "confidence": 75,
+      "distribution": 54,
+      "forensics_computed_at": 1777837804,
+      "holder_count": 20,
+      "insider_pct": 6.591909000984517,
+      "liquidity_usd": 36377.51,
+      "mcap_usd": 203886.0,
+      "momentum": 68,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 510.0,
+      "price_usd": 0.0002038,
+      "sells_h1": 5152,
+      "smart_money_count": 0,
+      "sniper_pct": 84.07325793241756,
+      "spring": 61,
+      "timestamp": 1777840115,
+      "token_address": "7qbSRkHEKXioezZQZQQBdAU7Z6WJnHTDQSAEyDYpump",
+      "top10_pct": 29.787704819888138,
+      "top5_pct": 20.543889470573006,
+      "top_holder_pct": 9.01324995234881,
+      "tx_rate": 3000.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 643177.58
     }
   ]
 }
