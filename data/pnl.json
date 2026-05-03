@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 105.40515697790082,
-  "realized_pnl_usd": -11.81567760366,
-  "unrealized_pnl_usd": 5.385991991180822,
+  "total_value_usd": 104.57482450628898,
+  "realized_pnl_usd": -11.829814571360004,
+  "unrealized_pnl_usd": 4.435990741168965,
   "series": [
-    {
-      "ts": 1777091977,
-      "value_usd": 0.26242334409999996
-    },
     {
       "ts": 1777092277,
       "value_usd": 0.26242334409999996
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777780188,
       "value_usd": 105.40515697790082
+    },
+    {
+      "ts": 1777780248,
+      "value_usd": 104.57482450628898
     }
   ],
   "trades": [
+    {
+      "ts": 1777780193,
+      "side": "buy",
+      "symbol": "ROCK",
+      "mint": "HdnLJtbdcqRx2bnqFmBLLo5ELsETtFpgzfymQ1zMpump",
+      "token_amount_ui": 190221.864987,
+      "sol_amount_ui": 0.058139769,
+      "signature": "2BxPrMXAKwFR5Nx4nkJboXwtDnZdGzsnsLjNfDe24Gx5L3vAUK99Wd83tXwvXiTDZaGgPWLVQTNKebyFP3TrfQ1D"
+    },
     {
       "ts": 1777780082,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 94424.575031,
       "sol_amount_ui": 0.013516955,
       "signature": "2KK6xhaS3ABPuGNsGmhoSoUyMMsY4Z6D9MK3E9BNayXP69o7GdDncKm59D3EWpVriaUYbB7dj77BtF917wkpUNGZ"
-    },
-    {
-      "ts": 1777775582,
-      "side": "buy",
-      "symbol": "GAYINC",
-      "mint": "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump",
-      "token_amount_ui": 56160.720598,
-      "sol_amount_ui": 0.010698687,
-      "signature": "4q8AApbKbMv8roJQ8Tc4Ab7fWCDFRjyS2qzn5fg1oyWKYdrUrCSqsbosK8fvLJNP96f3o8hjUYRBQDgi3UcFDgd8"
     }
   ]
 }
