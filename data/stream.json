@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "ts": 1777777346,
+      "kind": "trade",
+      "tag": "SELL",
+      "summary": "cut 116.3k tokens of Ht4W…pump for 0.002 SOL",
+      "mint": "Ht4WgbVTCUSZJCmPspbQjRGTQ1W5Lx22HoMTtijKpump",
+      "signature": "45it174BbXNNFGoNTy1UX6Ed2rLvf3sgN3ZUibBYmd3tSWytygC8Azou6WPaFhfJXZdaCSfgDd1pR61Gr5ygzsUJ"
+    },
+    {
       "ts": 1777777125,
       "kind": "trade",
       "tag": "BUY",
@@ -194,48 +202,12 @@
     }
   ],
   "tokens": {
-    "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump": {
-      "symbol": "GAY",
+    "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump": {
+      "symbol": "GAYINC",
       "name": "Gay Inc",
-      "mcap_usd": 17452.0,
-      "price_usd": 0.00001745,
-      "price_change_1h": -49.21,
-      "price_change_24h": null,
-      "liquidity_usd": 10226.95
-    },
-    "RpZkEy9BvE9PCYwYnSXfnXWNmeG5HUoUzcKsegkpump": {
-      "symbol": "shiboob",
-      "name": "shiboob",
-      "mcap_usd": 75122.0,
-      "price_usd": 0.00007512,
-      "price_change_1h": 116.0,
-      "price_change_24h": null,
-      "liquidity_usd": 21096.21
-    },
-    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
-      "symbol": "MOG",
-      "name": "MOG",
-      "mcap_usd": 2384.0,
-      "price_usd": 2.384e-6,
-      "price_change_1h": -2.96,
-      "price_change_24h": null,
-      "liquidity_usd": 3767.5
-    },
-    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
-      "symbol": "CHUDMAN",
-      "name": "Sam Chudman",
-      "mcap_usd": 6300.0,
-      "price_usd": 6.3e-6,
-      "price_change_1h": -32.38,
-      "price_change_24h": null,
-      "liquidity_usd": 6222.99
-    },
-    "H3X22tcfPJFzHADdXMBhq4w1t9kjDNEjk3KktAowpump": {
-      "symbol": "farmcoin",
-      "name": "farmcoin",
-      "mcap_usd": 2573.9,
-      "price_usd": 2.573e-6,
-      "price_change_1h": -9.11,
+      "mcap_usd": 14476.36,
+      "price_usd": 0.00001447,
+      "price_change_1h": 412.0,
       "price_change_24h": null,
       "liquidity_usd": null
     },
@@ -244,63 +216,54 @@
       "name": "LMEOW",
       "mcap_usd": 12025.0,
       "price_usd": 0.00001202,
-      "price_change_1h": -7.22,
+      "price_change_1h": -3.75,
       "price_change_24h": null,
       "liquidity_usd": 9217.1
     },
-    "3GnRRxBDfWDRXMsuEGM3xaNiykAf3VrCt253AUFgpump": {
-      "symbol": "Thunk",
-      "name": "Thunk",
-      "mcap_usd": 5337.0,
-      "price_usd": 5.336e-6,
-      "price_change_1h": -84.48,
+    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
+      "symbol": "memeoids",
+      "name": "memeoids",
+      "mcap_usd": 159544.0,
+      "price_usd": 0.0001595,
+      "price_change_1h": -32.42,
       "price_change_24h": null,
-      "liquidity_usd": 5658.26
+      "liquidity_usd": 32957.0
     },
     "EW6Rcg5W4G5GJTReB6fSCohuknvLTMoQYr5ZCPbNpump": {
       "symbol": "Slopcoin",
       "name": "Slopcoin",
       "mcap_usd": 3790.0,
       "price_usd": 4.438e-6,
-      "price_change_1h": -78.05,
+      "price_change_1h": -83.98,
       "price_change_24h": null,
       "liquidity_usd": 5189.04
     },
-    "45NQZNbNUy2Q5u22T9FnvyKiukhPhL3inje1KL1Bpump": {
-      "symbol": "GAYINC",
-      "name": "Gay Inc",
-      "mcap_usd": 14962.04,
-      "price_usd": 0.00001496,
-      "price_change_1h": 429.0,
+    "3GnRRxBDfWDRXMsuEGM3xaNiykAf3VrCt253AUFgpump": {
+      "symbol": "Thunk",
+      "name": "Thunk",
+      "mcap_usd": 4401.0,
+      "price_usd": 4.4e-6,
+      "price_change_1h": -87.2,
+      "price_change_24h": null,
+      "liquidity_usd": 5136.68
+    },
+    "6eSZsQRD4nFdg32WdPKq5z2N3kd84X7SyMqttvqBpump": {
+      "symbol": "1SHOT",
+      "name": "1 SHOT",
+      "mcap_usd": 1688.0,
+      "price_usd": 1.688e-6,
+      "price_change_1h": -95.41,
+      "price_change_24h": null,
+      "liquidity_usd": 3185.12
+    },
+    "Ht4WgbVTCUSZJCmPspbQjRGTQ1W5Lx22HoMTtijKpump": {
+      "symbol": "ASTEROID",
+      "name": "Asteroid The Space Shiba Inu",
+      "mcap_usd": 4264.1,
+      "price_usd": 4.264e-6,
+      "price_change_1h": 51.0,
       "price_change_24h": null,
       "liquidity_usd": null
-    },
-    "J3WdM5Ui8SvhZCgHB1CVoGx6nFZUMZ754wVQex6Upump": {
-      "symbol": "Farm",
-      "name": "Buy the Farm",
-      "mcap_usd": 3184.37,
-      "price_usd": 3.184e-6,
-      "price_change_1h": 27.54,
-      "price_change_24h": null,
-      "liquidity_usd": null
-    },
-    "BTcpPd58rVxFsC6gXhnT5VCsXEsM4cHQZVVjPMWkpump": {
-      "symbol": "DERP",
-      "name": "DERP",
-      "mcap_usd": 19788.0,
-      "price_usd": 0.00001978,
-      "price_change_1h": -42.45,
-      "price_change_24h": null,
-      "liquidity_usd": 10822.74
-    },
-    "5zA1r2LyA9UcShFoZ4DNVJXq1V5pSD4gmibDh5Zxpump": {
-      "symbol": "memeoids",
-      "name": "memeoids",
-      "mcap_usd": 140006.0,
-      "price_usd": 0.00014,
-      "price_change_1h": -48.11,
-      "price_change_24h": null,
-      "liquidity_usd": 30873.76
     },
     "9iStGeYTqTsxxx1p1GuZK73Uzh9spBcHYu3Y1suopump": {
       "symbol": "MAAI",
@@ -311,23 +274,68 @@
       "price_change_24h": null,
       "liquidity_usd": null
     },
-    "6eSZsQRD4nFdg32WdPKq5z2N3kd84X7SyMqttvqBpump": {
-      "symbol": "1SHOT",
-      "name": "1 SHOT",
-      "mcap_usd": 1696.0,
-      "price_usd": 1.695e-6,
-      "price_change_1h": -95.39,
-      "price_change_24h": null,
-      "liquidity_usd": 3192.98
-    },
-    "Ht4WgbVTCUSZJCmPspbQjRGTQ1W5Lx22HoMTtijKpump": {
-      "symbol": "ASTEROID",
-      "name": "Asteroid The Space Shiba Inu",
-      "mcap_usd": 3181.71,
-      "price_usd": 3.181e-6,
-      "price_change_1h": 12.67,
+    "J3WdM5Ui8SvhZCgHB1CVoGx6nFZUMZ754wVQex6Upump": {
+      "symbol": "Farm",
+      "name": "Buy the Farm",
+      "mcap_usd": 3177.55,
+      "price_usd": 3.177e-6,
+      "price_change_1h": 27.27,
       "price_change_24h": null,
       "liquidity_usd": null
+    },
+    "BTcpPd58rVxFsC6gXhnT5VCsXEsM4cHQZVVjPMWkpump": {
+      "symbol": "DERP",
+      "name": "DERP",
+      "mcap_usd": 22541.0,
+      "price_usd": 0.00002254,
+      "price_change_1h": -34.44,
+      "price_change_24h": null,
+      "liquidity_usd": 11547.22
+    },
+    "FfYZkaULHesDus1JQQH7B9KH1b8wcd7CHnQFaKcfpump": {
+      "symbol": "MOG",
+      "name": "MOG",
+      "mcap_usd": 2384.0,
+      "price_usd": 2.384e-6,
+      "price_change_1h": -2.96,
+      "price_change_24h": null,
+      "liquidity_usd": 3767.5
+    },
+    "H3X22tcfPJFzHADdXMBhq4w1t9kjDNEjk3KktAowpump": {
+      "symbol": "farmcoin",
+      "name": "farmcoin",
+      "mcap_usd": 2573.9,
+      "price_usd": 2.573e-6,
+      "price_change_1h": -9.11,
+      "price_change_24h": null,
+      "liquidity_usd": null
+    },
+    "RpZkEy9BvE9PCYwYnSXfnXWNmeG5HUoUzcKsegkpump": {
+      "symbol": "shiboob",
+      "name": "shiboob",
+      "mcap_usd": 78250.0,
+      "price_usd": 0.00007825,
+      "price_change_1h": 125.0,
+      "price_change_24h": null,
+      "liquidity_usd": 21527.69
+    },
+    "CsFbdZvPSWe1Esy24YHhrKXKCfqfbBynjGe2aRBV4KAb": {
+      "symbol": "CHUDMAN",
+      "name": "Sam Chudman",
+      "mcap_usd": 6127.0,
+      "price_usd": 6.126e-6,
+      "price_change_1h": -32.85,
+      "price_change_24h": null,
+      "liquidity_usd": 6135.2
+    },
+    "2Fiut5a3s7vBkGFKXd7kH2v8W1idJ9g7CWAvMEdVpump": {
+      "symbol": "GAY",
+      "name": "Gay Inc",
+      "mcap_usd": 19084.0,
+      "price_usd": 0.00001908,
+      "price_change_1h": -44.47,
+      "price_change_24h": null,
+      "liquidity_usd": 10693.94
     }
   },
   "watching": [
@@ -337,7 +345,7 @@
       "classification": "STAIRCASE",
       "confidence": 77,
       "top_holder_pct": 13.661422831868508,
-      "age_secs": 840,
+      "age_secs": 900,
       "gate": "liquidity",
       "gap": "liq $19341 < $20000",
       "last_seen": 1777776512

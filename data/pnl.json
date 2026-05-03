@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 78.45655956056751,
-  "realized_pnl_usd": -4.9873332729,
-  "unrealized_pnl_usd": 1.1129544241175098,
+  "total_value_usd": 78.3628183687594,
+  "realized_pnl_usd": -6.06334861588,
+  "unrealized_pnl_usd": 2.016395839529419,
   "series": [
-    {
-      "ts": 1777078015,
-      "value_usd": 0.2619673786
-    },
     {
       "ts": 1777078315,
       "value_usd": 0.26224095789999996
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777777330,
       "value_usd": 78.45655956056751
+    },
+    {
+      "ts": 1777777390,
+      "value_usd": 78.3628183687594
     }
   ],
   "trades": [
+    {
+      "ts": 1777777346,
+      "side": "sell",
+      "symbol": "ASTEROID",
+      "mint": "Ht4WgbVTCUSZJCmPspbQjRGTQ1W5Lx22HoMTtijKpump",
+      "token_amount_ui": 116316.743601,
+      "sol_amount_ui": 0.002424998,
+      "signature": "45it174BbXNNFGoNTy1UX6Ed2rLvf3sgN3ZUibBYmd3tSWytygC8Azou6WPaFhfJXZdaCSfgDd1pR61Gr5ygzsUJ"
+    },
     {
       "ts": 1777777125,
       "side": "buy",
