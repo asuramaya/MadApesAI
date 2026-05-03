@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 150,
+      "mint": "CFBsM7zHoSrf1dsyXMhrhgwbVm9E78LfAwhXP5djpump",
+      "symbol": "WormTower",
+      "classification": "DEVELOPING",
+      "confidence": 62,
+      "called_at": 1777807141,
+      "expires_at": 1777812541,
+      "note": "$WormTower is tiny at 50k, txs are ripping, and the buy/sell stays above 1.3 · horizon=MOONSHOT",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 49971.0,
+      "entry_price_usd": 0.00005029,
+      "entry_liquidity_usd": 17262.07,
+      "entry_top_holder_pct": 17.084651593022297,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 49008.0,
+      "current_price_usd": 0.00004932,
+      "current_liquidity_usd": 17098.46,
+      "pct_from_call": -1.928812885265463,
+      "peak_pct": 0.0,
+      "peak_at": 1777807141,
+      "trough_pct": 0.0,
+      "trough_at": 1777807141,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 149,
@@ -3089,17 +3120,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 100,
-        "wins": 27,
-        "losses": 71,
-        "expired": 2,
-        "win_rate": 27.55102040816326,
-        "avg_winner_pct": 66.05566192476235,
-        "avg_loser_pct": -43.83680287399148,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3110,6 +3130,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 100,
+        "wins": 27,
+        "losses": 71,
+        "expired": 2,
+        "win_rate": 27.55102040816326,
+        "avg_winner_pct": 66.05566192476235,
+        "avg_loser_pct": -43.83680287399148,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
