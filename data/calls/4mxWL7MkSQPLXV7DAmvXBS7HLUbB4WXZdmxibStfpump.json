@@ -4,9 +4,9 @@
     "classification": "DEVELOPING",
     "closed_at": null,
     "confidence": 61,
-    "current_liquidity_usd": 17814.79,
-    "current_mcap_usd": 53324.0,
-    "current_price_usd": 0.00005332,
+    "current_liquidity_usd": 17698.16,
+    "current_mcap_usd": 52573.0,
+    "current_price_usd": 0.00005257,
     "entry_liquidity_usd": 18700.66,
     "entry_mcap_usd": 58834.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump",
     "note": "I’m in Mike here: 58.8k cap, 130/min, 1.18 buys, no bundle/sniper noise. · horizon=MOONSHOT",
     "outcome_type": "active",
-    "pct_from_call": -9.365969743328229,
+    "pct_from_call": -10.640829508754035,
     "peak_at": 1777796444,
     "peak_pct": -6.901240863505009,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777796500,
     "trough_pct": -10.419853816080227
   },
-  "captured_at": 1777796576,
-  "last_snapshot_ts": 1777796567,
+  "captured_at": 1777796607,
+  "last_snapshot_ts": 1777796590,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -171,6 +171,34 @@
       "tx_rate": 200.0,
       "velocity": 3.0,
       "volume_h1_usd": 34470.43
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 491,
+      "classification": "DEVELOPING",
+      "confidence": 60,
+      "distribution": 54,
+      "forensics_computed_at": 1777796141,
+      "holder_count": 321,
+      "insider_pct": 0.0,
+      "liquidity_usd": 17698.16,
+      "mcap_usd": 52573.0,
+      "momentum": 65,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 52.35,
+      "price_usd": 0.00005257,
+      "sells_h1": 385,
+      "smart_money_count": 0,
+      "sniper_pct": 57.63848114291199,
+      "spring": 59,
+      "timestamp": 1777796590,
+      "token_address": "4mxWL7MkSQPLXV7DAmvXBS7HLUbB4WXZdmxibStfpump",
+      "top10_pct": 36.58064727737461,
+      "top5_pct": 27.197080462000763,
+      "top_holder_pct": 16.843165139449027,
+      "tx_rate": 88.23529411764707,
+      "velocity": 1.3333333333333335,
+      "volume_h1_usd": 39153.39
     }
   ]
 }
