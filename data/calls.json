@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 136,
       "mint": "4hdemPPmpY2eC5b84eDjF8CrpxWxf4ViShRz2HVvpump",
@@ -10,28 +11,26 @@
       "expires_at": 1777773882,
       "note": "Breastcoin at 53.9k, 130/min, buys ahead 1.77x and no bundle noise, I’m in. · horizon=MOONSHOT",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "withdrew",
+      "outcome_type": "withdrew",
+      "closed_at": 1777769135,
+      "exit_price_usd": 0.00005295,
+      "exit_note": "-1.8% · trailing stop @ breakeven (peak +24%)",
       "entry_mcap_usd": 53943.0,
       "entry_price_usd": 0.00005394,
       "entry_liquidity_usd": 17914.68,
       "entry_top_holder_pct": 16.88964323020999,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 65632.0,
-      "current_price_usd": 0.00006563,
-      "current_liquidity_usd": 19800.26,
-      "pct_from_call": 21.672228401928063,
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.00005295,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": -1.8353726362625222,
       "peak_pct": 23.76714868372265,
       "peak_at": 1777768850,
-      "trough_pct": 0.0,
-      "trough_at": 1777768482,
+      "trough_pct": -1.8353726362625222,
+      "trough_at": 1777769112,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 135,
       "mint": "DcSLSZkhxBECsJF4Jny57c1xTaMwKo9HQMKiyXYbpump",
@@ -2667,13 +2666,13 @@
       "worst_pct": -20.052770448548817
     },
     "moonshot": {
-      "count": 59,
-      "wins": 14,
+      "count": 60,
+      "wins": 15,
       "losses": 44,
       "expired": 1,
-      "win_rate": 24.137931034482758,
+      "win_rate": 25.423728813559322,
       "avg_winner_pct": 96.76631441335186,
-      "avg_loser_pct": -43.92693639881569,
+      "avg_loser_pct": -43.067924893457466,
       "best_pct": 311.041104110411,
       "worst_pct": -96.91800736576856
     },
@@ -2689,13 +2688,13 @@
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 87,
-      "wins": 23,
+      "count": 88,
+      "wins": 24,
       "losses": 62,
       "expired": 2,
-      "win_rate": 27.058823529411764,
+      "win_rate": 27.906976744186046,
       "avg_winner_pct": 70.14188618125723,
-      "avg_loser_pct": -44.48587791205325,
+      "avg_loser_pct": -43.8297162924257,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
@@ -2712,13 +2711,13 @@
         "worst_pct": -20.052770448548817
       },
       "notifier": {
-        "count": 86,
-        "wins": 23,
+        "count": 87,
+        "wins": 24,
         "losses": 61,
         "expired": 2,
-        "win_rate": 27.380952380952383,
+        "win_rate": 28.235294117647058,
         "avg_winner_pct": 70.14188618125723,
-        "avg_loser_pct": -44.87370501464856,
+        "avg_loser_pct": -44.20123107123627,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
       }
