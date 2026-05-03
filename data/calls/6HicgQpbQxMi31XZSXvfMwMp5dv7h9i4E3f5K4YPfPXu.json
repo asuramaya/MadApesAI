@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 72,
-    "current_liquidity_usd": 28848.74,
-    "current_mcap_usd": 109894.0,
-    "current_price_usd": 0.0001098,
+    "current_liquidity_usd": 14407.78,
+    "current_mcap_usd": 27356.0,
+    "current_price_usd": 0.00002735,
     "entry_liquidity_usd": 38609.37,
     "entry_mcap_usd": 197376.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "6HicgQpbQxMi31XZSXvfMwMp5dv7h9i4E3f5K4YPfPXu",
     "note": "I'm in $CRY here, grinder tape, 1.5x buys and top1 only 10% · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": -44.348707551951335,
+    "pct_from_call": -86.13786112519006,
     "peak_at": 1777833806,
     "peak_pct": 0.0,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777833917,
     "trough_pct": -9.224531170805882
   },
-  "captured_at": 1777834037,
-  "last_snapshot_ts": 1777833917,
+  "captured_at": 1777834097,
+  "last_snapshot_ts": 1777834092,
   "snapshots": [
     {
       "bundle_pct": 18.46131808513331,
@@ -115,6 +115,34 @@
       "tx_rate": 8.264462809917356,
       "velocity": 5.444444444444445,
       "volume_h1_usd": 220885.96
+    },
+    {
+      "bundle_pct": 18.46131808513331,
+      "buys_h1": 2474,
+      "classification": "DEVELOPING",
+      "confidence": 48,
+      "distribution": 45,
+      "forensics_computed_at": 1777832683,
+      "holder_count": 20,
+      "insider_pct": 0.0,
+      "liquidity_usd": 14407.78,
+      "mcap_usd": 27356.0,
+      "momentum": 57,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 1439.0,
+      "price_usd": 0.00002735,
+      "sells_h1": 1676,
+      "smart_money_count": 0,
+      "sniper_pct": 38.18164107161092,
+      "spring": 22,
+      "timestamp": 1777834092,
+      "token_address": "6HicgQpbQxMi31XZSXvfMwMp5dv7h9i4E3f5K4YPfPXu",
+      "top10_pct": 45.08699760633714,
+      "top5_pct": 40.783969016968356,
+      "top_holder_pct": 35.88237916411147,
+      "tx_rate": 62.50000000000001,
+      "velocity": 1.0,
+      "volume_h1_usd": 242107.24
     }
   ]
 }
