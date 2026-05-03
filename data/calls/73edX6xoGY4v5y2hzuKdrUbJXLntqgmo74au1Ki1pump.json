@@ -4,9 +4,9 @@
     "classification": "GRINDER",
     "closed_at": null,
     "confidence": 76,
-    "current_liquidity_usd": 21840.56,
-    "current_mcap_usd": 78977.0,
-    "current_price_usd": 0.00007897,
+    "current_liquidity_usd": 21998.46,
+    "current_mcap_usd": 80084.0,
+    "current_price_usd": 0.00008008,
     "entry_liquidity_usd": 21529.08,
     "entry_mcap_usd": 77202.0,
     "entry_pair_dex": "pumpswap",
@@ -19,7 +19,7 @@
     "mint": "73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump",
     "note": "I like $Staccana here: 600/min, 1.35 buys/sells, and the holder stack is still light. · horizon=SHORT",
     "outcome_type": "active",
-    "pct_from_call": 2.292746113989619,
+    "pct_from_call": 3.730569948186524,
     "peak_at": 1777845604,
     "peak_pct": 5.569948186528495,
     "source": "notifier",
@@ -29,8 +29,8 @@
     "trough_at": 1777845694,
     "trough_pct": 2.292746113989619
   },
-  "captured_at": 1777845720,
-  "last_snapshot_ts": 1777845694,
+  "captured_at": 1777845749,
+  "last_snapshot_ts": 1777845739,
   "snapshots": [
     {
       "bundle_pct": 0.0,
@@ -87,6 +87,34 @@
       "tx_rate": 214.2857142857143,
       "velocity": 0.33333333333333337,
       "volume_h1_usd": 89845.15
+    },
+    {
+      "bundle_pct": 0.0,
+      "buys_h1": 1118,
+      "classification": "GRINDER",
+      "confidence": 75,
+      "distribution": 54,
+      "forensics_computed_at": 1777844342,
+      "holder_count": 361,
+      "insider_pct": 0.0,
+      "liquidity_usd": 21998.46,
+      "mcap_usd": 80084.0,
+      "momentum": 67,
+      "pair_dex": "pumpswap",
+      "price_change_h1": 132.0,
+      "price_usd": 0.00008008,
+      "sells_h1": 826,
+      "smart_money_count": 0,
+      "sniper_pct": 82.364887978478,
+      "spring": 60,
+      "timestamp": 1777845739,
+      "token_address": "73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump",
+      "top10_pct": 37.24529859881477,
+      "top5_pct": 27.61274203022514,
+      "top_holder_pct": 14.769848151478387,
+      "tx_rate": 600.0,
+      "velocity": 1.0,
+      "volume_h1_usd": 91871.36
     }
   ]
 }
