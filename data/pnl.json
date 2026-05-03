@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 101.63653982648393,
-  "realized_pnl_usd": -9.4496469992,
-  "unrealized_pnl_usd": -0.9031292800960786,
+  "total_value_usd": 99.57328968745999,
+  "realized_pnl_usd": -11.751025436179999,
+  "unrealized_pnl_usd": -0.6650009821400018,
   "series": [
-    {
-      "ts": 1777126932,
-      "value_usd": 0.2632744797
-    },
     {
       "ts": 1777127232,
       "value_usd": 0.26318328659999995
@@ -8066,9 +8062,31 @@
     {
       "ts": 1777786206,
       "value_usd": 101.63653982648393
+    },
+    {
+      "ts": 1777786266,
+      "value_usd": 99.57328968745999
     }
   ],
   "trades": [
+    {
+      "ts": 1777786228,
+      "side": "sell",
+      "symbol": "MMGA",
+      "mint": "HFSSajRMnrrLTs8RNgCPy1Ja2aHDhDq318GGxmcnpump",
+      "token_amount_ui": 833988.141088,
+      "sol_amount_ui": 0.101732644,
+      "signature": "5TLeyvYS6ZrWmHhrhecjHz1xFjtH7LmiNtE59KredoUHZSAHak49Exv8jNkfGwTULt8PJfaNSVLRw8JNRWRiicT6"
+    },
+    {
+      "ts": 1777786218,
+      "side": "sell",
+      "symbol": "DickButt",
+      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
+      "token_amount_ui": 854915.805655,
+      "sol_amount_ui": 0.34752316,
+      "signature": "3RYskQFjUeGM2RvGzTMbynfhS5hWFDhXhCBt7MxC1fQLHAGbXeEuRFLsVPmeb5fh6k1h2gdecJ2BUn7hzQ4fyJnv"
+    },
     {
       "ts": 1777785627,
       "side": "buy",
@@ -8230,24 +8248,6 @@
       "token_amount_ui": 58934.27509199997,
       "sol_amount_ui": 0.018261947,
       "signature": "3rboqJRkf75xpYSTB3nZpDpbzNpjTBHexmPfZc8aGiUfM3qy8KAExagxNQwijhzgzDhdQ43L7EwWCBAupjje8kdh"
-    },
-    {
-      "ts": 1777783794,
-      "side": "buy",
-      "symbol": "DickButt",
-      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
-      "token_amount_ui": 31315.722257000016,
-      "sol_amount_ui": 0.013069972,
-      "signature": "4dMsrATZrzYFnXcqSZihU8DU8Rpd9Nd8X3NLBQDTKah2gaCzR33fG555MvvN95HUphSTUv9QJdBKQ5wLVBismmHX"
-    },
-    {
-      "ts": 1777783751,
-      "side": "buy",
-      "symbol": "DickButt",
-      "mint": "4R1Vcbp15UiXJxdmwtgSjp7wFVgqb5keXejW8qA3pump",
-      "token_amount_ui": 36054.28196400002,
-      "sol_amount_ui": 0.012905246,
-      "signature": "3NytttKo1KGZ7qhCCDSsANFVJyWiKEB9QcNKuMwgUCBo8f1mYJ2s3EV9ZcwYp48vJfbYtSbydCJmN543fU4ZsTNi"
     }
   ]
 }
