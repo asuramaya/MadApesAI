@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 92.12729311034369,
-  "realized_pnl_usd": -16.329797704200004,
-  "unrealized_pnl_usd": -9.72245819085632,
+  "total_value_usd": 88.64783729955076,
+  "realized_pnl_usd": -16.329797704199983,
+  "unrealized_pnl_usd": -13.201914001649252,
   "series": [
-    {
-      "ts": 1777666693,
-      "value_usd": 2.2152032766
-    },
     {
       "ts": 1777666897,
       "value_usd": 2.21282644905
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777855659,
       "value_usd": 92.12729311034369
+    },
+    {
+      "ts": 1777855719,
+      "value_usd": 88.64783729955076
     }
   ],
   "trades": [
+    {
+      "ts": 1777855682,
+      "side": "buy",
+      "symbol": "RC",
+      "mint": "H2e5f5bvMogLeEM8d2nudshXAPiTYFVerGzq82jspump",
+      "token_amount_ui": 836863.944366,
+      "sol_amount_ui": 0.127414995,
+      "signature": "3qbR884LRjEj6k2A9VnhhXtNcqmfRMMdLBx31t6kwqZn1HdUR7kHkbmDVHwQQvekjR2eJREuM1cELARGiBxEsoM4"
+    },
     {
       "ts": 1777855629,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 667591.162863,
       "sol_amount_ui": 0.15407908,
       "signature": "2ev6Cs7ksPUtzBjbZ7hxEKREEAdTkZQ4zYRLaBBx25PFUY7jQK5iapLFyVxb9SYJjShxBy1vtigdUJYwHyTSt2vM"
-    },
-    {
-      "ts": 1777838442,
-      "side": "sell",
-      "symbol": "hat",
-      "mint": "59DRbJDnHDBEy37THeC9uxohGq1bTu9HtxEASSVapump",
-      "token_amount_ui": 636545.781749,
-      "sol_amount_ui": 0.1753791,
-      "signature": "2qdNjNamEm2A4GBHYP6mDzTPtyWZTse9BApVDJ2dqxcKQ5pj1jdr4eaL8aYqibrH8LG3tyHWoc6P7Pt3nnP4kN8S"
     }
   ]
 }
