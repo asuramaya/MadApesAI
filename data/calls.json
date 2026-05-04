@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "history": [
     {
       "id": 179,
       "mint": "9LQ3ruKXhXoMJk5334bunknq1kUErXJjdFkAJXrapump",
@@ -10,28 +11,26 @@
       "expires_at": 1777890233,
       "note": "I’m in AverageGuy at 107k: clean staircase, 136/min, 12/31, no snipers. · horizon=SCALP",
       "source": "notifier",
-      "status": "active",
-      "outcome_type": "active",
-      "closed_at": null,
-      "exit_price_usd": null,
-      "exit_note": null,
+      "status": "failed",
+      "outcome_type": "failed",
+      "closed_at": 1777884935,
+      "exit_price_usd": 0.000111,
+      "exit_note": "+3.4% · severe dev exit",
       "entry_mcap_usd": 107467.0,
       "entry_price_usd": 0.0001074,
       "entry_liquidity_usd": 25365.94,
       "entry_top_holder_pct": 12.468043390867171,
       "entry_pair_dex": "pumpswap",
-      "current_mcap_usd": 110197.0,
-      "current_price_usd": 0.0001101,
-      "current_liquidity_usd": 25699.67,
-      "pct_from_call": 2.5139664804469275,
-      "peak_pct": -1.862197392923648,
+      "current_mcap_usd": 0.0,
+      "current_price_usd": 0.000111,
+      "current_liquidity_usd": 0.0,
+      "pct_from_call": 3.3519553072625774,
+      "peak_pct": 3.3519553072625774,
       "peak_at": 1777884833,
       "trough_pct": -1.862197392923648,
       "trough_at": 1777884833,
       "thesis_url": null
-    }
-  ],
-  "history": [
+    },
     {
       "id": 178,
       "mint": "5hPBp5VoWRqsuov9NMgQqankb1zUpbnHhe7zPEY4pump",
@@ -3968,35 +3967,35 @@
       "worst_pct": -96.91800736576856
     },
     "scalp": {
-      "count": 26,
+      "count": 27,
       "wins": 7,
-      "losses": 19,
+      "losses": 20,
       "expired": 0,
-      "win_rate": 26.923076923076923,
-      "avg_winner_pct": 31.686130207401103,
+      "win_rate": 25.925925925925924,
+      "avg_winner_pct": 29.324948965722893,
       "avg_loser_pct": -48.01727530723808,
       "best_pct": 69.05594405594407,
       "worst_pct": -99.16252723311547
     },
     "overall": {
-      "count": 129,
+      "count": 130,
       "wins": 34,
-      "losses": 93,
+      "losses": 94,
       "expired": 2,
-      "win_rate": 26.77165354330709,
-      "avg_winner_pct": 51.024699687201554,
+      "win_rate": 26.5625,
+      "avg_winner_pct": 49.80232162617747,
       "avg_loser_pct": -40.685727550105184,
       "best_pct": 311.041104110411,
       "worst_pct": -99.16252723311547
     },
     "by_source": {
       "notifier": {
-        "count": 128,
+        "count": 129,
         "wins": 34,
-        "losses": 92,
+        "losses": 93,
         "expired": 2,
-        "win_rate": 26.984126984126984,
-        "avg_winner_pct": 51.024699687201554,
+        "win_rate": 26.77165354330709,
+        "avg_winner_pct": 49.80232162617747,
         "avg_loser_pct": -40.91755852877436,
         "best_pct": 311.041104110411,
         "worst_pct": -99.16252723311547
