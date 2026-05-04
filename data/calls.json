@@ -1,5 +1,36 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": 176,
+      "mint": "6Wbs2dcRwMMivXV3TmBP1MmrqJ7SJkN768tC5rG5pump",
+      "symbol": "TRUNC",
+      "classification": "STAIRCASE",
+      "confidence": 81,
+      "called_at": 1777868906,
+      "expires_at": 1777874306,
+      "note": "$TRUNC looks good for a quick scalp, 429/min and 2.34 buy/sell, top1 12%. · horizon=SCALP",
+      "source": "notifier",
+      "status": "active",
+      "outcome_type": "active",
+      "closed_at": null,
+      "exit_price_usd": null,
+      "exit_note": null,
+      "entry_mcap_usd": 104882.0,
+      "entry_price_usd": 0.0001048,
+      "entry_liquidity_usd": 25184.28,
+      "entry_top_holder_pct": 11.85948302012229,
+      "entry_pair_dex": "pumpswap",
+      "current_mcap_usd": 112330.0,
+      "current_price_usd": 0.0001123,
+      "current_liquidity_usd": 26069.57,
+      "pct_from_call": 7.156488549618323,
+      "peak_pct": -6.25,
+      "peak_at": 1777868906,
+      "trough_pct": -6.25,
+      "trough_at": 1777868906,
+      "thesis_url": null
+    }
+  ],
   "history": [
     {
       "id": 175,
@@ -3869,17 +3900,6 @@
       "worst_pct": -99.16252723311547
     },
     "by_source": {
-      "notifier": {
-        "count": 125,
-        "wins": 34,
-        "losses": 89,
-        "expired": 2,
-        "win_rate": 27.64227642276423,
-        "avg_winner_pct": 52.210327015244346,
-        "avg_loser_pct": -41.839073919672906,
-        "best_pct": 311.041104110411,
-        "worst_pct": -99.16252723311547
-      },
       "mcp": {
         "count": 1,
         "wins": 0,
@@ -3890,6 +3910,17 @@
         "avg_loser_pct": -20.052770448548817,
         "best_pct": -20.052770448548817,
         "worst_pct": -20.052770448548817
+      },
+      "notifier": {
+        "count": 125,
+        "wins": 34,
+        "losses": 89,
+        "expired": 2,
+        "win_rate": 27.64227642276423,
+        "avg_winner_pct": 52.210327015244346,
+        "avg_loser_pct": -41.839073919672906,
+        "best_pct": 311.041104110411,
+        "worst_pct": -99.16252723311547
       }
     }
   }
