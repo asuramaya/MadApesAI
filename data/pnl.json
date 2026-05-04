@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 39.14071525792,
-  "realized_pnl_usd": -80.93187689983996,
-  "unrealized_pnl_usd": -1.0202135497600027,
+  "total_value_usd": 38.1493615989814,
+  "realized_pnl_usd": -80.93187689984,
+  "unrealized_pnl_usd": -2.0115672086986005,
   "series": [
-    {
-      "ts": 1777675253,
-      "value_usd": 19.1182681215
-    },
     {
       "ts": 1777675553,
       "value_usd": 19.11598397955
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777858877,
       "value_usd": 39.14071525792
+    },
+    {
+      "ts": 1777858937,
+      "value_usd": 38.1493615989814
     }
   ],
   "trades": [
+    {
+      "ts": 1777858899,
+      "side": "buy",
+      "symbol": "kekcoin",
+      "mint": "EyWMXoGDfCS8TB1kjAfx8mwTBeJaN9kWb8mNSEwopump",
+      "token_amount_ui": 619820.861191,
+      "sol_amount_ui": 0.125197183,
+      "signature": "3PWYQ9wZ2k4T34QweqMPatb8ZeEDbN5Yz5xJi1jBU1AACaHisGGZm6vScMzqsLqXy9jXFU83y44EMT5nDSHZ7BQu"
+    },
     {
       "ts": 1777858858,
       "side": "sell",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 362865.201126,
       "sol_amount_ui": 0.052702943,
       "signature": "3mC8v7ubSmd91zVFz58shQP7PNFndX6quoqxznNs4QHrmAqLM4aT5ZBBE8a3ZBpJZjGgYucBTGjCC5Aqd1Vi3xXZ"
-    },
-    {
-      "ts": 1777856018,
-      "side": "sell",
-      "symbol": "lastman",
-      "mint": "CPVkRAk8sajx8YdHYQsN5sKzfZm2fCGSDV5ScD33pump",
-      "token_amount_ui": 2065032.039799,
-      "sol_amount_ui": 0.059143896,
-      "signature": "3VFZgGbSUD7HiLrrH1dkXy9H9HLgczFAj1preQHHacsdusPnvtFBCiXjebX7t5jfpLEagxinQRg7TGrwdGQbccBT"
     }
   ]
 }
