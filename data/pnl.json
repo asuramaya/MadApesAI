@@ -1,12 +1,8 @@
 {
-  "total_value_usd": 64.54417062535842,
-  "realized_pnl_usd": -48.169527304823504,
-  "unrealized_pnl_usd": -5.663433454038056,
+  "total_value_usd": 65.53727940576,
+  "realized_pnl_usd": -54.15298205455998,
+  "unrealized_pnl_usd": -0.8771134724800045,
   "series": [
-    {
-      "ts": 1777669590,
-      "value_usd": 2.20384732275
-    },
     {
       "ts": 1777669646,
       "value_usd": 2.20331913885
@@ -8066,9 +8062,22 @@
     {
       "ts": 1777856679,
       "value_usd": 64.54417062535842
+    },
+    {
+      "ts": 1777856739,
+      "value_usd": 65.53727940576
     }
   ],
   "trades": [
+    {
+      "ts": 1777856688,
+      "side": "sell",
+      "symbol": "YOTTAFLOP",
+      "mint": "Cho6XJGPjJj4H1nu2reeyRi9s4PQWn4ecitnidnFpump",
+      "token_amount_ui": 1074696.411018,
+      "sol_amount_ui": 0.042958013,
+      "signature": "32FKMDfZvBLxsk9sdo2GkPR8Z8PG4HUyyrxiECBq9ggcPfKPg6eiLbqEnXwjF9fgRw7RZuRmfFXrBnCvcpBPtn4s"
+    },
     {
       "ts": 1777856467,
       "side": "buy",
@@ -8239,15 +8248,6 @@
       "token_amount_ui": 708174.004028,
       "sol_amount_ui": 0.027068601,
       "signature": "8khnmBcC5krUfDCUZEcurgc2gWvJ9aHfXGY3m5eUgGqsS3WVn4VNBfrU3vLeY3MiJgenxXu3ChGYuVeKuBmP8tF"
-    },
-    {
-      "ts": 1777846830,
-      "side": "buy",
-      "symbol": "Bwilly",
-      "mint": "6H61vxjJraFVznbPMQfab9yXZvC5unD7KRagV9YZpump",
-      "token_amount_ui": 708174.004028,
-      "sol_amount_ui": 0.052754519,
-      "signature": "5dBz7puoAUNFhs6V4TCYWf1Uqea3Zm1PKtrKw8hpMDfSYix6pgpdGstaDoidrDFSod1pmwGRrrNJvECD4o5Te4fV"
     }
   ]
 }
